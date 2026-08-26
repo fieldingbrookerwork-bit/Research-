@@ -10,7 +10,15 @@
 
 ## 1. Executive summary
 
-*(final verdict — see section 6/7)*
+**Winner: Bid Scout — a curated federal-contract intelligence subscription for one niche of small government contractors, at $49–$79/month per firm.** Agents match new SAM.gov opportunities to each subscriber and write a source-linked "should you bid" brief per opportunity (incumbent, past award prices from USAspending, set-aside fit, effort estimate). All three independent Veritas judges ranked it #1 — one judging on 12-month expected value, one on robustness, one on constraint fit.
+
+Why it won: it is the **only candidate whose entire pipeline runs indefinitely at $0** (government open data — no scraping-quota cliff, no AI-engine ToS violations, trivial email volume); it has the **highest regulatory survivability** of the five; its market is proven by **verified incumbents at the exact price band** (Jorpex $49/$149, BidSparq $249, DemandStar $35–70/region); its buyers are **pre-qualified and publicly identifiable** (SAM registrants and past awardees, with public contact info); and it **erodes slowest** competitively (no gold rush, conservative sticky buyers, unglamorous niche).
+
+Honest expectations, per the judges' consensus (conservative-to-base): **month 3: $0–$350; month 6: $200–$900; month 12: $400–$2,000/month.** This is a real but modest income stream at strict $0 — the budget constraint itself, not the idea, is the main ceiling, and the cheapest relaxations (a ~$10/yr domain, Bright Data pay-as-you-go funded from first revenue, E&O insurance once MRR clears ~$500) remove most of it.
+
+The council's most important cross-cutting finding: **the "only human step is collecting payment" constraint has zero verified precedent anywhere** — every verified earner in adjacent categories keeps a human in sales and QC. Every candidate, winner included, actually requires bounded founder labor. Bid Scout won partly because its required human work is the **smallest and most schedulable** of the five: roughly 2–6 hours/week of pre-ship brief QC plus reply threads, versus 8–15 hours/week of sales labor hidden in the GEO candidates. The plan below prices that in explicitly instead of pretending it away.
+
+Runner-up and fallback: **C1, the AI Visibility Watchdog** (GEO audit → monitoring retainer), which uses the founder's existing `geo-visibility-check` skill — sellable today but heavily discounted by the council (commoditizing fast, unevidenced local-SMB demand, Gmail-channel fragility). It remains the designated pivot if Bid Scout misses its month-2 validation gate, and the audit skill's factual-accuracy layer resurfaces inside several near-miss candidates the completeness critic flagged for a second look (GBP suspension-reinstatement prep, AI-hallucination drift monitoring, a share-of-voice data product).
 
 ---
 
@@ -104,19 +112,130 @@ Selected from ~30 generated ideas across five independent ideation angles (see `
 
 ## 5. Veritas council — stress-test results
 
-*(placeholder — council in session)*
+Nine-member adversarial council: five lens critics attacked the candidates independently, a completeness critic audited what the whole process missed, and three independent judges (expected value / robustness / constraint fit) ruled on the critiqued field. Full record: `council/veritas-council.md`.
+
+### Verdict matrix
+
+| Lens | C1 Watchdog | C2 GEO Ledger | C3 Index | C4 Bid Scout | C5 Prospect Feeds |
+|---|---|---|---|---|---|
+| Market reality & pricing | weaken | weaken | **kill** | weaken | weaken |
+| Zero-budget & tool reality | weaken | weaken | weaken | **hold** | weaken |
+| Compliance & platform risk | weaken | hold | **kill** | **hold** | **kill** |
+| Competition & defensibility | weaken | weaken | weaken | **hold** | weaken |
+| Operational autonomy | weaken | weaken | weaken | kill *(as designed)*¹ | weaken |
+| **Judges (3/3)** | **2nd** | **2nd–3rd** | **5th** | **WINNER** | **4th** |
+
+¹ The autonomy critic killed C4 *as designed* (briefs shipping with zero human QC); all three judges explicitly overrode this to weaken-with-conditions, because the critic's own cross-cutting finding — no candidate satisfies strict autonomy, zero precedent exists — makes it a level effect, not a differential. C4's required human labor (2–6 hrs/week of schedulable brief QC) is the smallest in the set.
+
+### What the critics established
+
+**Pricing needs a "no-name discount."** Comps in the brief are list prices of established, branded vendors; an anonymous founder on a free subdomain clears 30–70% less. C1's audit clears $79–$149 (not $149–$299) against an industry whose funded competitors give the same report away free; C2's wholesale price inverts against Local Falcon's $24.99/mo self-serve AI-visibility tiers; C4 must price at $49–$79 against Jorpex's $49 AI-summarized alerts.
+
+**The free tiers break specific designs, verifiably.** C1's "teaser scan in every cold email" would burn 40–80% of the entire Bright Data 5,000-request pool on prospects who never reply. C2 caps at ~20–25 white-label locations. C3's metro recompute alone can consume the whole pool. C4 is the exception: government data is free and keyless-generous, and its Gmail load is trivial. Critical discovery: **there is no lawful $0 way to programmatically sample ChatGPT at scale** (no free API; OpenAI ToS bans automated extraction; Bright Data's free tier covers ChatGPT/Perplexity answers only logged-out and non-personalized, with no Gemini scraper at all) — a structural problem for every GEO candidate's methodology claims.
+
+**Compliance kills two candidates outright.** C3 (directory): its data source violates Google Maps ToS, its traffic plan sits in Google's scaled-content-abuse crosshairs, its paid-placement-inside-an-objective-index model matches the FTC's LendEDU precedent ($350k), and its notification motion is form spam. C5 (lead lists): public-record sourcing beats platform ToS but walks into data-broker law — California's DROP deletion-request enforcement went live **Aug 1, 2026**; registration fees break the $0 constraint and deletion-processing labor breaks the no-human constraint. C4 ranked highest survivability (open government data, no republication, minimal outreach); its residual tail is uninsured advice — mitigated by source-linked "verify before bidding" framing and E&O insurance once revenue allows. Also material: cold email from Gmail is CAN-SPAM-*lawful* but violates Gmail's own program policies at any volume — the channel is "tolerated until flagged," with a 15–25% estimated year-one suspension risk at C1's volumes (and far lower at C4's).
+
+**No supply-side moat exists for anyone.** Verified: 411 "generative engine optimization" and 1,255 "AI visibility" GitHub repos created Jan–Aug 2026, several of them open-source Claude skills replicating the founder's audit asset — replication cost is `git clone`. Defensibility can only come from demand-side assets (relationships, brand, domain equity, longitudinal data), which the strict constraint set forbids or starves. C4 erodes slowest: unglamorous niche, conservative sticky buyers, and the binding constraint for any competitor is go-to-market grind, not technology.
+
+**All five candidates are actually "founder-run with agent leverage."** Realistic founder hours at month-6 scale: C1 ≈ 8–15 hrs/week (sales threads, QC, deliverability management); C2 ≈ 3–6 plus on-call; C4 ≈ 2–6 (batch QC + replies) — the smallest and most schedulable. The constraint should be restated honestly: agents do ~95% of the work; the founder QCs deliverables, answers humans, and collects payment.
+
+### What the completeness critic added
+
+Strongest near-miss candidates dropped without disposition — worth revisiting after the winner is live: a **remediation/hygiene implementation SKU** (schema, entity consistency, citations into AI-cited sources — the one thing engine docs endorse, answering "nothing changed" churn); the **Local Visibility Retainer** (GBP + review-response management — the market-first angle's top pick, with the deepest purchase evidence in the whole sweep); **GBP suspension-reinstatement prep** (a Fiverr seller at $100/fix with 2,600+ reviews — arguably the strongest marketplace-verified willingness-to-pay datum found anywhere in this research); a **share-of-voice data product** (Exploding Topics model — one production run, unlimited buyers); and **Substack B2B data digests** as a low-tier delivery format for Bid Scout itself. Unpriced risks now priced into the plan: Claude-subscription usage caps as the compute substrate, Gmail *account* termination cascading into the founder's operating identity, payment-rail fragility for new accounts selling information services, the unmodeled sales conversation, and churn missing from every original revenue model. Evidence downgrades: the cold-email benchmarks are vendor-published (Smartlead's raw median is 0.83%), AEO Engine's MRR is self-reported and upmarket of the SMB tier, and Bright Data's "5,000/month, no card" carries an unresolved report that Gmail-only signups are gated. Process verdict: supply-side research strong; buyer-side evidence zero — **run a $0 smoke test before scaling anything.**
+
+### The judges' ruling
+
+**Unanimous: C4 Bid Scout, rescoped.** Consensus ranking C4 > C1 ≈ C2 > C5 > C3. Judges' consolidated income estimates (conservative-to-base monthly revenue):
+
+| Candidate | Month 3 | Month 6 | Month 12 | Confidence |
+|---|---|---|---|---|
+| **C4 Bid Scout (rescoped)** | $0–$350 | $200–$900 | $400–$2,000 | medium |
+| C1 Watchdog | $0–$400 | $100–$1,000 | $200–$1,500 | low–medium |
+| C2 GEO Ledger | $0–$300 | $0–$1,000 | $0–$1,600 | low |
+| C5 Prospect Feeds | $0–$150 | $50–$600 | $100–$1,000 | low–medium |
+| C3 Index | $0–$50 | $0–$300 | $0–$700 | low–medium |
+
+Notable: even C4's *salvage floor* (federal data-only alerts at $29–$49 if the analysis layer fails) exceeds the full expected value of C3 and C5. No two-candidate combination beat C4 solo — every pairing splits the one Gmail pipe and (for the GEO pair) contends for the same Bright Data pool.
 
 ---
 
 ## 6. The winner and why
 
-*(placeholder)*
+**Bid Scout (rescoped): weekly federal-contract opportunity matching + source-linked bid/no-bid research briefs for small government contractors in one or two federal-heavy niches, at $49–$79/month per firm, with a $29–$49 data-only tier as the degradation floor.**
+
+The judges' mandatory rescope, integrated:
+
+1. **Federal-first, not state/local.** The data moat is federal-shaped: SAM.gov and USAspending are free, API-accessible, and legally clean; state/local portals are registration-gated with anti-bot ToS. Pick a federal-heavy NAICS niche (e.g., IT services/cybersecurity, professional services, facilities support with federal award history) — not janitorial/landscaping, whose bidding is mostly local. Add state coverage only from verified open-data portals, and never promise coverage the stack can't warrant.
+2. **Price under the incumbent anchor.** Jorpex ships AI-summarized alerts at $49. The premium tier ($49–$79) is carried entirely by the brief layer: incumbent identification, past award prices, set-aside fit, effort estimate — each claim hyperlinked to the underlying federal record.
+3. **Prospect what is actually public.** Bidder lists don't exist publicly (only awardees + offer counts). The reachable universe: SAM entity registrants by NAICS+state with public POC emails (excluding opted-out entities) plus USAspending past awardees. These are pre-qualified buyers — firms that verifiably participate in this market — reachable at ~100–300 personalized sends/month, far under the channel's danger zone.
+4. **The hook is a free sample brief on a live bid** relevant to that specific firm — the council's consensus best outreach artifact across all five candidates: concrete, self-evidently valuable, and cheap to produce from data already in the pipeline.
+5. **Honest framing is load-bearing.** Every brief is a "research brief — verify before bidding," with hyperlinked sources, no automated-vetting capability claims (the accessiBe/FTC pattern), no outcome guarantees, and AI-assistance disclosure. This is both the compliance posture and the trust posture for conservative buyers.
+6. **One explicit constraint bend, accepted and bounded:** the founder QC-skims every unique brief before it ships (2–6 hrs/week). Deduplication means one hallucinated incumbent price would reach every subscriber in a niche simultaneously — zero-QC is not survivable, and no candidate on any design survives with literally zero human touch. This is the smallest, most schedulable bend available.
+
+**Why it beat the GEO plays despite the founder's GEO asset:** the audit skill is genuinely good, but the council showed its market is the wrong shape for these constraints — the deliverable is the industry's free lead magnet, the buyer needs education the constraint forbids delivering (no calls), the methodology requires AI-engine sampling with no lawful $0 path at scale, and 400+ new competitors entered in eight months. Bid Scout's buyers already pay for exactly this SKU, its data is legally free forever, and nobody is rushing into unglamorous government-contracting niches. The GEO asset is not wasted — it remains the fallback (C1 as a modest audit shop) and powers several near-miss candidates worth testing later with revenue-funded infrastructure.
 
 ---
 
 ## 7. Implementation plan
 
-*(placeholder)*
+### Phase 0 — Day 1–3: verify before building *(founder: ~1 hr; agents: the rest)*
+
+The council flagged these as load-bearing unknowns; resolve them before any build:
+
+- **SAM.gov API key tier:** register at SAM.gov, obtain a public API key, and measure the actual rate limit (reported ~10 requests/day for roleless personal keys vs ~1,000/day with a role — single-sourced; design batch pulls to fit whatever is measured). Each Opportunities call returns up to 1,000 records, so one niche+state fits even the low tier.
+- **USAspending joins:** validate that award-history queries (incumbent, award amounts, IDV vs delivery-order) produce clean briefs for the chosen NAICS. Pick the niche where this data is densest.
+- **Bright Data pool reality:** confirm the 5,000-request/month free tier activates on a Gmail signup (one report says some APIs gate until a card is added), and whether MCP requests and account credits are one pool. Bid Scout barely needs Bright Data, but the answer matters for the fallback stream.
+- **Claude compute headroom:** estimate weekly brief volume (15–40 briefs/week at scale) against subscription usage caps; schedule production batches off-peak.
+- **Niche selection (agents):** score 3–5 candidate NAICS niches by federal opportunity flow, small-business award share, average award size, and SAM registrant density with public POC emails. Founder picks one.
+
+### Phase 1 — Weeks 1–2: build the pipeline *(agents ~95%)*
+
+- **Ingest:** scheduled agent pulls new SAM.gov opportunities daily for the niche; USAspending enrichment per opportunity (incumbent, past awards, pricing history); dedupe and classify.
+- **Match:** per-subscriber profile (NAICS, geography, set-asides, capacity) → relevance scoring. Onboarding intake is a simple form the agent parses; the founder sanity-checks each new profile once (set-aside nuance is a judgment call).
+- **Brief generator:** one page per matched opportunity — summary, incumbent, past award prices (hyperlinked to the federal record), set-aside status, deadline, effort estimate, "verify before bidding" footer with AI disclosure.
+- **Delivery:** weekly email per subscriber (Gmail; delivery volume is tens of sends/month) + a per-subscriber page on Cloudflare Pages. Embed native SAM.gov saved-search links in every issue so a failed automation week degrades visibly and gracefully.
+- **Self-monitoring:** a scheduled check that verifies each weekly batch actually shipped (the council counted ~26 silent-failure windows by month 6; the founder must never be the last to know). Alert on missed batch, quota exhaustion, or OAuth expiry.
+- **Payment:** Stripe Payment Links ($49–$79/mo subscription + $29–$49 data-only tier), written refund terms, real entity name, PayPal as backup rail (new accounts selling information services face holds — keep dispute rate near zero).
+
+### Phase 2 — Weeks 3–8: the $0 smoke test *(the validation gate the council demanded)*
+
+- Agents build the prospect list: SAM entity registrants + past awardees in the niche, public POC emails only, opted-out entities excluded.
+- ~100–150 personalized sends total (well under Gmail's danger zone; 20–30/day max), each leading with a **free sample brief on a live, relevant bid** for that firm. CAN-SPAM complete: truthful headers, physical address, working unsubscribe with a zero-miss suppression list the agent maintains and the founder spot-checks.
+- Founder handles reply threads (this is the sales conversation the constraint pretends away — budget 2–4 hrs/week) and sends payment links to closes.
+- **Gate (end of month 2): ≥2 paying firms, or ≥5% positive-reply-to-paid conversion on 150+ sends.** Pass → Phase 3. Fail → switch niche once and re-test; fail twice → pivot to the C1 audit-shop fallback or the grant-digest variant of the same pipeline.
+
+### Phase 3 — Months 3–12: scale and retention
+
+- Grow within the channel budget: ~200–300 sends/month, compounding with referrals (ask every win; conservative niches run on word-of-mouth) and 3–5 testimonials as they accrue.
+- **Churn instrumentation from client 1.** If monthly churn exceeds ~10–15%: add a retention artifact (win/loss recaps, quarterly pipeline review) and/or move churners to the $29–$49 data-only Substack digest tier (Substack's 10% cut is an allowed variable fee) before opening a second niche.
+- Weekly rhythm at month-6 scale: agents produce everything; founder QC block (2–6 hrs — skim every unique brief against its linked sources), reply threads, payment links. Everything else is scheduled routines.
+- Second niche only after the first is retention-stable and the QC block has headroom.
+
+### Reinvestment ladder (first revenue dissolves the $0 ceilings, in this order)
+
+1. **~$10/yr custom domain** + non-Gmail sending identity — fixes the no-name trust discount and the single-account outreach fragility (the council's highest-leverage upgrade).
+2. **Bright Data pay-as-you-go** (~$1.50/1k requests) — removes the scraping cap for the fallback/expansion streams at ~$0.15–0.35 per client-month.
+3. **E&O insurance (~$40–80/mo) once MRR clears ~$500** — covers the uninsured-advice tail the council named as the residual risk $0 cannot fix.
+4. State/local portal accounts (manually registered, ToS-respecting) to widen coverage — the differentiation the $0 version can't warrant.
+
+### Risk register (top 6, with mitigations)
+
+| Risk | Likelihood | Mitigation |
+|---|---|---|
+| Hallucinated brief content reaching subscribers | Certain without QC | Founder pre-ship QC of every unique brief; every claim hyperlinked to its federal record; "verify before bidding" framing |
+| Jorpex-class incumbents ship equivalent briefs | Moderate, ~12 mo | Price at/under anchor; niche depth (award-history context per firm) they won't build per-vertical; retention artifacts |
+| Gmail account action from outreach | Low at ≤300/mo, personalized B2B | Volume discipline, suppression hygiene, move sending to custom domain at first revenue |
+| Silent pipeline failure before a weekly send | High over 6 mo without monitoring | Self-checking routine + visible SAM saved-search links as graceful degradation |
+| Churn from irrelevant matches | Moderate | Founder-reviewed onboarding profiles; match-quality feedback loop; down-tier instead of losing subscribers |
+| Payment-rail hold/termination | Low–moderate | Real entity, clear terms, near-zero disputes, PayPal backup |
+
+### What NOT to do (council-mandated)
+
+- No "AI-powered passive income" marketing, ever (active FTC enforcement target).
+- No automated-vetting capability claims ("our AI decides which bids you'll win") — accessiBe pattern.
+- No scraping of registration-gated state/local portals; no coverage promises beyond verified sources.
+- No unreviewed briefs, no undisclosed bots in commercial conversations, no free-ESP cold email.
+- Don't run a second candidate's outreach through the same Gmail pipe while Bid Scout is validating.
 
 ---
 
