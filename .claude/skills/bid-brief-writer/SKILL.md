@@ -27,8 +27,11 @@ government-contracting firm deciding whether to spend 50–100 hours on a propos
 6. **Numbers are copied, not computed.** Award amounts, dates, and deadlines come
    character-for-character from the packet. If you must aggregate (e.g. median),
    only use aggregates already present in the packet (`award_context.median_amount`).
-7. If `award_context` is null (data tier), write the alert-only variant: sections
-   1–3 plus footer, no award section.
+7. If `award_context` is null: for a **data-tier** subscriber, write the
+   alert-only variant — sections 1–3 plus footer, no award section, no effort
+   signals. For a **brief-tier** subscriber (context unavailable this issue),
+   keep Effort signals, omit the award section, and add the line
+   "*Award history context unavailable for this issue.*" above the footer.
 
 ## Output
 
