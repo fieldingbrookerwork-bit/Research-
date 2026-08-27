@@ -1,7 +1,14 @@
-# Operational state: generated data, request ledgers, and anything that may
-# contain subscriber/prospect contact details. Keep out of version control;
-# back up state/suppression.json separately (it must never be lost).
+# state/ policy: operational records that must SURVIVE container recycling are
+# tracked (this is a private repo — suppression and run status are compliance
+# records); bulky regenerable intermediates are not.
 state/*
 !state/README.md
+!state/suppression.json
+!state/niche_scores.json
+!state/niche.json
+!state/last_run_status.json
+!state/qc-log.md
+!state/briefs
+!state/outreach
 __pycache__/
 *.pyc
