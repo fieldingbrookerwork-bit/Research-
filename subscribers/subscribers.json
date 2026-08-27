@@ -1,0 +1,29 @@
+[
+  {
+    "_note": "Demo profiles. Copy this shape per real subscriber at onboarding; the founder sanity-checks each new profile once (set-aside certs especially).",
+    "id": "demo-vasys",
+    "company": "Example Systems LLC (demo)",
+    "email": "demo@example.invalid",
+    "naics": ["541512"],
+    "states": ["VA", "MD", "DC"],
+    "set_asides": ["SBA", "SDVOSBC"],
+    "keywords_any": ["cloud", "cyber", "network", "infrastructure"],
+    "keywords_exclude": ["security guard"],
+    "min_fit": 3,
+    "tier": "brief",
+    "active": true
+  },
+  {
+    "id": "demo-guards",
+    "company": "Example Protective Services (demo)",
+    "email": "demo2@example.invalid",
+    "naics": ["561612"],
+    "states": ["TX"],
+    "set_asides": [],
+    "keywords_any": [],
+    "keywords_exclude": [],
+    "min_fit": 3,
+    "tier": "data",
+    "active": true
+  }
+]

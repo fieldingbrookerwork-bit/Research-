@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bid Scout</title>
+<style>
+  :root {
+    --paper:#F6F7F3; --ink:#1B221E; --soft:#4A544E; --rule:#D8DDD4;
+    --accent:#1E5A44; --accent-wash:#E4EDE6; --brass:#8A6D2F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper:#121714; --ink:#E8ECE6; --soft:#ABB6AD; --rule:#2A332C;
+            --accent:#63AE8D; --accent-wash:#1C2E25; --brass:#C9A860; }
+  }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.6 "Public Sans","Segoe UI",-apple-system,sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  .mono { font-family:"IBM Plex Mono",Consolas,monospace; }
+  .eyebrow { font-family:Consolas,monospace; font-size:.72rem; letter-spacing:.14em;
+             text-transform:uppercase; color:var(--accent); font-weight:600; }
+  h1 { font-size:clamp(1.8rem,5vw,2.4rem); line-height:1.15; margin:.5rem 0 1rem; }
+  h2 { font-size:1.15rem; margin:2.2rem 0 .6rem; }
+  p  { margin:0 0 .9rem; color:var(--soft); max-width:38rem; }
+  p strong, li strong { color:var(--ink); }
+  ul { padding-left:1.1rem; color:var(--soft); } li { margin-bottom:.4rem; }
+  .tiers { display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+           gap:.8rem; margin:1.2rem 0; }
+  .tier { border:1px solid var(--rule); border-radius:6px; padding:1rem 1.1rem; }
+  .tier.main { border-color:var(--accent); background:var(--accent-wash); }
+  .price { font-family:Consolas,monospace; font-size:1.3rem; font-weight:600;
+           color:var(--brass); }
+  .cta { display:inline-block; background:var(--accent); color:#fff;
+         padding:.6rem 1.1rem; border-radius:5px; text-decoration:none;
+         font-weight:600; margin-top:.4rem; }
+  footer { border-top:1px solid var(--rule); margin-top:3rem; padding-top:1rem;
+           font-size:.8rem; color:var(--soft); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <span class="eyebrow">Federal bid intelligence · one niche, done properly</span>
+  <h1>Know which federal bids are worth your week</h1>
+  <p>Every week we match new SAM.gov opportunities to your firm's NAICS, territory,
+     and set-aside certifications — and for each match you get a one-page research
+     brief: candidate related awards, what the government actually paid before
+     (from USAspending), set-aside fit, deadline, and effort signals.
+     <strong>Every claim is linked to the federal record.</strong></p>
+
+  <h2>What you get</h2>
+  <ul>
+    <li><strong>Matched opportunities weekly</strong> — filtered to your profile, with the reasons stated.</li>
+    <li><strong>Award-history briefs</strong> — who won comparable work and at what price, linked to USAspending.</li>
+    <li><strong>Honest framing</strong> — these are research briefs to verify before bidding, not "vetted deals". We never claim win probabilities.</li>
+  </ul>
+
+  <div class="tiers">
+    <div class="tier main">
+      <div class="price">$[PRICE_BRIEF]/mo</div>
+      <p><strong>Brief tier.</strong> Matched opportunities + a research brief per match.</p>
+    </div>
+    <div class="tier">
+      <div class="price">$[PRICE_DATA]/mo</div>
+      <p><strong>Data tier.</strong> Matched opportunity alerts only, with links.</p>
+    </div>
+  </div>
+
+  <p><strong>Try before you pay:</strong> reply to our note (or email below) and
+     we'll send a free sample brief on a live opportunity that fits your firm.</p>
+  <a class="cta" href="mailto:[FOUNDER_EMAIL]?subject=Free%20sample%20brief">Request a free sample brief</a>
+
+  <h2>How it works</h2>
+  <p>Research is compiled with AI assistance from public SAM.gov and
+     USAspending.gov data and reviewed before delivery. Cancel anytime; billing
+     is a standard Stripe subscription. First brief not useful? Say so and we
+     refund the month.</p>
+
+  <footer>
+    <p>[BUSINESS_NAME] · [POSTAL_ADDRESS] · <a href="mailto:[FOUNDER_EMAIL]">[FOUNDER_EMAIL]</a></p>
+    <p>Not affiliated with SAM.gov or any federal agency. Briefs are research
+       aids, not bidding, legal, or financial advice — verify all details against
+       the linked federal records before making bid decisions.</p>
+  </footer>
+</main>
+</body>
+</html>

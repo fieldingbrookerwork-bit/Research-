@@ -1,0 +1,7 @@
+# Operational state: generated data, request ledgers, and anything that may
+# contain subscriber/prospect contact details. Keep out of version control;
+# back up state/suppression.json separately (it must never be lost).
+state/*
+!state/README.md
+__pycache__/
+*.pyc

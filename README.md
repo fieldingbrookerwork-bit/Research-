@@ -6,6 +6,24 @@ Research question: which monthly income streams can run almost entirely on AI su
 
 **Verdict (2026-08-26):** Bid Scout — a curated federal-contract intelligence subscription ($49–$79/mo per firm) for one niche of small government contractors, built on free SAM.gov + USAspending data. Unanimous winner across three independent Veritas judges. Judges' consensus: $200–$900/mo by month 6, $400–$2,000/mo by month 12 (conservative-to-base), with one bounded constraint bend: ~2–6 hrs/week of founder QC on outgoing briefs.
 
+## The build (v0.1 — implemented)
+
+The winning plan is now scaffolded in this repo and passes its offline selftest:
+
+| Piece | Where | Status |
+|---|---|---|
+| Pipeline (SAM ingest → match → brief packets → prospects → niche scorer) | [`bidscout/`](bidscout/) | stdlib-only Python, CLI via `python -m bidscout`, fixture-tested |
+| Claude skills (brief writer, adversarial QC, outreach drafter) | [`.claude/skills/`](.claude/skills/) | enforce source-linking, honest framing, CAN-SPAM completeness |
+| Landing + brief delivery site | [`site/`](site/) | static, Cloudflare Pages-ready, placeholders for founder identity |
+| Subscriber profiles + demo data | [`subscribers/`](subscribers/), [`fixtures/`](fixtures/) | synthetic fixtures exercise the matcher's gates |
+| Founder operating manual | [`RUNBOOK.md`](RUNBOOK.md) | setup, weekly loop, QC block, gates, compliance |
+
+Quick start: `python -m bidscout selftest` (offline), then follow `RUNBOOK.md`
+step 1 (SAM.gov key) and run `python -m bidscout score-niches` on a normal
+network to pick the niche. Note: federal APIs are egress-blocked in the Claude
+remote sandbox — run data commands locally or in an environment with network
+access.
+
 ## Contents
 
 | File | What it is |
