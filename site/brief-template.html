@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>{{TITLE}}</title>
+<style>
+  :root { --paper:#F6F7F3; --ink:#1B221E; --soft:#4A544E; --rule:#D8DDD4;
+          --accent:#1E5A44; --wash:#E4EDE6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper:#121714; --ink:#E8ECE6; --soft:#ABB6AD; --rule:#2A332C;
+            --accent:#63AE8D; --wash:#1C2E25; }
+  }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.62 "Public Sans","Segoe UI",-apple-system,sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  h1 { font-size:1.6rem; line-height:1.25; margin:0 0 .8rem; }
+  h2 { font-size:1.05rem; margin:1.6rem 0 .5rem; border-bottom:1px solid var(--rule);
+       padding-bottom:.3rem; }
+  p, li { color:var(--soft); } strong { color:var(--ink); }
+  a { color:var(--accent); }
+  blockquote { margin:0 0 1rem; padding:.5rem .9rem; background:var(--wash);
+               border-left:3px solid var(--accent); border-radius:0 4px 4px 0;
+               font-size:.9rem; }
+  hr { border:none; border-top:1px solid var(--rule); margin:1.6rem 0 .8rem; }
+  em { color:var(--soft); }
+  footer { font-size:.78rem; color:var(--soft); margin-top:2rem; }
+</style>
+</head>
+<body>
+<main>
+{{BODY}}
+<footer>Delivered by Bid Scout for the addressee's use. Research aid, not
+bidding, legal, or financial advice.</footer>
+</main>
+</body>
+</html>

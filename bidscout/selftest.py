@@ -52,6 +52,24 @@ def run() -> int:
         if "verify every detail" not in packet["framing"]["product_line"].lower():
             failures.append("packet framing lost the verify-before-bidding line")
 
+    from .brief_packet import build_sample_packet
+    sample = build_sample_packet("Example Firm, LLC", opps[0],
+                                 "Your SAM registration under NAICS 541512 in VA",
+                                 with_awards=False)
+    if not sample.get("sample") or "framing" not in sample:
+        failures.append("sample packet missing sample flag or framing")
+    if not sample["match"]["cautions"]:
+        failures.append("sample packet lost its outreach caution")
+
+    from .render import markdown_to_html
+    title, body = markdown_to_html(
+        "# Test Brief\n\n> note\n\n## Section\n- **bold** and "
+        "[link](https://sam.gov/opp/X/view)\n\n---\n*footer line*")
+    if title != "Test Brief" or '<a href="https://sam.gov/opp/X/view">' not in body:
+        failures.append("render: title or link lost")
+    if "**" in body or "<script" in body.lower():
+        failures.append("render: markdown leaked or unexpected markup")
+
     if failures:
         print("SELFTEST FAIL")
         for f in failures:

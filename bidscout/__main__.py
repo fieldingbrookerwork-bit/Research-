@@ -5,6 +5,8 @@
   python -m bidscout match [--fixtures]          match opportunities to subscribers
   python -m bidscout packets [--fixtures]        emit brief packets for the skill layer
   python -m bidscout prospects --naics 541512 [--state VA]
+  python -m bidscout sample --firm "X LLC" --notice <id> --reason "<public fact>"
+  python -m bidscout render                      briefs (md) -> state/pages/ (html)
   python -m bidscout budget                      show today's SAM request budget
   python -m bidscout selftest                    offline end-to-end check on fixtures
 
@@ -107,6 +109,32 @@ def cmd_prospects(args) -> int:
     return 0
 
 
+def cmd_sample(args) -> int:
+    from .brief_packet import build_sample_packet
+    opps = _load_opportunities(args.fixtures)
+    opp = next((o for o in opps if o["notice_id"] == args.notice), None)
+    if opp is None:
+        raise SystemExit(f"Notice {args.notice} not in the latest ingest "
+                         f"({len(opps)} opportunities loaded).")
+    packet = build_sample_packet(args.firm, opp, args.reason,
+                                 with_awards=not args.fixtures)
+    out = config.ensure_state_dir() / "packets" / f"{packet['subscriber']['id']}.json"
+    config.save_json(out, packet)
+    print(f"Sample packet for {args.firm} -> {out}")
+    print("Next: bid-brief-writer skill renders it; outreach-drafter attaches it.")
+    return 0
+
+
+def cmd_render(_args) -> int:
+    from .render import render_all
+    pages = render_all()
+    for p in pages:
+        print(p)
+    print(f"{len(pages)} brief pages rendered to state/pages/ "
+          "(deploy alongside site/ or attach to delivery emails).")
+    return 0
+
+
 def cmd_budget(_args) -> int:
     print(f"SAM.gov requests remaining today: {sam_budget_remaining()} "
           f"(daily budget {config.SAM_DAILY_BUDGET})")
@@ -144,6 +172,16 @@ def main(argv=None) -> int:
     s = sub.add_parser("prospects")
     s.add_argument("--naics", required=True); s.add_argument("--state", default=None)
     s.set_defaults(fn=cmd_prospects)
+
+    s = sub.add_parser("sample")
+    s.add_argument("--firm", required=True)
+    s.add_argument("--notice", required=True, help="notice_id from the latest ingest")
+    s.add_argument("--reason", required=True,
+                   help="public-fact hook, e.g. 'Your firm's award <id> with <agency>'")
+    s.add_argument("--fixtures", action="store_true")
+    s.set_defaults(fn=cmd_sample)
+
+    s = sub.add_parser("render"); s.set_defaults(fn=cmd_render)
 
     s = sub.add_parser("budget"); s.set_defaults(fn=cmd_budget)
     s = sub.add_parser("selftest"); s.set_defaults(fn=cmd_selftest)

@@ -60,8 +60,10 @@ ledger did its job, wait for reset or raise the measured budget.
    POC email on sam.gov entity search (respect opt-outs — skip entities that
    suppressed public display). Agents can prepare the lookup queue; a key with
    Entity API access automates it later.
-3. In Claude: `/outreach-drafter` over the enriched list + one live matched
-   opportunity per firm (sample briefs marked `sample: true`).
+3. For each target: `python -m bidscout sample --firm "<name>" --notice <id>
+   --reason "<public fact>"` builds the sample packet; the bid-brief-writer
+   skill renders it; `python -m bidscout render` produces the HTML page to
+   attach or host. Then `/outreach-drafter` writes the email around it.
 4. **FOUNDER sends** from their own inbox: 20–30/day max, ~100–150 total for
    the smoke test. Fill `sent_at` in the batch log. Every reply gets a human
    answer (agent-drafted is fine); every opt-out goes into suppression.json
