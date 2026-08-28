@@ -1,0 +1,6 @@
+{
+  "date": "2026-08-27",
+  "status": "blocked",
+  "blockers": ["no .gov network egress in environment", "SAM_API_KEY not set"],
+  "note": "Baseline written by the main session after the inaugural routine run (which emailed the founder but did not commit status). Weekly runs stay quiet while blockers are identical."
+}
