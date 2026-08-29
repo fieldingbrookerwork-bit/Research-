@@ -1,43 +1,181 @@
 {
   "date": "2026-08-29",
   "status": "live",
-  "note": "First live data run. Both upstreams reachable and the SAM key is valid. However, the niche ranking itself is NOT decision-grade this run -- see scorer_defect below. Founder action needed before picking a niche.",
-  "network": {
-    "usaspending_toptier_agencies_http": 200,
-    "sam_opportunities_v2_search_http": 404,
-    "sam_404_interpretation": "Not a blocked host. 404 is SAM's response to an unauthenticated, parameterless probe. The same endpoint returned real data through bidscout with the key attached, so api.sam.gov egress is confirmed working.",
-    "agent_proxy": "enabled, non-selective, no recent relay failures"
+  "run": {
+    "command": "python3 -m bidscout score-niches --sam",
+    "commit": "ca20521c10aec15f10195f0964bce83e2d10fa8e",
+    "selftest": "PASS -- 6 fixture opportunities, 4 matches, packet OK",
+    "sam_requests_spent": 8,
+    "sam_daily_budget": 10,
+    "ingest_run_this_session": false,
+    "mode": "live; SAM notice counts + keyless USAspending"
   },
-  "sam_key": {
-    "present": true,
-    "worked": true,
-    "validation": "python3 -m bidscout ingest --naics 541511 --days 7",
-    "opportunities_returned": 15,
-    "daily_budget_remaining_after": 9
-  },
-  "niche_scores_run": {
-    "command": "python3 -m bidscout score-niches",
-    "mode": "keyless",
-    "sam_flag_used": false,
-    "sam_flag_rationale": "opportunities_30d is not a term in the composite (niche_scorer.py:40-46), so --sam cannot change the ranking. It would spend 8 of the 10 daily SAM requests and, on any non-BudgetExhausted error, score_all's except-Exception turns each row into an ERROR row with no composite -- risking the whole deliverable for an informational column. Key was validated separately instead."
-  },
-  "top_3_niches": [
-    {"rank": 1, "naics": "541511", "label": "Custom computer programming services", "composite": 91.0},
-    {"rank": 2, "naics": "541512", "label": "Computer systems design services", "composite": 91.0},
-    {"rank": 3, "naics": "541519", "label": "Other computer related services", "composite": 91.0}
+  "note": "Scorer rewrite (ca20521) fixed the saturation that made the previous run untied-impossible: composites now span 36.3-77.2 with no ties, and the date_type=new_awards_only filter is confirmed taking effect. The ranking is nonetheless NOT decision-grade -- 35 of the 100 composite points are inert and every niche's award scan hit its page cap. See findings.",
+  "render_table_verbatim": "NAICS   score SetAsd% notices      med $  firms a/firm  gate  label\n-------------------------------------------------------------------\n541519   77.2     35%     117     59,998    119   4.20  FAIL  Other computer related services\n541330   68.0      8%     127    159,268    228   2.19  pass  Engineering services\n561210   66.9      6%      96     25,217    122   4.10  FAIL  Facilities support services\n541512   52.9      6%      41    185,071    220   2.27  pass  Computer systems design services\n541511   49.8     15%      36    260,233    297   1.68  pass  Custom computer programming services\n541611   47.7     18%      31    229,666    287   1.74  pass  Admin & general management consulting\n541690   45.5     15%      27     50,700    207   2.42  pass  Other scientific & technical consulting\n561612   36.3      4%       9    306,394    162   3.09  pass  Security guards & patrol services (control: local-heavy)\n\nDEAD TERM: price_band spans only 0.0 pts \u2014 it is not discriminating; the ranking does not depend on it.\nDEAD TERM: repeat_bidders spans only 2.4 pts \u2014 it is not discriminating; the ranking does not depend on it.\nNOTE: the award scan hit its page cap for at least one niche \u2014 distinct-firm counts are bounded by the scan, not the market, so treat them as a floor.\n\nSHORTLIST: 541519 (77.2) and 541330 (68.0), gap 9.2.\nGap under 10 points \u2192 split the 150-send smoke test 75/75 and let reply rate decide. Gap over 10 \u2192 lead with the top one and keep the other as the month-2 fallback.\nWeights: set-aside 35, notice flow 30, price band 20, repeat bidders 15 (renormalized if a term is unavailable). Prospect count is a gate, not a score.\n\nSaved: /home/user/research-/state/niche_scores.json",
+  "ranking": [
+    {
+      "rank": 1,
+      "naics": "541519",
+      "label": "Other computer related services",
+      "composite": 77.2,
+      "prospects_gate": "FAIL",
+      "set_aside_share": 0.35,
+      "notices_30d": 117,
+      "median_sb_award": 59998,
+      "distinct_sb_awardees": 119,
+      "new_awards_24mo": 43608,
+      "scan_capped": true
+    },
+    {
+      "rank": 2,
+      "naics": "541330",
+      "label": "Engineering services",
+      "composite": 68.0,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.084,
+      "notices_30d": 127,
+      "median_sb_award": 159268,
+      "distinct_sb_awardees": 228,
+      "new_awards_24mo": 17283,
+      "scan_capped": true
+    },
+    {
+      "rank": 3,
+      "naics": "561210",
+      "label": "Facilities support services",
+      "composite": 66.9,
+      "prospects_gate": "FAIL",
+      "set_aside_share": 0.055,
+      "notices_30d": 96,
+      "median_sb_award": 25217,
+      "distinct_sb_awardees": 122,
+      "new_awards_24mo": 21024,
+      "scan_capped": true
+    },
+    {
+      "rank": 4,
+      "naics": "541512",
+      "label": "Computer systems design services",
+      "composite": 52.9,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.06,
+      "notices_30d": 41,
+      "median_sb_award": 185071,
+      "distinct_sb_awardees": 220,
+      "new_awards_24mo": 14761,
+      "scan_capped": true
+    },
+    {
+      "rank": 5,
+      "naics": "541511",
+      "label": "Custom computer programming services",
+      "composite": 49.8,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.149,
+      "notices_30d": 36,
+      "median_sb_award": 260233,
+      "distinct_sb_awardees": 297,
+      "new_awards_24mo": 4518,
+      "scan_capped": true
+    },
+    {
+      "rank": 6,
+      "naics": "541611",
+      "label": "Admin & general management consulting",
+      "composite": 47.7,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.182,
+      "notices_30d": 31,
+      "median_sb_award": 229666,
+      "distinct_sb_awardees": 287,
+      "new_awards_24mo": 8640,
+      "scan_capped": true
+    },
+    {
+      "rank": 7,
+      "naics": "541690",
+      "label": "Other scientific & technical consulting",
+      "composite": 45.5,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.152,
+      "notices_30d": 27,
+      "median_sb_award": 50700,
+      "distinct_sb_awardees": 207,
+      "new_awards_24mo": 2628,
+      "scan_capped": true
+    },
+    {
+      "rank": 8,
+      "naics": "561612",
+      "label": "Security guards & patrol services (control: local-heavy)",
+      "composite": 36.3,
+      "prospects_gate": "pass",
+      "set_aside_share": 0.038,
+      "notices_30d": 9,
+      "median_sb_award": 306394,
+      "distinct_sb_awardees": 162,
+      "new_awards_24mo": 5241,
+      "scan_capped": true
+    }
   ],
-  "top_3_caveat": "These are not a real top 3. Seven of the eight candidates tied at exactly 91.0; the ordering above is input order, not merit. Do not pick from it.",
-  "scorer_defect": {
-    "summary": "score-niches cannot currently discriminate between niches. Its inputs are saturated by a sampling cap, not measured from the market.",
-    "root_cause": "usaspending_client.recent_awards sends sort='Award Amount', order='desc', so every query returns the 200 LARGEST awards in a NAICS rather than a representative sample.",
-    "consequences": [
-      "awards_24mo_sampled pins at the 200 cap for every NAICS -> flow term is a constant 30/30.",
-      "sb_share_sampled is len(sb_capped_at_200)/len(all_capped_at_200) = 1.0 -> reported as 100% SB for all eight; SB term is a constant 30/30. This does not mean 100% of awards go to small business.",
-      "median_award is the median of the top 200 largest awards ($23M-$367M), so the $100k-$5M sweet-spot test fails for every niche -> constant 0.4.",
-      "distinct_sb_awardees (83-156) is capped at 100, so it saturates for 7 of 8 -> composite collapses to 91.0 seven ways."
+  "date_type_cross_check": {
+    "expectation": "scorer uses date_type=new_awards_only, so its 24-month totals must be materially LOWER than independently probed counts of awards active in the window (which include modifications to older contracts)",
+    "result": "PASS -- all four cross-checked niches came in lower (42%-68% of the probed figure)",
+    "detail": [
+      {
+        "naics": "541511",
+        "independent_probe_24mo_active_in_window": 9455,
+        "scorer_new_awards_24mo": 4518,
+        "ratio": 0.478,
+        "lower_as_expected": true
+      },
+      {
+        "naics": "541512",
+        "independent_probe_24mo_active_in_window": 21752,
+        "scorer_new_awards_24mo": 14761,
+        "ratio": 0.679,
+        "lower_as_expected": true
+      },
+      {
+        "naics": "541330",
+        "independent_probe_24mo_active_in_window": 41436,
+        "scorer_new_awards_24mo": 17283,
+        "ratio": 0.417,
+        "lower_as_expected": true
+      },
+      {
+        "naics": "561612",
+        "independent_probe_24mo_active_in_window": 9292,
+        "scorer_new_awards_24mo": 5241,
+        "ratio": 0.564,
+        "lower_as_expected": true
+      }
+    ]
+  },
+  "findings": {
+    "dead_terms_verbatim": [
+      "DEAD TERM: price_band spans only 0.0 pts -- it is not discriminating; the ranking does not depend on it.",
+      "DEAD TERM: repeat_bidders spans only 2.4 pts -- it is not discriminating; the ranking does not depend on it."
     ],
-    "verification": "Direct USAspending spending_by_award_count probe over the same 24-month window shows true SB share varies widely and IS discriminating: 541511 6,383/9,455 = 67.5%; 541512 7,265/21,752 = 33.4%; 541330 20,330/41,436 = 49.1%; 561612 2,037/9,292 = 21.9%.",
-    "recommended_fix": "Use spending_by_award_count for the flow and SB-share terms instead of counting capped result pages, and compute the median from an unsorted/representative sample rather than an amount-desc slice. Raise or remove the 100-awardee cap on the prospect term. Code was not modified: this run was scoped to state/ only.",
-    "founder_action_needed": "Do not pick a niche from this table. The ranking needs the scorer fix above and a re-run first."
-  }
+    "scan_cap_note_verbatim": "NOTE: the award scan hit its page cap for at least one niche -- distinct-firm counts are bounded by the scan, not the market, so treat them as a floor.",
+    "warn_lines": [],
+    "term_spreads_pts": {
+      "set_aside": 10.9,
+      "price_band": 0.0,
+      "repeat_bidders": 2.4,
+      "notice_flow": 30.0
+    },
+    "inert_weight": "price_band (20 pts) is identical at 20.0/20 for all 8 niches and repeat_bidders (15 pts) is at its 15.0/15 max for 6 of 8. 35 of 100 weighted points do no discriminating work.",
+    "dominant_term": "notice_flow supplies 30.0/43.3 = 69% of all realized spread, set_aside the remaining bulk. The ranking is therefore mostly a 30-day SAM notice count -- one count-only request per niche, a seasonal snapshot, not a trend.",
+    "scan_cap_scope": "scan_capped is true for ALL EIGHT niches, not just one: sample_size is 485-497 against a ~500 cap. Every distinct_sb_awardees figure is a floor, so awards_per_firm (and the repeat_bidders term derived from it) and the prospect gate all rest on a truncated sample.",
+    "gate_shortlist_contradiction": {
+      "summary": "The SHORTLIST line recommends 541519 as the lead pick, but 541519 FAILS the prospect gate (119 distinct small-business awardees found vs GATE_MIN_PROSPECTS=150).",
+      "cause": "niche_scorer.py:206 filters the shortlist only on the 'control' label, not on prospects_gate, so a gate failure cannot keep a niche out of the recommendation.",
+      "also_affected": "561210 (rank 3) likewise shows gate FAIL.",
+      "mitigating": "Because the scan is capped, 119 is a floor -- the true awardee count may clear 150. The FAIL is unproven rather than disproven. Gate PASSES are sound (floor already exceeds the threshold); gate FAILS are not.",
+      "practical_effect": "The scorer's own advice for a 9.2-point gap is a 75/75 split, and 75 sends is survivable even at the 119 floor. Leading with 541519 alone at the full 150-send volume is what the gate has not cleared."
+    },
+    "metric_definition_change": "set_aside_share in this run (competition set aside for small business, 3.8%-35%) is a different and stricter quantity than the small-business-recipient share probed in the previous run (21.9%-67.5%). The two are not comparable; the drop is definitional, not a regression."
+  },
+  "founder_action_needed": "Do not treat this ranking as a final pick. It is decision-grade enough to narrow, not to commit: 35% of the composite weight is inert, the ranking is driven mainly by a single 30-day notice count, and the top-ranked niche (541519) has not cleared its prospect gate. The niche pick stays with the founder; state/niche.json was not written by this run."
 }

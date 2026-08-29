@@ -1,98 +1,226 @@
 [
   {
-    "naics": "541511",
-    "label": "Custom computer programming services",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 80562037.01,
-    "total_sampled": 27398706621.57,
-    "distinct_sb_awardees": 144,
-    "opportunities_30d": null,
-    "composite": 91.0
-  },
-  {
-    "naics": "541512",
-    "label": "Computer systems design services",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 328262213.97,
-    "total_sampled": 87983713406.35,
-    "distinct_sb_awardees": 137,
-    "opportunities_30d": null,
-    "composite": 91.0
-  },
-  {
     "naics": "541519",
     "label": "Other computer related services",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 106548513.25,
-    "total_sampled": 30574293212.93999,
-    "distinct_sb_awardees": 114,
-    "opportunities_30d": null,
-    "composite": 91.0
-  },
-  {
-    "naics": "541611",
-    "label": "Admin & general management consulting",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 71882889.47,
-    "total_sampled": 29105956403.480007,
-    "distinct_sb_awardees": 156,
-    "opportunities_30d": null,
-    "composite": 91.0
-  },
-  {
-    "naics": "541690",
-    "label": "Other scientific & technical consulting",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 23281057.78,
-    "total_sampled": 9148604245.67,
-    "distinct_sb_awardees": 129,
-    "opportunities_30d": null,
-    "composite": 91.0
+    "new_awards_24mo": 43608,
+    "set_aside_awards_24mo": 15249,
+    "set_aside_share": 0.35,
+    "median_sb_award": 59998.26,
+    "sample_size": 491,
+    "distinct_sb_awardees": 119,
+    "awards_per_firm": 4.2,
+    "notices_30d": 117,
+    "scan_capped": true,
+    "prospects_gate": "FAIL",
+    "terms": {
+      "set_aside": 12.2,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 30.0
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 77.2
   },
   {
     "naics": "541330",
     "label": "Engineering services",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 366531199.5,
-    "total_sampled": 146923876454.08,
-    "distinct_sb_awardees": 147,
-    "opportunities_30d": null,
-    "composite": 91.0
+    "new_awards_24mo": 17283,
+    "set_aside_awards_24mo": 1460,
+    "set_aside_share": 0.084,
+    "median_sb_award": 159267.93,
+    "sample_size": 485,
+    "distinct_sb_awardees": 228,
+    "awards_per_firm": 2.19,
+    "notices_30d": 127,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 3.0,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 30.0
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 68.0
   },
   {
     "naics": "561210",
     "label": "Facilities support services",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 287009120.42,
-    "total_sampled": 465592358658.48,
-    "distinct_sb_awardees": 120,
-    "opportunities_30d": null,
-    "composite": 91.0
+    "new_awards_24mo": 21024,
+    "set_aside_awards_24mo": 1162,
+    "set_aside_share": 0.055,
+    "median_sb_award": 25216.63,
+    "sample_size": 497,
+    "distinct_sb_awardees": 122,
+    "awards_per_firm": 4.1,
+    "notices_30d": 96,
+    "scan_capped": true,
+    "prospects_gate": "FAIL",
+    "terms": {
+      "set_aside": 1.9,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 30.0
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 66.9
+  },
+  {
+    "naics": "541512",
+    "label": "Computer systems design services",
+    "new_awards_24mo": 14761,
+    "set_aside_awards_24mo": 891,
+    "set_aside_share": 0.06,
+    "median_sb_award": 185070.76,
+    "sample_size": 487,
+    "distinct_sb_awardees": 220,
+    "awards_per_firm": 2.27,
+    "notices_30d": 41,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 2.1,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 15.8
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 52.9
+  },
+  {
+    "naics": "541511",
+    "label": "Custom computer programming services",
+    "new_awards_24mo": 4518,
+    "set_aside_awards_24mo": 674,
+    "set_aside_share": 0.149,
+    "median_sb_award": 260233.47,
+    "sample_size": 486,
+    "distinct_sb_awardees": 297,
+    "awards_per_firm": 1.68,
+    "notices_30d": 36,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 5.2,
+      "price_band": 20.0,
+      "repeat_bidders": 12.6,
+      "notice_flow": 12.0
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 49.8
+  },
+  {
+    "naics": "541611",
+    "label": "Admin & general management consulting",
+    "new_awards_24mo": 8640,
+    "set_aside_awards_24mo": 1571,
+    "set_aside_share": 0.182,
+    "median_sb_award": 229666.2,
+    "sample_size": 495,
+    "distinct_sb_awardees": 287,
+    "awards_per_firm": 1.74,
+    "notices_30d": 31,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 6.4,
+      "price_band": 20.0,
+      "repeat_bidders": 13.1,
+      "notice_flow": 8.2
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 47.7
+  },
+  {
+    "naics": "541690",
+    "label": "Other scientific & technical consulting",
+    "new_awards_24mo": 2628,
+    "set_aside_awards_24mo": 399,
+    "set_aside_share": 0.152,
+    "median_sb_award": 50700.0,
+    "sample_size": 497,
+    "distinct_sb_awardees": 207,
+    "awards_per_firm": 2.42,
+    "notices_30d": 27,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 5.3,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 5.2
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 45.5
   },
   {
     "naics": "561612",
     "label": "Security guards & patrol services (control: local-heavy)",
-    "awards_24mo_sampled": 200,
-    "sb_awards_24mo_sampled": 200,
-    "sb_share_sampled": 1.0,
-    "median_award": 49478504.38,
-    "total_sampled": 19124119607.52999,
-    "distinct_sb_awardees": 83,
-    "opportunities_30d": null,
-    "composite": 86.8
+    "new_awards_24mo": 5241,
+    "set_aside_awards_24mo": 198,
+    "set_aside_share": 0.038,
+    "median_sb_award": 306394.0,
+    "sample_size": 489,
+    "distinct_sb_awardees": 162,
+    "awards_per_firm": 3.09,
+    "notices_30d": 9,
+    "scan_capped": true,
+    "prospects_gate": "pass",
+    "terms": {
+      "set_aside": 1.3,
+      "price_band": 20.0,
+      "repeat_bidders": 15.0,
+      "notice_flow": 0.0
+    },
+    "term_weights_used": {
+      "set_aside": 35,
+      "price_band": 20,
+      "repeat_bidders": 15,
+      "notice_flow": 30
+    },
+    "warnings": [],
+    "composite": 36.3
   }
 ]
