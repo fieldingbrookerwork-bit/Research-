@@ -34,6 +34,34 @@ def fetch_opportunities(naics: str, days_back: int = 7, limit: int = 1000,
     return data.get("opportunitiesData", [])
 
 
+def count_opportunities(naics: str, days_back: int = 30,
+                        ptypes: str = "o,k,p") -> int:
+    """Notice COUNT for a NAICS — one metered request, no 1000-row cap.
+
+    Reads totalRecords from the response header rather than len() of a page:
+    a page-length count silently pins at `limit` for any busy niche, which is
+    the same saturation bug that made the first niche scorer useless.
+    """
+    if not config.SAM_API_KEY:
+        raise RuntimeError("SAM_API_KEY is not set. See RUNBOOK step 1.")
+    today = date.today()
+    params = {
+        "api_key": config.SAM_API_KEY,
+        "postedFrom": _mmddyyyy(today - timedelta(days=days_back)),
+        "postedTo": _mmddyyyy(today),
+        "ncode": naics,
+        "ptype": ptypes,
+        "limit": "1",
+        "offset": "0",
+    }
+    try:
+        data = request_json(config.SAM_BASE, params=params, sam_metered=True)
+    except Exception:
+        params["limit"] = "10"  # some deployments reject limit=1
+        data = request_json(config.SAM_BASE, params=params, sam_metered=True)
+    return int(data.get("totalRecords", 0) or 0)
+
+
 def normalize_opportunity(raw: dict) -> dict:
     """Reduce a SAM opportunity record to the fields briefs actually use.
 

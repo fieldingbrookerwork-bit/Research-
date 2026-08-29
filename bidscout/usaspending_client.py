@@ -13,29 +13,61 @@ from . import config
 from .http import request_json
 
 SPEND_BY_AWARD = f"{config.USASPENDING_BASE}/search/spending_by_award/"
+SPEND_BY_AWARD_COUNT = f"{config.USASPENDING_BASE}/search/spending_by_award_count/"
 
 AWARD_FIELDS = [
     "Award ID", "Recipient Name", "recipient_id", "Award Amount",
     "Start Date", "End Date", "Awarding Agency", "Awarding Sub Agency",
     "Description", "generated_internal_id", "Place of Performance State Code",
+    # Required in `fields` to be a legal `sort` key. "Base Obligation Date" maps
+    # to date_signed (true award recency); "Start Date" is period-of-performance
+    # start, which skews toward long-lead work and must not be used for samples.
+    "Base Obligation Date",
+]
+
+# Small-business set-aside codes. NOTE: USAspending validates set_aside_type_codes
+# as free text with no enum, so a typo returns 200 with a silently wrong count —
+# callers must sanity-check that the set-aside count never exceeds the total.
+SB_SET_ASIDE_CODES = [
+    "SBA", "SBP", "8A", "8AN", "HZC", "HZS", "SDVOSBC", "SDVOSBS",
+    "WOSB", "WOSBSS", "EDWOSB", "EDWOSBSS", "ESB", "VSA", "VSS",
 ]
 
 
-def _time_period(months_back: int) -> list[dict]:
+def _months_ago(months: int) -> date:
+    """Calendar-accurate offset; months*30 drifts ~10 days per 24 months."""
     end = date.today()
-    start = end - timedelta(days=months_back * 30)
-    return [{"start_date": start.isoformat(), "end_date": end.isoformat()}]
+    total = end.year * 12 + (end.month - 1) - months
+    y, m = divmod(total, 12)
+    return date(y, m + 1, min(end.day, 28))
 
 
-def recent_awards(naics: str, months_back: int = 24, agency_name: str | None = None,
-                  state: str | None = None, small_business_only: bool = False,
-                  limit: int = 100, page: int = 1) -> list[dict]:
-    """Recent contract awards in a NAICS, optionally narrowed by agency/state."""
+def _time_period(months_back: int, date_type: str | None = None) -> list[dict]:
+    """Time window. date_type='new_awards_only' counts awards MADE in the window.
+
+    The API default is asymmetric (lower bound on action_date, upper on
+    date_signed), which selects awards *active* in the window — including
+    modifications to contracts signed years earlier. That is right for a brief's
+    comparable-award context and wrong for measuring new opportunity flow.
+    """
+    tp = {"start_date": _months_ago(months_back).isoformat(),
+          "end_date": date.today().isoformat()}
+    if date_type:
+        tp["date_type"] = date_type
+    return [tp]
+
+
+def _award_filters(naics: str, months_back: int, agency_name: str | None = None,
+                   state: str | None = None, small_business_only: bool = False,
+                   date_type: str | None = None,
+                   set_aside_codes: list[str] | None = None) -> dict:
     filters: dict = {
         "naics_codes": [naics],
-        "time_period": _time_period(months_back),
+        "time_period": _time_period(months_back, date_type=date_type),
         "award_type_codes": config.CONTRACT_AWARD_TYPES,
     }
+    if set_aside_codes:
+        filters["set_aside_type_codes"] = set_aside_codes
     if agency_name:
         filters["agencies"] = [
             {"type": "awarding", "tier": "toptier", "name": agency_name}]
@@ -44,13 +76,57 @@ def recent_awards(naics: str, months_back: int = 24, agency_name: str | None = N
             {"country": "USA", "state": state}]
     if small_business_only:
         filters["recipient_type_names"] = ["small_business"]
+    return filters
+
+
+def award_count(naics: str, months_back: int = 24, state: str | None = None,
+                small_business_only: bool = False,
+                date_type: str | None = "new_awards_only",
+                set_aside_codes: list[str] | None = None) -> int:
+    """Population count of matching awards via spending_by_award_count.
+
+    A true count, not a page of results — the only honest source for "how much
+    flow does this niche have" and for share ratios. Counting rows of a capped
+    result page (the original approach) saturates at the cap.
+
+    Reads the "contracts" bucket specifically rather than summing all buckets:
+    summing is correct only while award_type_codes stays contracts-only, and
+    would silently inflate the moment anyone widens it to include IDVs.
+    """
     payload = {
-        "filters": filters,
+        "filters": _award_filters(naics, months_back, state=state,
+                                  small_business_only=small_business_only,
+                                  date_type=date_type,
+                                  set_aside_codes=set_aside_codes),
+        "subawards": False,
+    }
+    data = request_json(SPEND_BY_AWARD_COUNT, payload=payload)
+    return int(data.get("results", {}).get("contracts", 0) or 0)
+
+
+def recent_awards(naics: str, months_back: int = 24, agency_name: str | None = None,
+                  state: str | None = None, small_business_only: bool = False,
+                  limit: int = 100, page: int = 1,
+                  sort: str = "Award Amount", order: str = "desc",
+                  date_type: str | None = None) -> list[dict]:
+    """Contract awards in a NAICS, optionally narrowed by agency/state.
+
+    `sort` defaults to largest-first, which suits brief context (comparable
+    awards a reader recognizes). Pass sort="Start Date" for a recency-ordered
+    sample when the caller needs something representative rather than extreme —
+    an amount-sorted slice is NOT a sample and must never be used for medians
+    or population statistics.
+    """
+    payload = {
+        "filters": _award_filters(naics, months_back, agency_name=agency_name,
+                                  state=state,
+                                  small_business_only=small_business_only,
+                                  date_type=date_type),
         "fields": AWARD_FIELDS,
         "limit": limit,
         "page": page,
-        "sort": "Award Amount",
-        "order": "desc",
+        "sort": sort,
+        "order": order,
         "subawards": False,
     }
     data = request_json(SPEND_BY_AWARD, payload=payload)
@@ -111,20 +187,36 @@ def award_context_for(opportunity: dict, months_back: int = 36,
     }
 
 
-def small_business_awardees(naics: str, state: str | None = None,
-                            months_back: int = 24, pages: int = 3) -> list[dict]:
-    """Distinct small-business awardees in a NAICS (+state) — the prospect
-    universe. Contact emails come from SAM entity records (key required) or
-    manual lookup; this returns names, totals, and USAspending links.
+def sb_award_scan(naics: str, state: str | None = None, months_back: int = 24,
+                  pages: int = 5, sort: str = "Base Obligation Date",
+                  date_type: str | None = "new_awards_only") -> dict:
+    """One scan of recent small-business awards, serving three callers at once.
+
+    Returns {"rows": [...], "prospects": [...], "rows_scanned": n,
+             "scan_capped": bool}. The scorer needs award amounts (median) and
+    distinct firms (density) over the SAME sample; two separate paged scans with
+    identical filters were duplicating pages 1-3 of every request.
+
+    Ordered by date_signed (award recency), NOT by amount and NOT by
+    period-of-performance start: an amount-sorted scan returns the same few
+    large winners, and "Start Date" sorts by when work begins, which skews
+    toward long-lead multi-year awards.
+
+    `scan_capped` is the honest signal that the page budget, not the market,
+    bounded the result — never treat a capped distinct-firm count as a
+    measurement of market size.
     """
     seen: dict[str, dict] = {}
+    rows: list[dict] = []
     for page in range(1, pages + 1):
         raws = recent_awards(naics, months_back=months_back, state=state,
-                             small_business_only=True, limit=100, page=page)
+                             small_business_only=True, limit=100, page=page,
+                             sort=sort, order="desc", date_type=date_type)
         if not raws:
             break
         for raw in raws:
             a = normalize_award(raw)
+            rows.append(a)
             key = a["recipient"].upper()
             entry = seen.setdefault(key, {
                 "recipient": a["recipient"], "awards": 0, "total_amount": 0,
@@ -133,5 +225,16 @@ def small_business_awardees(naics: str, state: str | None = None,
             entry["awards"] += 1
             entry["total_amount"] += a["amount"] or 0
             entry["latest_award"] = max(entry["latest_award"], a["start"] or "")
-    prospects = sorted(seen.values(), key=lambda p: -p["total_amount"])
-    return prospects
+    return {
+        "rows": rows,
+        "prospects": sorted(seen.values(), key=lambda p: -p["total_amount"]),
+        "rows_scanned": len(rows),
+        "scan_capped": len(rows) >= pages * 100,
+    }
+
+
+def small_business_awardees(naics: str, state: str | None = None,
+                            months_back: int = 24, pages: int = 5) -> list[dict]:
+    """Distinct small-business awardees — the prospect list for outreach."""
+    return sb_award_scan(naics, state=state, months_back=months_back,
+                         pages=pages)["prospects"]

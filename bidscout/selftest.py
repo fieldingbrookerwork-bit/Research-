@@ -61,6 +61,59 @@ def run() -> int:
     if not sample["match"]["cautions"]:
         failures.append("sample packet lost its outreach caution")
 
+    # Niche scorer. Regression guard for BOTH 2026-08-29 failures: the
+    # all-tied-at-91.0 saturation and the follow-on "one live term, three dead
+    # ones" version. This drives score_niche itself with the real probed
+    # population counts, so a scorer that stops discriminating fails here
+    # instead of in front of the founder.
+    from . import niche_scorer as ns
+    if not (ns._price_band_fit(500_000) == 1.0
+            and ns._price_band_fit(300_000_000) < 0.05001
+            and ns._price_band_fit(0) == 0.0
+            and ns._price_band_fit(10_000) >= 0.4):
+        failures.append("_price_band_fit: band, decay, or floor wrong")
+
+    # Real 24-month probes (2026-08-29): (total, set_aside-ish, notices, median)
+    real = {
+        "541511": (9455, 6383, 74, 180_000.0),
+        "541512": (21752, 7265, 51, 640_000.0),
+        "541330": (41436, 20330, 33, 95_000.0),
+        "561612": (9292, 2037, 12, 2_400_000.0),
+    }
+    saved = (ns.award_count, ns.sb_award_scan, ns.config.SAM_API_KEY)
+    try:
+        ns.award_count = (lambda n, months_back=24, set_aside_codes=None, **kw:
+                          real[n][1] if set_aside_codes else real[n][0])
+        ns.sb_award_scan = lambda n, **kw: {
+            "rows": [{"amount": real[n][3]}] * 400,
+            "prospects": [{"recipient": f"F{i}"} for i in range(200)],
+            "rows_scanned": 400, "scan_capped": False}
+        ns.config.SAM_API_KEY = ""  # exercise the renormalize path
+        scored = [ns.score_niche(n, n, use_sam=False) for n in real]
+    finally:
+        ns.award_count, ns.sb_award_scan, ns.config.SAM_API_KEY = saved
+
+    for term in ("set_aside", "price_band"):
+        if len({r["terms"][term] for r in scored}) == 1:
+            failures.append(f"score_niche: '{term}' scored identically across "
+                            f"four real niches — the term is saturated and "
+                            f"contributes nothing to the ranking")
+    if len({r["composite"] for r in scored}) < len(scored):
+        failures.append("score_niche: real-world counts produced duplicate "
+                        "composites")
+    if abs(sum(scored[0]["terms"].values()) - scored[0]["composite"]) > 0.2:
+        failures.append("score_niche: renormalized terms do not sum to composite")
+    if not all(0 <= r["composite"] <= 100.01 for r in scored):
+        failures.append("score_niche: composite outside 0-100 after "
+                        "renormalization")
+
+    out = ns.render_table(scored)
+    if "SHORTLIST" not in out:
+        failures.append("render_table: must emit a two-niche shortlist")
+    dead = [dict(r, terms=dict(r["terms"], set_aside=35.0)) for r in scored]
+    if "DEAD TERM: set_aside" not in ns.render_table(dead):
+        failures.append("render_table: must name a term that stops discriminating")
+
     from .render import markdown_to_html
     title, body = markdown_to_html(
         "# Test Brief\n\n> note\n\n## Section\n- **bold** and "
