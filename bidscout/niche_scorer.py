@@ -1,79 +1,62 @@
 """Niche scorer — the day-1 decision tool.
 
-The question it answers: in which NAICS should Bid Scout sell $49-79/mo
-research briefs to small government contractors?
+The question: in which NAICS should Bid Scout sell $49-79/mo research briefs to
+small government contractors?
 
-Terms (each measured, each able to vary — see the design note):
-  set_aside_share  35  Share of NEW awards made under small-business set-asides.
-                       An attribute of the SOLICITATION, not of whoever won:
-                       set-aside work is where a small firm competes against
-                       peers rather than against a large prime, which is exactly
-                       the bid a $59/mo brief can change.
-  notice_flow      30  SAM.gov notices posted in the last 30 days. The only
-                       direct measure of how much biddable work appears weekly.
-                       Requires a SAM key; without one the term is dropped and
-                       the remaining weights are renormalized (stated in output).
-  price_band       20  Median new small-business award inside $25k-$1.5M. This
-                       is BUYER fit, not capability fit: a firm whose median
-                       award is $3M has a capture manager and already pays for
-                       GovWin-class tooling.
-  repeat_bidders   15  HYPOTHESIS TERM, higher = better. Awards-per-firm in the
-                       recent sample, as an inverse-concentration proxy: a niche
-                       where relatively few firms take the work is a niche full
-                       of firms that bid and lose every quarter — the buyer.
-                       Flagged as a hypothesis because no free federal dataset
-                       proves the sign; revisit once offers-received data is in.
+SCORED TERMS (each one demonstrably varies in live data — that is the bar for
+inclusion; a term that cannot discriminate is padding that hides which signal
+is actually driving the ranking):
+  set_aside_share  40  Share of NEW awards made under a small-business
+                       set-aside. An attribute of the SOLICITATION, not of
+                       whoever won: set-aside work is where a small firm
+                       competes against peers rather than a large prime, which
+                       is exactly the bid a $59/mo brief can change.
+  notice_flow      40  SAM.gov notices posted in the last 30 days — the only
+                       direct measure of how much biddable work appears weekly,
+                       and therefore whether a weekly product has anything to
+                       put in it. Needs a SAM key; without one the term is
+                       dropped, remaining weights renormalize, and the output
+                       says so.
+  sb_win_share     20  Share of new awards won by small businesses by any
+                       route. Cross-checks set-aside share: a niche can have few
+                       set-asides yet still be won by small firms on full-and-
+                       open (a harder sell, but real).
 
-Gate (not scored): at least GATE_MIN_PROSPECTS distinct small-business awardees
-must be reachable. Every plausible niche has thousands, far above the founder's
-~300 sends/month, so prospect COUNT carries no decision information and must not
-be scored — it only has to clear a floor.
+GATES (pass/fail, never scored — see the design note):
+  median new small-business award inside $10k-$1.5M ... buyer fit. A firm whose
+    median award is $3M has a capture manager and already pays for GovWin-class
+    tooling; it is not a $59/mo buyer.
+  at least MIN_SB_AWARDS small-business awards in 24 months ... enough activity.
 
-Design notes, learned from two failures on 2026-08-29:
-  1. The first version counted rows of an amount-sorted, capped result page.
-     Every term saturated and seven of eight niches tied at exactly 91.0.
-  2. The second version fixed the counts but kept caps below the real data
-     (flow cap 8,000 vs 9k-41k actual; prospect cap 400 against a 500-row
-     scan), so three of four terms were still constant — a one-variable ranking
-     wearing a four-variable costume.
-The lesson is encoded, not just remembered: render_table now reports per-term
-spread and names any term that fails to discriminate, and score_niche records
-whether a sample hit its scan cap. A scorer that cannot tell niches apart must
-say so instead of emitting a confident ranking.
+Design notes — three scorer failures on 2026-08-29, each encoded here so it
+cannot recur silently:
+  1. Counting rows of an amount-sorted, capped page: every term saturated and
+     seven of eight niches tied at exactly 91.0.
+  2. Population counts, but caps set below the real data (flow cap 8,000 vs
+     9k-41k actual): three of four terms constant — a one-variable ranking in a
+     four-variable costume.
+  3. Live run showed price_band spanning 0.0 points (every service NAICS median
+     sits inside any sane band) and repeat_bidders spanning 2.4 of 15, its value
+     tracking the scan cap rather than the market. Both are now gates or gone.
+The general lesson: DISTINCT-FIRM COUNTS FROM A CAPPED SCAN MEASURE THE SAMPLE,
+NOT THE MARKET. Anything derived from the scan is reported as a floor and never
+scored. render_table names any term that stops discriminating.
 """
 
 import statistics
 
 from . import config
-from .usaspending_client import (SB_SET_ASIDE_CODES, award_count, sb_award_scan)
+from .usaspending_client import SB_SET_ASIDE_CODES, award_count, sb_award_scan
 
-W_SET_ASIDE = 35
-W_NOTICE_FLOW = 30
-W_PRICE_BAND = 20
-W_REPEAT_BIDDERS = 15
+W_SET_ASIDE = 40
+W_NOTICE_FLOW = 40
+W_SB_WIN = 20
 
-# A niche needs ~15 notices/week to fill an issue; below ~5/week it cannot.
+# A niche needs ~15 notices/week to fill an issue; under ~5/week it cannot.
 NOTICE_FULL, NOTICE_FLOOR = 60, 20
-BUYER_MIN, BUYER_MAX = 25_000, 1_500_000
-REPEAT_FULL = 2.0            # 2+ awards per firm in-sample earns full credit
-GATE_MIN_PROSPECTS = 150     # ~the smoke-test send volume
+BUYER_MIN, BUYER_MAX = 10_000, 1_500_000
+MIN_SB_AWARDS = 500
 SCAN_PAGES = 5
-
-
-def _price_band_fit(median: float) -> float:
-    """1.0 inside the buyer band; decays faster above it than below.
-
-    Asymmetric on purpose: a niche whose firms are too small may grow into the
-    product, while one whose firms are too large has already bought a
-    competitor's tool and is the reason the buyer loses.
-    """
-    if median <= 0:
-        return 0.0
-    if BUYER_MIN <= median <= BUYER_MAX:
-        return 1.0
-    if median < BUYER_MIN:
-        return max(0.4, median / BUYER_MIN)
-    return max(0.05, (BUYER_MAX / median) ** 1.5)
 
 
 def score_niche(naics: str, label: str, use_sam: bool = True) -> dict:
@@ -82,24 +65,29 @@ def score_niche(naics: str, label: str, use_sam: bool = True) -> dict:
     total = award_count(naics, months_back=24)
     set_aside = award_count(naics, months_back=24,
                             set_aside_codes=SB_SET_ASIDE_CODES)
+    sb_total = award_count(naics, months_back=24, small_business_only=True)
+
+    # set_aside_type_codes and recipient_type_names are unvalidated free text:
+    # a bad value returns 200 with a wrong count rather than an error. These are
+    # the tripwires for that failure mode.
     if total and set_aside > total:
-        # set_aside_type_codes is unvalidated free text: a bad code returns 200
-        # with a wrong count rather than an error. This is the tripwire.
         warnings.append(f"set-aside count ({set_aside}) exceeds total ({total}) "
-                        f"— check SB_SET_ASIDE_CODES; share clamped")
+                        "— check SB_SET_ASIDE_CODES against USAspending source")
+    if total and sb_total > total:
+        warnings.append(f"small-business count ({sb_total}) exceeds total "
+                        f"({total}) — check the recipient_type_names filter")
     set_aside_share = min(set_aside / total, 1.0) if total else 0.0
+    sb_win_share = min(sb_total / total, 1.0) if total else 0.0
 
     scan = sb_award_scan(naics, months_back=24, pages=SCAN_PAGES)
     amounts = [r["amount"] for r in scan["rows"] if (r["amount"] or 0) > 0]
     median_award = statistics.median(amounts) if amounts else 0.0
     prospects = scan["prospects"]
-    awards_per_firm = (scan["rows_scanned"] / len(prospects)) if prospects else 0.0
     if not prospects:
-        warnings.append("no small-business awardees returned — price/repeat "
-                        "terms are 0 by default, not by evidence")
+        warnings.append("no small-business awardees returned — median and gates "
+                        "are unevidenced for this niche")
 
-    notices_30d = None
-    notice_error = None
+    notices_30d, notice_error = None, None
     if use_sam and config.SAM_API_KEY:
         from .sam_client import count_opportunities
         try:
@@ -112,22 +100,24 @@ def score_niche(naics: str, label: str, use_sam: bool = True) -> dict:
         warnings.append("SAM_API_KEY not set; flow term dropped and weights "
                         "renormalized — set the key for a decision-grade score")
 
-    terms = {
-        "set_aside": set_aside_share * W_SET_ASIDE,
-        "price_band": _price_band_fit(median_award) * W_PRICE_BAND,
-        "repeat_bidders": min(awards_per_firm / REPEAT_FULL, 1.0) * W_REPEAT_BIDDERS,
-    }
-    weights = {"set_aside": W_SET_ASIDE, "price_band": W_PRICE_BAND,
-               "repeat_bidders": W_REPEAT_BIDDERS}
+    terms = {"set_aside": set_aside_share * W_SET_ASIDE,
+             "sb_win": sb_win_share * W_SB_WIN}
+    weights = {"set_aside": W_SET_ASIDE, "sb_win": W_SB_WIN}
     if notices_30d is not None:
-        flow = min(max(notices_30d - NOTICE_FLOOR, 0) / (NOTICE_FULL - NOTICE_FLOOR), 1.0)
+        flow = min(max(notices_30d - NOTICE_FLOOR, 0)
+                   / (NOTICE_FULL - NOTICE_FLOOR), 1.0)
         terms["notice_flow"] = flow * W_NOTICE_FLOW
         weights["notice_flow"] = W_NOTICE_FLOW
 
-    # Renormalize to 100 so scores stay comparable when a term is unavailable.
     scale = 100 / sum(weights.values())
     terms = {k: round(v * scale, 1) for k, v in terms.items()}
     composite = round(sum(terms.values()), 1)
+
+    gates = {
+        "buyer_size": ("pass" if BUYER_MIN <= median_award <= BUYER_MAX
+                       else "FAIL"),
+        "activity": "pass" if sb_total >= MIN_SB_AWARDS else "FAIL",
+    }
 
     return {
         "naics": naics,
@@ -135,13 +125,16 @@ def score_niche(naics: str, label: str, use_sam: bool = True) -> dict:
         "new_awards_24mo": total,
         "set_aside_awards_24mo": set_aside,
         "set_aside_share": round(set_aside_share, 3),
+        "sb_awards_24mo": sb_total,
+        "sb_win_share": round(sb_win_share, 3),
         "median_sb_award": median_award,
         "sample_size": len(amounts),
-        "distinct_sb_awardees": len(prospects),
-        "awards_per_firm": round(awards_per_firm, 2),
-        "notices_30d": notices_30d,
+        # Reported, never scored: bounded by the scan, not the market.
+        "distinct_firms_in_sample": len(prospects),
         "scan_capped": scan["scan_capped"],
-        "prospects_gate": "pass" if len(prospects) >= GATE_MIN_PROSPECTS else "FAIL",
+        "notices_30d": notices_30d,
+        "gates": gates,
+        "gates_pass": all(v == "pass" for v in gates.values()),
         "terms": terms,
         "term_weights_used": weights,
         "warnings": warnings,
@@ -162,8 +155,8 @@ def score_all(use_sam: bool = True) -> list[dict]:
 
 
 def render_table(rows: list[dict]) -> str:
-    head = (f"{'NAICS':7} {'score':>5} {'SetAsd%':>7} {'notices':>7} "
-            f"{'med $':>10} {'firms':>6} {'a/firm':>6} {'gate':>5}  label")
+    head = (f"{'NAICS':7} {'score':>5} {'SetAsd%':>7} {'SBwin%':>6} "
+            f"{'notices':>7} {'med $':>10} {'gates':>5}  label")
     lines = [head, "-" * len(head)]
     for r in rows:
         if "error" in r:
@@ -171,48 +164,52 @@ def render_table(rows: list[dict]) -> str:
             continue
         lines.append(
             f"{r['naics']:7} {r['composite']:>5} {r['set_aside_share']*100:>6.0f}% "
+            f"{r['sb_win_share']*100:>5.0f}% "
             f"{str(r['notices_30d'] if r['notices_30d'] is not None else '-'):>7} "
-            f"{r['median_sb_award']:>10,.0f} {r['distinct_sb_awardees']:>6} "
-            f"{r['awards_per_firm']:>6.2f} {r['prospects_gate']:>5}  {r['label']}")
+            f"{r['median_sb_award']:>10,.0f} "
+            f"{'pass' if r['gates_pass'] else 'FAIL':>5}  {r['label']}")
 
     scored = [r for r in rows if "composite" in r]
     lines.append("")
     if not scored:
         return "\n".join(lines + ["No niche scored successfully."])
 
-    # Per-term discrimination check — an aggregate spread check hides a live
-    # term carrying the whole ranking while three dead terms pad the score.
-    for term, weight in (("set_aside", W_SET_ASIDE), ("notice_flow", W_NOTICE_FLOW),
-                         ("price_band", W_PRICE_BAND),
-                         ("repeat_bidders", W_REPEAT_BIDDERS)):
+    for term, weight in (("set_aside", W_SET_ASIDE),
+                         ("notice_flow", W_NOTICE_FLOW),
+                         ("sb_win", W_SB_WIN)):
         vals = [r["terms"][term] for r in scored if term in r["terms"]]
-        if len(vals) < 2:
-            continue
-        spread = max(vals) - min(vals)
-        if spread < 0.2 * weight:
-            lines.append(f"DEAD TERM: {term} spans only {spread:.1f} pts — it is "
-                         f"not discriminating; the ranking does not depend on it.")
-    if any(r.get("scan_capped") for r in scored):
-        lines.append("NOTE: the award scan hit its page cap for at least one "
-                     "niche — distinct-firm counts are bounded by the scan, not "
-                     "the market, so treat them as a floor.")
+        if len(vals) >= 2 and max(vals) - min(vals) < 0.2 * weight:
+            lines.append(f"DEAD TERM: {term} spans only "
+                         f"{max(vals) - min(vals):.1f} pts — it is not "
+                         "discriminating; the ranking does not depend on it.")
     for r in scored:
+        if not r["gates_pass"]:
+            failed = [k for k, v in r["gates"].items() if v != "pass"]
+            lines.append(f"GATE FAIL {r['naics']}: {', '.join(failed)} "
+                         f"(median ${r['median_sb_award']:,.0f}, "
+                         f"{r['sb_awards_24mo']:,} SB awards)")
         for w in r.get("warnings", []):
             lines.append(f"WARN {r['naics']}: {w}")
 
-    # Shortlist, not a winner: the evidence supports narrowing to two, and a
-    # 75/75 split of the smoke test measures reply rate, which beats any
-    # composite this data can produce.
-    top = [r for r in scored if "control" not in r["label"].lower()][:2]
+    eligible = [r for r in scored
+                if r["gates_pass"] and "control" not in r["label"].lower()]
     lines.append("")
-    if len(top) == 2:
-        gap = top[0]["composite"] - top[1]["composite"]
-        lines.append(f"SHORTLIST: {top[0]['naics']} ({top[0]['composite']}) and "
-                     f"{top[1]['naics']} ({top[1]['composite']}), gap {gap:.1f}.")
+    if len(eligible) >= 2:
+        gap = eligible[0]["composite"] - eligible[1]["composite"]
+        lines.append(f"SHORTLIST: {eligible[0]['naics']} "
+                     f"({eligible[0]['composite']}) and {eligible[1]['naics']} "
+                     f"({eligible[1]['composite']}), gap {gap:.1f}.")
         lines.append("Gap under 10 points → split the 150-send smoke test 75/75 "
-                     "and let reply rate decide. Gap over 10 → lead with the top "
-                     "one and keep the other as the month-2 fallback.")
-    lines.append("Weights: set-aside 35, notice flow 30, price band 20, repeat "
-                 "bidders 15 (renormalized if a term is unavailable). "
-                 "Prospect count is a gate, not a score.")
+                     "and let reply rate decide; reply rate from real sends "
+                     "beats any composite this data can produce. Gap over 10 → "
+                     "lead with the top one, keep the other as the month-2 "
+                     "fallback.")
+    elif len(eligible) == 1:
+        lines.append(f"ONLY ONE NICHE CLEARS THE GATES: {eligible[0]['naics']}.")
+    else:
+        lines.append("NO NICHE CLEARS THE GATES — do not pick; investigate the "
+                     "gate failures above first.")
+    lines.append("Weights: set-aside 40, notice flow 40, SB win share 20 "
+                 "(renormalized if a term is unavailable). Distinct-firm counts "
+                 "are a sample floor and are never scored.")
     return "\n".join(lines)

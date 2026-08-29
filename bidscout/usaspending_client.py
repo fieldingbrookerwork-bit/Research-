@@ -25,12 +25,31 @@ AWARD_FIELDS = [
     "Base Obligation Date",
 ]
 
-# Small-business set-aside codes. NOTE: USAspending validates set_aside_type_codes
-# as free text with no enum, so a typo returns 200 with a silently wrong count —
-# callers must sanity-check that the set-aside count never exceeds the total.
+# Small-business set-aside codes, verified against USAspending's own
+# setAsideDefinitions / setAsideTypeMapping (usaspending-website
+# src/js/dataMapping/search/contractFields.js, fetched 2026-08-29).
+# This is the union of their small-disadvantaged, HUBZone, VOSB and WOSB
+# groupings: every code meaning "competition restricted to small business or a
+# small-business subcategory".
+# Deliberately EXCLUDED: NONE (no set-aside); BI/ISEE/ISBEE (Native American-
+# owned) and HMP/HMT (HBCU/MI) restrict competition but are not small-business
+# size classifications — add them only with a stated reason.
+# NOTE: USAspending validates set_aside_type_codes as free text with NO enum,
+# so a wrong code returns HTTP 200 with a silently LOW count. An earlier version
+# of this list was missing HS3, HS2Civ, RSBCiv, 8ACCiv and VSBCiv — RSBCiv
+# ("Reserved for Small Business $2,501 to $100K") especially, which covers the
+# high-volume small-purchase reserve. Never edit this list without re-checking
+# it against that source file.
 SB_SET_ASIDE_CODES = [
-    "SBA", "SBP", "8A", "8AN", "HZC", "HZS", "SDVOSBC", "SDVOSBS",
-    "WOSB", "WOSBSS", "EDWOSB", "EDWOSBSS", "ESB", "VSA", "VSS",
+    # small-disadvantaged / general small business
+    "SBA", "SBP", "8A", "8AN", "8ACCiv", "HS3", "HS2Civ", "ESB",
+    "RSBCiv", "VSBCiv",
+    # HUBZone
+    "HZC", "HZS",
+    # veteran-owned
+    "SDVOSBC", "SDVOSBS", "VSA", "VSS",
+    # women-owned
+    "WOSB", "WOSBSS", "EDWOSB", "EDWOSBSS",
 ]
 
 
