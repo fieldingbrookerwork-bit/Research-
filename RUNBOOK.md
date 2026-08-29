@@ -13,11 +13,32 @@ priced in (~2–6 hrs/week at scale) plus one-time setup.
    twice and watch for 429s; set `SAM_DAILY_BUDGET` to what you observed.
 2. Environment: `export SAM_API_KEY=...` and optionally
    `export SAM_DAILY_BUDGET=10`. No other keys are needed (USAspending is keyless).
-3. **Pick the niche.** Run `python -m bidscout score-niches` (keyless; add
-   `--sam` after step 1 to include 30-day opportunity flow). Pick the top
-   composite that is not the local-heavy control. Sanity-check: does
-   `python -m bidscout prospects --naics <code> --state <ST>` return 50+
-   distinct small-business awardees? That's your reachable market.
+3. **Pick the niche.** Run `python -m bidscout score-niches --sam`.
+   **Budget:** this spends 8 metered SAM requests (one count-only request per
+   candidate niche) out of a 10/day roleless-key budget — do not run `ingest`
+   the same day unless your key is role-based. Without `--sam` (or without a
+   key) the notice-flow term is dropped and the remaining weights renormalize;
+   the output says so, and that score is NOT decision-grade.
+
+   How to read the output:
+   - Terms are set-aside share 40, SAM notice flow 40, small-business win
+     share 20. Distinct-firm counts are a **sample floor**, never scored.
+   - `GATE FAIL` disqualifies a niche: either its firms are too large to be
+     $49-79/mo buyers (median new SB award outside $10k-$1.5M) or there is too
+     little small-business activity (<500 SB awards in 24 months).
+   - `DEAD TERM` means that term stopped discriminating — the ranking is not
+     trustworthy until it is understood. Do not pick from a table with a dead
+     term carrying real weight.
+   - `WARN ... set-aside count exceeds total` means `SB_SET_ASIDE_CODES` is
+     wrong. Re-verify it against USAspending's `setAsideDefinitions` (see the
+     comment on that constant) before trusting any share.
+   - The scorer emits a **two-niche shortlist**, not a winner. Gap under 10
+     points → split the 150-send smoke test 75/75 between them and let reply
+     rate decide. Gap over 10 → lead with the top one, keep the second as the
+     month-2 fallback.
+
+   Record the decision in `state/niche.json` as `{"naics": "541519"}` — the
+   weekly routine reads that file to know a niche has been chosen.
 4. **FOUNDER — Payments.** Create two Stripe Payment Links (brief tier $49–79,
    data tier $29–49) with refund terms in the description ("first brief not
    useful → month refunded"). Add PayPal.me as backup. Keep dispute rate ~0.
