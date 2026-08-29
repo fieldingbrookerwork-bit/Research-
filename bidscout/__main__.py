@@ -7,6 +7,7 @@
   python -m bidscout prospects --naics 541512 [--state VA]
   python -m bidscout sample --firm "X LLC" --notice <id> --reason "<public fact>"
   python -m bidscout render                      briefs (md) -> state/pages/ (html)
+  python -m bidscout verify-codes [--naics X]    probe each set-aside code for zeros
   python -m bidscout budget                      show today's SAM request budget
   python -m bidscout selftest                    offline end-to-end check on fixtures
 
@@ -135,6 +136,37 @@ def cmd_render(_args) -> int:
     return 0
 
 
+def cmd_verify_codes(args) -> int:
+    from .usaspending_client import SB_SET_ASIDE_CODES, probe_set_aside_codes
+    scope = f"NAICS {args.naics}" if args.naics else "government-wide"
+    print(f"Probing {len(SB_SET_ASIDE_CODES)} set-aside codes, {scope}, "
+          f"{args.months} months (keyless):\n")
+    rows = probe_set_aside_codes(SB_SET_ASIDE_CODES, naics=args.naics,
+                                 months_back=args.months)
+    dead = []
+    for r in rows:
+        if r["error"]:
+            print(f"  {r['code']:10} ERROR {r['error'][:60]}")
+            continue
+        flag = "  <-- ZERO" if r["awards"] == 0 else ""
+        print(f"  {r['code']:10} {r['awards']:>9,}{flag}")
+        if r["awards"] == 0:
+            dead.append(r["code"])
+    out = config.ensure_state_dir() / "set_aside_code_probe.json"
+    config.save_json(out, {"scope": scope, "months": args.months, "rows": rows,
+                           "zero_codes": dead})
+    print(f"\nSaved: {out}")
+    if dead:
+        print(f"\n{len(dead)} code(s) matched ZERO awards {scope}: "
+              f"{', '.join(dead)}")
+        print("Government-wide zeros are indistinguishable from invalid codes. "
+              "Remove them from SB_SET_ASIDE_CODES or document why they stay — "
+              "an inert code in a scoring filter is a silent miscount.")
+    else:
+        print("\nEvery code matches real awards; the list is live.")
+    return 0
+
+
 def cmd_budget(_args) -> int:
     print(f"SAM.gov requests remaining today: {sam_budget_remaining()} "
           f"(daily budget {config.SAM_DAILY_BUDGET})")
@@ -182,6 +214,12 @@ def main(argv=None) -> int:
     s.set_defaults(fn=cmd_sample)
 
     s = sub.add_parser("render"); s.set_defaults(fn=cmd_render)
+
+    s = sub.add_parser("verify-codes")
+    s.add_argument("--naics", default=None,
+                   help="restrict the probe to one NAICS (default: government-wide)")
+    s.add_argument("--months", type=int, default=24)
+    s.set_defaults(fn=cmd_verify_codes)
 
     s = sub.add_parser("budget"); s.set_defaults(fn=cmd_budget)
     s = sub.add_parser("selftest"); s.set_defaults(fn=cmd_selftest)

@@ -11,109 +11,24 @@
     "sample_size": 491,
     "distinct_firms_in_sample": 119,
     "scan_capped": true,
-    "notices_30d": null,
+    "notices_30d": 117,
     "gates": {
       "buyer_size": "pass",
       "activity": "pass"
     },
     "gates_pass": true,
     "terms": {
-      "set_aside": 23.3,
-      "sb_win": 27.9
+      "set_aside": 14.0,
+      "sb_win": 16.7,
+      "notice_flow": 40.0
     },
     "term_weights_used": {
       "set_aside": 40,
-      "sb_win": 20
+      "sb_win": 20,
+      "notice_flow": 40
     },
     "warnings": [],
-    "composite": 51.2
-  },
-  {
-    "naics": "541611",
-    "label": "Admin & general management consulting",
-    "new_awards_24mo": 8640,
-    "set_aside_awards_24mo": 1571,
-    "set_aside_share": 0.182,
-    "sb_awards_24mo": 5827,
-    "sb_win_share": 0.674,
-    "median_sb_award": 229666.2,
-    "sample_size": 495,
-    "distinct_firms_in_sample": 287,
-    "scan_capped": true,
-    "notices_30d": null,
-    "gates": {
-      "buyer_size": "pass",
-      "activity": "pass"
-    },
-    "gates_pass": true,
-    "terms": {
-      "set_aside": 12.1,
-      "sb_win": 22.5
-    },
-    "term_weights_used": {
-      "set_aside": 40,
-      "sb_win": 20
-    },
-    "warnings": [],
-    "composite": 34.6
-  },
-  {
-    "naics": "541511",
-    "label": "Custom computer programming services",
-    "new_awards_24mo": 4518,
-    "set_aside_awards_24mo": 674,
-    "set_aside_share": 0.149,
-    "sb_awards_24mo": 3070,
-    "sb_win_share": 0.68,
-    "median_sb_award": 260233.47,
-    "sample_size": 486,
-    "distinct_firms_in_sample": 297,
-    "scan_capped": true,
-    "notices_30d": null,
-    "gates": {
-      "buyer_size": "pass",
-      "activity": "pass"
-    },
-    "gates_pass": true,
-    "terms": {
-      "set_aside": 9.9,
-      "sb_win": 22.7
-    },
-    "term_weights_used": {
-      "set_aside": 40,
-      "sb_win": 20
-    },
-    "warnings": [],
-    "composite": 32.6
-  },
-  {
-    "naics": "541690",
-    "label": "Other scientific & technical consulting",
-    "new_awards_24mo": 2628,
-    "set_aside_awards_24mo": 399,
-    "set_aside_share": 0.152,
-    "sb_awards_24mo": 1676,
-    "sb_win_share": 0.638,
-    "median_sb_award": 50700.0,
-    "sample_size": 497,
-    "distinct_firms_in_sample": 207,
-    "scan_capped": true,
-    "notices_30d": null,
-    "gates": {
-      "buyer_size": "pass",
-      "activity": "pass"
-    },
-    "gates_pass": true,
-    "terms": {
-      "set_aside": 10.1,
-      "sb_win": 21.3
-    },
-    "term_weights_used": {
-      "set_aside": 40,
-      "sb_win": 20
-    },
-    "warnings": [],
-    "composite": 31.4
+    "composite": 70.7
   },
   {
     "naics": "561210",
@@ -127,22 +42,24 @@
     "sample_size": 497,
     "distinct_firms_in_sample": 122,
     "scan_capped": true,
-    "notices_30d": null,
+    "notices_30d": 96,
     "gates": {
       "buyer_size": "pass",
       "activity": "pass"
     },
     "gates_pass": true,
     "terms": {
-      "set_aside": 3.7,
-      "sb_win": 22.3
+      "set_aside": 2.2,
+      "sb_win": 13.4,
+      "notice_flow": 40.0
     },
     "term_weights_used": {
       "set_aside": 40,
-      "sb_win": 20
+      "sb_win": 20,
+      "notice_flow": 40
     },
     "warnings": [],
-    "composite": 26.0
+    "composite": 55.6
   },
   {
     "naics": "541330",
@@ -156,22 +73,86 @@
     "sample_size": 485,
     "distinct_firms_in_sample": 228,
     "scan_capped": true,
-    "notices_30d": null,
+    "notices_30d": 127,
     "gates": {
       "buyer_size": "pass",
       "activity": "pass"
     },
     "gates_pass": true,
     "terms": {
-      "set_aside": 5.6,
-      "sb_win": 18.4
+      "set_aside": 3.4,
+      "sb_win": 11.0,
+      "notice_flow": 40.0
     },
     "term_weights_used": {
       "set_aside": 40,
-      "sb_win": 20
+      "sb_win": 20,
+      "notice_flow": 40
     },
     "warnings": [],
-    "composite": 24.0
+    "composite": 54.4
+  },
+  {
+    "naics": "541511",
+    "label": "Custom computer programming services",
+    "new_awards_24mo": 4518,
+    "set_aside_awards_24mo": 674,
+    "set_aside_share": 0.149,
+    "sb_awards_24mo": 3070,
+    "sb_win_share": 0.68,
+    "median_sb_award": 260233.47,
+    "sample_size": 486,
+    "distinct_firms_in_sample": 297,
+    "scan_capped": true,
+    "notices_30d": 36,
+    "gates": {
+      "buyer_size": "pass",
+      "activity": "pass"
+    },
+    "gates_pass": true,
+    "terms": {
+      "set_aside": 6.0,
+      "sb_win": 13.6,
+      "notice_flow": 16.0
+    },
+    "term_weights_used": {
+      "set_aside": 40,
+      "sb_win": 20,
+      "notice_flow": 40
+    },
+    "warnings": [],
+    "composite": 35.6
+  },
+  {
+    "naics": "541611",
+    "label": "Admin & general management consulting",
+    "new_awards_24mo": 8640,
+    "set_aside_awards_24mo": 1571,
+    "set_aside_share": 0.182,
+    "sb_awards_24mo": 5827,
+    "sb_win_share": 0.674,
+    "median_sb_award": 229666.2,
+    "sample_size": 495,
+    "distinct_firms_in_sample": 287,
+    "scan_capped": true,
+    "notices_30d": 31,
+    "gates": {
+      "buyer_size": "pass",
+      "activity": "pass"
+    },
+    "gates_pass": true,
+    "terms": {
+      "set_aside": 7.3,
+      "sb_win": 13.5,
+      "notice_flow": 11.0
+    },
+    "term_weights_used": {
+      "set_aside": 40,
+      "sb_win": 20,
+      "notice_flow": 40
+    },
+    "warnings": [],
+    "composite": 31.8
   },
   {
     "naics": "541512",
@@ -185,22 +166,55 @@
     "sample_size": 487,
     "distinct_firms_in_sample": 220,
     "scan_capped": true,
-    "notices_30d": null,
+    "notices_30d": 41,
     "gates": {
       "buyer_size": "pass",
       "activity": "pass"
     },
     "gates_pass": true,
     "terms": {
-      "set_aside": 4.0,
-      "sb_win": 7.6
+      "set_aside": 2.4,
+      "sb_win": 4.6,
+      "notice_flow": 21.0
     },
     "term_weights_used": {
       "set_aside": 40,
-      "sb_win": 20
+      "sb_win": 20,
+      "notice_flow": 40
     },
     "warnings": [],
-    "composite": 11.6
+    "composite": 28.0
+  },
+  {
+    "naics": "541690",
+    "label": "Other scientific & technical consulting",
+    "new_awards_24mo": 2628,
+    "set_aside_awards_24mo": 399,
+    "set_aside_share": 0.152,
+    "sb_awards_24mo": 1676,
+    "sb_win_share": 0.638,
+    "median_sb_award": 50700.0,
+    "sample_size": 497,
+    "distinct_firms_in_sample": 207,
+    "scan_capped": true,
+    "notices_30d": 27,
+    "gates": {
+      "buyer_size": "pass",
+      "activity": "pass"
+    },
+    "gates_pass": true,
+    "terms": {
+      "set_aside": 6.1,
+      "sb_win": 12.8,
+      "notice_flow": 7.0
+    },
+    "term_weights_used": {
+      "set_aside": 40,
+      "sb_win": 20,
+      "notice_flow": 40
+    },
+    "warnings": [],
+    "composite": 25.9
   },
   {
     "naics": "561612",
@@ -214,21 +228,23 @@
     "sample_size": 489,
     "distinct_firms_in_sample": 162,
     "scan_capped": true,
-    "notices_30d": null,
+    "notices_30d": 9,
     "gates": {
       "buyer_size": "pass",
       "activity": "pass"
     },
     "gates_pass": true,
     "terms": {
-      "set_aside": 2.5,
-      "sb_win": 7.4
+      "set_aside": 1.5,
+      "sb_win": 4.4,
+      "notice_flow": 0.0
     },
     "term_weights_used": {
       "set_aside": 40,
-      "sb_win": 20
+      "sb_win": 20,
+      "notice_flow": 40
     },
     "warnings": [],
-    "composite": 9.9
+    "composite": 5.9
   }
 ]

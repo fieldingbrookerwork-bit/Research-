@@ -132,7 +132,7 @@
     },
     "ordering_changed": "YES, but NOT because of the set-aside fix. Ordering moved because commit 060ea45 also rewrote the scorer: price_band and repeat_bidders were deleted, sb_win_share was added, and weights changed from 35/30/20/15 to 40/40/20. In this run notice_flow is additionally absent, so weights renormalized to set_aside 66.7 / sb_win 33.3. The composites below are therefore NOT comparable to the previous run's composites."
   },
-  "render_table_verbatim": "NAICS   score SetAsd% SBwin% notices      med $ gates  label\n------------------------------------------------------------\n541519   51.2     35%    84%       -     59,998  pass  Other computer related services\n541611   34.6     18%    67%       -    229,666  pass  Admin & general management consulting\n541511   32.6     15%    68%       -    260,233  pass  Custom computer programming services\n541690   31.4     15%    64%       -     50,700  pass  Other scientific & technical consulting\n561210   26.0      6%    67%       -     25,217  pass  Facilities support services\n541330   24.0      8%    55%       -    159,268  pass  Engineering services\n541512   11.6      6%    23%       -    185,071  pass  Computer systems design services\n561612    9.9      4%    22%       -    306,394  pass  Security guards & patrol services (control: local-heavy)\n\n\nSHORTLIST: 541519 (51.2) and 541611 (34.6), gap 16.6.\nGap under 10 points → split the 150-send smoke test 75/75 and let reply rate decide; reply rate from real sends beats any composite this data can produce. Gap over 10 → lead with the top one, keep the other as the month-2 fallback.\nWeights: set-aside 40, notice flow 40, SB win share 20 (renormalized if a term is unavailable). Distinct-firm counts are a sample floor and are never scored.",
+  "render_table_verbatim": "NAICS   score SetAsd% SBwin% notices      med $ gates  label\n------------------------------------------------------------\n541519   51.2     35%    84%       -     59,998  pass  Other computer related services\n541611   34.6     18%    67%       -    229,666  pass  Admin & general management consulting\n541511   32.6     15%    68%       -    260,233  pass  Custom computer programming services\n541690   31.4     15%    64%       -     50,700  pass  Other scientific & technical consulting\n561210   26.0      6%    67%       -     25,217  pass  Facilities support services\n541330   24.0      8%    55%       -    159,268  pass  Engineering services\n541512   11.6      6%    23%       -    185,071  pass  Computer systems design services\n561612    9.9      4%    22%       -    306,394  pass  Security guards & patrol services (control: local-heavy)\n\n\nSHORTLIST: 541519 (51.2) and 541611 (34.6), gap 16.6.\nGap under 10 points \u2192 split the 150-send smoke test 75/75 and let reply rate decide; reply rate from real sends beats any composite this data can produce. Gap over 10 \u2192 lead with the top one, keep the other as the month-2 fallback.\nWeights: set-aside 40, notice flow 40, SB win share 20 (renormalized if a term is unavailable). Distinct-firm counts are a sample floor and are never scored.",
   "ranking": [
     {
       "rank": 1,
@@ -279,5 +279,93 @@
     "all_gates_pass": "All 8 niches pass both gates (buyer_size, activity) under the new gate definitions. The previous run's prospect-gate FAILs on 541519 and 561210 are gone because that gate was replaced, not because the underlying concern was resolved.",
     "notice_flow_absent": "The 40-point notice_flow term is missing from every niche in this run. In the previous run it supplied ~69% of all realized spread. This ranking is therefore driven by set-aside share and SB win share only."
   },
-  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) The set-aside code-list fix in 060ea45 is INERT -- all five added codes (HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv) match zero awards and are indistinguishable from invalid codes. Re-verify them against USAspending's setAsideTypeMapping before trusting any claim that the set-aside metric was corrected. (2) Measure the real SAM key limit and set SAM_DAILY_BUDGET (RUNBOOK step 1) -- the 10/day default is an unverified guess and the ledger does not survive container restarts, so it cannot protect an unattended run. (3) Do not pick a niche from this run: the 40-point notice_flow term is absent. state/niche.json was NOT written."
+  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) The set-aside code-list fix in 060ea45 is INERT -- all five added codes (HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv) match zero awards and are indistinguishable from invalid codes. Re-verify them against USAspending's setAsideTypeMapping before trusting any claim that the set-aside metric was corrected. (2) Measure the real SAM key limit and set SAM_DAILY_BUDGET (RUNBOOK step 1) -- the 10/day default is an unverified guess and the ledger does not survive container restarts, so it cannot protect an unattended run. (3) Do not pick a niche from this run: the 40-point notice_flow term is absent. state/niche.json was NOT written.",
+  "complete_ranking": {
+    "assembled_by": "parent session, no additional SAM requests spent",
+    "method": "set-aside share and SB win share from this run's live keyless USAspending calls; notices_30d reused from the earlier same-day live run (commit e4cd171, same 30-day window, same count method). Merging avoided spending SAM requests 9-16 against a ~10/day key.",
+    "ranking": [
+      {
+        "naics": "541519",
+        "label": "Other computer related services",
+        "composite": 70.7,
+        "set_aside_share": 0.35,
+        "sb_win_share": 0.836,
+        "notices_30d": 117,
+        "median_sb_award": 59998.26
+      },
+      {
+        "naics": "561210",
+        "label": "Facilities support services",
+        "composite": 55.6,
+        "set_aside_share": 0.055,
+        "sb_win_share": 0.67,
+        "notices_30d": 96,
+        "median_sb_award": 25216.63
+      },
+      {
+        "naics": "541330",
+        "label": "Engineering services",
+        "composite": 54.4,
+        "set_aside_share": 0.084,
+        "sb_win_share": 0.552,
+        "notices_30d": 127,
+        "median_sb_award": 159267.93
+      },
+      {
+        "naics": "541511",
+        "label": "Custom computer programming services",
+        "composite": 35.6,
+        "set_aside_share": 0.149,
+        "sb_win_share": 0.68,
+        "notices_30d": 36,
+        "median_sb_award": 260233.47
+      },
+      {
+        "naics": "541611",
+        "label": "Admin & general management consulting",
+        "composite": 31.8,
+        "set_aside_share": 0.182,
+        "sb_win_share": 0.674,
+        "notices_30d": 31,
+        "median_sb_award": 229666.2
+      },
+      {
+        "naics": "541512",
+        "label": "Computer systems design services",
+        "composite": 28.0,
+        "set_aside_share": 0.06,
+        "sb_win_share": 0.229,
+        "notices_30d": 41,
+        "median_sb_award": 185070.76
+      },
+      {
+        "naics": "541690",
+        "label": "Other scientific & technical consulting",
+        "composite": 25.9,
+        "set_aside_share": 0.152,
+        "sb_win_share": 0.638,
+        "notices_30d": 27,
+        "median_sb_award": 50700.0
+      },
+      {
+        "naics": "561612",
+        "label": "Security guards & patrol services (control: local-heavy)",
+        "composite": 5.9,
+        "set_aside_share": 0.038,
+        "sb_win_share": 0.222,
+        "notices_30d": 9,
+        "median_sb_award": 306394.0
+      }
+    ],
+    "shortlist": [
+      "541519",
+      "561210"
+    ],
+    "gap": 15.1,
+    "caveat": "notices_30d is ~3h stale relative to the share data; both are 30-day windows so the mix is sound, but re-run score-niches --sam on a fresh SAM budget day to confirm before committing spend."
+  },
+  "open_issues": [
+    "Five set-aside codes (HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv) matched ZERO awards; valid-but-unused is indistinguishable from invalid at NAICS scope. Run `python3 -m bidscout verify-codes` (keyless, government-wide) to settle it.",
+    "SAM_DAILY_BUDGET is an unverified default of 10; measure the real key limit."
+  ]
 }

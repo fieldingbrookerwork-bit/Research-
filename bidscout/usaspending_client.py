@@ -76,15 +76,16 @@ def _time_period(months_back: int, date_type: str | None = None) -> list[dict]:
     return [tp]
 
 
-def _award_filters(naics: str, months_back: int, agency_name: str | None = None,
+def _award_filters(naics: str | None, months_back: int, agency_name: str | None = None,
                    state: str | None = None, small_business_only: bool = False,
                    date_type: str | None = None,
                    set_aside_codes: list[str] | None = None) -> dict:
     filters: dict = {
-        "naics_codes": [naics],
         "time_period": _time_period(months_back, date_type=date_type),
         "award_type_codes": config.CONTRACT_AWARD_TYPES,
     }
+    if naics:
+        filters["naics_codes"] = [naics]
     if set_aside_codes:
         filters["set_aside_type_codes"] = set_aside_codes
     if agency_name:
@@ -98,7 +99,7 @@ def _award_filters(naics: str, months_back: int, agency_name: str | None = None,
     return filters
 
 
-def award_count(naics: str, months_back: int = 24, state: str | None = None,
+def award_count(naics: str | None, months_back: int = 24, state: str | None = None,
                 small_business_only: bool = False,
                 date_type: str | None = "new_awards_only",
                 set_aside_codes: list[str] | None = None) -> int:
@@ -257,3 +258,25 @@ def small_business_awardees(naics: str, state: str | None = None,
     """Distinct small-business awardees — the prospect list for outreach."""
     return sb_award_scan(naics, state=state, months_back=months_back,
                          pages=pages)["prospects"]
+
+
+def probe_set_aside_codes(codes: list[str], naics: str | None = None,
+                          months_back: int = 24) -> list[dict]:
+    """Count awards per individual set-aside code.
+
+    USAspending validates set_aside_type_codes as free text with no enum, so an
+    invalid code and a valid-but-unused code both return zero. Probing each code
+    alone — government-wide when naics is None — is the only way to tell them
+    apart: a code that is zero across ALL federal contracts is either wrong or
+    genuinely dead, and either way must not sit in a scoring filter pretending
+    to contribute.
+    """
+    out = []
+    for code in codes:
+        try:
+            n = award_count(naics, months_back=months_back, set_aside_codes=[code])
+            out.append({"code": code, "awards": n, "error": None})
+        except Exception as e:
+            out.append({"code": code, "awards": None,
+                        "error": f"{type(e).__name__}: {e}"})
+    return out
