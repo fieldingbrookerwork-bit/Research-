@@ -1,6 +1,43 @@
 {
-  "date": "2026-08-27",
-  "status": "blocked",
-  "blockers": ["no .gov network egress in environment", "SAM_API_KEY not set"],
-  "note": "Baseline written by the main session after the inaugural routine run (which emailed the founder but did not commit status). Weekly runs stay quiet while blockers are identical."
+  "date": "2026-08-29",
+  "status": "live",
+  "note": "First live data run. Both upstreams reachable and the SAM key is valid. However, the niche ranking itself is NOT decision-grade this run -- see scorer_defect below. Founder action needed before picking a niche.",
+  "network": {
+    "usaspending_toptier_agencies_http": 200,
+    "sam_opportunities_v2_search_http": 404,
+    "sam_404_interpretation": "Not a blocked host. 404 is SAM's response to an unauthenticated, parameterless probe. The same endpoint returned real data through bidscout with the key attached, so api.sam.gov egress is confirmed working.",
+    "agent_proxy": "enabled, non-selective, no recent relay failures"
+  },
+  "sam_key": {
+    "present": true,
+    "worked": true,
+    "validation": "python3 -m bidscout ingest --naics 541511 --days 7",
+    "opportunities_returned": 15,
+    "daily_budget_remaining_after": 9
+  },
+  "niche_scores_run": {
+    "command": "python3 -m bidscout score-niches",
+    "mode": "keyless",
+    "sam_flag_used": false,
+    "sam_flag_rationale": "opportunities_30d is not a term in the composite (niche_scorer.py:40-46), so --sam cannot change the ranking. It would spend 8 of the 10 daily SAM requests and, on any non-BudgetExhausted error, score_all's except-Exception turns each row into an ERROR row with no composite -- risking the whole deliverable for an informational column. Key was validated separately instead."
+  },
+  "top_3_niches": [
+    {"rank": 1, "naics": "541511", "label": "Custom computer programming services", "composite": 91.0},
+    {"rank": 2, "naics": "541512", "label": "Computer systems design services", "composite": 91.0},
+    {"rank": 3, "naics": "541519", "label": "Other computer related services", "composite": 91.0}
+  ],
+  "top_3_caveat": "These are not a real top 3. Seven of the eight candidates tied at exactly 91.0; the ordering above is input order, not merit. Do not pick from it.",
+  "scorer_defect": {
+    "summary": "score-niches cannot currently discriminate between niches. Its inputs are saturated by a sampling cap, not measured from the market.",
+    "root_cause": "usaspending_client.recent_awards sends sort='Award Amount', order='desc', so every query returns the 200 LARGEST awards in a NAICS rather than a representative sample.",
+    "consequences": [
+      "awards_24mo_sampled pins at the 200 cap for every NAICS -> flow term is a constant 30/30.",
+      "sb_share_sampled is len(sb_capped_at_200)/len(all_capped_at_200) = 1.0 -> reported as 100% SB for all eight; SB term is a constant 30/30. This does not mean 100% of awards go to small business.",
+      "median_award is the median of the top 200 largest awards ($23M-$367M), so the $100k-$5M sweet-spot test fails for every niche -> constant 0.4.",
+      "distinct_sb_awardees (83-156) is capped at 100, so it saturates for 7 of 8 -> composite collapses to 91.0 seven ways."
+    ],
+    "verification": "Direct USAspending spending_by_award_count probe over the same 24-month window shows true SB share varies widely and IS discriminating: 541511 6,383/9,455 = 67.5%; 541512 7,265/21,752 = 33.4%; 541330 20,330/41,436 = 49.1%; 561612 2,037/9,292 = 21.9%.",
+    "recommended_fix": "Use spending_by_award_count for the flow and SB-share terms instead of counting capped result pages, and compute the median from an unsorted/representative sample rather than an amount-desc slice. Raise or remove the 100-awardee cap on the prospect term. Code was not modified: this run was scoped to state/ only.",
+    "founder_action_needed": "Do not pick a niche from this table. The ranking needs the scorer fix above and a re-run first."
+  }
 }

@@ -1,0 +1,98 @@
+[
+  {
+    "naics": "541511",
+    "label": "Custom computer programming services",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 80562037.01,
+    "total_sampled": 27398706621.57,
+    "distinct_sb_awardees": 144,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "541512",
+    "label": "Computer systems design services",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 328262213.97,
+    "total_sampled": 87983713406.35,
+    "distinct_sb_awardees": 137,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "541519",
+    "label": "Other computer related services",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 106548513.25,
+    "total_sampled": 30574293212.93999,
+    "distinct_sb_awardees": 114,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "541611",
+    "label": "Admin & general management consulting",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 71882889.47,
+    "total_sampled": 29105956403.480007,
+    "distinct_sb_awardees": 156,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "541690",
+    "label": "Other scientific & technical consulting",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 23281057.78,
+    "total_sampled": 9148604245.67,
+    "distinct_sb_awardees": 129,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "541330",
+    "label": "Engineering services",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 366531199.5,
+    "total_sampled": 146923876454.08,
+    "distinct_sb_awardees": 147,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "561210",
+    "label": "Facilities support services",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 287009120.42,
+    "total_sampled": 465592358658.48,
+    "distinct_sb_awardees": 120,
+    "opportunities_30d": null,
+    "composite": 91.0
+  },
+  {
+    "naics": "561612",
+    "label": "Security guards & patrol services (control: local-heavy)",
+    "awards_24mo_sampled": 200,
+    "sb_awards_24mo_sampled": 200,
+    "sb_share_sampled": 1.0,
+    "median_award": 49478504.38,
+    "total_sampled": 19124119607.52999,
+    "distinct_sb_awardees": 83,
+    "opportunities_30d": null,
+    "composite": 86.8
+  }
+]
