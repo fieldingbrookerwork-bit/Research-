@@ -170,21 +170,37 @@ def normalize_award(raw: dict) -> dict:
     }
 
 
+# Award context is sampled by award recency, NOT by amount. recent_awards()
+# defaults to largest-first, and a median taken over the 25 biggest awards in a
+# NAICS is not a median of anything -- it read $393M for 541519, whose median
+# small-business award is ~$60k. recent_awards' own docstring forbids exactly
+# that use; this constant is what keeps the two in agreement.
+_CONTEXT_SORT = "Base Obligation Date"
+
+
 def award_context_for(opportunity: dict, months_back: int = 36,
                       limit: int = 25) -> dict:
     """Comparable-award context for one opportunity: same NAICS, same awarding
-    toptier agency when it can be derived, ranked by amount. Keyword overlap
+    toptier agency when it can be derived, sampled by award recency and then
+    ordered by title overlap and amount for display. Keyword overlap
     with the opportunity title marks likely-related awards (candidate
     incumbents) — explicitly a heuristic, surfaced as such.
     """
     toptier = (opportunity.get("agency") or "").split(".")[0].strip() or None
     try:
         raws = recent_awards(opportunity.get("naics", ""), months_back=months_back,
-                             agency_name=toptier, limit=limit)
+                             agency_name=toptier, limit=limit,
+                             sort=_CONTEXT_SORT, order="desc") if toptier else []
     except Exception:
-        # Toptier name may not match USAspending's naming; degrade to NAICS-only.
+        raws = []
+    if not raws:
+        # SAM spells agencies in caps ("DEPT OF DEFENSE"); USAspending wants its
+        # own toptier spelling ("Department of Defense") and answers a mismatch
+        # with HTTP 200 and ZERO rows -- there is no exception to catch. An empty
+        # agency-scoped result must degrade to NAICS-only the same way an error
+        # does, or every brief silently ships an empty award-history section.
         raws = recent_awards(opportunity.get("naics", ""), months_back=months_back,
-                             limit=limit)
+                             limit=limit, sort=_CONTEXT_SORT, order="desc")
         toptier = None
     awards = [normalize_award(a) for a in raws]
 

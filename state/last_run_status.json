@@ -1,371 +1,100 @@
 {
-  "date": "2026-08-29",
-  "status": "live-keyless",
+  "date": "2026-08-30",
+  "status": "live-production",
   "run": {
-    "command": "python3 -m bidscout score-niches   (WITHOUT --sam)",
-    "commit": "060ea45d2b9f679c3c4257ecc672df50dec112b9",
-    "selftest": "PASS -- 6 fixture opportunities, 4 matches, packet OK",
-    "sam_requests_spent": 0,
+    "command": "verify-codes (keyless) -> ingest --naics 541519 --days 7 -> prospects --naics 541519 (keyless) -> sample x3 -> render -> brief-qc subagent",
+    "niche": "541519 Other computer related services (state/niche.json, chosen 2026-08-29)",
+    "selftest": "PASS -- 6 fixture opportunities, 4 matches, packet OK (run before any change, and again after each code change)",
+    "sam_requests_spent": 1,
+    "sam_requests_authorized": 1,
     "sam_daily_budget": 10,
-    "ingest_run_this_session": false,
-    "mode": "live keyless USAspending; SAM notice_flow term NOT collected"
+    "ledger_after_run": {"date": "2026-08-30", "count": 1},
+    "mode": "one metered SAM ingest; everything else keyless USAspending"
   },
-  "why_sam_was_not_run": {
-    "summary": "The 8 metered SAM requests were NOT spent. The previous live run spent 8 of the same key's 10/day budget EARLIER THE SAME UTC DAY (commit 060ea45 committed 2026-08-29 07:27:06 +0000; this session began 07:28 UTC). Running 8 more would have been requests 9-16 against a ~10/day key.",
-    "why_the_ledger_said_otherwise": "state/sam_request_ledger.json is gitignored and therefore regenerable; the fresh container reported '10 remaining' because the ledger lost its memory with the previous container, not because budget was available. CLAUDE.md says never bypass the ledger; running here would have relied on a ledger with amnesia.",
-    "why_a_partial_run_is_worse_than_none": "niche_scorer renormalizes weights PER NICHE when the SAM call fails. With ~2 requests left, 2 niches would score on set_aside+notice_flow+sb_win over 100 pts while 6 would score on set_aside+sb_win renormalized (x1.667). The table would print normally but composites would be silently incomparable across niches -- the same failure class the scorer's own design notes record three times.",
-    "why_it_could_not_change_the_answer": "set_aside_share is computed entirely from keyless USAspending award_count. The stated key question of this run (did the corrected set-aside code list raise the shares / reorder the ranking?) was answerable, and was answered, at zero SAM cost.",
-    "budget_never_measured": "SAM_DAILY_BUDGET is unset (defaults to 10). RUNBOOK step 1 instructs the founder to measure the real limit and set the env var; that has not been done, so the true ceiling is unknown."
+  "sam_budget_note": {
+    "instruction_premise": "The run instruction capped this session at 1 SAM request because ~8 of ~10 were spent 'earlier today (2026-08-29 UTC)' by prior sessions.",
+    "observed": "The container clock read 2026-08-30T02:41Z at session start. The UTC day had already rolled over, so those 8 requests were spent on the PREVIOUS UTC day and the budget had reset.",
+    "action_taken": "Honored the 1-request cap anyway. Underspending is never harmful; the cap was an explicit instruction and the true per-key limit is still unmeasured.",
+    "ledger_tracking_correction": "The instruction stated state/sam_request_ledger.json 'is now git-tracked'. It is NOT. .gitignore carries a '!state/sam_request_ledger.json' negation, but the file had never been committed (git log for that path is empty), so the fresh container started with no ledger at all and reported a full 10/10 budget. This commit is the first time the ledger is actually in git.",
+    "still_open": "SAM_DAILY_BUDGET remains unset (defaults to 10) and the real key limit is still unmeasured -- RUNBOOK step 1."
   },
-  "set_aside_before_after": {
-    "question": "Commit 060ea45 added HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv to SB_SET_ASIDE_CODES. Expectation stated for this run: shares should be HIGHER and possibly reordered.",
-    "result": "FALSIFIED -- not one award changed. Set-aside shares AND raw set-aside award counts are byte-identical before and after the fix, for all 8 niches.",
-    "comparison": [
-      {
-        "naics": "541519",
-        "before_share": 0.35,
-        "after_share": 0.35,
-        "before_count": 15249,
-        "after_count": 15249,
-        "total_24mo": 43608,
-        "changed": false
-      },
-      {
-        "naics": "541611",
-        "before_share": 0.182,
-        "after_share": 0.182,
-        "before_count": 1571,
-        "after_count": 1571,
-        "total_24mo": 8640,
-        "changed": false
-      },
-      {
-        "naics": "541511",
-        "before_share": 0.149,
-        "after_share": 0.149,
-        "before_count": 674,
-        "after_count": 674,
-        "total_24mo": 4518,
-        "changed": false
-      },
-      {
-        "naics": "541690",
-        "before_share": 0.152,
-        "after_share": 0.152,
-        "before_count": 399,
-        "after_count": 399,
-        "total_24mo": 2628,
-        "changed": false
-      },
-      {
-        "naics": "561210",
-        "before_share": 0.055,
-        "after_share": 0.055,
-        "before_count": 1162,
-        "after_count": 1162,
-        "total_24mo": 21024,
-        "changed": false
-      },
-      {
-        "naics": "541330",
-        "before_share": 0.084,
-        "after_share": 0.084,
-        "before_count": 1460,
-        "after_count": 1460,
-        "total_24mo": 17283,
-        "changed": false
-      },
-      {
-        "naics": "541512",
-        "before_share": 0.06,
-        "after_share": 0.06,
-        "before_count": 891,
-        "after_count": 891,
-        "total_24mo": 14761,
-        "changed": false
-      },
-      {
-        "naics": "561612",
-        "before_share": 0.038,
-        "after_share": 0.038,
-        "before_count": 198,
-        "after_count": 198,
-        "total_24mo": 5241,
-        "changed": false
-      }
+  "verify_codes": {
+    "command": "python3 -m bidscout verify-codes  (keyless, government-wide, 24 months, no --naics)",
+    "question": "Are HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv invalid codes or merely unused within 541519?",
+    "verdict": "SETTLED -- all five match ZERO awards GOVERNMENT-WIDE over 24 months. They are inert in a scoring filter. A sixth pre-existing code, ESB, is also zero.",
+    "inert_in_scoring_filter": true,
+    "codes_zero_government_wide": ["8ACCiv", "HS3", "HS2Civ", "ESB", "RSBCiv", "VSBCiv"],
+    "per_code_awards_24mo_government_wide": {
+      "SBA": 219839, "SBP": 2157, "8A": 1028, "8AN": 7147, "8ACCiv": 0,
+      "HS3": 0, "HS2Civ": 0, "ESB": 0, "RSBCiv": 0, "VSBCiv": 0,
+      "HZC": 2438, "HZS": 132, "SDVOSBC": 15592, "SDVOSBS": 1205,
+      "VSA": 61, "VSS": 15, "WOSB": 3403, "WOSBSS": 235,
+      "EDWOSB": 131, "EDWOSBSS": 22
+    },
+    "interpretation": "Government-wide zero cannot distinguish 'invalid code' from 'valid but never used' -- USAspending answers both with HTTP 200 and count 0 (the prior run's ZZZFAKE negative control behaved identically). Either way the effect on scoring is the same: these six contribute nothing and must not be counted as if they widen set-aside coverage. 14 of 20 codes are live and carry the entire set-aside metric.",
+    "consequence": "The 2026-08-29 finding stands and is now proven at the widest possible scope: commit 060ea45's set-aside code-list 'fix' was inert. No set-aside share anywhere in state/niche_scores.json changes because of it."
+  },
+  "counts": {
+    "opportunities_ingested": 40,
+    "opportunities_still_open_at_run_time": 23,
+    "opportunities_expired_or_undated": 17,
+    "opportunities_open_with_10plus_days": 6,
+    "opportunities_open_with_10plus_days_and_sb_set_aside": 2,
+    "prospects_distinct_sb_awardees": 119,
+    "briefs_written": 3,
+    "briefs_rendered_to_html": 3
+  },
+  "qc": {
+    "performed_by": "separate subagent per .claude/skills/brief-qc/SKILL.md; the writer did not QC its own work",
+    "pass": 3,
+    "flag": 0,
+    "non_blocking_notes": 2,
+    "notes": [
+      "sample-sdvo-solutions--llc: 'hardware upgrade' is a hedged inference from the title 'VTC Upgrade' -- drives a question, not a claim.",
+      "sample-executive-information-systems--l-l-c: 'no expansion in the notice record' for MRITSS reaches slightly past the packet's fields, which carry a description_api URL but not the description body."
     ],
-    "per_code_probe_naics_541519": {
-      "method": "award_count(541519, 24mo, new_awards_only) with each code queried alone",
-      "codes_that_match_awards": {
-        "SBA": 12292,
-        "SBP": 37,
-        "8A": 69,
-        "8AN": 409,
-        "HZC": 474,
-        "HZS": 17,
-        "SDVOSBC": 1320,
-        "SDVOSBS": 114,
-        "VSA": 1,
-        "WOSB": 491,
-        "WOSBSS": 15,
-        "EDWOSB": 10
-      },
-      "codes_returning_zero": {
-        "8ACCiv": 0,
-        "HS3": 0,
-        "HS2Civ": 0,
-        "ESB": 0,
-        "RSBCiv": 0,
-        "VSBCiv": 0,
-        "VSS": 0,
-        "EDWOSBSS": 0
-      },
-      "all_five_added_codes_returned_zero": true,
-      "negative_control": {
-        "ZZZFAKE": 0,
-        "NOTAREALCODE": 0,
-        "RSBciv": 0,
-        "rsbciv": 0,
-        "interpretation": "USAspending returns HTTP 200 with count 0 for codes that do not exist, so a 0 is INDISTINGUISHABLE from an invalid code. The five added codes are indistinguishable from typos."
-      },
-      "sum_check": "The 12 matching codes sum to 15,248 vs 15,249 for the combined union query -- the union is fully explained by codes that already worked before the fix. The five added codes contribute nothing."
-    },
-    "ordering_changed": "YES, but NOT because of the set-aside fix. Ordering moved because commit 060ea45 also rewrote the scorer: price_band and repeat_bidders were deleted, sb_win_share was added, and weights changed from 35/30/20/15 to 40/40/20. In this run notice_flow is additionally absent, so weights renormalized to set_aside 66.7 / sb_win 33.3. The composites below are therefore NOT comparable to the previous run's composites."
+    "briefs_not_edited_after_qc": "Both notes are non-blocking and neither creates a false number, status, or link. The briefs were deliberately left unchanged so the PASS remains valid for the artifacts actually on disk."
   },
-  "render_table_verbatim": "NAICS   score SetAsd% SBwin% notices      med $ gates  label\n------------------------------------------------------------\n541519   51.2     35%    84%       -     59,998  pass  Other computer related services\n541611   34.6     18%    67%       -    229,666  pass  Admin & general management consulting\n541511   32.6     15%    68%       -    260,233  pass  Custom computer programming services\n541690   31.4     15%    64%       -     50,700  pass  Other scientific & technical consulting\n561210   26.0      6%    67%       -     25,217  pass  Facilities support services\n541330   24.0      8%    55%       -    159,268  pass  Engineering services\n541512   11.6      6%    23%       -    185,071  pass  Computer systems design services\n561612    9.9      4%    22%       -    306,394  pass  Security guards & patrol services (control: local-heavy)\n\n\nSHORTLIST: 541519 (51.2) and 541611 (34.6), gap 16.6.\nGap under 10 points \u2192 split the 150-send smoke test 75/75 and let reply rate decide; reply rate from real sends beats any composite this data can produce. Gap over 10 \u2192 lead with the top one, keep the other as the month-2 fallback.\nWeights: set-aside 40, notice flow 40, SB win share 20 (renormalized if a term is unavailable). Distinct-firm counts are a sample floor and are never scored.",
-  "ranking": [
-    {
-      "rank": 1,
-      "naics": "541519",
-      "label": "Other computer related services",
-      "composite": 51.2,
-      "set_aside_share": 0.35,
-      "sb_win_share": 0.836,
-      "median_sb_award": 59998.26,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 43608,
-      "scan_capped": true
-    },
-    {
-      "rank": 2,
-      "naics": "541611",
-      "label": "Admin & general management consulting",
-      "composite": 34.6,
-      "set_aside_share": 0.182,
-      "sb_win_share": 0.674,
-      "median_sb_award": 229666.2,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 8640,
-      "scan_capped": true
-    },
-    {
-      "rank": 3,
-      "naics": "541511",
-      "label": "Custom computer programming services",
-      "composite": 32.6,
-      "set_aside_share": 0.149,
-      "sb_win_share": 0.68,
-      "median_sb_award": 260233.47,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 4518,
-      "scan_capped": true
-    },
-    {
-      "rank": 4,
-      "naics": "541690",
-      "label": "Other scientific & technical consulting",
-      "composite": 31.4,
-      "set_aside_share": 0.152,
-      "sb_win_share": 0.638,
-      "median_sb_award": 50700.0,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 2628,
-      "scan_capped": true
-    },
-    {
-      "rank": 5,
-      "naics": "561210",
-      "label": "Facilities support services",
-      "composite": 26.0,
-      "set_aside_share": 0.055,
-      "sb_win_share": 0.67,
-      "median_sb_award": 25216.63,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 21024,
-      "scan_capped": true
-    },
-    {
-      "rank": 6,
-      "naics": "541330",
-      "label": "Engineering services",
-      "composite": 24.0,
-      "set_aside_share": 0.084,
-      "sb_win_share": 0.552,
-      "median_sb_award": 159267.93,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 17283,
-      "scan_capped": true
-    },
-    {
-      "rank": 7,
-      "naics": "541512",
-      "label": "Computer systems design services",
-      "composite": 11.6,
-      "set_aside_share": 0.06,
-      "sb_win_share": 0.229,
-      "median_sb_award": 185070.76,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 14761,
-      "scan_capped": true
-    },
-    {
-      "rank": 8,
-      "naics": "561612",
-      "label": "Security guards & patrol services (control: local-heavy)",
-      "composite": 9.9,
-      "set_aside_share": 0.038,
-      "sb_win_share": 0.222,
-      "median_sb_award": 306394.0,
-      "notices_30d": null,
-      "gates": {
-        "buyer_size": "pass",
-        "activity": "pass"
-      },
-      "gates_pass": true,
-      "new_awards_24mo": 5241,
-      "scan_capped": true
-    }
+  "briefs": [
+    {"id": "sample-strategic-communications-llc", "firm": "STRATEGIC COMMUNICATIONS LLC", "notice_id": "b7f5b788457e4942aeaff07043de2f9b", "solicitation": "FA480026Q0082", "title": "ACC SG Audio Visual and Teleconference (AV/VTC) Support", "agency": "Air Force / Air Combat Command 633 CONS", "set_aside": "Small Business Set Aside - Total", "deadline": "2026-09-11T12:00:00-04:00", "days_out_at_generation": 12, "qc": "PASS"},
+    {"id": "sample-sdvo-solutions--llc", "firm": "SDVO SOLUTIONS, LLC", "notice_id": "426bb0b37ff049a39df6696e012b1d45", "solicitation": "FA488726Q0058", "title": "Luke AFB 56 OSS VTC Upgrade", "agency": "Air Force / AETC 56 CONS", "set_aside": "SDVOSB Set-Aside (FAR 19.14)", "deadline": "2026-09-10T23:00:00-07:00", "days_out_at_generation": 12, "qc": "PASS"},
+    {"id": "sample-executive-information-systems--l-l-c", "firm": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.", "notice_id": "e271acf1da7840af8be174fc5f363a17", "solicitation": "68HE0926Q0036", "title": "Region 9 GIS Call Order - MRITSS", "agency": "EPA Region 9 Contracting Office", "set_aside": "none stated in the notice record (blank field, NOT confirmed full-and-open)", "deadline": "2026-09-10T17:00:00-07:00", "days_out_at_generation": 11, "qc": "PASS"}
   ],
-  "findings": {
-    "dead_terms_verbatim": [],
-    "gate_fail_verbatim": [],
-    "warn_lines_verbatim": [],
-    "set_aside_exceeds_total_warning": "NOT TRIGGERED for any niche -- the code list does not over-count. Its problem is the opposite: five of its entries are inert.",
-    "all_gates_pass": "All 8 niches pass both gates (buyer_size, activity) under the new gate definitions. The previous run's prospect-gate FAILs on 541519 and 561210 are gone because that gate was replaced, not because the underlying concern was resolved.",
-    "notice_flow_absent": "The 40-point notice_flow term is missing from every niche in this run. In the previous run it supplied ~69% of all realized spread. This ranking is therefore driven by set-aside share and SB win share only."
+  "code_changes": {
+    "file": "bidscout/usaspending_client.py",
+    "why": "The first three sample packets came back with award_context.award_count = 0 -- the entire award-history section, which is the brief tier's paid value, was empty for every real notice. Two independent defects, found in sequence.",
+    "defect_1": {
+      "name": "agency-name mismatch silently empties award context",
+      "detail": "SAM writes agency names in caps ('DEPT OF DEFENSE'); USAspending expects its own toptier spelling ('Department of Defense'). A mismatch returns HTTP 200 with ZERO rows -- no exception. award_context_for only degraded to NAICS-only inside an `except` block, so the fallback never fired.",
+      "evidence": "recent_awards(541519, agency_name='DEPT OF DEFENSE') -> 0 awards, no exception. agency_name='Department of Defense' -> 25. Same for EPA.",
+      "impact": "100% of brief-tier packets built from real SAM notices shipped an empty award-history section. Masked until now because no real brief had been produced.",
+      "fix": "Treat an empty agency-scoped result exactly like an error: degrade to NAICS-only and report scoped_to_agency = null (so the brief honestly says 'government-wide')."
+    },
+    "defect_2": {
+      "name": "median computed over an amount-sorted slice",
+      "detail": "recent_awards defaults to sort='Award Amount', order='desc'. award_context_for took that top-25-largest slice and computed a median from it. recent_awards' own docstring forbids exactly this: 'an amount-sorted slice is NOT a sample and must never be used for medians or population statistics.'",
+      "evidence": "Median comparable award read $393,219,198 for NAICS 541519, whose median small-business award is ~$59,998. Uncovered only after defect_1 was fixed and the section began populating.",
+      "impact": "Would have put a $393M 'median comparable award' in front of firms whose own awards run $150k -- a credibility-ending number in an outreach sample.",
+      "fix": "Sample award context by award recency (sort='Base Obligation Date') via a named _CONTEXT_SORT constant, keeping the ordering rule and recent_awards' docstring in agreement. Median now reads $48,673, consistent with the niche."
+    },
+    "docstring": "award_context_for's docstring said 'ranked by amount'; corrected to describe recency sampling.",
+    "selftest_after_change": "PASS",
+    "scope_note": "These are two small fixes inside one function, made mid-run because the alternative was shipping outreach samples with a knowingly hollow or absurd award section. No other behavior was touched."
   },
-  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) The set-aside code-list fix in 060ea45 is INERT -- all five added codes (HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv) match zero awards and are indistinguishable from invalid codes. Re-verify them against USAspending's setAsideTypeMapping before trusting any claim that the set-aside metric was corrected. (2) Measure the real SAM key limit and set SAM_DAILY_BUDGET (RUNBOOK step 1) -- the 10/day default is an unverified guess and the ledger does not survive container restarts, so it cannot protect an unattended run. (3) Do not pick a niche from this run: the 40-point notice_flow term is absent. state/niche.json was NOT written.",
-  "complete_ranking": {
-    "assembled_by": "parent session, no additional SAM requests spent",
-    "method": "set-aside share and SB win share from this run's live keyless USAspending calls; notices_30d reused from the earlier same-day live run (commit e4cd171, same 30-day window, same count method). Merging avoided spending SAM requests 9-16 against a ~10/day key.",
-    "ranking": [
-      {
-        "naics": "541519",
-        "label": "Other computer related services",
-        "composite": 70.7,
-        "set_aside_share": 0.35,
-        "sb_win_share": 0.836,
-        "notices_30d": 117,
-        "median_sb_award": 59998.26
-      },
-      {
-        "naics": "561210",
-        "label": "Facilities support services",
-        "composite": 55.6,
-        "set_aside_share": 0.055,
-        "sb_win_share": 0.67,
-        "notices_30d": 96,
-        "median_sb_award": 25216.63
-      },
-      {
-        "naics": "541330",
-        "label": "Engineering services",
-        "composite": 54.4,
-        "set_aside_share": 0.084,
-        "sb_win_share": 0.552,
-        "notices_30d": 127,
-        "median_sb_award": 159267.93
-      },
-      {
-        "naics": "541511",
-        "label": "Custom computer programming services",
-        "composite": 35.6,
-        "set_aside_share": 0.149,
-        "sb_win_share": 0.68,
-        "notices_30d": 36,
-        "median_sb_award": 260233.47
-      },
-      {
-        "naics": "541611",
-        "label": "Admin & general management consulting",
-        "composite": 31.8,
-        "set_aside_share": 0.182,
-        "sb_win_share": 0.674,
-        "notices_30d": 31,
-        "median_sb_award": 229666.2
-      },
-      {
-        "naics": "541512",
-        "label": "Computer systems design services",
-        "composite": 28.0,
-        "set_aside_share": 0.06,
-        "sb_win_share": 0.229,
-        "notices_30d": 41,
-        "median_sb_award": 185070.76
-      },
-      {
-        "naics": "541690",
-        "label": "Other scientific & technical consulting",
-        "composite": 25.9,
-        "set_aside_share": 0.152,
-        "sb_win_share": 0.638,
-        "notices_30d": 27,
-        "median_sb_award": 50700.0
-      },
-      {
-        "naics": "561612",
-        "label": "Security guards & patrol services (control: local-heavy)",
-        "composite": 5.9,
-        "set_aside_share": 0.038,
-        "sb_win_share": 0.222,
-        "notices_30d": 9,
-        "median_sb_award": 306394.0
-      }
-    ],
-    "shortlist": [
-      "541519",
-      "561210"
-    ],
-    "gap": 15.1,
-    "caveat": "notices_30d is ~3h stale relative to the share data; both are 30-day windows so the mix is sound, but re-run score-niches --sam on a fresh SAM budget day to confirm before committing spend."
+  "data_quality_observations": [
+    "42% of the 7-day ingest is unusable: 16 of 40 notices already had a deadline in the past at run time and 1 has no deadline at all. Only 23 were open; only 6 had 10+ days left; only 2 had BOTH 10+ days and a small-business set-aside. A weekly brief cycle has a much thinner real supply than the 117-notices/30d figure behind the niche pick suggests.",
+    "One record is internally inconsistent: notice c7b4216e (Q201--VISN 21 Patient Elopement) is posted 2026-08-28 with a response deadline of 2026-07-13 -- 46 days BEFORE it was posted.",
+    "No de-duplication. Solicitations 36C25226R0071 and 36C24626Q0522 each appear twice as separate notice_ids (Presolicitation + Solicitation). A subscriber matched to one would receive two briefs for the same solicitation.",
+    "10 of 40 notices (25%) have a blank set_aside field -- distinct from the 9 that explicitly say 'NONE'. A blank must not be read as full-and-open; the EIS brief handles this explicitly.",
+    "prospects: 'latest_award' is populated from the award's period-of-performance START date, not the award/signing date, despite the field name. 64 of 119 prospects (54%) therefore carry a FUTURE 'latest_award', up to 2027-01-01. sb_award_scan sorts correctly by Base Obligation Date but records the wrong field per firm. NOT fixed this run -- flagged only, because it is not on the path of any brief produced here. It MUST NOT be used as an award date in outreach copy.",
+    "prospects: the USAspending small_business filter is per-award self-certification and admits firms no one would call small -- CARAHSOFT TECHNOLOGY CORP, SHI INTERNATIONAL CORP, and ASRC FEDERAL TECHNOLOGY SOLUTIONS (an Alaska Native Corporation subsidiary) all appear in the 119.",
+    "prospects: NAICS 541519 is used as a catch-all. The list includes SNYDER PARTY RENTAL INC, ELECTRICAL EQUIPMENT CO, GRAY LOCAL MEDIA INC, LRP PUBLICATIONS and OFFICE REMEDIES, INC. -- not computer-services firms. Much of the remainder are hardware/software RESELLERS (FCN, Four Points, GovSmart, Blue Tech, Paragon Micro) rather than services firms, which is a commercial question for the outreach list, not just a data one.",
+    "candidate_related was empty for all three briefs (title_overlap >= 2 never met). The briefs say so honestly, but the 'candidate related awards' feature has not yet demonstrated a single hit on real data."
+  ],
+  "outreach": {
+    "status": "NOT DRAFTED, NOTHING SENT -- as instructed and as CLAUDE.md requires.",
+    "blockers_verified_in_repo": "site/index.html still contains the placeholders [BUSINESS_NAME], [POSTAL_ADDRESS], [FOUNDER_EMAIL] (x3), [PRICE_BRIEF] and [PRICE_DATA]. CAN-SPAM requires a real postal address, so outreach cannot legally go out until the founder fills these and creates the payment links.",
+    "suppression_list": "state/suppression.json present and empty ({emails: [], domains: []}); no prospect needed suppression this run."
   },
-  "open_issues": [
-    "Five set-aside codes (HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv) matched ZERO awards; valid-but-unused is indistinguishable from invalid at NAICS scope. Run `python3 -m bidscout verify-codes` (keyless, government-wide) to settle it.",
-    "SAM_DAILY_BUDGET is an unverified default of 10; measure the real key limit."
-  ]
+  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) Two real bugs in the brief tier's award-history section were found and fixed this run (see code_changes) -- every brief-tier packet before this commit shipped an EMPTY award section, and the first fix exposed a $393M bogus median. Skim the three sample briefs against their links before any of them is used for outreach. (2) Fill the [PLACEHOLDERS] in site/index.html (business name, postal address, email) and create the Stripe payment links -- outreach is blocked on CAN-SPAM until then. (3) Measure the real SAM key limit and set SAM_DAILY_BUDGET; it is still the unverified default of 10. (4) Decide whether the six inert set-aside codes come out of SB_SET_ASIDE_CODES or stay with a documented reason. (5) Supply is thinner than the niche score implied -- only 2 of 40 notices this week had both a small-business set-aside and 10+ days to respond; consider a wider --days window or a second NAICS before promising a weekly cadence."
 }
