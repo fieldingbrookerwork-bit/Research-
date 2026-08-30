@@ -3,9 +3,19 @@
 This repo is a running business system, not just research. Any Claude session
 working here (including autonomous weekly routine runs) follows this file.
 
+## Name
+
+Customer-facing brand: **Worth the Bid** (site, briefs, outreach, anything a
+buyer reads). Internal codename and Python package: `bidscout` — repo paths,
+module names and CLI stay as they are; renaming them is churn with no external
+benefit. Do not "fix" one into the other.
+
+Niche: **NAICS 541519** (Other computer related services), recorded in
+`state/niche.json`. Fallback 561210. See report.md for how it was chosen.
+
 ## What this is
 
-Bid Scout: weekly federal-contract opportunity matching + source-linked
+Worth the Bid: weekly federal-contract opportunity matching + source-linked
 "should you bid" research briefs for small government contractors, $49–79/mo
 (brief tier) / $29–49/mo (data tier). `report.md` holds the research and
 verdict; `RUNBOOK.md` is the operating manual and takes precedence on process.

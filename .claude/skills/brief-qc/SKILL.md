@@ -1,6 +1,6 @@
 ---
 name: brief-qc
-description: Adversarially verify a Bid Scout brief against its packet before delivery. Run on every brief in state/briefs/; the founder reviews only what this flags. Use before any delivery batch.
+description: Adversarially verify a Worth the Bid brief against its packet before delivery. Run on every brief in state/briefs/; the founder reviews only what this flags. Use before any delivery batch.
 ---
 
 # Brief QC

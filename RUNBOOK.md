@@ -39,12 +39,18 @@ priced in (~2–6 hrs/week at scale) plus one-time setup.
 
    Record the decision in `state/niche.json` as `{"naics": "541519"}` — the
    weekly routine reads that file to know a niche has been chosen.
-4. **FOUNDER — Payments.** Create two Stripe Payment Links (brief tier $49–79,
-   data tier $29–49) with refund terms in the description ("first brief not
-   useful → month refunded"). Add PayPal.me as backup. Keep dispute rate ~0.
-5. **FOUNDER — Site.** Fill the `[PLACEHOLDERS]` in `site/index.html` (real
-   name, business name, postal address, email — CAN-SPAM requires the address
-   anyway) and deploy `site/` to Cloudflare Pages (free, `*.pages.dev`).
+4. **FOUNDER — Payments: DEFERRED until a buyer says yes.** Do not set this up
+   during onboarding. When a prospect actually agrees, create a Stripe Payment
+   Link then (brief tier $49–79, data tier $29–49) with refund terms in the
+   description ("first brief not useful → month refunded"); PayPal.me is the
+   backup rail. Takes ~5 minutes and blocks nothing before that moment.
+5. **FOUNDER — Identity placeholders (needed only at first SEND).** The brand
+   name is already set to Worth the Bid. Still to fill in `site/index.html`:
+   `[POSTAL_ADDRESS]` and `[FOUNDER_EMAIL]` (and the two price placeholders).
+   CAN-SPAM requires a real postal address in every commercial email, so this
+   is the one item that genuinely gates outreach — agents draft with a
+   `[POSTAL_ADDRESS]` placeholder and it is filled at send time. Deploy `site/`
+   to Cloudflare Pages (free, `*.pages.dev`) whenever convenient.
 6. Seed `state/suppression.json` (already present) and **back it up** — the
    opt-out list must survive any machine loss.
 

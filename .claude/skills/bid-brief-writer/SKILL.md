@@ -1,6 +1,6 @@
 ---
 name: bid-brief-writer
-description: Turn a Bid Scout brief packet (state/packets/*.json) into the one-page, source-linked "should you bid" research brief delivered to a subscriber. Use whenever briefs need to be produced from packets.
+description: Turn a Worth the Bid brief packet (state/packets/*.json) into the one-page, source-linked "should you bid" research brief delivered to a subscriber. Use whenever briefs need to be produced from packets.
 ---
 
 # Bid Brief Writer
@@ -38,7 +38,7 @@ government-contracting firm deciding whether to spend 50–100 hours on a propos
 For packet `state/packets/<id>.json`, write `state/briefs/<id>.md`:
 
 ```
-# [title] — Bid Scout brief for [subscriber.company]
+# [title] — Worth the Bid brief for [subscriber.company]
 
 **Deadline: [deadline] · [agency] · NAICS [naics] · [set-aside or "No set-aside stated"]**
 [Solicitation [solicitation_number]]([sam_url])

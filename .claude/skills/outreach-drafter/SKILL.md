@@ -1,6 +1,6 @@
 ---
 name: outreach-drafter
-description: Draft compliant, personalized first-touch emails to prospect firms, each built around a free sample Bid Scout brief on a live opportunity relevant to that firm. Use when preparing an outreach batch from state/prospects-*.json.
+description: Draft compliant, personalized first-touch emails to prospect firms, each built around a free sample Worth the Bid brief on a live opportunity relevant to that firm. Use when preparing an outreach batch from state/prospects-*.json.
 ---
 
 # Outreach Drafter
