@@ -1,0 +1,9 @@
+{
+  "naics": "541519",
+  "label": "Other computer related services",
+  "chosen_on": "2026-08-29",
+  "chosen_by": "Claude recommendation, founder to veto if desired",
+  "rationale": "Composite 70.7, 15.1 pts clear of runner-up 561210. Highest set-aside share (35%, >2x any other candidate), highest small-business win share (84%), 117 SAM notices/30d (~4/day, ample for a weekly brief), median new SB award $59,998 (squarely a $49-79/mo buyer, not a GovWin customer).",
+  "fallback": "561210 Facilities support services (55.6) — month-2 fallback per RUNBOOK gate",
+  "reversible": "Change this file and re-run; nothing downstream is baked in."
+}
