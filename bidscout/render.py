@@ -27,7 +27,7 @@ def _inline(text: str) -> str:
 def markdown_to_html(md: str) -> tuple[str, str]:
     """Return (title, body_html)."""
     out: list[str] = []
-    title = "Bid Scout brief"
+    title = "Worth the Bid brief"
     in_list = False
 
     def close_list():
