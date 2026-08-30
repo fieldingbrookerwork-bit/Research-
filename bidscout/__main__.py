@@ -5,6 +5,7 @@
   python -m bidscout match [--fixtures]          match opportunities to subscribers
   python -m bidscout packets [--fixtures]        emit brief packets for the skill layer
   python -m bidscout prospects --naics 541512 [--state VA]
+  python -m bidscout filter-prospects --naics 541512   score prospects for outreach
   python -m bidscout sample --firm "X LLC" --notice <id> --reason "<public fact>"
   python -m bidscout render                      briefs (md) -> state/pages/ (html)
   python -m bidscout verify-codes [--naics X]    probe each set-aside code for zeros
@@ -110,6 +111,69 @@ def cmd_prospects(args) -> int:
     return 0
 
 
+def cmd_filter_prospects(args) -> int:
+    """Score the raw awardee list for outreach fitness (keyless).
+
+    The raw list is every firm USAspending reports as a small-business awardee.
+    That is not a buyer list: 541519 is a catch-all NAICS and the small-business
+    flag is per-award self-certification. See bidscout/prospect_filter.py for
+    the rule set and its measurement limits.
+    """
+    from .prospect_filter import filter_prospects
+    state = config.ensure_state_dir()
+
+    prospects_path = state / f"prospects-{args.naics}.json"
+    if not prospects_path.exists():
+        raise SystemExit(f"No {prospects_path} — run `prospects --naics "
+                         f"{args.naics}` first.")
+    prospects = config.load_json(prospects_path)
+
+    # Award descriptions live on the scan rows, not on the aggregated prospect
+    # records, so the scan is cached alongside them and reused when present.
+    scan_path = state / f"prospect_scan-{args.naics}.json"
+    if args.rescan or not scan_path.exists():
+        from .usaspending_client import sb_award_scan
+        scan = sb_award_scan(args.naics, state=args.state,
+                             months_back=args.months, pages=args.pages)
+        config.save_json(scan_path, scan)
+    else:
+        scan = config.load_json(scan_path)
+    rows = scan.get("rows", [])
+
+    supp_path = state / "suppression.json"
+    if not supp_path.exists():
+        raise SystemExit("state/suppression.json missing — refusing to build an "
+                         "outreach list without the opt-out record.")
+    suppression = config.load_json(supp_path)
+
+    result = filter_prospects(prospects, rows, suppression)
+    result["naics"] = args.naics
+    result["source"] = {
+        "prospects": str(prospects_path),
+        "scan_rows": len(rows),
+        "scan_capped": scan.get("scan_capped"),
+    }
+    out = state / f"prospects-{args.naics}-filtered.json"
+    config.save_json(out, result)
+
+    s = result["summary"]
+    print(f"{s['input']} prospects -> {s['kept']} kept / {s['excluded']} excluded")
+    for rule, n in s["excluded_by_rule"].items():
+        print(f"   {n:>4}  {rule}")
+    print(f"   {s['flagged_kept']} kept firm(s) carry flags for founder review")
+    if scan.get("scan_capped"):
+        print("   NOTE: the award scan was page-capped — totals understate every "
+              "firm and the list is not exhaustive.")
+    print(f"\nTop {min(10, len(result['kept']))} by fitness score:")
+    for k in result["kept"][:10]:
+        print(f"   {k['fitness_score']:>3}  {k['awards']:>3} awd  "
+              f"${k['total_amount']:>12,.0f}  {k['recipient']}")
+    print(f"\nSaved: {out}")
+    print("Every excluded firm carries the rule, the matched token and the "
+          "evidence text — audit before mailing.")
+    return 0
+
+
 def cmd_sample(args) -> int:
     from .brief_packet import build_sample_packet
     opps = _load_opportunities(args.fixtures)
@@ -204,6 +268,15 @@ def main(argv=None) -> int:
     s = sub.add_parser("prospects")
     s.add_argument("--naics", required=True); s.add_argument("--state", default=None)
     s.set_defaults(fn=cmd_prospects)
+
+    s = sub.add_parser("filter-prospects")
+    s.add_argument("--naics", required=True)
+    s.add_argument("--state", default=None)
+    s.add_argument("--months", type=int, default=24)
+    s.add_argument("--pages", type=int, default=5)
+    s.add_argument("--rescan", action="store_true",
+                   help="refetch award rows (keyless) instead of reusing the cached scan")
+    s.set_defaults(fn=cmd_filter_prospects)
 
     s = sub.add_parser("sample")
     s.add_argument("--firm", required=True)

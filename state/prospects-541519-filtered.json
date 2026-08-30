@@ -1,0 +1,5481 @@
+{
+  "kept": [
+    {
+      "recipient": "ADVANCED COMPUTER CONCEPTS, INC.",
+      "awards": 20,
+      "total_amount": 1368099.0999999996,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_89243326FFE400805_8900_NNG15SD60B_8000",
+      "award_ids": [
+        "12314426F0347",
+        "12314426F0348",
+        "12314426F0356",
+        "12314426F0359",
+        "1232SA26F0498"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Energy"
+      ],
+      "pop_states": [
+        "CO",
+        "DC",
+        "GA"
+      ],
+      "latest_award_pop_start": "2027-01-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SAAS",
+          "CLOUD",
+          "CYBER",
+          "COMPUTER",
+          "STORAGE",
+          "HOSTING"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES",
+          "OPERATIONS",
+          "MAINTENANCE AND",
+          "INTEGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 20,
+        "sample_descriptions": [
+          "IRA NVIDIA SWITCHES, TRANSCEIVERS, AND ACCESSORIES",
+          "TENABLE SECURITY CENTER SUBSCRIPTION SERVICES IN SUPPORT OF ANIMAL AND PLANT HEALTH INSPECTION SERVICE AND NATIONAL BIO AND AGRO-DEFENSE FACILITY",
+          "SMARTBEAR ALERTSITE QA TESTING IN SUPPORT OF CYBERSECURITY AND PRIVACY OPERATIONS CENTER"
+        ]
+      },
+      "fitness_score": 100,
+      "score_components": [
+        "it_relevance=40 (8 marker(s))",
+        "activity=25 (20 award(s))",
+        "scale_fit=25 ($1,368,099)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2027-01-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "SOFTWARE INFORMATION RESOURCE CORP.",
+      "awards": 19,
+      "total_amount": 1469445.0900000003,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_2031ZB26F00043_2041_47QTCA23D001S_4732",
+      "award_ids": [
+        "12314426F0345",
+        "1331L526F0387",
+        "1331L526F13211233",
+        "13ADDC26F0012",
+        "140G0226F0262"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Energy"
+      ],
+      "pop_states": [
+        "CO",
+        "DC",
+        "LA"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SERVER",
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "MAINTENANCE RENEWAL",
+          "LAPTOP",
+          "PRINTER"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES",
+          "OPERATIONS"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 19,
+        "sample_descriptions": [
+          "ATLASSIAN JIRA AND CONFLUENCE PREMIER SUPPORT LICENSES RENEWAL",
+          "IT AND TELECOM - SERVICE DELIVERY SUPPORT SERVICES: ITSM, OPERATIONS CENTER, PROJECT/PM (LABOR)",
+          "SALESFORCE PROFESSIONAL SERVICES"
+        ]
+      },
+      "fitness_score": 100,
+      "score_components": [
+        "it_relevance=40 (4 marker(s))",
+        "activity=25 (19 award(s))",
+        "scale_fit=25 ($1,469,445)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "DH TECHNOLOGIES, INC.",
+      "awards": 12,
+      "total_amount": 660813.84,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80TECH26F0167_8000_80TECH26A0010_8000",
+      "award_ids": [
+        "15JC1V26F00000153",
+        "70FA3026F00000231",
+        "70FA4026F00000209",
+        "70FBR526F00000020",
+        "70SBUR26F00000197"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "DC",
+        "IL",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-10-02",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SERVER",
+          "APPLICATION"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "PURCHASE OF",
+          "WORKSTATION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [
+          "SUBSCRIPTION TO"
+        ],
+        "informative_descriptions": 12,
+        "sample_descriptions": [
+          "THIS BPA CALL # 5 IS FOR REDHAT ENTERPRISE LINUX SERVER FOR GSFC.",
+          "USCIS REQUIRES RENEWAL OF THE ENTRUST CA SUBSCRIPTION TO ENABLE SECURE AUTOMATION OF CLM AND SUPPORT DEVICES AND APPLICATIONS CURRENTLY USING LESS SECURE CERTIFICATES. POP 9/25/26-9/24/27",
+          "BOMGAR BEYOND TRUST APPLIANCE B SERIES-VM - RENEWAL MAINTENANCE"
+        ]
+      },
+      "fitness_score": 100,
+      "score_components": [
+        "it_relevance=40 (4 marker(s))",
+        "activity=25 (12 award(s))",
+        "scale_fit=25 ($660,814)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "MIXED_INDUSTRY — both IT and non-IT signals present: SUBSCRIPTION TO",
+        "FUTURE_POP_START — 'latest_award' is 2026-10-02, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, RENEWAL, SUBSCRIPTION, PURCHASE OF, WORKSTATION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "COLOSSAL CONTRACTING LLC",
+      "awards": 9,
+      "total_amount": 2924400.04,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_693JJ126F00094N_6925_NNG15SD72B_8000",
+      "award_ids": [
+        "12314426F0340",
+        "1305M326P0287",
+        "1331L526F13OS1227",
+        "1333ND26FNB770200",
+        "49100426F0154"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Energy"
+      ],
+      "pop_states": [
+        "AL",
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-10-08",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SERVER",
+          "NETWORK",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "HARDWARE"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 9,
+        "sample_descriptions": [
+          "THE PURPOSE OF THIS DELIVERY ORDER IS TO ACQUIRE ADDITIONAL PALO ALTO NGFW CREDITS.",
+          "VIDEO TELECONFERENCING SYSTEM",
+          "WEBEX FOR GOVERNMENT"
+        ]
+      },
+      "fitness_score": 100,
+      "score_components": [
+        "it_relevance=40 (4 marker(s))",
+        "activity=25 (9 award(s))",
+        "scale_fit=25 ($2,924,400)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-10-08, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ACCESSAGILITY LLC",
+      "awards": 13,
+      "total_amount": 636955.39,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_47QACB26F0070_4732_NNG15SC23B_8000",
+      "award_ids": [
+        "1305M226F0428",
+        "1331L526P13OS0053",
+        "1333MF26F0057",
+        "1333MJ26F0023",
+        "140D0426F1043"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Energy",
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "CO",
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-10-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "PORTAL"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "MAINTENANCE AND",
+          "ANALYSIS"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 13,
+        "sample_descriptions": [
+          "LIFERAY PORTAL SUBSCRIPTIONS",
+          "QUALTRICS FEDRAMP DESIGNXM ENTERPRISE EDITION PER USER LICENSES - PART NO.  510270",
+          "APEXSEC LICENSES AND SUPPORT  6 LICENSES ANNUAL MAINTENANCE AND SUPPORT"
+        ]
+      },
+      "fitness_score": 99,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=25 (13 award(s))",
+        "scale_fit=25 ($636,955)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-10-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "REDHAWK IT SOLUTIONS, LLC",
+      "awards": 9,
+      "total_amount": 1763679.0499999998,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C24926F0229_3600_NNG15SD38B_8000",
+      "award_ids": [
+        "36C10B26F0303",
+        "36C10M26F50057",
+        "36C24426F0381",
+        "36C24926F0229",
+        "36C25726F0135"
+      ],
+      "agencies": [
+        "Department of Homeland Security",
+        "Department of Transportation",
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "DC",
+        "KY",
+        "PA"
+      ],
+      "latest_award_pop_start": "2026-09-28",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "APPLICATION",
+          "BACKUP"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "MAINTENANCE RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [
+          "SUBSCRIPTION TO"
+        ],
+        "informative_descriptions": 9,
+        "sample_descriptions": [
+          "KAHUA SOFTWARE ANNUAL SUBSCRIPTION",
+          "FFP DELIVERY ORDER FOR BRAND NAME PLUM LABORATORIES PLUM CASE RETROFIT EFFORT.",
+          "USCIS MUST RENEW THE DIGICERT COMMERCIAL CERTIFICATE SUBSCRIPTION TO ENSURE SECURE TRANSACTIONS FOR USCIS EXTERNAL-FACING ENTITIES AND APPLICATIONS REQUIRING PUBLIC TRUST. POP 9/25/26-9/24/27"
+        ]
+      },
+      "fitness_score": 99,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=25 (9 award(s))",
+        "scale_fit=25 ($1,763,679)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "MIXED_INDUSTRY — both IT and non-IT signals present: SUBSCRIPTION TO",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-28, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, SUBSCRIPTION, MAINTENANCE RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "METGREEN SOLUTIONS INC",
+      "awards": 8,
+      "total_amount": 2080507.7,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_89243326FFE400802_8900_NNG15SD37B_8000",
+      "award_ids": [
+        "15BNAS26F00000214",
+        "15JE1R26F00000055",
+        "1605TB26F00100",
+        "36C10B26F0327",
+        "49100426F0166"
+      ],
+      "agencies": [
+        "Department of Energy",
+        "Department of Justice",
+        "Department of Labor"
+      ],
+      "pop_states": [
+        "AL",
+        "DC",
+        "NE"
+      ],
+      "latest_award_pop_start": "2026-09-27",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "CLOUD",
+          "CYBER",
+          "NETWORK",
+          "INFRASTRUCTURE"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 8,
+        "sample_descriptions": [
+          "SPLUNK CLOUD SUBSCRIPTION RENEWAL FOR POP 9/27/26-9/26/27.",
+          "COGNITIVE CLOUD SOFTWARE LICENSE AND PDUS",
+          "NIAGARA NETWORKS TAPS"
+        ]
+      },
+      "fitness_score": 99,
+      "score_components": [
+        "it_relevance=40 (6 marker(s))",
+        "activity=24 (8 award(s))",
+        "scale_fit=25 ($2,080,508)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-27, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, RENEWAL, SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "REGENCY CONSULTING INC",
+      "awards": 8,
+      "total_amount": 959796.4800000001,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80246_7571_NNG15SD61B_8000",
+      "award_ids": [
+        "36C25226F0425",
+        "7571TE26F65177",
+        "7571TE26F80189",
+        "7571TE26F80222",
+        "7571TE26F80241"
+      ],
+      "agencies": [
+        "Department of Energy",
+        "Department of Health and Human Services",
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "IA",
+        "ID",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SERVER",
+          "COMPUTER",
+          "LAPTOP",
+          "APPLICATION",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "HARDWARE",
+          "LAPTOP",
+          "PRINTER"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "CONSULTING"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 8,
+        "sample_descriptions": [
+          "REPLENISH IHS SHIPROCK SCANNERS, WITH SERVICE, 11 EA",
+          "HP LASERJET ENTERPRISE 6501DN WIRED LASER PRINTER, 14 EA FOR IHS YAKIMA",
+          "NLM OCCS HAS OVER 500 WEB AND APPLICATION SERVERS USING F5 LOCAL TRAFFIC MANAGER. THE LTM HARDWARE AND SOFTWARE ARE NEEDED TO SUPPORT OUR HIGH-AVAILABILITY ENVIRONMENT. MAINTENANCE IS NEEDED FOR HARDWARE FAILURE; SOFTWARE LICENSING IS NEEDED TO LEGAL"
+        ]
+      },
+      "fitness_score": 99,
+      "score_components": [
+        "it_relevance=40 (6 marker(s))",
+        "activity=24 (8 award(s))",
+        "scale_fit=25 ($959,796)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "BAHFED CORP",
+      "awards": 8,
+      "total_amount": 352650.8,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS26F00001628_1501_NNG15SD09B_8000",
+      "award_ids": [
+        "15JPSS26F00001628",
+        "273FCC26F0099",
+        "7571TE26F80223",
+        "7571TE26F80224",
+        "80NSSC26FA734"
+      ],
+      "agencies": [
+        "Department of Energy",
+        "Department of Health and Human Services",
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "CO",
+        "GA",
+        "KS"
+      ],
+      "latest_award_pop_start": "2026-10-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SAAS",
+          "INFORMATION TECHNOLOGY",
+          "BACKUP"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 8,
+        "sample_descriptions": [
+          "IBM DB2 CONTRACT CONSOLIDATION AND CO-TERMING",
+          "VOUND INTELLA ON DEMAND TRAINING",
+          "MOVEIT LICENSING AND SOFTWARE MAINTENANCE"
+        ]
+      },
+      "fitness_score": 99,
+      "score_components": [
+        "it_relevance=40 (5 marker(s))",
+        "activity=24 (8 award(s))",
+        "scale_fit=25 ($352,651)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-10-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "STERLING COMPUTERS CORPORATION",
+      "awards": 7,
+      "total_amount": 1438967.93,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70FA3026F00000235_7022_NNG15SC49B_8000",
+      "award_ids": [
+        "140D0426F0976",
+        "28321326FDX030140",
+        "70FA3026F00000228",
+        "70FA3026F00000229",
+        "70FA3026F00000235"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "DC",
+        "MD",
+        "SD"
+      ],
+      "latest_award_pop_start": "2026-09-29",
+      "evidence": {
+        "it_markers": [
+          "SAAS",
+          "NETWORK",
+          "COMPUTER",
+          "INFRASTRUCTURE",
+          "DIGITAL"
+        ],
+        "reseller_markers": [
+          "HARDWARE",
+          "MONITOR"
+        ],
+        "services_markers": [
+          "MAINTENANCE AND"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 7,
+        "sample_descriptions": [
+          "CONTRACTOR TO PROVIDE DELL AND LOGITECH PRODUCTS HEREIN.",
+          "CONTRACTOR TO PROVIDE 23 DELL PRO 16 PLUS (PB16250) BASE, 46 DELL ULTRASHARP 27 MONITOR - U2724D, GOV, AND 61 DELL PRO DOCK WD25Z GOV.",
+          "STERLING COMPUTERS:1110316 [26-004698]"
+        ]
+      },
+      "fitness_score": 98,
+      "score_components": [
+        "it_relevance=40 (5 marker(s))",
+        "activity=23 (7 award(s))",
+        "scale_fit=25 ($1,438,968)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-29, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "BLUE TECH INC.",
+      "awards": 7,
+      "total_amount": 237252.43000000002,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70FA3026P00000035_7022_-NONE-_-NONE-",
+      "award_ids": [
+        "123J1926F0035",
+        "1331L526F13OS1234",
+        "15JA0526F00000361",
+        "19AQMA26F0116",
+        "61320626F0057"
+      ],
+      "agencies": [
+        "Consumer Product Safety Commission",
+        "Department of Agriculture",
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "CA",
+        "DC",
+        "GA"
+      ],
+      "latest_award_pop_start": "2026-10-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "NETWORK",
+          "COMPUTER",
+          "MODERNIZATION"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "PRINTER"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 7,
+        "sample_descriptions": [
+          "B4 NETWORK EQUIPMENT, CATV MODERNIZATION",
+          "IT ELECTRONIC COMPUTER COMPONENTS",
+          "RICOH PRINTER ANNUAL SUPPORT RENEWAL"
+        ]
+      },
+      "fitness_score": 98,
+      "score_components": [
+        "it_relevance=40 (5 marker(s))",
+        "activity=23 (7 award(s))",
+        "scale_fit=25 ($237,252)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-10-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, RENEWAL, PRINTER) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "GOVERNMENT ACQUISITIONS LLC",
+      "awards": 7,
+      "total_amount": 1530169.53,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMA26F0568_1900_NNG15SC78B_8000",
+      "award_ids": [
+        "19AQMA26F0544",
+        "19AQMA26F0568",
+        "19AQMS26F0112",
+        "70B04C26F00000751",
+        "70FA4026F00000216"
+      ],
+      "agencies": [
+        "Department of Homeland Security",
+        "Department of State"
+      ],
+      "pop_states": [
+        "DC",
+        "IL",
+        "OH"
+      ],
+      "latest_award_pop_start": "2026-09-02",
+      "evidence": {
+        "it_markers": [
+          "SAAS",
+          "SERVER",
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "PURCHASE OF",
+          "LAPTOP",
+          "MONITOR"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 7,
+        "sample_descriptions": [
+          "IT EQUIPMENT",
+          "POWEREDGE SERVER HW WARRANTY/MAINTENANCE",
+          "THE PURCHASE OF REPLACEMENT LAPTOPS THAT HAS BECOME NON-COMPLIANT DUE TO EXPIRED WARRANTY. PERIOD OF PERFORMANCE: 60DAYS AFTER AWARDED DATE 08/27/2026-11/26/2026"
+        ]
+      },
+      "fitness_score": 97,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=23 (7 award(s))",
+        "scale_fit=25 ($1,530,170)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-02, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (PURCHASE OF, LAPTOP, MONITOR) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "COUNTERTRADE PRODUCTS, INC.",
+      "awards": 6,
+      "total_amount": 1528472.8799999997,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS26F00001631_1501_NNG15SC65B_8000",
+      "award_ids": [
+        "05GA0A26F0053",
+        "140G0126F0287",
+        "140R8126F0035",
+        "15F06726F0001374",
+        "15JPSS26F00001592"
+      ],
+      "agencies": [
+        "Department of Justice",
+        "Department of the Interior",
+        "Government Accountability Office"
+      ],
+      "pop_states": [
+        "CO"
+      ],
+      "latest_award_pop_start": "2026-09-25",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SERVER"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 6,
+        "sample_descriptions": [
+          "HOOTSUITE LICENSES EO 14398",
+          "CELLEBRITE SOFTWARE",
+          "THIS REQUEST IS TO PURCHASE THE SOFTWARE BELOW THROUGH THE BUY IT MARKETPLACE ON NASA SEWP  COR: JASON A. PORTER, SR. SOURCING SPECIALIST: JEANNIE REID"
+        ]
+      },
+      "fitness_score": 96,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=22 (6 award(s))",
+        "scale_fit=25 ($1,528,473)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-25, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "AUGUST SCHELL ENTERPRISES, INC.",
+      "awards": 6,
+      "total_amount": 827084.68,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F00356_7571_NNG15SD80B_8000",
+      "award_ids": [
+        "60RRBH26F3051",
+        "693JK426F75030N",
+        "70B04C26F00000639",
+        "70B04C26F00000719",
+        "7571TE26F00356"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of Transportation"
+      ],
+      "pop_states": [
+        "DC",
+        "GA",
+        "IL"
+      ],
+      "latest_award_pop_start": "2026-09-29",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "COMPUTER",
+          "INFRASTRUCTURE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "PURCHASE OF",
+          "WORKSTATION"
+        ],
+        "services_markers": [
+          "MAINTENANCE AND"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 6,
+        "sample_descriptions": [
+          "F5 MAINTENANCE AND SUPPORT RENEWAL",
+          "CONSOLIDATED WORKSTATION/COMPUTER INFRASTRUCTURE EQUIPMENT PURCHASE FOR DHL FACILITIES",
+          "THE PURPOSE OF THIS DELIVERY ORDER IS TO PURCHASE OF METASPLOIT PRO USER SUBSCRIPTION - LICENSED PER USER PER ATTACHED QUOTE VIA SEWP RFQ REQUEST #375096."
+        ]
+      },
+      "fitness_score": 96,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=22 (6 award(s))",
+        "scale_fit=25 ($827,085)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-29, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "PANAMERICA COMPUTERS, INC.",
+      "awards": 6,
+      "total_amount": 217933.16,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00010_7529_HHSN316201500030W_7529",
+      "award_ids": [
+        "15JC1V26F00000158",
+        "693JK426F75031N",
+        "70B03C26F00000809",
+        "70Z0G326FUCPL0004",
+        "75N98026F00010"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "DC",
+        "MD",
+        "NM"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "CYBER",
+          "COMPUTER"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 6,
+        "sample_descriptions": [
+          "DELL COMPUTER HARDWARE FROM PANAMERICA COMPUTERS INC:1108918 [26-007533]",
+          "FY26 GRAYKEY MAGNET FORENSICS LICENSE",
+          "RENEWAL: MAGNET AXIOM CYBER AND MAGNET VERIFY SOFTWARE FOR THE CIVIL DIVISION"
+        ]
+      },
+      "fitness_score": 96,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=22 (6 award(s))",
+        "scale_fit=25 ($217,933)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "SWISH DATA CORPORATION",
+      "awards": 5,
+      "total_amount": 2030733.6099999999,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80249_7571_NNG15SC91B_8000",
+      "award_ids": [
+        "12314426F0338",
+        "70SBUR26F00000223",
+        "70SBUR26F00000224",
+        "70SBUR26F00000247",
+        "7571TE26F80249"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Health and Human Services",
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "VA",
+        "VT"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SERVER",
+          "NETWORK",
+          "COMPUTER",
+          "APPLICATION",
+          "INFRASTRUCTURE",
+          "STORAGE",
+          "HOSTING",
+          "DIGITAL",
+          "TECHNICAL SUPPORT"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "HARDWARE"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 5,
+        "sample_descriptions": [
+          "ACQUISITION OF QLIK SENSE ENTERPRISE SERVER SOFTWARE LICENSES, MAINTENANCE, AND TECHNICAL SUPPORT FOR THE FDA CENTER FOR DRUG EVALUATION AND RESEARCH (CDER), OFFICE OF TRANSLATIONAL SCIENCES (OTS), OFFICE OF COMPUTATIONAL SCIENCE (OCS). THE REQUIREME",
+          "INSTALLATION OF IT EQUIPMENT AT THE ORLANDO AND LOS ANGELES OFFICE SPACE.",
+          "FUNDING FOR NETWORK EQUIPMENT THAT IS REQUIRED FOR THE FULL BUILD OUT AT KANSAS CITY MISSION CENTER (BEACON BUILDING). IT INCLUDES ALL TELECOM ROOMS, MDF COMPUTER ROOM, AND SWA COMPUTER ROOM."
+        ]
+      },
+      "fitness_score": 95,
+      "score_components": [
+        "it_relevance=40 (11 marker(s))",
+        "activity=20 (5 award(s))",
+        "scale_fit=25 ($2,030,734)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
+      "awards": 5,
+      "total_amount": 835604.77,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_28321326FDX030123_2800_NNG15SD76B_8000",
+      "award_ids": [
+        "1333ND26FNB730197",
+        "140D0426F0971",
+        "28321326FDX030123",
+        "80NSSC26FA681",
+        "80NSSC26FA718"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of the Interior",
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "FL",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SERVER",
+          "STORAGE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "PROCUREMENT OF"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 5,
+        "sample_descriptions": [
+          "ANNUAL 12-MONTH SUBSCRIPTION SOFTWARE RENEWAL FOR ATLASSIAN BITBUCKET, CONFLUENCE, QUESTIONS FOR CONFLUENCE",
+          "AXWAY SECURE TRANSPORT SOFTWARE (FY26)",
+          "PROCUREMENT OF STORAGE SERVERS _ OU73-FY26-105-NEW"
+        ]
+      },
+      "fitness_score": 94,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=20 (5 award(s))",
+        "scale_fit=25 ($835,605)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, SUBSCRIPTION, PROCUREMENT OF) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "IMPRES TECHNOLOGY SOLUTIONS, INC",
+      "awards": 4,
+      "total_amount": 1695336.85,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1331L526F0367_1301_1331L525A13OS0016_1301",
+      "award_ids": [
+        "1331L526F0362",
+        "1331L526F0367",
+        "1331L526F0373",
+        "15F06726F0001258"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "MD",
+        "TX"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SERVER",
+          "NETWORK",
+          "STORAGE"
+        ],
+        "reseller_markers": [
+          "HARDWARE"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "ADDITIONAL STORAGE HARDWARE, SOFTWARE, VENDOR SUPPORT, AND SECURITY UPDATES",
+          "NETWORKING EQUIPMENT",
+          "ZETRON CONNECTED CARE SERVICES"
+        ]
+      },
+      "fitness_score": 94,
+      "score_components": [
+        "it_relevance=40 (4 marker(s))",
+        "activity=19 (4 award(s))",
+        "scale_fit=25 ($1,695,337)",
+        "verifiable=10"
+      ],
+      "flags": []
+    },
+    {
+      "recipient": "ARCHITECHTURE SOLUTIONS LLC",
+      "awards": 4,
+      "total_amount": 242871.60000000003,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80228_7571_NNG15SD42B_8000",
+      "award_ids": [
+        "05GA0A26F0045",
+        "7571TE26F80228",
+        "80NSSC26FA714",
+        "80NSSC26FA740"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Government Accountability Office",
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "MD",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-12",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "LAPTOP"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "THIS REQUIREMENT IS FOR THE OKTA SOFTWARE LICENSES.",
+          "DELL PRO TOWERS & DELL PRO LAPTOPS",
+          "THE PURPOSE OF THIS REQUEST IS TO AWARD A NEW CONTRACT FOR FADDOM  LICENSING"
+        ]
+      },
+      "fitness_score": 93,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=19 (4 award(s))",
+        "scale_fit=25 ($242,872)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-12, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, LAPTOP) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "CSP ENTERPRISES, LLC",
+      "awards": 12,
+      "total_amount": 1563822.8299999998,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1331L526FNB180214_1301_1331L523A13ES0062_1301",
+      "award_ids": [
+        "1331L526F0350",
+        "1331L526F0353",
+        "1331L526F0360",
+        "1331L526F0365",
+        "1331L526F0366"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "CO",
+        "DC",
+        "FL"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [
+          "LAPTOP",
+          "PORTAL"
+        ],
+        "reseller_markers": [
+          "PURCHASE OF",
+          "HARDWARE",
+          "LAPTOP"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 12,
+        "sample_descriptions": [
+          "PCS AND ACCESSORIES",
+          "LAPTOPS",
+          "DELL HARDWARE"
+        ]
+      },
+      "fitness_score": 91,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=25 (12 award(s))",
+        "scale_fit=25 ($1,563,823)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "RESELLER_SIGNAL — award descriptions read as product resale (PURCHASE OF, HARDWARE, LAPTOP) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "REGAN TECHNOLOGIES CORP",
+      "awards": 7,
+      "total_amount": 2136520.0400000005,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_95170026F0278_9568_NNG15SD39B_8000",
+      "award_ids": [
+        "13TECH26F0068",
+        "36C10B26F0296",
+        "36C24426F0398",
+        "47QACA26F0363",
+        "50310226F0108"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Veterans Affairs",
+        "General Services Administration"
+      ],
+      "pop_states": [
+        "CT",
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "COMPUTER",
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "LAPTOP"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 7,
+        "sample_descriptions": [
+          "USAGM COMPUTER BUY",
+          "APPLE MOBILE DEVICES",
+          "OPM OCIO LAPTOPS  APPLE EQUIPMENT"
+        ]
+      },
+      "fitness_score": 89,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=23 (7 award(s))",
+        "scale_fit=25 ($2,136,520)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "STANDARD-BLAZAR, LLC",
+      "awards": 6,
+      "total_amount": 423091.76,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000650_7014_NNG15SD70B_8000",
+      "award_ids": [
+        "140D0426F0983",
+        "140G0126F0293",
+        "2099CH26F00010",
+        "61320626F0060",
+        "70B02C26F00000650"
+      ],
+      "agencies": [
+        "Consumer Product Safety Commission",
+        "Department of Homeland Security",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "CA",
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 6,
+        "sample_descriptions": [
+          "VIDTERRA SOFTWARE LICENSING",
+          "WIRELESS ACCESS POINTS EQUIPMENT AND LICENSES",
+          "UNIVERSAL REPOSITORY MANAGEMENT SOFTWARE - JFROG ARTIFACTORY"
+        ]
+      },
+      "fitness_score": 88,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=22 (6 award(s))",
+        "scale_fit=25 ($423,092)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "DISYS SOLUTIONS, INC.",
+      "awards": 2,
+      "total_amount": 622241.4199999999,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140P5426F0013_1443_NNG15SD73B_8000",
+      "award_ids": [
+        "1331L526F0379",
+        "140P5426F0013"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "MD",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "NETWORK",
+          "INFRASTRUCTURE",
+          "MODERNIZATION"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "SOUTH FLORIDA NATIONAL PARKS WI-FI NETWORK MODERNIZATION AND INFRASTRUCTURE UPGRADE",
+          "CISCO MAINTENANCE & SUPPORT"
+        ]
+      },
+      "fitness_score": 88,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($622,241)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "LYME COMPUTER SYSTEMS, INC.",
+      "awards": 2,
+      "total_amount": 66316.4,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1333MF26F0051_1330_NNG15SC80B_8000",
+      "award_ids": [
+        "1333MF26F0051",
+        "89603026F0059"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Energy"
+      ],
+      "pop_states": [
+        "DC",
+        "NH"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "COMPUTER"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "PRINTER"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "RENEW 11 EXISTING MATLAB SOFTWARE LICENSES AND ASSOCIATED TOOLBOXES FOR NORTHWEST FISHERIES SCIENCE CENTER (NWFSC)",
+          "DELL PRO SLIM DESKTOPS AND HP COLOR LASER PRINTER"
+        ]
+      },
+      "fitness_score": 88,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($66,316)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, PRINTER) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "GOVSMART, INC.",
+      "awards": 20,
+      "total_amount": 3521705.11,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80199_7571_HHSN316201500027W_7529",
+      "award_ids": [
+        "12314426F0337",
+        "1305M326P0290",
+        "1333MF26F0056",
+        "13TECH26F0069",
+        "140P2126F0141"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "AL",
+        "DC",
+        "MA"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "CLOUD",
+          "SERVER",
+          "NETWORK",
+          "COMPUTER",
+          "ENDPOINT",
+          "MIGRATION"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "PURCHASE OF",
+          "HARDWARE",
+          "MONITOR"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "MIGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 20,
+        "sample_descriptions": [
+          "NIMH DELL POWEREDGE R760 062105 2U SERVER",
+          "DIMENSIONS RESEARCH SECURITY (DRS) SUBSCRIPTION",
+          "INFOBLOX IS UTILIZED TO PROVIDE ALL NETWORK ENDPOINTS (COMPUTER, SERVERS, MULTIFUNCTION DEVICES ETC.) A WAY TO CONNECT TO THE DOT NETWORK AND EACH OTHER USING DYNAMIC HOST CONNECTION PROTOCOL (DHCP) SERVICES. FURTHERMORE, THE HARDWARE ALSO PROVIDES A"
+        ]
+      },
+      "fitness_score": 87,
+      "score_components": [
+        "it_relevance=40 (8 marker(s))",
+        "activity=25 (20 award(s))",
+        "scale_fit=12 ($3,521,705)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "CTG FEDERAL, LLC",
+      "awards": 5,
+      "total_amount": 2114995.29,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA741_8000_NNG15SD12B_8000",
+      "award_ids": [
+        "15JPPS26F00000138",
+        "70SBUR26F00000228",
+        "80NSSC26FA708",
+        "80NSSC26FA721",
+        "80NSSC26FA741"
+      ],
+      "agencies": [
+        "Department of Homeland Security",
+        "Department of Justice",
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "DC",
+        "MD",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [
+          "BACKUP",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 5,
+        "sample_descriptions": [
+          "NETAPP E-SERIES SUPPORT CONTRACT FOR RED ROVER SYSTEM",
+          "FY26 REQUIREMENT FY26 NCS CLASSIFIED CISCO WEB SECURITY XAAS SUBSCRIPTION CO: RAYCELA SIMMS TECH POC: STEPHEN SOMERVILLE THIS REQUEST IS IDENTIFIED AS A MISSION ESSENTIAL REQUIREMENT",
+          "CSPD - FY26 HYCU BACKUP PURCHASE: SOCI"
+        ]
+      },
+      "fitness_score": 86,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=20 (5 award(s))",
+        "scale_fit=25 ($2,114,995)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, SUBSCRIPTION, HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "KAIVA SERVICES, LLC",
+      "awards": 1,
+      "total_amount": 287803.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00109_7571_-NONE-_-NONE-",
+      "award_ids": [
+        "7571TE26P00109"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "UT"
+      ],
+      "latest_award_pop_start": "2026-08-31",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "NETWORK",
+          "TECHNICAL SUPPORT"
+        ],
+        "reseller_markers": [
+          "HARDWARE"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "THE REQUIRED SERVICE IS A MAINTENANCE CONTRACT FOR IHS TO RECEIVE HARDWARE, SOFTWARE AND TECHNICAL SUPPORT FOR CISCO NETWORK EQUIPMENT. TO MEET CUSTOMER REQUIREMENTS FOR THIS SERVICE, CISCO OFFER A BRANDED SUPPORT SERVICE MARKETED AS CISCO SMARTNET."
+        ]
+      },
+      "fitness_score": 86,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($287,803)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-08-31, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "DYNAMIC SYSTEMS INC",
+      "awards": 1,
+      "total_amount": 68033.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_13TECH26F0064_1323_NNG15SC69B_8000",
+      "award_ids": [
+        "13TECH26F0064"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-22",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "MAINTENANCE RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ORACLE WEBLOGIC TI TRANSITION SOFTWARE LICENSES AND MAINTENANCE RENEWAL IT PACT 26-53  DBIT 125141"
+        ]
+      },
+      "fitness_score": 86,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($68,033)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-22, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, RENEWAL, MAINTENANCE RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.",
+      "awards": 3,
+      "total_amount": 144274.01,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26F0101_8000_47QTCA18D0081_4732",
+      "award_ids": [
+        "12314426F0342",
+        "70RDA226FR0000026",
+        "80NSSC26F0101"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Homeland Security",
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "DC",
+        "LA",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 3,
+        "sample_descriptions": [
+          "JMP SOFTWARE RENEWAL",
+          "SAS LICENSES ARE USED TO INGEST DATA FILES CREATED FROM OTHER STATISTICAL PACKAGES TO BETTER SUMMARIZE DATA INTO ONE SAS PROGRAMS TO SUPPORT MULTIPLE PROGRAMS OF VARIOUS APHIS PROGRAMS (VETERINARY SERVICES, PLANT PROTECTION QUARANTINE, AND WILDLIFE S",
+          "SAS SOFTWARE MAINTENANCE"
+        ]
+      },
+      "fitness_score": 83,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=17 (3 award(s))",
+        "scale_fit=25 ($144,274)",
+        "verifiable=10"
+      ],
+      "flags": []
+    },
+    {
+      "recipient": "FOUR POINTS TECHNOLOGY, L.L.C.",
+      "awards": 5,
+      "total_amount": 4871935.19,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80206_7571_47QTCA19D00MP_4732",
+      "award_ids": [
+        "05GA0A26K0078",
+        "36C24626F0196",
+        "70T03026F7667N087",
+        "7571TE26F80206",
+        "75N98026F00011"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "MD",
+        "NC",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-14",
+      "evidence": {
+        "it_markers": [
+          "CLOUD",
+          "CYBER",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "MONITOR"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 5,
+        "sample_descriptions": [
+          "NETSKOPE CLOUD SECURITY PLATFORM WILL BE UTILIZED AS PART OF ITS ENTERPRISE CYBERSECURITY ARCHITECTURE TO PROVIDE CLOUD ACCESS SECURITY BROKER (CASB).",
+          "BPA CALL FOR AMAZON WEB SERVICES SUPPORTING AMAZON WEB SERVICES GENERAL SUPPORT SERVICES (TAWS) PROGRAM AND THE HUMAN CAPITAL (HC) SERVEU SYSTEM.",
+          "AZURE CLOUD SERVICES FOR AVD CONSUMPTION. THIS IS A FIRM-FIXED UNIT PRICE TO BE PAID MONTHLY. 1 CR  1 CREDIT."
+        ]
+      },
+      "fitness_score": 81,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=20 (5 award(s))",
+        "scale_fit=12 ($4,871,935)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-14, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "PARAGON MICRO INC",
+      "awards": 2,
+      "total_amount": 308161.5,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_89303726PEM000353_8900_-NONE-_-NONE-",
+      "award_ids": [
+        "140G0126F0143",
+        "89303726PEM000353"
+      ],
+      "agencies": [
+        "Department of Energy",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "IL",
+        "SC"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "STORAGE"
+        ],
+        "reseller_markers": [
+          "SUBSCRIPTION",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "THE PURPOSE OF THIS AWARD IS TO AWARD PARAGON MICRO, INC. FOR PURE STORAGE ANNUAL SOFTWARE AND HARDWARE MAINTENANCE SUBSCRIPTIONS.",
+          "WAVERUNNER PANEL PCS"
+        ]
+      },
+      "fitness_score": 80,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($308,162)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "RESELLER_SIGNAL — award descriptions read as product resale (SUBSCRIPTION, HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "G. C. MICRO CORPORATION",
+      "awards": 2,
+      "total_amount": 82790.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_692M1526F00255_6920_NNG15SC75B_8000",
+      "award_ids": [
+        "692M1526F00255",
+        "75D30126F21467"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of Transportation"
+      ],
+      "pop_states": [
+        "GA",
+        "NJ"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "PROCUREMENT OF"
+        ],
+        "services_markers": [
+          "ENGINEERING",
+          "INTEGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "PROCUREMENT OF TWO VARJO XR-4 SECURE EDITION, FOCAL EDITION HEADSETS, ALONG WITH A SOLUTIONS ENGINEERING & INTEGRATION SUPPORT PACKAGE.",
+          "EO 14398  SOFTWARE LICENSES"
+        ]
+      },
+      "fitness_score": 80,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($82,790)",
+        "verifiable=10"
+      ],
+      "flags": []
+    },
+    {
+      "recipient": "IT1 SOURCE LLC",
+      "awards": 2,
+      "total_amount": 54169.76,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00025_7529_HHSN316201500059W_7529",
+      "award_ids": [
+        "7571TE26F65184",
+        "75N98026F00025"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "AZ",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "BIORENDER LICENSES & SOFTWARE SUPPORT",
+          "PURCHASE THE FOLLOWING: BIORENDER LICENSES"
+        ]
+      },
+      "fitness_score": 80,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($54,170)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "I360TECHNOLOGIES INC.",
+      "awards": 1,
+      "total_amount": 1367501.12,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F0871_1406_47QTCA20D008V_4732",
+      "award_ids": [
+        "140D0426F0871"
+      ],
+      "agencies": [
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [
+          "O&M",
+          "OPERATIONS AND MAINTENANCE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "OPERATIONS",
+          "O&M"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ORACLE FEDERAL FINANCIAL (OFF) OPERATIONS AND MAINTENANCE (O&M) & UPGRADE SUPPORT"
+        ]
+      },
+      "fitness_score": 78,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($1,367,501)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "OPEN INTELLIGENCE, LLC",
+      "awards": 1,
+      "total_amount": 493630.87,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00001_7529_75N96025A00001_7529",
+      "award_ids": [
+        "75N98026F00001"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "NC"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [
+          "APPLICATION",
+          "MODERNIZATION"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES",
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "CALL ORDER 4 (CO4): APPLICATION DEVELOPMENT, MODERNIZATION, AND ENHANCEMENT SERVICES FOR APPLICATIONS UNDER GADS-4"
+        ]
+      },
+      "fitness_score": 78,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($493,631)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "BLUE RASTER L.L.C.",
+      "awards": 1,
+      "total_amount": 119500.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26F0547_12H2_47QTCA24D003K_4732",
+      "award_ids": [
+        "1232SA26F0547"
+      ],
+      "agencies": [
+        "Department of Agriculture"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-15",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "APPLICATION"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "REPAIR SOFTWARE APPLICATION - ARBORETUM BOTANICAL EXPLORER (ABE) MOBILE APPLICATION"
+        ]
+      },
+      "fitness_score": 78,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($119,500)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-15, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "TOTAL RESOURCE MANAGEMENT INC",
+      "awards": 1,
+      "total_amount": 77686.21,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026C00053_7529_-NONE-_-NONE-",
+      "award_ids": [
+        "75N98026C00053"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [
+          "LICENSES",
+          "APPLICATION"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "TECHNICAL SERVICE FOR NIH MAXIMO TRANSPORTATION SYSTEM FOR LICENSES, ENHANCEMENTS, MODIFICATIONS, UPGRADES AND APPLICATIONS SUPPORT."
+        ]
+      },
+      "fitness_score": 78,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($77,686)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "MINBURN TECHNOLOGY GROUP, LLC",
+      "awards": 4,
+      "total_amount": 304340.58,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C26226F0388_3600_NNG15SD34B_8000",
+      "award_ids": [
+        "140D0426F0966",
+        "36C24426F0390",
+        "36C24626F0201",
+        "36C26226F0388"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "CA",
+        "DC",
+        "PA"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "DATABRIDGE SUITE SOFTWARE CLINICAL INFORMATION SYSTEMS (CIS) B+4OYS",
+          "HOWARD MEDICAL HI-CARE CARTS AND INSTALLATION",
+          "CODE CORPORATION BCMA WIRELESS BARCODE SCANNERS TO INCLUDE ALL ACCESSORY COMPONENTS REQUIRED FOR EACH UNIT. VA-2700 CR2702 FIPS WIRELESS"
+        ]
+      },
+      "fitness_score": 77,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=19 (4 award(s))",
+        "scale_fit=25 ($304,341)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "FLYWHEEL DATA LLC",
+      "awards": 3,
+      "total_amount": 234026.55,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F65010_7571_HHSN316201500067W_7529",
+      "award_ids": [
+        "19AQMM26F1243",
+        "28321326FDX030137",
+        "7571TE26F65010"
+      ],
+      "agencies": [
+        "Department of Health and Human Services",
+        "Department of State",
+        "Social Security Administration"
+      ],
+      "pop_states": [
+        "MD",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 3,
+        "sample_descriptions": [
+          "ATEMPO MIRIA RENEWAL - NIH/NEI",
+          "CISCO HARDWARE BUY",
+          "TO PROCURE CODER ENTERPRISE PLATFORM FOR GOVERNMENT SOFTWARE WITH PREMIUM SUPPORT FOR 100 USERS. PERIOD OF PERFORMANCE 9/1/2026 TO 8/31/2027."
+        ]
+      },
+      "fitness_score": 75,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=17 (3 award(s))",
+        "scale_fit=25 ($234,027)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "ATP GOV, LLC",
+      "awards": 2,
+      "total_amount": 210572.33000000002,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F1047_1406_NNG15SC58B_8000",
+      "award_ids": [
+        "140D0426F1047",
+        "47QACA26F0365"
+      ],
+      "agencies": [
+        "Department of the Interior",
+        "General Services Administration"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-25",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "WORKSTATION"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES",
+          "MAINTENANCE AND"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "ACHP NVIDIA WORKSTATIONS - EO14398",
+          "TRAKA SOFTWARE MAINTENANCE AND SUPPORT SERVICES"
+        ]
+      },
+      "fitness_score": 72,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($210,572)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-25, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "OGIS COMMUNICATION GROUP INC",
+      "awards": 2,
+      "total_amount": 83148.49,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_65310226F00006_6500_NNG15SD13B_8000",
+      "award_ids": [
+        "29FTC126F0059",
+        "65310226F00006"
+      ],
+      "agencies": [
+        "Federal Maritime Commission",
+        "Federal Trade Commission"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SAAS"
+        ],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "CAV ENTERPRISE-FEDERAL (SAAS)",
+          "SPROUT RENEWAL 2026"
+        ]
+      },
+      "fitness_score": 72,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($83,148)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "FSR CONSULTING LLC",
+      "awards": 2,
+      "total_amount": 65495.94,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1468_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1399",
+        "80NSSC26P1468"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "PA"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "CONSULTING"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "GORE RF CABLES",
+          "SIEMENS MB SOFTWARE RENNEWAL"
+        ]
+      },
+      "fitness_score": 72,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($65,496)",
+        "verifiable=10"
+      ],
+      "flags": []
+    },
+    {
+      "recipient": "NCS TECHNOLOGIES INC",
+      "awards": 1,
+      "total_amount": 711844.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_88310326F00191_8800_NNG15SD85B_8000",
+      "award_ids": [
+        "88310326F00191"
+      ],
+      "agencies": [
+        "National Archives and Records Administration"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "LAPTOP"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "CLASS III - ADVANCED LAPTOPS"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($711,844)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LAPTOP) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "WESTWIND COMPUTER PRODUCTS, INC.",
+      "awards": 1,
+      "total_amount": 621946.06,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F1224_1900_NNG15SD04B_8000",
+      "award_ids": [
+        "19AQMM26F1224"
+      ],
+      "agencies": [
+        "Department of State"
+      ],
+      "pop_states": [
+        "NM"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [
+          "COMPUTER"
+        ],
+        "reseller_markers": [
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "CVS_ICASS EPIC SUPPLEMENTAL HARDWARE"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($621,946)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "VERTOSOFT, LLC",
+      "awards": 1,
+      "total_amount": 522417.88,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_69319526PO00008_6955_-NONE-_-NONE-",
+      "award_ids": [
+        "69319526PO00008"
+      ],
+      "agencies": [
+        "Department of Transportation"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [
+          "CLOUD"
+        ],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "MICROSTRATEGY CLOUD LICENSE RENEWAL."
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($522,418)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "TECHANAX LLC",
+      "awards": 1,
+      "total_amount": 425222.96,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0336_3600_NNG15SD24B_8000",
+      "award_ids": [
+        "36C10B26F0336"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "NJ"
+      ],
+      "latest_award_pop_start": "2026-09-03",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "LIFERAY ANNUAL SOFTWARE SUBSCRIPTION"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($425,223)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-03, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "ABBA TECHNOLOGIES, INC.",
+      "awards": 1,
+      "total_amount": 349724.48,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_47QACA26F0382_4732_NNG15SD59B_8000",
+      "award_ids": [
+        "47QACA26F0382"
+      ],
+      "agencies": [
+        "General Services Administration"
+      ],
+      "pop_states": [
+        "PA"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [
+          "LAPTOP"
+        ],
+        "reseller_markers": [
+          "LAPTOP"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "OPM OCIO LAPTOPS  DELL EQUIPMENT"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($349,724)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LAPTOP) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "WILDFLOWER INTERNATIONAL, LTD.",
+      "awards": 1,
+      "total_amount": 340241.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA723_8000_NNG15SD05B_8000",
+      "award_ids": [
+        "80NSSC26FA723"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "NM"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "WIND RIVER SEMICS LICENSES"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($340,241)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "N+1 TECHNOLOGIES, LLC",
+      "awards": 1,
+      "total_amount": 259325.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_47J00026F0022_4704_NNG15SC87B_8000",
+      "award_ids": [
+        "47J00026F0022"
+      ],
+      "agencies": [
+        "General Services Administration"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "LEGAL CASE MANAGEMENT SOFTWARE PLATFORM"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($259,325)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "STORSOFT TECHNOLOGY CORP",
+      "awards": 1,
+      "total_amount": 195930.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB770193_1341_NNG15SD89B_8000",
+      "award_ids": [
+        "1333ND26FNB770193"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "MS"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [
+          "STORAGE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "OU77-FY26-213-NEWPROCUREMENT OF HIGH-SPEED STORAGE FOR GENERATIVE AI EVALUATIONS"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($195,930)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "SDVO SOLUTIONS, LLC",
+      "awards": 1,
+      "total_amount": 149994.77,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_63NLRB26F0072_6300_NNG15SD32B_8000",
+      "award_ids": [
+        "63NLRB26F0072"
+      ],
+      "agencies": [
+        "National Labor Relations Board"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-31",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "MAINTENANCE RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "DOCUMENTUM SUITE SOFTWARE MAINTENANCE RENEWAL"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($149,995)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-08-31, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, MAINTENANCE RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "COMMSKI LLC",
+      "awards": 1,
+      "total_amount": 85178.5,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1366_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1366"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "FL"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [
+          "NETWORK"
+        ],
+        "reseller_markers": [
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "AUDIOVISUAL, LIGHTING, NETWORKING, AND SUPPORTING HARDWARE TO SUPPORT UPGRADES TO THE MAIN BALLROOM MEETING SPACE LOCATED IN BUILDING 3 (ARC)"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($85,178)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "OPENTEAMS INC",
+      "awards": 1,
+      "total_amount": 70550.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00101_7571_-NONE-_-NONE-",
+      "award_ids": [
+        "7571TE26P00101"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES",
+          "ENGINEERING"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SOFTWARE ENGINEERING SERVICES"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($70,550)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "OFFICE REMEDIES, INC.",
+      "awards": 1,
+      "total_amount": 55440.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1386_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1386"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-22",
+      "evidence": {
+        "it_markers": [
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "TALEND LICENSES"
+        ]
+      },
+      "fitness_score": 70,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($55,440)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-22, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "A3J GROUP, LLC",
+      "awards": 1,
+      "total_amount": 24750.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026P01338_7529_-NONE-_-NONE-",
+      "award_ids": [
+        "75N98026P01338"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "LICENSES",
+          "COMPUTER",
+          "APPLICATION"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ANNUAL LICENSES AND SUBSCRIPTION ESCALATION FOR MAXIMO MOBILE ROUNDS APPLICATION SUPPORTING COMPUTERIZED MAINTENANCE MANAGEMENT AT CENTRAL UTILITY PLANT"
+        ]
+      },
+      "fitness_score": 69,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($24,750)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "FEDERAL RESOURCES CORPORATION",
+      "awards": 1,
+      "total_amount": 100.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F1170_1900_NNG15SC61B_8000",
+      "award_ids": [
+        "19AQMM26F1170"
+      ],
+      "agencies": [
+        "Department of State"
+      ],
+      "pop_states": [
+        "PA"
+      ],
+      "latest_award_pop_start": "2026-08-30",
+      "evidence": {
+        "it_markers": [
+          "MODERNIZATION",
+          "SUSTAINMENT",
+          "ANALYTICS"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "SUSTAINMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ANALYTICS PLATFORM MODERNIZATION & SUSTAINMENT"
+        ]
+      },
+      "fitness_score": 69,
+      "score_components": [
+        "it_relevance=39 (3 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($100)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "RADFORMATION, INC.",
+      "awards": 1,
+      "total_amount": 29170.32,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C26226P1422_3600_-NONE-_-NONE-",
+      "award_ids": [
+        "36C26226P1422"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "CA"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "CLEARCHECK AND AUTOCONTOUR SOFTWARE LICENSES."
+        ]
+      },
+      "fitness_score": 61,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($29,170)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "JEM COMPUTERS, INC.",
+      "awards": 1,
+      "total_amount": 18032.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1452_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1452"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "COMPUTER"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "MAINTENANCE RENEWAL",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "RARITAN HARDWARE AND SOFTWARE MAINTENANCE RENEWAL"
+        ]
+      },
+      "fitness_score": 61,
+      "score_components": [
+        "it_relevance=31 (2 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($18,032)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, MAINTENANCE RENEWAL, HARDWARE) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "AMERICAN WORDATA, INC",
+      "awards": 2,
+      "total_amount": 40573.15,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA739_8000_NNG15SC62B_8000",
+      "award_ids": [
+        "80NSSC26FA735",
+        "80NSSC26FA739"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "FL"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [
+          "SERVER"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "DELL SERVER PERCISION 7960 RACK X2",
+          "JETSON THOR DEVELOPER KIT"
+        ]
+      },
+      "fitness_score": 55,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=8 ($40,573)",
+        "verifiable=10"
+      ],
+      "flags": []
+    },
+    {
+      "recipient": "AATD LLC",
+      "awards": 4,
+      "total_amount": 303346.98,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140P2126F0133_1443_NNG15SD18B_8000",
+      "award_ids": [
+        "140P2126F0133",
+        "140P2126F0135",
+        "140P2126F0137",
+        "36C10B26F0285"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs",
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "FL",
+        "IA",
+        "MI"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "CASA RBMS 2ND TECH REFRESH",
+          "SLBE RBMS 2ND TECH REFRESH",
+          "GUEST WI-FI FOR DES MOINES"
+        ]
+      },
+      "fitness_score": 54,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=19 (4 award(s))",
+        "scale_fit=25 ($303,347)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "CYNERGY PROFESSIONAL SYSTEMS LLC",
+      "awards": 4,
+      "total_amount": 168712.51,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F1235_1900_NNG15SD20B_8000",
+      "award_ids": [
+        "15F06726F0001244",
+        "15JA0526F00000391",
+        "19AQMM26F1235",
+        "36C25026F0664"
+      ],
+      "agencies": [
+        "Department of Justice",
+        "Department of State",
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "CA",
+        "UT"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "MOTOROLA DUPLEX AND PARTS",
+          "OMAHA, NE (IDS CELLULAR UPGRADE)",
+          "FY26 SECURE PDS"
+        ]
+      },
+      "fitness_score": 54,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=19 (4 award(s))",
+        "scale_fit=25 ($168,713)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ANACAPA MICRO PRODUCTS, INC.",
+      "awards": 1,
+      "total_amount": 48312.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_77344426F0108_7700_NNG15SD08B_8000",
+      "award_ids": [
+        "77344426F0108"
+      ],
+      "agencies": [
+        "U.S. International Development Finance Corporation"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-28",
+      "evidence": {
+        "it_markers": [
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ABSOLUTE LICENSES RENEWAL"
+        ]
+      },
+      "fitness_score": 53,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($48,312)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-28, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (LICENSES, RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "VCLOUD TECH INC",
+      "awards": 1,
+      "total_amount": 28553.96,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70Z03826PM0000014_7008_-NONE-_-NONE-",
+      "award_ids": [
+        "70Z03826PM0000014"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "NC"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "PROCUREMENT OF"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "PROCUREMENT OF TOAD SOFTWARE RENEWAL"
+        ]
+      },
+      "fitness_score": 53,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($28,554)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, PROCUREMENT OF) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "GDC INTEGRATION, INC.",
+      "awards": 1,
+      "total_amount": 23010.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0353_1205_12314424A0012_1205",
+      "award_ids": [
+        "12314426F0353"
+      ],
+      "agencies": [
+        "Department of Agriculture"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [
+          "LICENSES"
+        ],
+        "reseller_markers": [
+          "LICENSES"
+        ],
+        "services_markers": [
+          "INTEGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ETRACKER LICENSES"
+        ]
+      },
+      "fitness_score": 53,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($23,010)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "CRAWFORDTECH GOVERNMENT SOLUTIONS LLC",
+      "awards": 1,
+      "total_amount": 20220.24,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_28321326P00050082_2800_-NONE-_-NONE-",
+      "award_ids": [
+        "28321326P00050082"
+      ],
+      "agencies": [
+        "Social Security Administration"
+      ],
+      "pop_states": [
+        "NY"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SUBSCRIPTION RENEWAL OF CRAWFORD PRO AFP SOFTWARE. PRIOR AWARD 28321325P00050127."
+        ]
+      },
+      "fitness_score": 53,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($20,220)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "IRSA UMAR",
+      "awards": 1,
+      "total_amount": 19076.7,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70Z03826PM0000015_7008_-NONE-_-NONE-",
+      "award_ids": [
+        "70Z03826PM0000015"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "NC"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "PROCUREMENT OF"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "PROCUREMENT OF VMETRIC SOFTWARE RENEWAL"
+        ]
+      },
+      "fitness_score": 53,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($19,077)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL, PROCUREMENT OF) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "MINDSEEKER, INC.",
+      "awards": 2,
+      "total_amount": 542079.84,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_95332426F0050_9543_95332424D0001_9543",
+      "award_ids": [
+        "95332426F0050",
+        "95332426F0061"
+      ],
+      "agencies": [
+        "Millennium Challenge Corporation"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-12",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "BEHAVIOR AND USER EXPERIENCE (BUX) DIRECTOR",
+          "LAND & PROPERTY RIGHTS SENIOR ADVISOR"
+        ]
+      },
+      "fitness_score": 49,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($542,080)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-12, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "GOVPLACE, LLC",
+      "awards": 2,
+      "total_amount": 263899.96,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70FBR626F00000019_7022_GS35F0179X_4732",
+      "award_ids": [
+        "70FBR626F00000019",
+        "91003126F0054"
+      ],
+      "agencies": [
+        "Department of Education",
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "MD",
+        "TX"
+      ],
+      "latest_award_pop_start": "2026-09-14",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "THE OFFICE OF REGIONAL ADMINISTRATION SUBMITTED A SIGNED APPROVAL LETTER FROM THE PROGRAM HEAD POINT OF CONTACT TO THE REGION VI PROCUREMENT BRANCH ON JUNE 17, 2026. THE PURPOSE OF THIS FIRM-FIXED PRICE DELIVERY ORDER IS TO PROCURE NUTANIX/HYCU LICEN",
+          "THIS WILL BE A NEW CONTRACT TO RENEW DCC'S MOODLE LICENSING."
+        ]
+      },
+      "fitness_score": 49,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=25 ($263,900)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "FUTURE_POP_START — 'latest_award' is 2026-09-14, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "METAPHASE CONSULTING LLC",
+      "awards": 1,
+      "total_amount": 2614865.77,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70FA2026F00000053_7022_70FA2022A00000001_7022",
+      "award_ids": [
+        "70FA2026F00000053"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-05",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES",
+          "CONSULTING"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "EPMSS CALL ORDER #25, GRANT MANAGEMENT AND TECHNICAL SERVICES (GMATS) SURGE SUPPORT - PHASE 2"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($2,614,866)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-05, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "COMMUNITY.COM, INC.",
+      "awards": 1,
+      "total_amount": 1333864.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_11316026P0007WHO_1100_-NONE-_-NONE-",
+      "award_ids": [
+        "11316026P0007WHO"
+      ],
+      "agencies": [
+        "Executive Office of the President"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-24",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SUBSCRIPTION SERVICES"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($1,333,864)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-24, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "COMMUNICATIONS RESOURCE INC",
+      "awards": 1,
+      "total_amount": 1145818.67,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_88310326F00193_8800_88310324A00027_8800",
+      "award_ids": [
+        "88310326F00193"
+      ],
+      "agencies": [
+        "National Archives and Records Administration"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "PHASES II - VI VIDEO SURVEILLANCE SYSTEMS AT DD EISENHOWER PRESIDENTIAL LIBRARY"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($1,145,819)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "PROGOV PARTNERS LLC",
+      "awards": 1,
+      "total_amount": 996384.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1331L526F0364_1301_1331L523D13OS0034_1301",
+      "award_ids": [
+        "1331L526F0364"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-30",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "2026 DITD SHAREPOINT SUPPORT"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($996,384)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "EIGENNET, LLC",
+      "awards": 1,
+      "total_amount": 429395.2,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_05GA0A26F0009_0559_47QTCA19D00A2_4732",
+      "award_ids": [
+        "05GA0A26F0009"
+      ],
+      "agencies": [
+        "Government Accountability Office"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SCANNING SERVICES"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($429,395)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "BRUCKEDWARDS, INC.",
+      "awards": 1,
+      "total_amount": 408185.8,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1605C326F00056_1605_1605C326A0002_1605",
+      "award_ids": [
+        "1605C326F00056"
+      ],
+      "agencies": [
+        "Department of Labor"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "FRANCES PERKINS BUILDING (FPB) CAMERA ENHANCEMENT PROJECT"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($408,186)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "GOVERNMENT RETIREMENT & BENEFITS, INC.",
+      "awards": 1,
+      "total_amount": 405000.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15PADH26F00000004_1550_15JPSS22A00000037_1501",
+      "award_ids": [
+        "15PADH26F00000004"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "FIRM FIXED PRICE TASK ORDER ON JMD'S GRB, INC. BPA"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($405,000)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "FEDSTORE CORPORATION",
+      "awards": 1,
+      "total_amount": 317810.57,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0325_3600_NNG15SD21B_8000",
+      "award_ids": [
+        "36C10B26F0325"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-28",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "LOADRUNNER EXECUTIVE ORDER 14398 ADDRESSING DEI DISCRIMINATION BY FEDERAL CONTRACTORS"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($317,811)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-28, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "SAVVEE INC.",
+      "awards": 1,
+      "total_amount": 291481.4,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70B06C26F00000125_7014_70B04C23A00000057_7014",
+      "award_ids": [
+        "70B06C26F00000125"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-31",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ADMINISTRATIVE SUPPORT PERSONNEL SERVICES"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($291,481)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-08-31, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "HIRECLIX LLC",
+      "awards": 1,
+      "total_amount": 258426.2,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140D0426F0947_1406_47QTCA25D00D7_4732",
+      "award_ids": [
+        "140D0426F0947"
+      ],
+      "agencies": [
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "MA"
+      ],
+      "latest_award_pop_start": "2026-09-16",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "LINKEDIN HIRING ENTERPRISE PROGRAM AND LINKEDIN ENTERPRISE LEARNING FOR ON-GOING AND AD-HOC AGENCY TRAINING AND PROFESSIONAL DEVELOPMENT NEEDS AS WELL AS WORKING TOWARDS THE CURRENT ADMINISTRATION MANDATE TO EXPLORE LEVERAGING AI."
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($258,426)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-16, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "MEDICOM TECHNOLOGIES INC",
+      "awards": 1,
+      "total_amount": 229416.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C25626P1038_3600_-NONE-_-NONE-",
+      "award_ids": [
+        "36C25626P1038"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "NC"
+      ],
+      "latest_award_pop_start": "2026-09-15",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "VISN 16 DICOM IMAGE SOLUTION"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($229,416)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-15, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ALLIANCE TECHNOLOGY GROUP, LLC",
+      "awards": 1,
+      "total_amount": 219547.58,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140R4026F0085_1425_NNG15SD62B_8000",
+      "award_ids": [
+        "140R4026F0085"
+      ],
+      "agencies": [
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "UT"
+      ],
+      "latest_award_pop_start": "2026-08-31",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "THIS IS A FIRM-FIXED PRICE DELIVERY ORDER FOR CAMERA EQUIPMENT UNDER THE NASA SEWP CONTRACT #:NNG15SD62B WITH ALLIANCE TECHNOLOGY GROUP."
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($219,548)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-08-31, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ACS CONSULTANCY SERVICES INC.",
+      "awards": 1,
+      "total_amount": 212160.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15UC0C26F00002071_1542_15UC0C24D00002131_1542",
+      "award_ids": [
+        "15UC0C26F00002071"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "NY"
+      ],
+      "latest_award_pop_start": "2026-09-04",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SHAREPOINT ADMINISTRATOR"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($212,160)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-04, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "PARYMON CORP",
+      "awards": 1,
+      "total_amount": 210202.8,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1305M226F0413_1330_47QTCA21D00FC_4732",
+      "award_ids": [
+        "1305M226F0413"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ADMINISTRATIVE AND PROFESSIONAL SERVICES CONTRACT"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($210,203)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "FEDDATA TECHNOLOGY SOLUTIONS, LLC",
+      "awards": 1,
+      "total_amount": 205821.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70B06C26F00000749_7014_NNG15SD84B_8000",
+      "award_ids": [
+        "70B06C26F00000749"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "DEVELOPMENT",
+          "OPERATIONS"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "350 BRAND NAME APPLE IPADS (IPADS) WITH CODI TEMPERED GLASS SCREEN PROTECTORS AND URBAN ARMOR GEAR RUGGED KEYBOARDS FOR USE BY CBP OFFICE OF TRADE (OT) TRADE OFFICE OF TRAINING AND DEVELOPMENT (OTD) FIELD OPERATIONS ACADEMY (FOA)"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($205,821)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "INTEGRATION TECHNOLOGIES GROUP, INC.",
+      "awards": 1,
+      "total_amount": 199766.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_05GA0A26F0059_0559_NNG15SC79B_8000",
+      "award_ids": [
+        "05GA0A26F0059"
+      ],
+      "agencies": [
+        "Government Accountability Office"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2025-09-28",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [
+          "INTEGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "THE PURPOSE OF THIS REQUEST IS TO ESTABLISH A STANDALONE RATIFICATION FOR FORCEPOINT SUBSCRIPTION. POP: 09/28/25-09/27/26"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($199,766)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "GALLERY SYSTEMS, INC.",
+      "awards": 1,
+      "total_amount": 117335.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_33301126PFP0109_3355_-NONE-_-NONE-",
+      "award_ids": [
+        "33301126PFP0109"
+      ],
+      "agencies": [
+        "National Gallery of Art"
+      ],
+      "pop_states": [
+        "NY"
+      ],
+      "latest_award_pop_start": "2026-07-15",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "TMS SERVICES."
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($117,335)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "MANUFACTURING SYSTEM SERVICES, INC",
+      "awards": 1,
+      "total_amount": 79800.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C26226P1526_3600_-NONE-_-NONE-",
+      "award_ids": [
+        "36C26226P1526"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "KY"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "BAR CODE SCANNER + VISTA APP"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($79,800)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "I3 FEDERAL LLC",
+      "awards": 1,
+      "total_amount": 74146.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0001313_1549_NNG15SD31B_8000",
+      "award_ids": [
+        "15F06726F0001313"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "CABLE MATERIALS QUANTIC"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($74,146)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "SYNERGY GROUP JV, LLC",
+      "awards": 1,
+      "total_amount": 66057.83,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F00347_7571_HHSN316201500036W_7529",
+      "award_ids": [
+        "7571TE26F00347"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "HEWLETT PACKARD/ARUBA WIRELESS EQUIPMENT"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($66,058)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "FORTREUM, LLC",
+      "awards": 1,
+      "total_amount": 60912.8,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1605TB26F00096_1605_47QTCA24D00D5_4732",
+      "award_ids": [
+        "1605TB26F00096"
+      ],
+      "agencies": [
+        "Department of Labor"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "AUDITOR LICENSE AND SUPPORT WITH A PERIOD OF PERFORMANCE 12 MONTH BASE PERIOD WITH 4 OPTION PERIODS WITH A PIEROD OF PERFORMANCE OF SEPTEMBER 30, 2026 - SEPTEMBER 29, 2031."
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($60,913)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-30, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "AXLE INFORMATICS, LLC",
+      "awards": 1,
+      "total_amount": 53243.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00001_7529_75N94022A00001_7529",
+      "award_ids": [
+        "75N98026F00001"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-27",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "NIAAA NPPS CALL ENHANCEMENTS"
+        ]
+      },
+      "fitness_score": 47,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($53,243)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "ORCHARD SOFTWARE CORP",
+      "awards": 1,
+      "total_amount": 0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15BPCC26F00000128_1540_15BNAS22D00000132_1540",
+      "award_ids": [
+        "15BPCC26F00000128"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "IN"
+      ],
+      "latest_award_pop_start": "2026-10-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "EXERCISE OPTION YEAR #4 10/01/26 - 09/30/27"
+        ]
+      },
+      "fitness_score": 45,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=0 ($0)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "ZERO_OBLIGATED — award(s) carry $0 obligated; the outreach hook must cite the award id, not a dollar figure",
+        "FUTURE_POP_START — 'latest_award' is 2026-10-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "ADVANCED CYBERSECURITY EXPERTS LLC",
+      "awards": 1,
+      "total_amount": 0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0305_1205_47QTCA24D0082_4732",
+      "award_ids": [
+        "12314426F0305"
+      ],
+      "agencies": [
+        "Department of Agriculture"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [
+          "CYBER"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "FY26-APH-MRP-ITD-CYBER_2- RISK MANAGEMENT FRAMEWORK (CYBER A&A) SECURITY CONTROL ASSESSMENT VENDORS TO PERFORM THE ANNUAL ASSESSMENT AND AUTHORIZATION (A&A) TO MAINTAIN AUTHORITY TO OPERATE (ATO)."
+        ]
+      },
+      "fitness_score": 45,
+      "score_components": [
+        "it_relevance=23 (1 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=0 ($0)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "ZERO_OBLIGATED — award(s) carry $0 obligated; the outreach hook must cite the award id, not a dollar figure"
+      ]
+    },
+    {
+      "recipient": "PARROCO PRODUCTION GROUP INC",
+      "awards": 1,
+      "total_amount": 132082.33,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326FFAC20002_7008_GS35F0545T_4730",
+      "award_ids": [
+        "70Z02326FFAC20002"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 0,
+        "sample_descriptions": [
+          "NEW AWARD"
+        ]
+      },
+      "fitness_score": 37,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=25 ($132,082)",
+        "verifiable=0"
+      ],
+      "flags": [
+        "UNVERIFIABLE_INDUSTRY — award descriptions carry no industry information; confirm the firm is an IT services firm before sending",
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-01, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "STRATEGIC COMMUNICATIONS LLC",
+      "awards": 2,
+      "total_amount": 3615810.01,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_12314426F0341_1205_NNG15SC90B_8000",
+      "award_ids": [
+        "12314426F0341",
+        "80NSSC26FA717"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 2,
+        "sample_descriptions": [
+          "USDA FY26 ORACLE JAVA",
+          "ORACLE JAVA SE RENEWAL"
+        ]
+      },
+      "fitness_score": 36,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=14 (2 award(s))",
+        "scale_fit=12 ($3,615,810)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "BETTER DIRECT, LLC",
+      "awards": 1,
+      "total_amount": 39321.36,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0001269_1549_NNG15SD65B_8000",
+      "award_ids": [
+        "15F06726F0001269"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "AZ"
+      ],
+      "latest_award_pop_start": "2026-09-26",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "POWER DISTRIBUTION UNITS (PDU) AND FIBER REQUESTED BY SECURE TECHNOLOGIES EXPLOITATION UNIT (STXU) WITHIN TECH 2."
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($39,321)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-26, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy"
+      ]
+    },
+    {
+      "recipient": "TEEL, INC.",
+      "awards": 1,
+      "total_amount": 39070.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15DDHQ26P00000892_1524_-NONE-_-NONE-",
+      "award_ids": [
+        "15DDHQ26P00000892"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "CT"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "TITLE: EL PASO - DRONE PROCESSING TOOLS - TEELTECH REQUESTOR: SCOTT D ROFFMAN AFT#: 2026-L9-0032 DELIVERY DATE: 07/31/2026"
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($39,070)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "STATELINE SOLUTION LLC",
+      "awards": 1,
+      "total_amount": 36191.51,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1402_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1402"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "MI"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "EQUIPMENT UPDATE - VIB75S1BOARD (3EA), SAMQM98C (1EA), OWLMTW5051000 (2EA)"
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($36,192)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    },
+    {
+      "recipient": "FORTIOR SOLUTIONS LLC",
+      "awards": 1,
+      "total_amount": 24330.37,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70Z03126FALAM0007_7008_47QTCA26D004L_4732",
+      "award_ids": [
+        "70Z03126FALAM0007"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "CA"
+      ],
+      "latest_award_pop_start": "2026-09-22",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "SUBSCRIPTION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "OMNIVEE SUBSCRIPTION PURCHASE FOR SECTOR HUMBOLDT BAY"
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($24,330)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "FUTURE_POP_START — 'latest_award' is 2026-09-22, in the future. It is a period-of-performance start date, not an award date; never use it as an award date in copy",
+        "RESELLER_SIGNAL — award descriptions read as product resale (SUBSCRIPTION) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "CHESAPEAKE SYSTEMS INTERNATIONAL, LLC",
+      "awards": 1,
+      "total_amount": 16928.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26P00105_7571_-NONE-_-NONE-",
+      "award_ids": [
+        "7571TE26P00105"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "NIH ORS HD492 ANNUAL SUPPORT RENEWAL PCA-ORS-05154"
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($16,928)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice",
+        "RESELLER_SIGNAL — award descriptions read as product resale (RENEWAL) rather than services. Kept: resellers do bid set-asides, but a 'should you bid' brief is a weaker fit — founder's call"
+      ]
+    },
+    {
+      "recipient": "MICROTECHNOLOGIES LLC",
+      "awards": 1,
+      "total_amount": 2758.75,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_140F1G26F0070_1448_NNG15SC42B_8000",
+      "award_ids": [
+        "140F1G26F0070"
+      ],
+      "agencies": [
+        "Department of the Interior"
+      ],
+      "pop_states": [
+        "GA"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "OR-OFFICE REG DIRECTOR-MACBOOK"
+        ]
+      },
+      "fitness_score": 30,
+      "score_components": [
+        "it_relevance=0 (0 marker(s))",
+        "activity=12 (1 award(s))",
+        "scale_fit=8 ($2,759)",
+        "verifiable=10"
+      ],
+      "flags": [
+        "SINGLE_AWARD — one award in the scan window; thin evidence of an ongoing federal practice"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "recipient": "EPOCH CONCEPTS LLC",
+      "awards": 1,
+      "total_amount": 25000000.08,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0297_3600_NNG15SD30B_8000",
+      "award_ids": [
+        "36C10B26F0297"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "CO"
+      ],
+      "latest_award_pop_start": "2026-08-31",
+      "evidence": {
+        "it_markers": [
+          "ENTERPRISE ASSET MANAGEMENT"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ENTERPRISE ASSET MANAGEMENT"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $25,000,000 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "1 award(s), $25,000,000"
+    },
+    {
+      "recipient": "NEW TECH SOLUTIONS, INC.",
+      "awards": 86,
+      "total_amount": 9089949.770000003,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_7571TE26F80239_7571_NNG15SC82B_8000",
+      "award_ids": [
+        "05GA0A26F0066",
+        "12760426F0073",
+        "1333MH26F0006",
+        "140D0426F0987",
+        "140R6026F0064"
+      ],
+      "agencies": [
+        "Commodity Futures Trading Commission",
+        "Department of Agriculture",
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "AL",
+        "AR",
+        "CA"
+      ],
+      "latest_award_pop_start": "2026-10-22",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "SAAS",
+          "CLOUD",
+          "INFORMATION TECHNOLOGY",
+          "NETWORK",
+          "COMPUTER",
+          "LAPTOP",
+          "INFRASTRUCTURE",
+          "STORAGE",
+          "BACKUP",
+          "WEB",
+          "DIGITAL"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "PURCHASE OF",
+          "PROCUREMENT OF",
+          "HARDWARE",
+          "LAPTOP",
+          "MONITOR"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES",
+          "MAINTENANCE AND",
+          "INTEGRATION"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 86,
+        "sample_descriptions": [
+          "PCA-CIT-07075: QLIKVIEW - LICENSES AND MAINTENANCE SUPPORT RENEWAL",
+          "GITM DESKTOP",
+          "GITM LAPTOP"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $9,089,950 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "86 award(s), $9,089,950"
+    },
+    {
+      "recipient": "ALVAREZ LLC",
+      "awards": 15,
+      "total_amount": 8889788.870000001,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_2099CE26F00011_2099_NNG15SD19B_8000",
+      "award_ids": [
+        "12314426F0346",
+        "1305M226F0412",
+        "1332KP26F0067",
+        "15F06726F0001387",
+        "2099CE26F00010"
+      ],
+      "agencies": [
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "DC",
+        "MD",
+        "NC"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "CYBER",
+          "SERVER",
+          "NETWORK",
+          "LAPTOP",
+          "INFRASTRUCTURE",
+          "STORAGE",
+          "DIGITAL"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "SUBSCRIPTION",
+          "HARDWARE",
+          "LAPTOP"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "DEVELOPMENT",
+          "ANALYSIS"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 15,
+        "sample_descriptions": [
+          "RAFE SERVERS",
+          "MANAGE ENGINE",
+          "DELL STORAGE AREA NETWORK (SAN) STORAGE AND SAN SWITCHES FOR MEMPHIS DATA CENTER"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $8,889,789 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "15 award(s), $8,889,789"
+    },
+    {
+      "recipient": "THUNDERCAT TECHNOLOGY, LLC",
+      "awards": 24,
+      "total_amount": 7824687.590000001,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926F3OTH3082_7009_NNG15SD26B_8000",
+      "award_ids": [
+        "1331L526F0372",
+        "140E0126F0071",
+        "15DDHQ26F00000736",
+        "15F06726F0001319",
+        "15JA0526F00000389"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Health and Human Services",
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "CA",
+        "DC",
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-10-26",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "CLOUD",
+          "CYBER",
+          "SERVER",
+          "NETWORK",
+          "COMPUTER",
+          "APPLICATION",
+          "VIRTUALIZ",
+          "WEB"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "HARDWARE"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 24,
+        "sample_descriptions": [
+          "2026 JUNIPER NETWORK EQUIPMENT",
+          "JUNIPER HARDWARE",
+          "THIS IS A FIRM-FIXED PRICE DELIVERY ORDER AGAINST NASA SEWP V TOTAL SMALL BUSINESS TRACK FOR JUNIPER ENTERPRISE LICENSE AND SUPPORT."
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $7,824,688 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "24 award(s), $7,824,688"
+    },
+    {
+      "recipient": "MX FEDERAL, LLC",
+      "awards": 1,
+      "total_amount": 6781101.19,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC26F0134_7530_47QTCA26D003T_4732",
+      "award_ids": [
+        "75FCMC26F0134"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SOFTWARE DEVELOPMENT"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES",
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "RECOMPETE FOR THE NATIONAL PLAN AND PROVIDER ENUMERATION SYSTEM (NPPES) PROGRAM. NPPES SUPPORTS SOFTWARE DEVELOPMENT, MAINTENANCE, AND OPERATIONAL SUPPORT AND ENUMERATOR SERVICES. THE MISSION- CRITICAL NATURE AND COMPLEXITY LEVEL OF NPPES, NPI ENUMER"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $6,781,101 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "1 award(s), $6,781,101"
+    },
+    {
+      "recipient": "V3GATE, LLC",
+      "awards": 10,
+      "total_amount": 6690370.34,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70FA3026F00000234_7022_NNG15SD27B_8000",
+      "award_ids": [
+        "15BPCC26F00000135",
+        "15DDHQ26F00000767",
+        "15F06726F0001356",
+        "36C10B26F0328",
+        "70B02C26F00000810"
+      ],
+      "agencies": [
+        "Department of Education",
+        "Department of Homeland Security",
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "CO",
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "LICENSES",
+          "CLOUD",
+          "NETWORK"
+        ],
+        "reseller_markers": [
+          "LICENSES",
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "MAINTENANCE RENEWAL",
+          "HARDWARE",
+          "MONITOR"
+        ],
+        "services_markers": [
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [
+          "TRAVEL"
+        ],
+        "informative_descriptions": 10,
+        "sample_descriptions": [
+          "CONTRACTOR TO PROVIDE 2 EACH DELL PRO 75 PLUS 4K TOUCH MONITOR - P7525QT717 AND 2 EACH CHIEF X-LARGE ADJUSTABLE MOBILE TV CART - FOR DISPLAYS 55-100\"\" - BLACK DELL FEDERAL SYSTEMS",
+          "ERWIN DATA MODELER SOFTWARE LICENSES AND MAINTENANCE SUPPORT IN SUPPORT OF EHRM-IO",
+          "THIS IS FOR A10 NETWORK HARDWARE AND SOFTWARE MAINTENANCE RENEWAL"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $6,690,370 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "10 award(s), $6,690,370"
+    },
+    {
+      "recipient": "AFFIGENT, LLC",
+      "awards": 4,
+      "total_amount": 6058957.109999999,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_89303026FEI000066_8900_89303022AIM000015_8900",
+      "award_ids": [
+        "28321326FDX030147",
+        "28321326FDX030148",
+        "7571TE26F80226",
+        "89303026FEI000066"
+      ],
+      "agencies": [
+        "Department of Energy",
+        "Department of Health and Human Services",
+        "Social Security Administration"
+      ],
+      "pop_states": [
+        "MD",
+        "MO",
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-26",
+      "evidence": {
+        "it_markers": [
+          "SAAS",
+          "CLOUD",
+          "INFRASTRUCTURE"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "MAINTENANCE RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 4,
+        "sample_descriptions": [
+          "THE U.S. ENERGY INFORMATION ADMINISTRATION (EIA), OFFICE OF RESOURCES AND TECHNOLOGY MANAGEMENT (ORTM), OFFICE OF ACQUISITION MANAGEMENT (OAM) AGENCY CATALOG ORDER UNDER AFFIGENT NASA SEWP CATALOG'S FOR ANNUAL ORACLE CLOUD INFRASTRUCTURE (OCI) S",
+          "THE SCOPE OF WORK COVERS THE SAAS PLATFORM, UPSTREAM/DATA BRAIN, THAT IS PROGRAMMED AND CONFIGURED FOR ENHANCED READINESS AND OPTIMIZATION VIA CONTINUOUS PLATFORM SUPPORT IN ORDER TO ACHIEVE THE FOLLOWING: EXPANSION AND ENRICHMENT OF THE DATASET AGGR",
+          "BANCTEC SCANNER SIX MONTH MAINTENANCE RENEWAL"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $6,058,957 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "4 award(s), $6,058,957"
+    },
+    {
+      "recipient": "FCN, INC.",
+      "awards": 28,
+      "total_amount": 5009206.219999999,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70RDA226FR0000044_7001_NNG15SC71B_8000",
+      "award_ids": [
+        "1331L526F0340",
+        "1331L526F0369",
+        "15F06726F0001372",
+        "1605TB26F00099",
+        "19AQMM26F1163"
+      ],
+      "agencies": [
+        "Department of Commerce",
+        "Department of Health and Human Services",
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "CA",
+        "DC",
+        "FL"
+      ],
+      "latest_award_pop_start": "2026-09-30",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE",
+          "SAAS",
+          "NETWORK",
+          "COMPUTER",
+          "LAPTOP",
+          "STORAGE",
+          "VTC",
+          "PROGRAM MANAGEMENT"
+        ],
+        "reseller_markers": [
+          "RENEWAL",
+          "SUBSCRIPTION",
+          "MAINTENANCE RENEWAL",
+          "HARDWARE",
+          "LAPTOP",
+          "MONITOR"
+        ],
+        "services_markers": [
+          "SERVICES",
+          "SUPPORT SERVICES"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 28,
+        "sample_descriptions": [
+          "PURPOSE OF AWARD IS TO RENEW HCL LOTUS DOMINO LICENSE FOR ELECTRONIC PROGRAM MANAGEMENT OFFICE (EPMO), PERIOD OF PERFORMANCE: 9/7/2026 TO 9/6/2027",
+          "THIS AWARD PROCURES LAPTOPS TO PROVIDE HOMELAND SECURITY INVESTIGATIONS NECESSARY EQUIPMENT FOR OPERATIONAL EFFECTIVENESS WHEN CONDUCTING INVESTIGATIONS.",
+          "TTB HQ CISCO EQUIPMENT TO UPGRADE VTC ROOMS"
+        ]
+      },
+      "rule": "R1_ABOVE_SCALE_CEILING",
+      "matched": "total_amount $5,009,206 > $5,000,000",
+      "why": "Obligations in this NAICS alone exceed the small-firm ceiling; this firm already has capture staff. NOTE: the scan understates totals, so this test is one-sided — over the line is decisive, under it proves nothing.",
+      "evidence_text": "28 award(s), $5,009,206"
+    },
+    {
+      "recipient": "TAHKOX E2 SERVICES, LLC",
+      "awards": 1,
+      "total_amount": 7609900.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00009_7529_75N98026D00023_7529",
+      "award_ids": [
+        "75N98026F00009"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-02",
+      "evidence": {
+        "it_markers": [
+          "CYBER"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "SERVICES",
+          "OPERATIONS"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "DCRI OPERATIONS, MAINTENANCES AND CYBER SECURITY"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "anc_tribal_subsidiary",
+      "matched": "\\bTAHKOX\\b",
+      "why": "Tahkox — Native corporation affiliate",
+      "evidence_text": "TAHKOX E2 SERVICES, LLC"
+    },
+    {
+      "recipient": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC",
+      "awards": 1,
+      "total_amount": 3053453.93,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_75N98026F00289_7529_47QTCA25D007V_4732",
+      "award_ids": [
+        "75N98026F00289"
+      ],
+      "agencies": [
+        "Department of Health and Human Services"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-09-24",
+      "evidence": {
+        "it_markers": [
+          "DATA MANAGEMENT",
+          "APPLICATION",
+          "INFRASTRUCTURE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [
+          "DEVELOPMENT"
+        ],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "INFRASTRUCTURE AND APPLICATION DESIGN, DEVELOPMENT AND MAINTENANCE; DATA MANAGEMENT, REPORTING, SHARING AND DISSEMINATION; SCIENTIFIC AND TECHNICAL USER SUPPORT, SYSTEM INSTALLATION AND SYSTEM VALIDATION SUPPORT"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "anc_tribal_subsidiary",
+      "matched": "\\bASRC\\b|ARCTIC SLOPE",
+      "why": "Arctic Slope Regional Corporation subsidiary (ANC)",
+      "evidence_text": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC"
+    },
+    {
+      "recipient": "LRP PUBLICATIONS, INC.",
+      "awards": 1,
+      "total_amount": 234520.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_36C10X26N0167_3600_36C10X24A0021_3600",
+      "award_ids": [
+        "36C10X26N0167"
+      ],
+      "agencies": [
+        "Department of Veterans Affairs"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-08",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 0,
+        "sample_descriptions": [
+          "TASK ORDER #3"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "non_it_by_name",
+      "matched": "\\bPUBLICATIONS?\\b|\\bPUBLISHING\\b",
+      "why": "Publisher, not an IT services firm",
+      "evidence_text": "LRP PUBLICATIONS, INC."
+    },
+    {
+      "recipient": "ELECTRICAL EQUIPMENT CO",
+      "awards": 1,
+      "total_amount": 77449.13,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1430_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1430"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "VA"
+      ],
+      "latest_award_pop_start": "2026-08-26",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [
+          "WORKSTATION"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [
+          "ALLEN-BRADLEY",
+          "CONTROLLOGIX"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ALLEN-BRADLEY CLX WORKSTATION & CONTROLLOGIX 5590 CONTROLLER"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "non_it_by_name",
+      "matched": "ELECTRICAL EQUIPMENT",
+      "why": "Electrical/industrial equipment distributor",
+      "evidence_text": "ELECTRICAL EQUIPMENT CO"
+    },
+    {
+      "recipient": "SNYDER PARTY RENTAL INC",
+      "awards": 1,
+      "total_amount": 24984.64,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926P70092945_7009_-NONE-_-NONE-",
+      "award_ids": [
+        "70US0926P70092945"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "SC"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [
+          "TENT",
+          "GENERATOR"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "THIS FIRM FIXED PRICED EMERGENCY ORDER IS TO PROVIDE TENTS, FANS, GENERATORS. NOTICE TO PROCEED WAS GIVEN ON 19 AUGUST 2026. THE PERIOD OF PERFORMANCE IS AUGUST 21-22, 2026."
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "non_it_by_name",
+      "matched": "PARTY RENTAL|\\bRENTAL[S]?\\b.*\\b(TENT|PARTY)",
+      "why": "Event/party rental company",
+      "evidence_text": "SNYDER PARTY RENTAL INC"
+    },
+    {
+      "recipient": "GRAY LOCAL MEDIA INC",
+      "awards": 1,
+      "total_amount": 16677.27,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_70US0926P70092946_7009_-NONE-_-NONE-",
+      "award_ids": [
+        "70US0926P70092946"
+      ],
+      "agencies": [
+        "Department of Homeland Security"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-08-24",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [
+          "ANTENNA SITE",
+          "ANTENNA LICENSE"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "RADIO ANTENNA LICENSE AGREEMENT ANTENNA SITE #027"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "non_it_by_name",
+      "matched": "LOCAL MEDIA|BROADCAST",
+      "why": "Broadcaster/media company",
+      "evidence_text": "GRAY LOCAL MEDIA INC"
+    },
+    {
+      "recipient": "SHI INTERNATIONAL CORP",
+      "awards": 1,
+      "total_amount": 15331.02,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19PCRD26KG190_1900_-NONE-_-NONE-",
+      "award_ids": [
+        "19PCRD26KG190"
+      ],
+      "agencies": [
+        "Department of State"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [
+          "SOFTWARE"
+        ],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "ACRYLIC WIFI SOFTWARE"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "large_reseller",
+      "matched": "SHI INTERNATIONAL",
+      "why": "Multi-billion-dollar global IT reseller",
+      "evidence_text": "SHI INTERNATIONAL CORP"
+    },
+    {
+      "recipient": "CARAHSOFT TECHNOLOGY CORP",
+      "awards": 1,
+      "total_amount": 4500.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_41311426P0009MSP_4100_-NONE-_-NONE-",
+      "award_ids": [
+        "41311426P0009MSP"
+      ],
+      "agencies": [
+        "Merit Systems Protection Board"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-10-01",
+      "evidence": {
+        "it_markers": [
+          "SECURITY AWARENESS"
+        ],
+        "reseller_markers": [
+          "RENEWAL"
+        ],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "SANS SECURITY AWARENESS TRAINING RENEWAL"
+        ]
+      },
+      "rule": "R2_NAME_EXCLUSION",
+      "category": "large_reseller",
+      "matched": "CARAHSOFT",
+      "why": "Top-tier federal software aggregator; billions in annual federal sales",
+      "evidence_text": "CARAHSOFT TECHNOLOGY CORP"
+    },
+    {
+      "recipient": "NEWCO INC",
+      "awards": 1,
+      "total_amount": 90900.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1418_8000_-NONE-_-NONE-",
+      "award_ids": [
+        "80NSSC26P1418"
+      ],
+      "agencies": [
+        "National Aeronautics and Space Administration"
+      ],
+      "pop_states": [
+        "SC"
+      ],
+      "latest_award_pop_start": "2026-08-25",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [
+          "RADIOGRAPHY"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "RADIOGRAPHY SYSTEM"
+        ]
+      },
+      "rule": "R3_NON_IT_DECISIVE",
+      "matched": "RADIOGRAPHY",
+      "why": "Award description names a non-IT physical deliverable. NAICS 541519 is a catch-all, so this firm is coded here without being an IT services firm.",
+      "evidence_text": "RADIOGRAPHY SYSTEM"
+    },
+    {
+      "recipient": "A & T MARKETING INC.",
+      "awards": 1,
+      "total_amount": 23210.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0001308_1549_NNG15SD58B_8000",
+      "award_ids": [
+        "15F06726F0001308"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-08-21",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [
+          "FLAT PANEL ANTENNA"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "FLAT PANEL ANTENNAS"
+        ]
+      },
+      "rule": "R3_NON_IT_DECISIVE",
+      "matched": "FLAT PANEL ANTENNA",
+      "why": "Award description names a non-IT physical deliverable. NAICS 541519 is a catch-all, so this firm is coded here without being an IT services firm.",
+      "evidence_text": "FLAT PANEL ANTENNAS"
+    },
+    {
+      "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+      "awards": 1,
+      "total_amount": 1285.95,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_1331L526F0313_1301_1331L521A13ES0013_1301",
+      "award_ids": [
+        "1331L526F0313"
+      ],
+      "agencies": [
+        "Department of Commerce"
+      ],
+      "pop_states": [
+        "MD"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [
+          "COPIER"
+        ],
+        "non_it_weak": [],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "COPIERS"
+        ]
+      },
+      "rule": "R3_NON_IT_DECISIVE",
+      "matched": "COPIER",
+      "why": "Award description names a non-IT physical deliverable. NAICS 541519 is a catch-all, so this firm is coded here without being an IT services firm.",
+      "evidence_text": "COPIERS"
+    },
+    {
+      "recipient": "SY ACQUISITIONS CO LLC",
+      "awards": 1,
+      "total_amount": 15500.0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_15B40326F00000140_1540_NNG15SC88B_8000",
+      "award_ids": [
+        "15B40326F00000140"
+      ],
+      "agencies": [
+        "Department of Justice"
+      ],
+      "pop_states": [
+        "CO"
+      ],
+      "latest_award_pop_start": "2026-08-28",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [
+          "DEINSTALLATION"
+        ],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "EO 14398 - SECURE FEDERAL TECH, BODY SCANNING SYSTEM DEINSTALLATION, SHIPPING, AND INSTALLATION FCI ENGLEWOOD AUGUST 2026  SEWP V NNG15SC88B"
+        ]
+      },
+      "rule": "R4_NON_IT_NO_COUNTERSIGNAL",
+      "matched": "DEINSTALLATION",
+      "why": "Non-IT signal in the award description with no IT signal anywhere in the firm's record.",
+      "evidence_text": "EO 14398 - SECURE FEDERAL TECH, BODY SCANNING SYSTEM DEINSTALLATION, SHIPPING, AND INSTALLATION FCI ENGLEWOOD AUGUST 2026  SEWP V NNG15SC88B"
+    },
+    {
+      "recipient": "ETIX, INC.",
+      "awards": 1,
+      "total_amount": 0,
+      "example_award_url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26P1068_1900_-NONE-_-NONE-",
+      "award_ids": [
+        "19AQMM26P1068"
+      ],
+      "agencies": [
+        "Department of State"
+      ],
+      "pop_states": [
+        "DC"
+      ],
+      "latest_award_pop_start": "2026-09-01",
+      "evidence": {
+        "it_markers": [],
+        "reseller_markers": [],
+        "services_markers": [],
+        "non_it_decisive": [],
+        "non_it_weak": [
+          "MUSEUM"
+        ],
+        "informative_descriptions": 1,
+        "sample_descriptions": [
+          "MUSEUM RESERVATION SYSTEM - UNDER MPT"
+        ]
+      },
+      "rule": "R4_NON_IT_NO_COUNTERSIGNAL",
+      "matched": "MUSEUM",
+      "why": "Non-IT signal in the award description with no IT signal anywhere in the firm's record.",
+      "evidence_text": "MUSEUM RESERVATION SYSTEM - UNDER MPT"
+    }
+  ],
+  "summary": {
+    "input": 121,
+    "kept": 100,
+    "excluded": 21,
+    "excluded_by_rule": {
+      "R1_ABOVE_SCALE_CEILING": 8,
+      "R2_NAME_EXCLUSION": 8,
+      "R3_NON_IT_DECISIVE": 3,
+      "R4_NON_IT_NO_COUNTERSIGNAL": 2
+    },
+    "flagged_kept": 95
+  },
+  "rules": {
+    "R0_SUPPRESSED": "Firm appears on state/suppression.json 'firms'.",
+    "R1_ABOVE_SCALE_CEILING": "total_amount > $5,000,000 in this NAICS/window. One-sided: the scan understates totals, so passing is not evidence of smallness.",
+    "R2_NAME_EXCLUSION": "Firm name matches a curated list of large resellers, OEMs, large integrators, ANC/tribal holding subsidiaries, or non-IT trades. This rule exists because the dollar test structurally cannot catch giants that self-certified small on one small order.",
+    "R3_NON_IT_DECISIVE": "Award description names a non-IT physical deliverable; excludes even when an IT-ish word co-occurs.",
+    "R4_NON_IT_NO_COUNTERSIGNAL": "Weak non-IT signal and no IT signal anywhere in the firm's record.",
+    "KEPT_FLAGS": "Kept firms may still carry flags (UNVERIFIABLE_INDUSTRY, MIXED_INDUSTRY, SINGLE_AWARD, ZERO_OBLIGATED, POP_START_NOT_AWARD_DATE). Flags inform the founder; they never drop a firm."
+  },
+  "measurement_limits": [
+    "total_amount is one-NAICS, one-window, page-capped: it UNDERSTATES every firm.",
+    "small_business on USAspending is per-award self-certification, not a size determination.",
+    "latest_award_pop_start is a period-of-performance start date, not an award date.",
+    "Industry classification reads free-text descriptions written by contracting officers."
+  ],
+  "naics": "541519",
+  "source": {
+    "prospects": "/home/user/research-/state/prospects-541519.json",
+    "scan_rows": 500,
+    "scan_capped": true
+  }
+}

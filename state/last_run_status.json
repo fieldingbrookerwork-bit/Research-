@@ -2,163 +2,159 @@
   "date": "2026-08-30",
   "status": "live-production",
   "run": {
-    "command": "verify-codes (keyless) -> ingest --naics 541519 --days 7 -> prospects --naics 541519 (keyless) -> sample x3 -> render -> brief-qc subagent",
-    "niche": "541519 Other computer related services (state/niche.json, chosen 2026-08-29)",
-    "selftest": "PASS -- 6 fixture opportunities, 4 matches, packet OK (run before any change, and again after each code change)",
-    "sam_requests_spent": 1,
-    "sam_requests_authorized": 1,
-    "sam_daily_budget": 10,
+    "command": "selftest -> ingest --naics 541519 --days 21 -> ingest --days 45 -> prospects (keyless) -> filter-prospects (NEW, keyless) -> sample x20 -> bid-brief-writer x20 -> outreach-drafter x20 -> brief-qc subagent",
+    "niche": "541519 Other computer related services (state/niche.json)",
+    "selftest": "PASS before changes and after every code change; new prospect_filter cases included",
+    "sam_requests_spent": 2,
+    "sam_requests_authorized": 2,
     "ledger_after_run": {
       "date": "2026-08-30",
-      "count": 1
+      "count": 3
     },
-    "mode": "one metered SAM ingest; everything else keyless USAspending"
+    "note": "Ledger began the session at 1 (the 2026-08-30 ingest committed by the previous run) and ends at 3. Exactly the 2 authorized requests were spent; everything else this run was keyless USAspending."
   },
-  "sam_budget_note": {
-    "instruction_premise": "The run instruction capped this session at 1 SAM request because ~8 of ~10 were spent 'earlier today (2026-08-29 UTC)' by prior sessions.",
-    "observed": "The container clock read 2026-08-30T02:41Z at session start. The UTC day had already rolled over, so those 8 requests were spent on the PREVIOUS UTC day and the budget had reset.",
-    "action_taken": "Honored the 1-request cap anyway. Underspending is never harmful; the cap was an explicit instruction and the true per-key limit is still unmeasured.",
-    "ledger_tracking_correction": "The instruction stated state/sam_request_ledger.json 'is now git-tracked'. It is NOT. .gitignore carries a '!state/sam_request_ledger.json' negation, but the file had never been committed (git log for that path is empty), so the fresh container started with no ledger at all and reported a full 10/10 budget. This commit is the first time the ledger is actually in git.",
-    "still_open": "SAM_DAILY_BUDGET remains unset (defaults to 10) and the real key limit is still unmeasured -- RUNBOOK step 1."
+  "supply_question": {
+    "question": "Can NAICS 541519 alone sustain a WEEKLY brief cadence?",
+    "verdict": "NO \u2014 not with a 10+ day response window as a quality bar. A second NAICS is required.",
+    "windows_measured": {
+      "7_days_previous_run": {
+        "notices": 40,
+        "open": 23,
+        "open_10plus": 6,
+        "open_10plus_with_sb_set_aside": 2
+      },
+      "21_days_this_run": {
+        "notices": 101,
+        "open": 43,
+        "open_10plus": 13,
+        "open_10plus_with_sb_set_aside": 4
+      },
+      "45_days_this_run": {
+        "notices": 119,
+        "open": 46,
+        "open_10plus": 14,
+        "open_10plus_with_sb_set_aside": 4
+      }
+    },
+    "distinct_solicitations_currently_biddable": 3,
+    "dedup_note": "The 4 qualifying notices in the 45-day window are only 3 DISTINCT solicitations: 19AQMM26R0250 (CODIS Phase III) appears twice as a Presolicitation and a Solicitation. Counting notices instead of solicitations overstates supply by a third here.",
+    "why_widening_the_window_does_not_help": "Going from 7 to 45 days of POSTING history took the qualifying pool from 2 notices to 4 and the distinct-solicitation pool to 3. It cannot do better: a wider posting window mostly adds notices whose deadlines have ALREADY PASSED. 71 of the 119 notices in the 45-day pull (60%) were expired at run time. The binding constraint is the arrival rate of new set-aside notices, not how far back we look.",
+    "flow_rate_the_number_that_matters": {
+      "sb_set_aside_notices_posted_in_45d": 59,
+      "distinct_solicitations": 58,
+      "per_week": 9.0,
+      "of_those_that_ever_had_a_10plus_day_window": {
+        "notices": 19,
+        "distinct": 18,
+        "per_week": 2.8
+      },
+      "interpretation": "About 9 small-business set-aside solicitations per week are posted in 541519, but only about 2.8 per week ever give a bidder 10 or more days to respond. Roughly two thirds of federal small-business notices in this niche are effectively closed to anyone who is not already watching daily. 2.8 briefable items per week across the WHOLE niche means an individual subscriber -- who matches only a subset by state, certification and capability -- can expect weeks with zero matches."
+    },
+    "consequence_for_the_product": "A weekly cadence promised on 541519 alone will miss weeks. Options, in order of cost: (1) add a second NAICS -- 541512 or 541513 -- and sell the pair as one subscription; (2) drop the 10-day bar to 7 days, which roughly doubles supply but ships briefs on notices a small firm realistically cannot answer; (3) sell a fortnightly cadence and stop promising weekly. Option 1 is the only one that does not degrade the product. This is a FOUNDER decision, not an agent decision.",
+    "set_aside_field_states": {
+      "SBA": 37,
+      "blank": 25,
+      "NONE": 23,
+      "SDVOSBC": 9,
+      "ISBEE": 3,
+      "WOSB": 1,
+      "SBP": 1,
+      "8A": 1,
+      "BICiv": 1,
+      "note": "counts over the 21-day pull; blank is NOT 'no set-aside'"
+    }
   },
-  "verify_codes": {
-    "command": "python3 -m bidscout verify-codes  (keyless, government-wide, 24 months, no --naics)",
-    "question": "Are HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv invalid codes or merely unused within 541519?",
-    "verdict": "SETTLED -- all five match ZERO awards GOVERNMENT-WIDE over 24 months. They are inert in a scoring filter. A sixth pre-existing code, ESB, is also zero.",
-    "inert_in_scoring_filter": true,
-    "codes_zero_government_wide": [
-      "8ACCiv",
-      "HS3",
-      "HS2Civ",
-      "ESB",
-      "RSBCiv",
-      "VSBCiv"
+  "prospect_filter": {
+    "new_capability": "bidscout/prospect_filter.py + `python3 -m bidscout filter-prospects --naics <code>`",
+    "output": "state/prospects-541519-filtered.json (now git-tracked via a .gitignore negation)",
+    "input": 121,
+    "kept": 100,
+    "excluded": 21,
+    "excluded_by_rule": {
+      "R1_ABOVE_SCALE_CEILING": 8,
+      "R2_NAME_EXCLUSION": 8,
+      "R3_NON_IT_DECISIVE": 3,
+      "R4_NON_IT_NO_COUNTERSIGNAL": 2
+    },
+    "contract": "Nothing is silently dropped. Every input firm appears in exactly one of kept/excluded, and every exclusion records the rule, the literal token that matched and the evidence text it matched in. Selftest asserts this.",
+    "most_important_finding": "A dollar-based size test CANNOT catch the self-certified giants, and the run instruction's premise that it could is wrong. In this scan CARAHSOFT appears at $4,500 total and SHI INTERNATIONAL at $15,331, because the scan only sees their 541519 self-certified-small awards over 24 months -- a sliver of their real business. Any ceiling low enough to catch them would delete most of the genuine small firms. That is why R2 (curated name list) exists as an INDEPENDENT rule, and the selftest pins the CARAHSOFT case specifically so a later edit cannot quietly delete the name list as redundant.",
+    "measurement_limits_recorded_in_the_output": [
+      "total_amount is one-NAICS, one-window, page-capped -- it UNDERSTATES every firm, so the ceiling test is ONE-SIDED: over the line is decisive, under it proves nothing.",
+      "USAspending small_business is per-award self-certification, not a size determination.",
+      "latest_award is a period-of-performance START date; renamed latest_award_pop_start in the filtered output and flagged when it is in the future. Never an award date.",
+      "Industry classification reads contracting-officer free text; some says nothing."
     ],
-    "per_code_awards_24mo_government_wide": {
-      "SBA": 219839,
-      "SBP": 2157,
-      "8A": 1028,
-      "8AN": 7147,
-      "8ACCiv": 0,
-      "HS3": 0,
-      "HS2Civ": 0,
-      "ESB": 0,
-      "RSBCiv": 0,
-      "VSBCiv": 0,
-      "HZC": 2438,
-      "HZS": 132,
-      "SDVOSBC": 15592,
-      "SDVOSBS": 1205,
-      "VSA": 61,
-      "VSS": 15,
-      "WOSB": 3403,
-      "WOSBSS": 235,
-      "EDWOSB": 131,
-      "EDWOSBSS": 22
-    },
-    "interpretation": "Government-wide zero cannot distinguish 'invalid code' from 'valid but never used' -- USAspending answers both with HTTP 200 and count 0 (the prior run's ZZZFAKE negative control behaved identically). Either way the effect on scoring is the same: these six contribute nothing and must not be counted as if they widen set-aside coverage. 14 of 20 codes are live and carry the entire set-aside metric.",
-    "consequence": "The 2026-08-29 finding stands and is now proven at the widest possible scope: commit 060ea45's set-aside code-list 'fix' was inert. No set-aside share anywhere in state/niche_scores.json changes because of it."
+    "bug_found_and_fixed_during_the_run": "The first version matched markers as bare substrings, so 'TENT' fired inside 'CONTENT' and excluded SOFTWARE INFORMATION RESOURCE CORP -- an Atlassian/Salesforce licensing firm, and one of the strongest prospects in the list. Markers now match on a LEADING word boundary, which still catches plurals and suffixes. That firm is now kept and ranks 2nd by fitness.",
+    "resellers_kept_deliberately": "Most of the top-ranked kept firms are hardware/software resellers (FCN-type VARs). They are NOT excluded: small resellers genuinely bid small-business set-asides and are plausible buyers. They carry a RESELLER_SIGNAL flag so the founder can decide commercially. This is the honest character of 541519's small-business awardee pool, and it should inform how the product is pitched."
   },
   "counts": {
-    "opportunities_ingested": 40,
-    "opportunities_still_open_at_run_time": 23,
-    "opportunities_expired_or_undated": 17,
-    "opportunities_open_with_10plus_days": 6,
-    "opportunities_open_with_10plus_days_and_sb_set_aside": 2,
-    "prospects_distinct_sb_awardees": 119,
-    "briefs_written": 3,
-    "briefs_rendered_to_html": 3
+    "opportunities_ingested_45d": 119,
+    "prospects_raw": 121,
+    "prospects_kept": 100,
+    "briefs_written": 20,
+    "drafts_written": 20
+  },
+  "outreach": {
+    "status": "20 DRAFTS PREPARED, NOTHING SENT. No email address was known and none was invented.",
+    "location": "state/outreach/2026-08-30/ (20 drafts + batch-log.md)",
+    "prospects_paired": 20,
+    "distinct_opportunities_used": 7,
+    "drafts_on_a_small_business_set_aside": 14,
+    "drafts_on_a_notice_with_no_or_blank_set_aside": 6,
+    "why_only_7_opportunities": "That is the entire currently-open, 10+ day pool in 541519 after removing a sole-source notice (142082-26-0440, GRAW Software Support -- not competable, must not be pitched) and a presolicitation whose deadline is 339 days out (1301381741, XACTA software). Several firms therefore share an opportunity. That is unavoidable at this supply and is disclosed in the batch log.",
+    "contact_lookup": "The `to:` line of every draft is [EMAIL \u2014 look up on sam.gov entity search]. The batch log carries the exact SAM.gov entity-search procedure and, per firm, the legal name and the USAspending award ID to use as the lookup key. UEIs were NOT available: normalize_award() does not collect recipient UEI, so the award ID is the key -- the founder reads the UEI off the USAspending award page, then searches it on SAM.gov.",
+    "compliance_checks_enforced_programmatically": [
+      "No URLs in any draft (generator asserts on http://, https://, www.) -- federal records are cited by solicitation number, SAM notice ID and USAspending award ID instead.",
+      "No attachments; the sample brief is inline plain text.",
+      "CAN-SPAM block with [POSTAL_ADDRESS] placeholder and the verbatim unsubscribe line.",
+      "Reply-to-inbox call to action; no website reference, no click.",
+      "Truthful subject naming the solicitation and the firm.",
+      "AI-assistance disclosure once in the message and once in the brief footer.",
+      "Body word count 130-145 against the skill's 110-160 limit.",
+      "Zero banned-list tokens (vetted/qualif*/winnable/guarantee/probability/strong chance) across all 20 briefs and all 20 drafts."
+    ],
+    "suppression": "state/suppression.json read before drafting; it is empty, so no firm was skipped. Because no addresses are known yet the check ran against FIRM NAMES. It MUST be re-run against the real email addresses once looked up, before sending. This is stated at the top of the batch log.",
+    "placeholders_the_founder_must_fill": [
+      "[POSTAL_ADDRESS]",
+      "[FOUNDER_NAME]",
+      "[FOUNDER_EMAIL]"
+    ]
   },
   "qc": {
-    "performed_by": "separate subagent per .claude/skills/brief-qc/SKILL.md; the writer did not QC its own work",
-    "pass": 3,
+    "performed_by": "a separate subagent per .claude/skills/brief-qc/SKILL.md; the writer did not QC its own work",
+    "scope": "the 20 briefs whose packets carry generated_utc 2026-08-30",
+    "pass": 20,
     "flag": 0,
-    "non_blocking_notes": 2,
-    "notes": [
-      "sample-sdvo-solutions--llc: 'hardware upgrade' is a hedged inference from the title 'VTC Upgrade' -- drives a question, not a claim.",
-      "sample-executive-information-systems--l-l-c: 'no expansion in the notice record' for MRITSS reaches slightly past the packet's fields, which carry a description_api URL but not the description body."
-    ],
-    "briefs_not_edited_after_qc": "Both notes are non-blocking and neither creates a false number, status, or link. The briefs were deliberately left unchanged so the PASS remains valid for the artifacts actually on disk."
-  },
-  "briefs": [
-    {
-      "id": "sample-strategic-communications-llc",
-      "firm": "STRATEGIC COMMUNICATIONS LLC",
-      "notice_id": "b7f5b788457e4942aeaff07043de2f9b",
-      "solicitation": "FA480026Q0082",
-      "title": "ACC SG Audio Visual and Teleconference (AV/VTC) Support",
-      "agency": "Air Force / Air Combat Command 633 CONS",
-      "set_aside": "Small Business Set Aside - Total",
-      "deadline": "2026-09-11T12:00:00-04:00",
-      "days_out_at_generation": 12,
-      "qc": "PASS"
-    },
-    {
-      "id": "sample-sdvo-solutions--llc",
-      "firm": "SDVO SOLUTIONS, LLC",
-      "notice_id": "426bb0b37ff049a39df6696e012b1d45",
-      "solicitation": "FA488726Q0058",
-      "title": "Luke AFB 56 OSS VTC Upgrade",
-      "agency": "Air Force / AETC 56 CONS",
-      "set_aside": "SDVOSB Set-Aside (FAR 19.14)",
-      "deadline": "2026-09-10T23:00:00-07:00",
-      "days_out_at_generation": 12,
-      "qc": "PASS"
-    },
-    {
-      "id": "sample-executive-information-systems--l-l-c",
-      "firm": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.",
-      "notice_id": "e271acf1da7840af8be174fc5f363a17",
-      "solicitation": "68HE0926Q0036",
-      "title": "Region 9 GIS Call Order - MRITSS",
-      "agency": "EPA Region 9 Contracting Office",
-      "set_aside": "none stated in the notice record (blank field, NOT confirmed full-and-open)",
-      "deadline": "2026-09-10T17:00:00-07:00",
-      "days_out_at_generation": 11,
-      "qc": "PASS"
-    }
-  ],
-  "code_changes": {
-    "file": "bidscout/usaspending_client.py",
-    "why": "The first three sample packets came back with award_context.award_count = 0 -- the entire award-history section, which is the brief tier's paid value, was empty for every real notice. Two independent defects, found in sequence.",
-    "defect_1": {
-      "name": "agency-name mismatch silently empties award context",
-      "detail": "SAM writes agency names in caps ('DEPT OF DEFENSE'); USAspending expects its own toptier spelling ('Department of Defense'). A mismatch returns HTTP 200 with ZERO rows -- no exception. award_context_for only degraded to NAICS-only inside an `except` block, so the fallback never fired.",
-      "evidence": "recent_awards(541519, agency_name='DEPT OF DEFENSE') -> 0 awards, no exception. agency_name='Department of Defense' -> 25. Same for EPA.",
-      "impact": "100% of brief-tier packets built from real SAM notices shipped an empty award-history section. Masked until now because no real brief had been produced.",
-      "fix": "Treat an empty agency-scoped result exactly like an error: degrade to NAICS-only and report scoped_to_agency = null (so the brief honestly says 'government-wide')."
-    },
-    "defect_2": {
-      "name": "median computed over an amount-sorted slice",
-      "detail": "recent_awards defaults to sort='Award Amount', order='desc'. award_context_for took that top-25-largest slice and computed a median from it. recent_awards' own docstring forbids exactly this: 'an amount-sorted slice is NOT a sample and must never be used for medians or population statistics.'",
-      "evidence": "Median comparable award read $393,219,198 for NAICS 541519, whose median small-business award is ~$59,998. Uncovered only after defect_1 was fixed and the section began populating.",
-      "impact": "Would have put a $393M 'median comparable award' in front of firms whose own awards run $150k -- a credibility-ending number in an outreach sample.",
-      "fix": "Sample award context by award recency (sort='Base Obligation Date') via a named _CONTEXT_SORT constant, keeping the ordering rule and recent_awards' docstring in agreement. Median now reads $48,673, consistent with the niche."
-    },
-    "docstring": "award_context_for's docstring said 'ranked by amount'; corrected to describe recency sampling.",
-    "selftest_after_change": "PASS",
-    "scope_note": "These are two small fixes inside one function, made mid-run because the alternative was shipping outreach samples with a knowingly hollow or absurd award section. No other behavior was touched."
+    "checks_per_brief": 13,
+    "batch_specific_check": "Award-ID/URL integrity: for every 'Why you're seeing this' line, the award ID in the sentence was compared against the CONT_AWD_<id> segment of the accompanying USAspending URL and against the packet's match.reasons. All 20 match character-for-character. This was the highest-risk failure mode in the batch -- pairing a firm's name with another firm's award -- and it is clean.",
+    "qc_self_test": "The QC agent seeded seven defects into a copy of one brief (wrong median, orphan dollar figure, altered URL, award-ID/URL mismatch, incumbent-as-fact, banned outcome words, deleted AI disclosure, wrong day count) and confirmed its script caught all of them, then hand-read five briefs in full.",
+    "action_taken_on_a_non_blocking_note": "QC noted the phrase 'whether your record qualifies' in two briefs -- judged PASS because it asks about the solicitation's past-performance criterion rather than offering a verdict, but it uses a word CLAUDE.md bans. It was reworded to 'which of your past projects you can actually cite', the two briefs and their drafts were regenerated, and the SAME independent QC agent re-verified them so the PASS applies to the artifacts actually on disk.",
+    "open_structural_finding_from_qc": "Two recurring sentence types are TRUE and were verified by QC against state/prospect_scan-541519.json and state/opportunities.json, but are NOT derivable from the packet alone: 'Your cited award is ...' (19 of 20 briefs) and 'also appears as a separate Presolicitation notice' (8 of 20). A packet-only QC pass cannot confirm them. RECOMMENDED NEXT CHANGE: have build_sample_packet copy the cited award's description and a duplicate_notices field into the packet, so every claim in a brief is packet-derivable. Not done this run -- it changes the packet schema and was outside the run's scope.",
+    "expected_grep_hit": "The word 'incumbent' appears in the 7 CODIS briefs only as the compliant negation 'This notice record does not name an incumbent'. That is the required framing, not a violation."
   },
   "data_quality_observations": [
-    "42% of the 7-day ingest is unusable: 16 of 40 notices already had a deadline in the past at run time and 1 has no deadline at all. Only 23 were open; only 6 had 10+ days left; only 2 had BOTH 10+ days and a small-business set-aside. A weekly brief cycle has a much thinner real supply than the 117-notices/30d figure behind the niche pick suggests.",
-    "One record is internally inconsistent: notice c7b4216e (Q201--VISN 21 Patient Elopement) is posted 2026-08-28 with a response deadline of 2026-07-13 -- 46 days BEFORE it was posted.",
-    "No de-duplication. Solicitations 36C25226R0071 and 36C24626Q0522 each appear twice as separate notice_ids (Presolicitation + Solicitation). A subscriber matched to one would receive two briefs for the same solicitation.",
-    "10 of 40 notices (25%) have a blank set_aside field -- distinct from the 9 that explicitly say 'NONE'. A blank must not be read as full-and-open; the EIS brief handles this explicitly.",
-    "prospects: 'latest_award' is populated from the award's period-of-performance START date, not the award/signing date, despite the field name. 64 of 119 prospects (54%) therefore carry a FUTURE 'latest_award', up to 2027-01-01. sb_award_scan sorts correctly by Base Obligation Date but records the wrong field per firm. NOT fixed this run -- flagged only, because it is not on the path of any brief produced here. It MUST NOT be used as an award date in outreach copy.",
-    "prospects: the USAspending small_business filter is per-award self-certification and admits firms no one would call small -- CARAHSOFT TECHNOLOGY CORP, SHI INTERNATIONAL CORP, and ASRC FEDERAL TECHNOLOGY SOLUTIONS (an Alaska Native Corporation subsidiary) all appear in the 119.",
-    "prospects: NAICS 541519 is used as a catch-all. The list includes SNYDER PARTY RENTAL INC, ELECTRICAL EQUIPMENT CO, GRAY LOCAL MEDIA INC, LRP PUBLICATIONS and OFFICE REMEDIES, INC. -- not computer-services firms. Much of the remainder are hardware/software RESELLERS (FCN, Four Points, GovSmart, Blue Tech, Paragon Micro) rather than services firms, which is a commercial question for the outreach list, not just a data one.",
-    "candidate_related was empty for all three briefs (title_overlap >= 2 never met). The briefs say so honestly, but the 'candidate related awards' feature has not yet demonstrated a single hit on real data."
+    "SUPPLY, the headline: widening the SAM posting window from 7 to 21 to 45 days moved the usable pool from 2 to 4 to 4 notices -- and those 4 are only 3 DISTINCT solicitations. 60% of the 45-day pull (71 of 119) was already expired at run time. Widening the window adds history, not supply.",
+    "FLOW RATE is the number to plan on: ~9 distinct small-business set-aside solicitations per week are posted in 541519, but only ~2.8 per week ever carry a 10+ day response window. Roughly two thirds of SB notices in this niche give under 10 days.",
+    "De-duplication is still not implemented. 3 solicitations in the 45-day pull appear twice each (Presolicitation + Solicitation): 36C25226R0071, 36C24626Q0522, 19AQMM26R0250. Counting notices instead of solicitations overstates the biddable pool by a third. The briefs disclose the duplicate where it occurs, but the pipeline should collapse them.",
+    "25 of 101 notices in the 21-day pull have a BLANK set_aside field, distinct from the 23 that say NONE. Blank is not full-and-open. Every brief built on a blank field says so explicitly.",
+    "One notice in the open pool is sole-source (142082-26-0440, 'SOLE SOURCE: GRAW Software Support') and one presolicitation has a deadline 339 days out (1301381741, XACTA software). Both were excluded from outreach by hand. The pipeline has no filter for either -- a future run could pitch a sole-source notice unless one is added.",
+    "The USAspending small_business flag is per-award self-certification. The new filter's R2 name rule -- NOT the dollar ceiling -- is what catches CARAHSOFT ($4,500 in this scan) and SHI INTERNATIONAL ($15,331). A dollar test alone is structurally incapable of it.",
+    "candidate_related finally produced hits: 3 awards on the FDIC/Copado notice, the first non-empty result this feature has returned on real data. They are weak matches -- the title-overlap heuristic fired on the generic words 'software', 'subscription', 'renewal', and one of the three surfaced awards belongs to another firm in this same batch. The briefs label it a heuristic and tell the reader to verify, per the skill, but the feature is not yet earning its place.",
+    "prospects: 'latest_award' remains the period-of-performance START date, not the award date. The filtered output renames it latest_award_pop_start and flags future values. It is used nowhere in any brief or draft. The underlying field in sb_award_scan is still mislabeled and still NOT fixed.",
+    "The award scan is page-capped at 500 rows (scan_capped=true), so the 121-firm prospect list is a floor, not a census, and every total_amount understates the firm."
   ],
-  "outreach": {
-    "status": "NOT DRAFTED, NOTHING SENT -- as instructed and as CLAUDE.md requires.",
-    "blockers_verified_in_repo": "site/index.html still contains [POSTAL_ADDRESS], [FOUNDER_EMAIL] (x3), [PRICE_BRIEF] and [PRICE_DATA]. Per RUNBOOK step 5 (as revised upstream this run), the postal address is the one item that genuinely gates sending, because CAN-SPAM requires it in every commercial email.",
-    "correction_to_run_instruction": "The run instruction said outreach is blocked partly on payment links. Upstream commit 9a06ffd revised RUNBOOK step 4 to DEFER payment setup until a buyer actually says yes, and the brand name placeholder is now resolved. So the remaining true blocker is the identity placeholders -- postal address above all -- not payments.",
-    "suppression_list": "state/suppression.json present and empty ({emails: [], domains: []}); no prospect needed suppression this run."
+  "code_changes": {
+    "new_file": "bidscout/prospect_filter.py",
+    "new_command": "python3 -m bidscout filter-prospects --naics <code> [--state ST] [--rescan]",
+    "selftest": "extended with 10 fixture firms covering every rule plus the no-silent-drop contract, the auditability contract (every exclusion carries why+matched), the UNVERIFIABLE_INDUSTRY and FUTURE_POP_START flags, and ranking order. The CARAHSOFT fixture is pinned with an assertion that its total is BELOW the dollar ceiling, so a later edit cannot delete the name list as 'redundant' without failing the selftest.",
+    "bug_fixed_mid_run": "marker matching was a bare substring test; 'TENT' matched inside 'CONTENT' and excluded SOFTWARE INFORMATION RESOURCE CORP, one of the strongest prospects. Now matches on a leading word boundary.",
+    "marker_corrected": "'RESERVATION SYSTEM' was removed from the non-IT marker list -- a reservation system is software. The affected exclusion (ETIX, INC.) now rests on the domain word 'MUSEUM' instead.",
+    "gitignore": "added !state/prospects-*-filtered.json so the audited outreach list is tracked",
+    "selftest_after_change": "PASS"
   },
-  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) Two real bugs in the brief tier's award-history section were found and fixed this run (see code_changes) -- every brief-tier packet before this commit shipped an EMPTY award section, and the first fix exposed a $393M bogus median. Skim the three sample briefs against their links before any of them is used for outreach. (2) Fill [POSTAL_ADDRESS] and [FOUNDER_EMAIL] in site/index.html -- CAN-SPAM makes the postal address the one hard gate on sending. Payments are correctly deferred per the revised RUNBOOK and block nothing now. (3) Measure the real SAM key limit and set SAM_DAILY_BUDGET; it is still the unverified default of 10, and the ledger only became git-tracked with this commit. (4) Decide whether the six inert set-aside codes come out of SB_SET_ASIDE_CODES or stay with a documented reason. (5) Supply is thinner than the niche score implied -- only 2 of 40 notices this week had both a small-business set-aside and 10+ days to respond; consider a wider --days window or a second NAICS before promising a weekly cadence.",
+  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) 541519 CANNOT sustain a weekly cadence on its own -- ~2.8 briefable set-aside solicitations per week across the whole niche, and only 3 distinct ones open right now. Decide: add a second NAICS (recommended), drop the 10-day quality bar, or stop promising weekly. (2) Fill [POSTAL_ADDRESS], [FOUNDER_NAME] and [FOUNDER_EMAIL] -- CAN-SPAM makes the postal address the one hard gate on sending. (3) Look up 20 contact emails on SAM.gov entity search using the procedure and award IDs in state/outreach/2026-08-30/batch-log.md. Skip any entity that has restricted public display, and never guess an address. (4) Audit the 21 excluded prospects in state/prospects-541519-filtered.json before mailing -- each carries its rule, matched token and evidence. (5) Measure the real SAM key limit and set SAM_DAILY_BUDGET; still the unverified default of 10.",
   "brand": {
     "customer_facing": "Worth the Bid",
-    "internal_package": "bidscout",
-    "note": "Upstream commit 9a06ffd rebranded mid-run. This session's three briefs were written against the pre-rebrand skill, then rebased onto it and their H1 headers conformed to the new template ('— Worth the Bid brief for'). Nothing else in the briefs changed; a second independent QC pass re-verified the change."
+    "internal_package": "bidscout"
   }
 }

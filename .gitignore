@@ -11,5 +11,14 @@ state/*
 !state/qc-log.md
 !state/briefs
 !state/outreach
+# The filtered prospect list is the audited outreach list (kept + excluded
+# with reasons). It is a compliance record -- who we contacted and why we
+# ruled others out -- so it survives container recycling like suppression.
+!state/prospects-*-filtered.json
+# The award scan behind a batch. QC established that several brief claims
+# (each firm's cited award description) are verifiable ONLY here -- the
+# packets do not carry them -- so it is evidence, not a regenerable
+# intermediate: USAspending data moves and a re-run will not reproduce it.
+!state/prospect_scan-*.json
 __pycache__/
 *.pyc

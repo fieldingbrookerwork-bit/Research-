@@ -128,6 +128,136 @@ def run() -> int:
     if "GATE FAIL" not in big:
         failures.append("render_table: must report gate failures")
 
+    # Prospect filter. The raw awardee list is not a buyer list: 541519 is a
+    # catch-all NAICS and USAspending's small_business flag is per-award
+    # self-certification. These cases are the real 2026-08-30 failures, kept as
+    # a regression guard so a rule edit that stops catching them fails HERE.
+    from .prospect_filter import SCALE_CEILING_USD, filter_prospects
+
+    pf_prospects = [
+        # kept: genuine small IT services firm
+        {"recipient": "SDVO SOLUTIONS, LLC", "awards": 4, "total_amount": 149_995,
+         "latest_award": "2027-01-01", "example_award_url": "https://x/1"},
+        # excluded R1: over the scale ceiling
+        {"recipient": "EPOCH CONCEPTS LLC", "awards": 1, "total_amount": 25_000_000,
+         "latest_award": "", "example_award_url": "https://x/2"},
+        # excluded R2: giant that self-certified small on a $4.5k order — the
+        # dollar test CANNOT catch this one, which is the whole point of R2.
+        {"recipient": "CARAHSOFT TECHNOLOGY CORP", "awards": 1, "total_amount": 4_500,
+         "latest_award": "", "example_award_url": "https://x/3"},
+        # excluded R2: ANC subsidiary
+        {"recipient": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC", "awards": 1,
+         "total_amount": 3_053_454, "latest_award": "", "example_award_url": "https://x/4"},
+        # excluded R3: non-IT deliverable
+        {"recipient": "SNYDER PARTY RENTAL INC", "awards": 1, "total_amount": 24_985,
+         "latest_award": "", "example_award_url": "https://x/5"},
+        # excluded R3: IT-ish word ("WORKSTATION") next to a decisive non-IT one
+        {"recipient": "ELECTRICAL EQUIPMENT CO", "awards": 1, "total_amount": 77_449,
+         "latest_award": "", "example_award_url": "https://x/6"},
+        # kept: name reads non-IT, description proves it resells software
+        {"recipient": "OFFICE REMEDIES, INC.", "awards": 1, "total_amount": 55_440,
+         "latest_award": "", "example_award_url": "https://x/7"},
+        # kept but flagged: description carries no industry information
+        {"recipient": "PARROCO PRODUCTION GROUP INC", "awards": 1, "total_amount": 132_082,
+         "latest_award": "", "example_award_url": "https://x/8"},
+        # excluded R3: neutral name, decisive non-IT description. Isolates the
+        # description rule from the name list.
+        {"recipient": "SUMMIT SERVICES GROUP LLC", "awards": 1, "total_amount": 31_000,
+         "latest_award": "", "example_award_url": "https://x/10"},
+        # excluded R0: on the opt-out list
+        {"recipient": "OPTED OUT LLC", "awards": 2, "total_amount": 100_000,
+         "latest_award": "", "example_award_url": "https://x/9"},
+    ]
+    pf_rows = [
+        {"recipient": "SDVO SOLUTIONS, LLC", "description": "IT SUPPORT SERVICES AND NETWORK REFRESH",
+         "award_id": "A1", "agency": "Air Force", "pop_state": "AZ"},
+        {"recipient": "EPOCH CONCEPTS LLC", "description": "ENTERPRISE ASSET MANAGEMENT",
+         "award_id": "A2", "agency": "VA", "pop_state": "VA"},
+        {"recipient": "CARAHSOFT TECHNOLOGY CORP", "description": "SANS SECURITY AWARENESS TRAINING RENEWAL",
+         "award_id": "A3", "agency": "MSPB", "pop_state": "VA"},
+        {"recipient": "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC",
+         "description": "INFRASTRUCTURE AND APPLICATION DESIGN", "award_id": "A4",
+         "agency": "HHS", "pop_state": "MD"},
+        {"recipient": "SNYDER PARTY RENTAL INC",
+         "description": "PROVIDE TENTS, FANS, GENERATORS", "award_id": "A5",
+         "agency": "DHS", "pop_state": "PA"},
+        {"recipient": "ELECTRICAL EQUIPMENT CO",
+         "description": "ALLEN-BRADLEY CLX WORKSTATION & CONTROLLOGIX 5590 CONTROLLER",
+         "award_id": "A6", "agency": "NASA", "pop_state": "AL"},
+        {"recipient": "OFFICE REMEDIES, INC.", "description": "TALEND LICENSES",
+         "award_id": "A7", "agency": "NASA", "pop_state": "MD"},
+        {"recipient": "PARROCO PRODUCTION GROUP INC", "description": "NEW AWARD",
+         "award_id": "A8", "agency": "DHS", "pop_state": "DC"},
+        {"recipient": "SUMMIT SERVICES GROUP LLC",
+         "description": "ROOFING REPAIR AND HVAC REPLACEMENT AT BUILDING 4",
+         "award_id": "A10", "agency": "GSA", "pop_state": "TX"},
+        {"recipient": "OPTED OUT LLC", "description": "CLOUD MIGRATION SERVICES",
+         "award_id": "A9", "agency": "GSA", "pop_state": "VA"},
+    ]
+    pf = filter_prospects(pf_prospects, pf_rows, {"firms": ["OPTED OUT LLC"]})
+    verdict = {k["recipient"]: ("kept", k) for k in pf["kept"]}
+    verdict.update({e["recipient"]: ("excluded", e) for e in pf["excluded"]})
+
+    if len(pf["kept"]) + len(pf["excluded"]) != len(pf_prospects):
+        failures.append("prospect_filter: a firm was silently dropped — every "
+                        "input must appear in exactly one of kept/excluded")
+
+    expect = {
+        "SDVO SOLUTIONS, LLC": ("kept", None),
+        "OFFICE REMEDIES, INC.": ("kept", None),
+        "PARROCO PRODUCTION GROUP INC": ("kept", None),
+        "EPOCH CONCEPTS LLC": ("excluded", "R1_ABOVE_SCALE_CEILING"),
+        "CARAHSOFT TECHNOLOGY CORP": ("excluded", "R2_NAME_EXCLUSION"),
+        "ASRC FEDERAL TECHNOLOGY SOLUTIONS, LLC": ("excluded", "R2_NAME_EXCLUSION"),
+        # Name rule fires before the description rule, so this firm is caught
+        # by R2 even though its description is also decisively non-IT.
+        "SNYDER PARTY RENTAL INC": ("excluded", "R2_NAME_EXCLUSION"),
+        "SUMMIT SERVICES GROUP LLC": ("excluded", "R3_NON_IT_DECISIVE"),
+        "ELECTRICAL EQUIPMENT CO": ("excluded", "R2_NAME_EXCLUSION"),
+        "OPTED OUT LLC": ("excluded", "R0_SUPPRESSED"),
+    }
+    for firm, (want_side, want_rule) in expect.items():
+        got = verdict.get(firm)
+        if got is None:
+            failures.append(f"prospect_filter: {firm} missing from output")
+            continue
+        side, rec = got
+        if side != want_side:
+            failures.append(f"prospect_filter: {firm} was {side}, expected {want_side}")
+        elif want_rule and rec.get("rule") != want_rule:
+            failures.append(f"prospect_filter: {firm} excluded by "
+                            f"{rec.get('rule')}, expected {want_rule}")
+
+    # The CARAHSOFT case is the load-bearing one: it must NOT be reachable by
+    # the dollar rule, or the name list looks redundant and gets deleted later.
+    car = next(p for p in pf_prospects if p["recipient"].startswith("CARAHSOFT"))
+    if car["total_amount"] > SCALE_CEILING_USD:
+        failures.append("prospect_filter: the CARAHSOFT fixture no longer proves "
+                        "that the dollar ceiling cannot catch a self-certified giant")
+
+    # Every exclusion must be auditable without re-running anything.
+    for e in pf["excluded"]:
+        if not e.get("why") or not e.get("matched"):
+            failures.append(f"prospect_filter: {e['recipient']} excluded without "
+                            "a why/matched pair — not auditable")
+
+    parroco = verdict["PARROCO PRODUCTION GROUP INC"][1]
+    if not any(f.startswith("UNVERIFIABLE_INDUSTRY") for f in parroco["flags"]):
+        failures.append("prospect_filter: an uninformative description must flag "
+                        "UNVERIFIABLE_INDUSTRY rather than drop the firm")
+
+    sdvo = verdict["SDVO SOLUTIONS, LLC"][1]
+    if not any(f.startswith("FUTURE_POP_START") for f in sdvo["flags"]):
+        failures.append("prospect_filter: a future latest_award must be flagged "
+                        "as a period-of-performance start, not an award date")
+    if "latest_award" in sdvo:
+        failures.append("prospect_filter: the mislabeled 'latest_award' key must "
+                        "not be carried through under its wrong name")
+
+    if not pf["kept"] or pf["kept"] != sorted(pf["kept"],
+                                              key=lambda k: (-k["fitness_score"], -k["awards"])):
+        failures.append("prospect_filter: kept list is not ranked by fitness")
+
     from .render import markdown_to_html
     title, body = markdown_to_html(
         "# Test Brief\n\n> note\n\n## Section\n- **bold** and "
