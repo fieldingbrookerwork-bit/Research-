@@ -1,4 +1,4 @@
-# Luke AFB 56 OSS VTC Upgrade — Bid Scout brief for SDVO SOLUTIONS, LLC
+# Luke AFB 56 OSS VTC Upgrade — Worth the Bid brief for SDVO SOLUTIONS, LLC
 
 **Deadline: 2026-09-10T23:00:00-07:00 · DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR EDUCATION AND TRAINING COMMAND.FA4887  56 CONS CC · NAICS 541519 · Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)**
 [Solicitation FA488726Q0058](https://sam.gov/workspace/contract/opp/426bb0b37ff049a39df6696e012b1d45/view)

@@ -1,4 +1,4 @@
-# ACC SG Audio Visual and Teleconference (AV/VTC) Support — Bid Scout brief for STRATEGIC COMMUNICATIONS LLC
+# ACC SG Audio Visual and Teleconference (AV/VTC) Support — Worth the Bid brief for STRATEGIC COMMUNICATIONS LLC
 
 **Deadline: 2026-09-11T12:00:00-04:00 · DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4800  633 CONS PKP · NAICS 541519 · Small Business Set Aside - Total**
 [Solicitation FA480026Q0082](https://sam.gov/workspace/contract/opp/b7f5b788457e4942aeaff07043de2f9b/view)

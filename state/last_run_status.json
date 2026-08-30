@@ -8,7 +8,10 @@
     "sam_requests_spent": 1,
     "sam_requests_authorized": 1,
     "sam_daily_budget": 10,
-    "ledger_after_run": {"date": "2026-08-30", "count": 1},
+    "ledger_after_run": {
+      "date": "2026-08-30",
+      "count": 1
+    },
     "mode": "one metered SAM ingest; everything else keyless USAspending"
   },
   "sam_budget_note": {
@@ -23,13 +26,35 @@
     "question": "Are HS3, HS2Civ, RSBCiv, 8ACCiv, VSBCiv invalid codes or merely unused within 541519?",
     "verdict": "SETTLED -- all five match ZERO awards GOVERNMENT-WIDE over 24 months. They are inert in a scoring filter. A sixth pre-existing code, ESB, is also zero.",
     "inert_in_scoring_filter": true,
-    "codes_zero_government_wide": ["8ACCiv", "HS3", "HS2Civ", "ESB", "RSBCiv", "VSBCiv"],
+    "codes_zero_government_wide": [
+      "8ACCiv",
+      "HS3",
+      "HS2Civ",
+      "ESB",
+      "RSBCiv",
+      "VSBCiv"
+    ],
     "per_code_awards_24mo_government_wide": {
-      "SBA": 219839, "SBP": 2157, "8A": 1028, "8AN": 7147, "8ACCiv": 0,
-      "HS3": 0, "HS2Civ": 0, "ESB": 0, "RSBCiv": 0, "VSBCiv": 0,
-      "HZC": 2438, "HZS": 132, "SDVOSBC": 15592, "SDVOSBS": 1205,
-      "VSA": 61, "VSS": 15, "WOSB": 3403, "WOSBSS": 235,
-      "EDWOSB": 131, "EDWOSBSS": 22
+      "SBA": 219839,
+      "SBP": 2157,
+      "8A": 1028,
+      "8AN": 7147,
+      "8ACCiv": 0,
+      "HS3": 0,
+      "HS2Civ": 0,
+      "ESB": 0,
+      "RSBCiv": 0,
+      "VSBCiv": 0,
+      "HZC": 2438,
+      "HZS": 132,
+      "SDVOSBC": 15592,
+      "SDVOSBS": 1205,
+      "VSA": 61,
+      "VSS": 15,
+      "WOSB": 3403,
+      "WOSBSS": 235,
+      "EDWOSB": 131,
+      "EDWOSBSS": 22
     },
     "interpretation": "Government-wide zero cannot distinguish 'invalid code' from 'valid but never used' -- USAspending answers both with HTTP 200 and count 0 (the prior run's ZZZFAKE negative control behaved identically). Either way the effect on scoring is the same: these six contribute nothing and must not be counted as if they widen set-aside coverage. 14 of 20 codes are live and carry the entire set-aside metric.",
     "consequence": "The 2026-08-29 finding stands and is now proven at the widest possible scope: commit 060ea45's set-aside code-list 'fix' was inert. No set-aside share anywhere in state/niche_scores.json changes because of it."
@@ -56,9 +81,42 @@
     "briefs_not_edited_after_qc": "Both notes are non-blocking and neither creates a false number, status, or link. The briefs were deliberately left unchanged so the PASS remains valid for the artifacts actually on disk."
   },
   "briefs": [
-    {"id": "sample-strategic-communications-llc", "firm": "STRATEGIC COMMUNICATIONS LLC", "notice_id": "b7f5b788457e4942aeaff07043de2f9b", "solicitation": "FA480026Q0082", "title": "ACC SG Audio Visual and Teleconference (AV/VTC) Support", "agency": "Air Force / Air Combat Command 633 CONS", "set_aside": "Small Business Set Aside - Total", "deadline": "2026-09-11T12:00:00-04:00", "days_out_at_generation": 12, "qc": "PASS"},
-    {"id": "sample-sdvo-solutions--llc", "firm": "SDVO SOLUTIONS, LLC", "notice_id": "426bb0b37ff049a39df6696e012b1d45", "solicitation": "FA488726Q0058", "title": "Luke AFB 56 OSS VTC Upgrade", "agency": "Air Force / AETC 56 CONS", "set_aside": "SDVOSB Set-Aside (FAR 19.14)", "deadline": "2026-09-10T23:00:00-07:00", "days_out_at_generation": 12, "qc": "PASS"},
-    {"id": "sample-executive-information-systems--l-l-c", "firm": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.", "notice_id": "e271acf1da7840af8be174fc5f363a17", "solicitation": "68HE0926Q0036", "title": "Region 9 GIS Call Order - MRITSS", "agency": "EPA Region 9 Contracting Office", "set_aside": "none stated in the notice record (blank field, NOT confirmed full-and-open)", "deadline": "2026-09-10T17:00:00-07:00", "days_out_at_generation": 11, "qc": "PASS"}
+    {
+      "id": "sample-strategic-communications-llc",
+      "firm": "STRATEGIC COMMUNICATIONS LLC",
+      "notice_id": "b7f5b788457e4942aeaff07043de2f9b",
+      "solicitation": "FA480026Q0082",
+      "title": "ACC SG Audio Visual and Teleconference (AV/VTC) Support",
+      "agency": "Air Force / Air Combat Command 633 CONS",
+      "set_aside": "Small Business Set Aside - Total",
+      "deadline": "2026-09-11T12:00:00-04:00",
+      "days_out_at_generation": 12,
+      "qc": "PASS"
+    },
+    {
+      "id": "sample-sdvo-solutions--llc",
+      "firm": "SDVO SOLUTIONS, LLC",
+      "notice_id": "426bb0b37ff049a39df6696e012b1d45",
+      "solicitation": "FA488726Q0058",
+      "title": "Luke AFB 56 OSS VTC Upgrade",
+      "agency": "Air Force / AETC 56 CONS",
+      "set_aside": "SDVOSB Set-Aside (FAR 19.14)",
+      "deadline": "2026-09-10T23:00:00-07:00",
+      "days_out_at_generation": 12,
+      "qc": "PASS"
+    },
+    {
+      "id": "sample-executive-information-systems--l-l-c",
+      "firm": "EXECUTIVE INFORMATION SYSTEMS, L.L.C.",
+      "notice_id": "e271acf1da7840af8be174fc5f363a17",
+      "solicitation": "68HE0926Q0036",
+      "title": "Region 9 GIS Call Order - MRITSS",
+      "agency": "EPA Region 9 Contracting Office",
+      "set_aside": "none stated in the notice record (blank field, NOT confirmed full-and-open)",
+      "deadline": "2026-09-10T17:00:00-07:00",
+      "days_out_at_generation": 11,
+      "qc": "PASS"
+    }
   ],
   "code_changes": {
     "file": "bidscout/usaspending_client.py",
@@ -93,8 +151,14 @@
   ],
   "outreach": {
     "status": "NOT DRAFTED, NOTHING SENT -- as instructed and as CLAUDE.md requires.",
-    "blockers_verified_in_repo": "site/index.html still contains the placeholders [BUSINESS_NAME], [POSTAL_ADDRESS], [FOUNDER_EMAIL] (x3), [PRICE_BRIEF] and [PRICE_DATA]. CAN-SPAM requires a real postal address, so outreach cannot legally go out until the founder fills these and creates the payment links.",
+    "blockers_verified_in_repo": "site/index.html still contains [POSTAL_ADDRESS], [FOUNDER_EMAIL] (x3), [PRICE_BRIEF] and [PRICE_DATA]. Per RUNBOOK step 5 (as revised upstream this run), the postal address is the one item that genuinely gates sending, because CAN-SPAM requires it in every commercial email.",
+    "correction_to_run_instruction": "The run instruction said outreach is blocked partly on payment links. Upstream commit 9a06ffd revised RUNBOOK step 4 to DEFER payment setup until a buyer actually says yes, and the brand name placeholder is now resolved. So the remaining true blocker is the identity placeholders -- postal address above all -- not payments.",
     "suppression_list": "state/suppression.json present and empty ({emails: [], domains: []}); no prospect needed suppression this run."
   },
-  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) Two real bugs in the brief tier's award-history section were found and fixed this run (see code_changes) -- every brief-tier packet before this commit shipped an EMPTY award section, and the first fix exposed a $393M bogus median. Skim the three sample briefs against their links before any of them is used for outreach. (2) Fill the [PLACEHOLDERS] in site/index.html (business name, postal address, email) and create the Stripe payment links -- outreach is blocked on CAN-SPAM until then. (3) Measure the real SAM key limit and set SAM_DAILY_BUDGET; it is still the unverified default of 10. (4) Decide whether the six inert set-aside codes come out of SB_SET_ASIDE_CODES or stay with a documented reason. (5) Supply is thinner than the niche score implied -- only 2 of 40 notices this week had both a small-business set-aside and 10+ days to respond; consider a wider --days window or a second NAICS before promising a weekly cadence."
+  "founder_action_needed": "FOUNDER ACTION NEEDED: (1) Two real bugs in the brief tier's award-history section were found and fixed this run (see code_changes) -- every brief-tier packet before this commit shipped an EMPTY award section, and the first fix exposed a $393M bogus median. Skim the three sample briefs against their links before any of them is used for outreach. (2) Fill [POSTAL_ADDRESS] and [FOUNDER_EMAIL] in site/index.html -- CAN-SPAM makes the postal address the one hard gate on sending. Payments are correctly deferred per the revised RUNBOOK and block nothing now. (3) Measure the real SAM key limit and set SAM_DAILY_BUDGET; it is still the unverified default of 10, and the ledger only became git-tracked with this commit. (4) Decide whether the six inert set-aside codes come out of SB_SET_ASIDE_CODES or stay with a documented reason. (5) Supply is thinner than the niche score implied -- only 2 of 40 notices this week had both a small-business set-aside and 10+ days to respond; consider a wider --days window or a second NAICS before promising a weekly cadence.",
+  "brand": {
+    "customer_facing": "Worth the Bid",
+    "internal_package": "bidscout",
+    "note": "Upstream commit 9a06ffd rebranded mid-run. This session's three briefs were written against the pre-rebrand skill, then rebased onto it and their H1 headers conformed to the new template ('— Worth the Bid brief for'). Nothing else in the briefs changed; a second independent QC pass re-verified the change."
+  }
 }

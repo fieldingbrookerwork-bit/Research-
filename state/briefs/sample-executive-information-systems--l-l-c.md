@@ -1,4 +1,4 @@
-# Region 9 GIS Call Order - MRITSS — Bid Scout brief for EXECUTIVE INFORMATION SYSTEMS, L.L.C.
+# Region 9 GIS Call Order - MRITSS — Worth the Bid brief for EXECUTIVE INFORMATION SYSTEMS, L.L.C.
 
 **Deadline: 2026-09-10T17:00:00-07:00 · ENVIRONMENTAL PROTECTION AGENCY.ENVIRONMENTAL PROTECTION AGENCY.REGION 9 CONTRACTING OFFICE · NAICS 541519 · No set-aside stated**
 [Solicitation 68HE0926Q0036](https://sam.gov/workspace/contract/opp/e271acf1da7840af8be174fc5f363a17/view)
