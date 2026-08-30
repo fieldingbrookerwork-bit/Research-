@@ -15,11 +15,17 @@ are hard limits, not style preferences.
 - **Suppression first:** before drafting, check the recipient against
   `state/suppression.json` (emails + domains). Anyone present is skipped, with a
   note in the batch log. If the file is missing, stop — do not draft.
-- **CAN-SPAM completeness:** every draft ends with the sender block containing
-  the founder's real name, business name, **physical postal address placeholder
-  `[POSTAL_ADDRESS]`** (founder fills in), and the line:
+- **CAN-SPAM completeness (nothing to register — it is satisfied inside the
+  email itself):** every draft ends with a sender block containing the founder's
+  real name, "Worth the Bid", the **physical postal address placeholder
+  `[POSTAL_ADDRESS]`** (founder fills in at send time), and the line:
   "Reply 'unsubscribe' and you won't hear from me again — removals are honored
-  immediately."
+  immediately." Truthful From/Subject, no fake "Re:", no urgency theater.
+- **NO LINKS AND NO ATTACHMENTS in first-touch email.** The sample brief goes
+  INLINE in the body as plain text. A brand-new sending address has no domain
+  reputation, and links or attached files are the fastest way into spam. The
+  call to action is a REPLY to the founder's inbox, never a click. Do not
+  reference a website; the product does not require one to sell.
 - **Truthful subject** describing the actual content (e.g. "[Solicitation #] —
   award-history brief for [Firm]"). No fake "Re:", no urgency theater.
 - **Disclosure:** the body includes "research compiled with AI assistance" once,
