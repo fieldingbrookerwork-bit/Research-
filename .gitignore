@@ -20,5 +20,9 @@ state/*
 # packets do not carry them -- so it is evidence, not a regenerable
 # intermediate: USAspending data moves and a re-run will not reproduce it.
 !state/prospect_scan-*.json
+# SAM entity data (UEI, registration status, POC name) behind the outreach
+# list, plus the queue of firms still needing a UEI-keyed lookup. Compliance
+# record: it is the evidence for who was contacted and why.
+!state/entities-*.json
 __pycache__/
 *.pyc

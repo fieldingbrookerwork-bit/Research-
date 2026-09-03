@@ -6,6 +6,7 @@
   python -m bidscout packets [--fixtures]        emit brief packets for the skill layer
   python -m bidscout prospects --naics 541512 [--state VA]
   python -m bidscout filter-prospects --naics 541512   score prospects for outreach
+  python -m bidscout enrich-prospects --naics 541512   UEI/registration from SAM (metered)
   python -m bidscout sample --firm "X LLC" --notice <id> --reason "<public fact>"
   python -m bidscout render                      briefs (md) -> state/pages/ (html)
   python -m bidscout verify-codes [--naics X]    probe each set-aside code for zeros
@@ -174,6 +175,59 @@ def cmd_filter_prospects(args) -> int:
     return 0
 
 
+def cmd_enrich_prospects(args) -> int:
+    """Attach SAM.gov entity data to the filtered prospects (1 request per firm).
+
+    Keyed by UEI, never by legal name. A name search returns several
+    registrations for most firms and picking one is guesswork -- on 2026-09-03 it
+    resolved to the wrong company for 3 of 8 firms tried, one of them a namesake
+    whose registration lapsed in 2018. Firms whose UEI is unknown are skipped
+    rather than guessed at.
+    """
+    from .sam_entity import enrich_batch, is_biddable
+    state = config.ensure_state_dir()
+
+    filtered = state / f"prospects-{args.naics}-filtered.json"
+    if not filtered.exists():
+        raise SystemExit(f"No {filtered} — run `filter-prospects --naics "
+                         f"{args.naics}` first.")
+    kept = config.load_json(filtered)["kept"]
+    if args.limit:
+        kept = kept[:args.limit]
+    firms = {k["recipient"]: k.get("uei", "") for k in kept}
+
+    out = state / f"entities-{args.naics}.json"
+    existing = config.load_json(out) if out.exists() else {}
+    result = enrich_batch(firms, existing=existing)
+    config.save_json(out, result["entities"])
+
+    drops, unknown, ok = [], [], 0
+    for firm, ent in result["entities"].items():
+        verdict, why = is_biddable(ent)
+        if verdict is True:
+            ok += 1
+        elif verdict is False:
+            drops.append((firm, why))
+        else:
+            unknown.append(firm)
+
+    print(f"{result['looked_up']} looked up this run "
+          f"({sam_budget_remaining()} SAM requests left today)")
+    print(f"   {ok} verified biddable, {len(drops)} DROP, {len(unknown)} unknown")
+    if result["skipped_no_uei"]:
+        print(f"   {len(result['skipped_no_uei'])} skipped — no UEI known, and a "
+              f"name lookup cannot be trusted")
+    for firm, why in drops:
+        print(f"   DROP {firm}: {why}")
+    if result["budget_exhausted"]:
+        print("   Budget exhausted mid-run. Everything already paid for is saved; "
+              "re-run tomorrow to continue.")
+    print(f"\nSaved: {out}")
+    print("POC EMAIL is not returned by the Entity API (SAM keeps it behind the "
+          "FOUO tier). Open https://sam.gov/entity/<UEI>/coreData to read it.")
+    return 0
+
+
 def cmd_sample(args) -> int:
     from .brief_packet import build_sample_packet
     opps = _load_opportunities(args.fixtures)
@@ -277,6 +331,12 @@ def main(argv=None) -> int:
     s.add_argument("--rescan", action="store_true",
                    help="refetch award rows (keyless) instead of reusing the cached scan")
     s.set_defaults(fn=cmd_filter_prospects)
+
+    s = sub.add_parser("enrich-prospects")
+    s.add_argument("--naics", required=True)
+    s.add_argument("--limit", type=int, default=None,
+                   help="only the top N kept prospects (each costs 1 SAM request)")
+    s.set_defaults(fn=cmd_enrich_prospects)
 
     s = sub.add_parser("sample")
     s.add_argument("--firm", required=True)

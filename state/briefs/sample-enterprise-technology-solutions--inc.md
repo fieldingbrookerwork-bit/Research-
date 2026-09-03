@@ -10,14 +10,13 @@
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The FDIC is renewing a software subscription for Copado, coded NAICS 541519. It is posted as a Solicitation. Place of performance is listed as VA, and the notice states that no set-aside was used, so competition is not restricted by size or socioeconomic status. Offers are due 2026-09-14T14:00:00-04:00, 15 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/841f0f9adffc47ee9099dce3943615e4/view).
+The FDIC is renewing a software subscription for Copado, coded NAICS 541519. It is posted as a Solicitation. Place of performance is listed as VA, and the notice states that no set-aside was used, so competition is not restricted by size or socioeconomic status. Offers are due 2026-09-14T14:00:00-04:00, 10 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/841f0f9adffc47ee9099dce3943615e4/view).
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $113,119.59 across 25 sampled awards
+- Median comparable award: $66,685.47 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
-  - METGREEN SOLUTIONS INC — $292,227.80, 2026-09-27–2027-09-26 ([Award 89243326FFE400802](https://www.usaspending.gov/award/CONT_AWD_89243326FFE400802_8900_NNG15SD37B_8000))
-  - DH TECHNOLOGIES, INC. — $69,547.42, 2026-08-28–2026-09-25 ([Award 70SBUR26F00000275](https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000275_7003_NNG15SC70B_8000))
-  - JEM COMPUTERS, INC. — $18,032.00, 2026-08-01–2027-07-31 ([Award 80NSSC26P1452](https://www.usaspending.gov/award/CONT_AWD_80NSSC26P1452_8000_-NONE-_-NONE-))
+  - AUGUST SCHELL ENTERPRISES, INC. — $1,035,679.94, 2026-09-01–2027-08-31 ([Award 7571TE26F00362](https://www.usaspending.gov/award/CONT_AWD_7571TE26F00362_7571_NNG15SD80B_8000))
+  - GOVSMART, INC. — $28,321.68, 2026-09-01–2027-08-28 ([Award 7571TE26F80258](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80258_7571_NNG15SD11B_8000))
 
 ## Effort signals
 - The notice states no set-aside was used, so you would be competing against firms of any size. Does that change whether the proposal hours are worth spending?

@@ -16,7 +16,11 @@ SPEND_BY_AWARD = f"{config.USASPENDING_BASE}/search/spending_by_award/"
 SPEND_BY_AWARD_COUNT = f"{config.USASPENDING_BASE}/search/spending_by_award_count/"
 
 AWARD_FIELDS = [
-    "Award ID", "Recipient Name", "recipient_id", "Award Amount",
+    # "Recipient UEI" is the ONLY reliable join key to SAM.gov. Legal names are
+    # not unique -- a SAM entity search for "COUNTERTRADE PRODUCTS, INC." returns
+    # three registrations, and picking the first matched a namesake whose
+    # registration lapsed in 2018. Never match a firm to SAM by name.
+    "Award ID", "Recipient Name", "Recipient UEI", "recipient_id", "Award Amount",
     "Start Date", "End Date", "Awarding Agency", "Awarding Sub Agency",
     "Description", "generated_internal_id", "Place of Performance State Code",
     # Required in `fields` to be a legal `sort` key. "Base Obligation Date" maps
@@ -158,6 +162,7 @@ def normalize_award(raw: dict) -> dict:
     return {
         "award_id": raw.get("Award ID", ""),
         "recipient": raw.get("Recipient Name", ""),
+        "uei": raw.get("Recipient UEI", "") or "",
         "amount": raw.get("Award Amount", 0),
         "start": raw.get("Start Date", ""),
         "end": raw.get("End Date", ""),
@@ -255,9 +260,12 @@ def sb_award_scan(naics: str, state: str | None = None, months_back: int = 24,
             rows.append(a)
             key = a["recipient"].upper()
             entry = seen.setdefault(key, {
-                "recipient": a["recipient"], "awards": 0, "total_amount": 0,
-                "latest_award": "", "example_award_url": a["usaspending_url"],
+                "recipient": a["recipient"], "uei": a.get("uei", ""), "awards": 0,
+                "total_amount": 0, "latest_award": "",
+                "example_award_url": a["usaspending_url"],
             })
+            if not entry.get("uei"):
+                entry["uei"] = a.get("uei", "")
             entry["awards"] += 1
             entry["total_amount"] += a["amount"] or 0
             entry["latest_award"] = max(entry["latest_award"], a["start"] or "")

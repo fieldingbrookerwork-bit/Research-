@@ -329,6 +329,11 @@ def filter_prospects(prospects: list[dict], rows: list[dict],
 
         base = {
             "recipient": name,
+            # The UEI is the only reliable join key to SAM.gov -- legal names are
+            # not unique. Taken from the aggregated record, falling back to the
+            # first award row that carries one.
+            "uei": (p.get("uei")
+                    or next((r.get("uei") for r in firm_rows if r.get("uei")), "")),
             "awards": p.get("awards", 0),
             "total_amount": p.get("total_amount", 0),
             "example_award_url": p.get("example_award_url", ""),

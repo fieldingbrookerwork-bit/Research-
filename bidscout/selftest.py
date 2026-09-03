@@ -258,6 +258,39 @@ def run() -> int:
                                               key=lambda k: (-k["fitness_score"], -k["awards"])):
         failures.append("prospect_filter: kept list is not ranked by fitness")
 
+    # SAM entity matching. Regression guard for the 2026-09-03 defect: a
+    # legalBusinessName lookup returned multiple registrations and the first was
+    # a namesake for 3 of 8 firms tried -- one of them a registration that lapsed
+    # in 2018, which would have dropped a live prospect as "inactive". A record
+    # not matched by UEI must never drive a keep/drop decision.
+    from .sam_entity import is_biddable
+
+    verified_active = {"matches": 1, "verified": True, "match_basis": "uei",
+                       "registration_status": "Active"}
+    verified_dead = {"matches": 1, "verified": True, "match_basis": "uei",
+                     "registration_status": "Inactive",
+                     "registration_expires": "2018-11-09"}
+    name_matched = {"matches": 3, "verified": False, "match_basis": "legal_name",
+                    "ambiguous": True, "registration_status": "Inactive",
+                    "registration_expires": "2018-11-09"}
+
+    if is_biddable(verified_active)[0] is not True:
+        failures.append("sam_entity: a UEI-verified Active registration must be biddable")
+    if is_biddable(verified_dead)[0] is not False:
+        failures.append("sam_entity: a UEI-verified Inactive registration must be a drop")
+    verdict, why = is_biddable(name_matched)
+    if verdict is not False and verdict is not None:
+        failures.append(f"sam_entity: unexpected verdict {verdict!r} for a name match")
+    if verdict is False:
+        failures.append("sam_entity: a NAME-matched record must never produce a DROP -- "
+                        "this is the exact 2026-09-03 defect, where a namesake's lapsed "
+                        "registration would have disqualified a live prospect")
+    if verdict is None and "namesake" not in (why or ""):
+        failures.append("sam_entity: the unknown verdict must explain WHY it is unknown")
+    for empty in ({}, {"matches": 0}):
+        if is_biddable(empty)[0] is not None:
+            failures.append("sam_entity: a missing record is UNKNOWN, not a drop")
+
     from .render import markdown_to_html
     title, body = markdown_to_html(
         "# Test Brief\n\n> note\n\n## Section\n- **bold** and "

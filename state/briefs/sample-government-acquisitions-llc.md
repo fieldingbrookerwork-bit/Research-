@@ -10,10 +10,10 @@
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The State Department's AQM Momentum acquisitions office is buying specialized forensics IT equipment under the CODIS Phase III requirement, coded NAICS 541519. It is posted as a Solicitation — the government has issued its requirement and is asking for offers, not gauging interest. The notice carries a total small business set-aside, so competition is restricted to small businesses. The notice record lists no place of performance. Offers are due 2026-09-17T17:00:00-06:00, 18 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view). This solicitation number also appears in the same SAM.gov feed as a separate Presolicitation notice for the same requirement.
+The State Department's AQM Momentum acquisitions office is buying specialized forensics IT equipment under the CODIS Phase III requirement, coded NAICS 541519. It is posted as a Solicitation — the government has issued its requirement and is asking for offers, not gauging interest. The notice carries a total small business set-aside, so competition is restricted to small businesses. The notice record lists no place of performance. Offers are due 2026-09-17T17:00:00-06:00, 14 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view). This solicitation number also appears in the same SAM.gov feed as a separate Presolicitation notice for the same requirement.
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $113,119.59 across 25 sampled awards
+- Median comparable award: $66,685.47 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
   - No closely related prior awards surfaced — this may be a new requirement, or related work may be described differently.
 
