@@ -12,6 +12,14 @@ are hard limits, not style preferences.
 
 - **Batch size:** never draft more than 30 for one day's sending; recommended
   cadence 20–30/day, ~100–150 total during the smoke test.
+- **Recipient addresses must be VERIFIED PUBLISHED, never guessed.** Acceptable:
+  an address printed on the firm's own website (contact/about page), or a POC
+  email in their SAM entity record. NOT acceptable: inventing `info@<domain>`
+  or any pattern you did not actually see published, or reusing an address from
+  a namesake firm. Match firms by UEI, never by name — a name search returns
+  multiple registrations and picking the first was wrong for 3 of 8 firms tried.
+  Record the source URL for every address; an address with no source does not
+  get mailed. If nothing is published, SKIP the firm.
 - **Suppression first:** before drafting, check the recipient against
   `state/suppression.json` (emails + domains). Anyone present is skipped, with a
   note in the batch log. If the file is missing, stop — do not draft.
