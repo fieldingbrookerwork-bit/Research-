@@ -1,0 +1,173 @@
+{
+  "batch": "2026-09-09",
+  "compiled": "carried forward unchanged from the 2026-09-03 batch",
+  "compiled_by": "no new lookups were performed this run",
+  "verification_age_note": "Every address below was verified published and UEI-pinned on 2026-09-03, six days before this batch. Addresses were NOT re-checked today. They are role/company addresses that rarely change, but if a send bounces, re-verify before retrying.",
+  "rules_applied": [
+    "Every address below was SEEN published at the recorded source_url. None was inferred from a name/domain pattern.",
+    "Identity was confirmed by UEI: either the source page prints the same UEI as the batch log, or the SAM-registered physical address for that UEI matches the address printed on the site carrying the email.",
+    "Where no address was published, the firm is marked SKIP. No guesses, no info@<domain> patterns.",
+    "state/suppression.json was checked and is empty (no emails, no domains) \u2014 nothing in this batch is suppressed."
+  ],
+  "source_class_note": "Most addresses come from the firm's own website. Three (Colossal, CounterTrade, PanAmerica) come from nitaac.nih.gov GWAC contract-holder pages, which print the firm's SAM UEI alongside a named program-manager address \u2014 stronger identity proof than a company contact page, but NOT the firm's own site. Those three carry own_site_alt where the firm's site also published one. CounterTrade's own site blocks automated fetch, so no own-site address was actually seen there.",
+  "contacts": [
+    {
+      "firm": "STERLING COMPUTERS CORPORATION",
+      "uei": "YZTLALWM4UC7",
+      "email": "connect@sterling.com",
+      "email_type": "generic",
+      "source_url": "https://sterling.com/contact/",
+      "confidence": "high",
+      "notes": "Published with legal name 'Sterling Computers Corporation' and 'PO Box 1995, 303 Centennial Drive, North Sioux City, SD 57049' \u2014 SAM's physical address for UEI YZTLALWM4UC7 is 303 Centennial Dr, North Sioux City SD 57049-3155, an exact match.",
+      "prospect_concern": "Almost certainly out of segment. Sterling is a large, long-established national federal reseller, and SAM records its primary NAICS as 334111 (Electronic Computer Manufacturing), not 541519 \u2014 it entered this batch on a $665K sliver of 541519 activity. A firm of this size runs its own capture and proposal function and is not a plausible buyer of a $49-79/mo brief."
+    },
+    {
+      "firm": "SOFTWARE INFORMATION RESOURCE CORP.",
+      "uei": "EJJMMJHYDFH6",
+      "email": "info@sirc.net",
+      "email_type": "generic",
+      "source_url": "https://sirc.net/contact-us/",
+      "confidence": "high",
+      "notes": "Published with '730 24th Street NW, Suite 3, Washington, DC 20037' \u2014 SAM's physical address for UEI EJJMMJHYDFH6 is 730 24th St NW Apt 3, Washington DC 20037-2500, an exact match (SAM renders the unit as 'Apt'). Primary NAICS 541519, reg. expires 2027-06-04. The page states 'Our Contact Us form is temporarily unavailable' and directs visitors to email, so this address is the firm's intended inbound channel. Beware a second domain: sircdc.net exists but is a 'Coming Soon' WordPress placeholder with no content \u2014 do not use it. Minority/woman-owned small business, holds ITES-4H and SEWP V/VI."
+    },
+    {
+      "firm": "STANDARD-BLAZAR, LLC",
+      "uei": "DZ9XM5UDFN29",
+      "email": "info@sbllc.com",
+      "email_type": "generic",
+      "source_url": "https://sbllc.com/",
+      "confidence": "medium",
+      "notes": "Published in both the site header and footer of a page titled 'Home - Standard-Blazar, LLC', with '1550 Larimer Street, Suite 955, Denver, CO 80202'. HigherGov ties UEI DZ9XM5UDFN29 (CAGE 8LFQ5, primary NAICS 541519) to website https://sbllc.com, which is what links the two. Confidence is medium, not high, because the addresses do NOT match: SAM lists this UEI at 9547 Old Creek Dr, Fairfax VA 22032, a residential address, while the site shows a Denver office. The partner named Bob Waizenegger on sbllc.com also appears as a manager on the Virginia registration for Standard-Blazar LLC, and both cite NASA SEWP, so it is the same organization \u2014 but the address mismatch is unresolved.",
+      "prospect_concern": "SBA registers this entity as a 'Small Business Joint Venture' and 'Veteran Joint Venture', not an operating company. JVs are typically stood up for specific pursuits and dissolve; they rarely buy recurring subscriptions, and the buying decision sits with the parent firms. Separately, the site markets VA/VHA healthcare-IT sustainment while the awards in the prospect record are Cribl and Illumio security software for CPSC/DOE/DHS \u2014 a positioning mismatch worth noting before pitching."
+    },
+    {
+      "firm": "DISYS SOLUTIONS, INC.",
+      "uei": "R15MK4RSWRD3",
+      "email": "sales@dsitech.com",
+      "email_type": "role",
+      "source_url": "https://dsitech.com/contact/",
+      "confidence": "high",
+      "notes": "Published with headquarters '44670 Cape Court, Suite 100 Ashburn, VA 20147' \u2014 the exact SAM physical address for UEI R15MK4RSWRD3 (primary NAICS 541519). HigherGov's awardee page for DISYS Solutions also carries R15MK4RSWRD3 in its title. Trades as 'DSI Tech'.",
+      "prospect_concern": "Timing: SAM registration for this UEI expires 2026-09-08 \u2014 tomorrow. If it lapses they are ineligible for award and a bid-research pitch lands badly. Either send today or check their SAM status before sending."
+    },
+    {
+      "firm": "SWISH DATA CORPORATION",
+      "uei": "DMERLBE3JR53",
+      "email": "info@swishdata.com",
+      "email_type": "generic",
+      "source_url": "https://www.swishdata.com/contact-us/",
+      "confidence": "high",
+      "notes": "The firm's own contact page prints 'UEI: DMERLBE3JR53' and 'CAGE Code: 4D7K5' directly alongside the address \u2014 an exact match to the batch log, verified without relying on any third party. SAM independently places this UEI at 1420 Spring Hill Rd Ste 320, McLean VA 22102, the same address printed on the page. Primary NAICS 541519, reg. expires 2027-03-02."
+    },
+    {
+      "firm": "METGREEN SOLUTIONS INC",
+      "uei": "J4TDZHLCUGW3",
+      "email": "info@metgreensolutions.com",
+      "email_type": "generic",
+      "source_url": "https://www.metgreensolutions.com/contact-us",
+      "confidence": "high",
+      "notes": "Published with '3203 Koenigstein Avenue, Norfolk, NE 68701' \u2014 the exact SAM physical address for UEI J4TDZHLCUGW3 (primary NAICS 541519, reg. expires 2027-06-30). SDVOSB, CMMC Level 2, SEWP V holder; president/CEO is Brian Moore. No named or BD address is published anywhere on the site. Genuine small IT firm \u2014 one of the better-fitting prospects in this batch."
+    },
+    {
+      "firm": "ACCESSAGILITY LLC",
+      "uei": "HMXCQJ8ADNL7",
+      "email": "sewp@accessagility.com",
+      "email_type": "role",
+      "source_url": "https://www.accessagility.com/sewp",
+      "confidence": "high",
+      "alt_email": "info@accessagility.com",
+      "alt_source_url": "https://www.accessagility.com/sewp",
+      "notes": "The page attributes sewp@accessagility.com to a named person: 'Zaib Kaleem, Program Manager, 703-870-3949 ext 140' \u2014 the same POC name the batch log recorded from SAM keyed by this UEI, which is strong corroboration. Identity: SAM lists UEI HMXCQJ8ADNL7 at 1640 Boro Pl Fl 4, McLean VA 22102, the exact postal address printed on this page; primary NAICS 541519; registration expires 2027-05-04. info@accessagility.com is published on the same page as the generic fallback."
+    },
+    {
+      "firm": "GOVERNMENT ACQUISITIONS LLC",
+      "uei": "R98MW4ZKUUK3",
+      "email": "sales@gov-acq.com",
+      "email_type": "role",
+      "source_url": "https://gov-acq.com/contact/",
+      "confidence": "high",
+      "notes": "Published with '2060 Reading Road, 3rd Floor, Cincinnati, Ohio 45202' \u2014 SAM's physical address for UEI R98MW4ZKUUK3 is 2060 Reading Road Fl 3, Cincinnati OH 45202-1400, an exact match, SBA-certified HUBZone, reg. expires 2027-05-06. The batch log's SAM POC name for this UEI is Todd Brown, and public profiles put Todd Brown at this company in Cincinnati as VP of Sales & Operations \u2014 consistent. The firm brands itself 'Government Acquisitions, Inc. (GAI)' while USAspending shows the legal name as LLC; the address match is exact and unique, so this is the same entity, not a namesake."
+    },
+    {
+      "firm": "BLUE TECH INC.",
+      "uei": "MDC5LDZKQAM4",
+      "email": "info@bluetech.com",
+      "email_type": "generic",
+      "source_url": "https://bluetech.com/contact/",
+      "confidence": "high",
+      "notes": "Published in the site header and in the footer contact block ('Email: info@bluetech.com') alongside '4025 Hancock St, Suite 100 San Diego, CA 92110' \u2014 the exact SAM physical address for UEI MDC5LDZKQAM4 (primary NAICS 541519, reg. expires 2027-04-15). Two other published addresses were rejected as wrong-purpose: dslay@bluetech.com is for vendors wanting to add products to Blue Tech's SEWP catalog, and sewp@bluetech.com is a post-delivery support desk. Note bluetech.com serves an incomplete TLS chain (missing the Let's Encrypt YR1 intermediate); it loads in a browser but breaks strict command-line clients."
+    },
+    {
+      "firm": "CSP ENTERPRISES, LLC",
+      "uei": "GJJRGECWBFK9",
+      "email": "TeamBox@cspenterprises.com",
+      "email_type": "role",
+      "source_url": "https://cspenterprises.com/contact",
+      "confidence": "high",
+      "notes": "Published with '1539 Tilco Dr #108, Frederick, MD 21704' and CAGE 1QNJ2 \u2014 the SAM physical address for UEI GJJRGECWBFK9 is 1539 Tilco Dr, Frederick MD 21704-6630, an exact match. Their site also independently confirms the SAM POC name from the batch log: Brian Vesper is CSP's owner. CAUTION, harmless: the site prints its own UEI as 'GJJRGECWBFKP' \u2014 last character P, not 9. Every other identifier lines up, and SAM has no entity at GJJRGECWBFKP, so this is a typo on their page, not a different firm."
+    },
+    {
+      "firm": "COUNTERTRADE PRODUCTS, INC.",
+      "uei": "CN4KSKX2UQY5",
+      "email": "adumm@countertrade.com",
+      "email_type": "named",
+      "source_url": "https://nitaac.nih.gov/gwacs/cio-cs/contract-holder/countertrade-products-inc",
+      "confidence": "high",
+      "alt_email": "cio-cs_support@countertrade.com",
+      "alt_source_url": "https://nitaac.nih.gov/gwacs/cio-cs/contract-holder/countertrade-products-inc",
+      "notes": "The NITAAC CIO-CS contract-holder page prints 'SAM UEI: CN4KSKX2UQY5' \u2014 exact match \u2014 next to 'Angela Patricia Dumm, Program Manager, adumm@countertrade.com, 303-424-9710' and '7585 W. 66th Avenue, Arvada, CO 80003', which is the SAM physical address for this UEI. IMPORTANT: countertrade.com returns HTTP 403 to every automated request, so NO address on the firm's own site was actually seen. Third-party listings claim info@countertrade.com is on their contact page; that was NOT verified and is deliberately not recorded here. If you want an own-site address, open https://countertrade.com/contact-us/ in a browser yourself."
+    },
+    {
+      "firm": "IMPRES TECHNOLOGY SOLUTIONS, INC",
+      "uei": "MSSQQ551LG41",
+      "email": "civ@imprestechnology.com",
+      "email_type": "role",
+      "source_url": "https://www.imprestechnology.com/contact-us/",
+      "confidence": "high",
+      "alt_email": "info@imprestechnology.com",
+      "alt_source_url": "https://www.imprestechnology.com/contact-us/",
+      "notes": "The page publishes four addresses split by function; civ@imprestechnology.com is 'Sales (Civilian)', which is the right desk \u2014 this firm's awards in the prospect record are Dept. of Commerce and Dept. of Labor, both civilian. Published with '810 Hesters Crossing, Suite 100, Round Rock, TX 78681' \u2014 SAM's physical address for UEI MSSQQ551LG41 is 810 Hesters Crossing Rd, Round Rock TX 78681-7839, an exact match.",
+      "prospect_concern": "Likely too big. Public federal-contractor profiles for this UEI show roughly $68.4M in total federal obligations across 309 awards, about $45M revenue and ~106 employees. The prospect filter only saw $490,698 because it scanned NAICS 541519 alone, so this firm slipped under the $5M ceiling on a technicality. A company this size already has capture staff."
+    },
+    {
+      "firm": "PANAMERICA COMPUTERS, INC.",
+      "uei": "DPQEDJ6CXZM5",
+      "email": "mshaffer@pcitec.com",
+      "email_type": "named",
+      "source_url": "https://nitaac.nih.gov/gwacs/cio-cs/contract-holder/panamerica-computers-inc",
+      "confidence": "high",
+      "alt_email": "support@pcitec.com",
+      "alt_source_url": "https://www.pcitec.com/contact",
+      "notes": "The NITAAC CIO-CS contract-holder page prints 'SAM UEI: DPQEDJ6CXZM5' \u2014 exact match \u2014 next to 'Michael Shaffer, Program Manager, mshaffer@pcitec.com, 540-635-4402' and '1386 Big Oak Road, Luray, VA 22835', the SAM physical address for this UEI. Source is a federal GWAC page, not the firm's own site. The firm trades as 'PCi Tec' (SAM records the DBA); its own contact page publishes only support@pcitec.com, a help desk, which is why the named POC is preferred here."
+    },
+    {
+      "firm": "COLOSSAL CONTRACTING LLC",
+      "uei": "F4M9NB1HD785",
+      "email": "danv@colossal-llc.com",
+      "email_type": "named",
+      "source_url": "https://nitaac.nih.gov/gwacs/cio-sp3-small-business/contract-holder/colossal-contracting-llc",
+      "confidence": "high",
+      "alt_email": "sales@colossal-llc.com",
+      "alt_source_url": "https://www.colossal-llc.com/contact-us/",
+      "notes": "The NITAAC CIO-SP3 contract-holder page prints 'SAM UEI: F4M9NB1HD785' \u2014 an exact match to the batch log \u2014 next to 'Dan Via, Program Manager, danv@colossal-llc.com, 443-961-9566' and the Annapolis address. Source is a federal GWAC page, not the firm's own site. Own-site alternative sales@colossal-llc.com is published at colossal-llc.com/contact-us/ with '304 Harry S Truman Parkway, Suite G Annapolis, MD 21401', matching SAM for this UEI."
+    },
+    {
+      "firm": "SDVO SOLUTIONS, LLC",
+      "uei": "KL7DMG4LKFM5",
+      "email": "Inquiries@sdvosolutions.com",
+      "email_type": "role",
+      "source_url": "https://www.sdvosolutions.com/contact",
+      "confidence": "high",
+      "notes": "Strongest identity proof in the batch: the firm's OWN contact page prints 'UEI: KL7DMG4LKFM5' and 'CAGE: 7MZ63' on the same page as the address. SAM independently places this UEI at 110 W Church St, Frederick MD 21701, primary NAICS 541519. Page also lists SEWP V Group B prime NNG15SD32B and GSA GS-35F-0119Y. The batch log's SAM POC name for this UEI, Vinnie Ahearn, is publicly listed as SDVO Solutions' IT Director / Technical Account Manager in Frederick MD \u2014 consistent."
+    },
+    {
+      "firm": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
+      "uei": "FBRMCGPMN963",
+      "email": "info@etsig.com",
+      "email_type": "generic",
+      "source_url": "https://etsig.com/contact",
+      "confidence": "high",
+      "notes": "Published with '9658 Baltimore Avenue, Suite 300, College Park, MD 20740' and CAGE 62PR1 \u2014 SAM's physical address for UEI FBRMCGPMN963 is 9658 Baltimore Ave Ste 300, College Park MD 20740-1346, an exact match. The page also lists SEWP V NNG15SD76B and GSA 47QSEA19D001M, consistent with the federal activity in the prospect record. Only a generic address is published; no named or BD contact appears anywhere on the site."
+    }
+  ]
+}

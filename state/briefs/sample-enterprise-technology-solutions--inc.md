@@ -1,29 +1,29 @@
-# FDIC Software Subscription renewal (SUB) - Copado — Worth the Bid brief for ENTERPRISE TECHNOLOGY SOLUTIONS, INC.
+# WORKDAY HUMAN CAPITAL MANAGEMENT (HCM) SUBSRCIPTION RENEWAL — Worth the Bid brief for ENTERPRISE TECHNOLOGY SOLUTIONS, INC.
 
-**Deadline: 2026-09-14T14:00:00-04:00 · FEDERAL DEPOSIT INSURANCE CORPORATION.FEDERAL DEPOSIT INSURANCE CORPORATION._ · NAICS 541519 · No Set aside used (notice states no set-aside)**
-[Solicitation CORHQ-26-Q-0317](https://sam.gov/workspace/contract/opp/841f0f9adffc47ee9099dce3943615e4/view)
+**Deadline: 2026-09-18T16:00:00-04:00 · ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR · NAICS 541519 · Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)**
+[Solicitation 475671](https://sam.gov/workspace/contract/opp/8895b17e32a7488aa2d7545260490c53/view)
 
 ## Why you're seeing this
-- Your firm's federal award 28321326FDX030123 with the Social Security Administration under NAICS 541519 (public record: https://www.usaspending.gov/award/CONT_AWD_28321326FDX030123_2800_NNG15SD76B_8000)
+- Your firm's federal award 12314426F0364 under NAICS 541519 (public record on USAspending.gov; your SAM registration UEI FBRMCGPMN963)
 
 **Check first:**
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The FDIC is renewing a software subscription for Copado, coded NAICS 541519. It is posted as a Solicitation. Place of performance is listed as VA, and the notice states that no set-aside was used, so competition is not restricted by size or socioeconomic status. Offers are due 2026-09-14T14:00:00-04:00, 10 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/841f0f9adffc47ee9099dce3943615e4/view).
+Brookhaven National Laboratory, a Department of Energy contractor-operated site, is renewing a Workday Human Capital Management (HCM) subscription, coded NAICS 541519. It is posted as a Combined Synopsis/Solicitation. The notice is set aside under FAR 19.14 for Service-Disabled Veteran-Owned Small Businesses, so eligibility is decided by certification before capability is considered. Place of performance is listed as NY. Offers are due 2026-09-18T16:00:00-04:00, 9 days from when this brief was generated. Confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/8895b17e32a7488aa2d7545260490c53/view).
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $66,685.47 across 25 sampled awards
+- Median comparable award: $124,034.80 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
-  - AUGUST SCHELL ENTERPRISES, INC. — $1,035,679.94, 2026-09-01–2027-08-31 ([Award 7571TE26F00362](https://www.usaspending.gov/award/CONT_AWD_7571TE26F00362_7571_NNG15SD80B_8000))
-  - GOVSMART, INC. — $28,321.68, 2026-09-01–2027-08-28 ([Award 7571TE26F80258](https://www.usaspending.gov/award/CONT_AWD_7571TE26F80258_7571_NNG15SD11B_8000))
+  - No closely related prior awards surfaced — this may be a new requirement, or related work may be described differently.
 
 ## Effort signals
-- The notice states no set-aside was used, so you would be competing against firms of any size. Does that change whether the proposal hours are worth spending?
-- Copado is a DevOps product for the Salesforce platform. Does the solicitation require authorized-reseller status for that publisher, and can you produce a letter of supply inside the response window?
-- A subscription renewal normally has someone holding the expiring subscription, but this notice record does not name anyone. Does the solicitation text identify the current holder or the expiring contract number?
-- Renewals are often priced against a publisher or schedule price. Do you have a price you can defend, or is your margin already fixed by the publisher?
-- Your cited award is an annual Atlassian subscription renewal — the same shape of transaction as this one. Does your publisher coverage extend to Copado?
+- This is a FAR 19.14 SDVOSB set-aside. Is your SDVOSB certification currently verified in SAM and does it cover NAICS 541519? If not, eligibility ends the question here.
+- A subscription renewal usually favours whoever holds the current reseller agreement. The notice record names no incumbent and this brief will not guess — but can you establish whether you can even source Workday licences for this buyer?
+- Brookhaven is a contractor-operated DOE site, so the buying rules can differ from a direct federal award. Does that change your pricing or your terms?
+- 9 days for a renewal is workable, but sourcing a manufacturer quote may not be. How fast can you get one?
+- Median sampled award in this NAICS is $124,034.80 across 25 sampled awards. Does a single-product renewal at that scale justify the proposal time?
+- Your 541519 record is licence and subscription resale, which matches the shape of this buy. But this is an SDVOSB set-aside — if your firm is not SDVOSB-verified in SAM, fit does not matter. Confirm that first.
 
 ---
 *Research brief — verify every detail against the linked federal records before bidding.*

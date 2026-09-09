@@ -1,28 +1,29 @@
-# CODIS Phase III (Specialized Forensics IT Equipment) — Worth the Bid brief for PANAMERICA COMPUTERS, INC.
+# Non-Core Telecommunications Operations & Maintenance — Worth the Bid brief for PANAMERICA COMPUTERS, INC.
 
-**Deadline: 2026-09-17T17:00:00-06:00 · STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM · NAICS 541519 · Small Business Set Aside - Total**
-[Solicitation 19AQMM26R0250](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view)
+**Deadline: 2026-09-18T12:00:00-04:00 · TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693JJ3 ACQUISITION AND GRANTS MGT · NAICS 541519 · Small Business Set Aside - Total**
+[Solicitation 693JJ126Q000005](https://sam.gov/workspace/contract/opp/2b3f25de92e641eb893f446ea55e5d86/view)
 
 ## Why you're seeing this
-- Your firm's federal award 80NSSC26FA713 with the National Aeronautics and Space Administration under NAICS 541519 (public record: https://www.usaspending.gov/award/CONT_AWD_80NSSC26FA713_8000_NNG15SD02B_8000)
+- Your firm's federal award 15JC1V26F00000158 under NAICS 541519 (public record on USAspending.gov; your SAM registration UEI DPQEDJ6CXZM5)
 
 **Check first:**
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The State Department's AQM Momentum acquisitions office is buying specialized forensics IT equipment under the CODIS Phase III requirement, coded NAICS 541519. It is posted as a Solicitation — the government has issued its requirement and is asking for offers, not gauging interest. The notice carries a total small business set-aside, so competition is restricted to small businesses. The notice record lists no place of performance. Offers are due 2026-09-17T17:00:00-06:00, 14 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view). This solicitation number also appears in the same SAM.gov feed as a separate Presolicitation notice for the same requirement.
+The Federal Highway Administration's acquisition and grants management office is buying non-core telecommunications operations and maintenance, coded NAICS 541519. It is posted as a Combined Synopsis/Solicitation, so the synopsis and solicitation are one document. The notice carries a total small business set-aside, so competition is restricted to small businesses. Place of performance is listed as DC. Offers are due 2026-09-18T12:00:00-04:00, 9 days from when this brief was generated — the shortest window in this batch. Confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/2b3f25de92e641eb893f446ea55e5d86/view).
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $66,685.47 across 25 sampled awards
+- Median comparable award: $124,034.80 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
   - No closely related prior awards surfaced — this may be a new requirement, or related work may be described differently.
 
 ## Effort signals
-- The set-aside is “Small Business Set Aside - Total.” Is your size status under NAICS 541519 current in SAM.gov, and does it still hold at the size standard the contracting officer applied?
-- The title names “Specialized Forensics IT Equipment.” Does the solicitation specify makes and models, and can you obtain authorized-distributor pricing and a letter of supply inside the response window?
-- The notice record lists no place of performance. Where does the equipment ship, and does the requirement add installation, training or on-site support you would have to price separately?
-- This is labelled Phase III. Does the solicitation say what the earlier phases bought and who delivered them? This notice record does not name an incumbent, so that has to come from the solicitation text or from the agency's own award history.
-- Your cited award is training on Magnet Forensics tooling. This requirement is forensics equipment rather than training. Does your supplier base cover the hardware side, or would you be teaming for it?
+- The set-aside is "Small Business Set Aside - Total". Is your size status under NAICS 541519 current in SAM, and does it hold at the size standard the contracting officer applied?
+- 9 days is the tightest window in this batch, and a Combined Synopsis/Solicitation leaves little room for questions. Can you price operations and maintenance scope that fast?
+- "Non-core" is doing real work in this title — it usually means everything outside the primary network. What is actually in scope, and can you tell from the solicitation alone?
+- Place of performance is DC. Does this need on-site staff, and do you have them or a subcontractor already in place?
+- Median sampled award in this NAICS is $124,034.80 across 25 sampled awards. An O&M contract is recurring labour; does the annual value support the bid cost?
+- Your award record in this NAICS also includes a 693J-prefixed award, the same prefix that appears on this solicitation number 693JJ126Q000005. If you already hold Department of Transportation work, does it support a past-performance citation here?
 
 ---
 *Research brief — verify every detail against the linked federal records before bidding.*

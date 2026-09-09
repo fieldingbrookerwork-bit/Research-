@@ -1,28 +1,29 @@
-# IRS Audio-Visual (AV) and Video Teleconferencing (VTC) Enterprise Systems Integration, Support, and Maintenance Master IDIQ — Worth the Bid brief for STANDARD-BLAZAR, LLC
+# IT Support Services Contract (ITSSC) Recompete — Worth the Bid brief for STANDARD-BLAZAR, LLC
 
-**Deadline: 2026-09-14T17:00:00-04:00 · TREASURY, DEPARTMENT OF THE.INTERNAL REVENUE SERVICE.IT STRATEGY AND MODERNIZATION · NAICS 541519 · Small Business Set Aside - Total**
-[Solicitation 205AE9-26-Q-00053](https://sam.gov/workspace/contract/opp/9032d0ed0d8b4327af19e7c63841dcb4/view)
+**Deadline: 2026-09-28T10:00:00-04:00 · SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION  GRANTS · NAICS 541519 · No set-aside stated**
+[Solicitation 28321326R00000022](https://sam.gov/workspace/contract/opp/b6d8cb6478164a9cb1e69fb25ea11e9c/view)
 
 ## Why you're seeing this
-- Your firm's federal award 70B02C26F00000650 with the Department of Homeland Security under NAICS 541519 (public record: https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000650_7014_NNG15SD70B_8000)
+- Your firm's federal award 140G0126F0293 under NAICS 541519 (public record on USAspending.gov; your SAM registration UEI DZ9XM5UDFN29)
 
 **Check first:**
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The IRS's IT Strategy and Modernization office is establishing a master IDIQ for enterprise audio-visual and video teleconferencing systems integration, support and maintenance, coded NAICS 541519. It is posted as a Combined Synopsis/Solicitation — the synopsis and the solicitation are one document, so this response window is the whole window; there is no separate solicitation coming later. Place of performance is listed as DC, and the notice carries a total small business set-aside, so competition is restricted to small businesses. Offers are due 2026-09-14T17:00:00-04:00, 11 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/9032d0ed0d8b4327af19e7c63841dcb4/view).
+The Social Security Administration's Office of Acquisition and Grants is recompeting its IT Support Services Contract (ITSSC), coded NAICS 541519. It is posted as a Combined Synopsis/Solicitation, which means the synopsis and the solicitation are the same document and the response window is the whole of it. The set-aside field on this notice record is blank — that is not a stated "no set-aside", and it must not be read as confirmation that the requirement is full-and-open; the solicitation is where that is settled. The notice record lists no place of performance. Offers are due 2026-09-28T10:00:00-04:00, 19 days from when this brief was generated. Confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/b6d8cb6478164a9cb1e69fb25ea11e9c/view).
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $66,685.47 across 25 sampled awards
+- Median comparable award: $124,034.80 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
-  - FOUR POINTS TECHNOLOGY, L.L.C. — $19,000.00, 2026-09-26–2027-09-25 ([Award 70T03026F6116N003](https://www.usaspending.gov/award/CONT_AWD_70T03026F6116N003_7013_NNG15SD22B_8000))
+  - CTG FEDERAL, LLC — $495,700.00, 2026-09-30–2027-09-29 ([Award 70CMSD26FR0000102](https://www.usaspending.gov/award/CONT_AWD_70CMSD26FR0000102_7012_NNG15SD12B_8000))
+  - CHARTER COMMUNICATIONS OPERATING LLC — $0.00, 2026-10-01–2027-09-30 ([Award 15M10226PA4700403](https://www.usaspending.gov/award/CONT_AWD_15M10226PA4700403_1544_-NONE-_-NONE-))
 
 ## Effort signals
-- The set-aside is “Small Business Set Aside - Total.” Is your size status under NAICS 541519 current in SAM.gov, and does it still hold at the size standard the contracting officer applied?
-- This is a master IDIQ, not a single job. An IDIQ award buys you the right to compete for task orders; the revenue depends on order flow the notice does not show. Does the solicitation state a ceiling value, a guaranteed minimum, or how many awards it intends to make? Those three numbers decide what the pursuit is worth.
-- Enterprise AV/VTC across the IRS is a wider footprint than a single-site install. Does the scope require nationwide coverage, named key personnel, or cleared technicians — and can you staff that, or would you need a teaming agreement signed inside the window?
-- A Combined Synopsis/Solicitation compresses the timeline: 11 days is all there is. Can you assemble an IDIQ-level proposal in that time?
-- Your cited award is Vidterra software licensing. This requirement is integration and maintenance labor rather than licensing. Does your firm price recurring technician hours, and at IDIQ scale?
+- The set-aside field on this notice is blank rather than stated. Confirm in the solicitation whether a set-aside applies — that answer decides whether you are eligible before anything else matters.
+- This is a recompete, so an incumbent almost certainly exists. The notice record does not name one, and this brief will not guess. Who holds the current contract, and can you find out before you commit proposal hours?
+- A Combined Synopsis/Solicitation compresses synopsis and solicitation into one document. Does that leave you enough time to ask questions and get answers before the due date?
+- Median sampled award in this NAICS is $124,034.80 across 25 sampled awards, but a multi-year support services contract can sit far above that. Where do you think this one lands, and does that change the bid/no-bid?
+- Your NAICS 541519 history runs to software licences and support renewals. This is a labour-based support services recompete. Is that scope you staff directly, or would it need a teaming partner?
 
 ---
 *Research brief — verify every detail against the linked federal records before bidding.*

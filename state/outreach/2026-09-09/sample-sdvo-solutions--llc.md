@@ -1,0 +1,47 @@
+to: Inquiries@sdvosolutions.com
+from: [FOUNDER_NAME] <[FOUNDER_EMAIL]>
+subject: 475671 — award-history brief for SDVO SOLUTIONS, LLC
+
+Brookhaven National Laboratory is renewing a Workday HCM subscription for the Department of Energy — solicitation 475671, NAICS 541519, an SDVOSB set-aside under FAR 19.14. Your firm holds federal award 63NLRB26F0072 under the same NAICS — public record on USAspending.gov, and the reason I picked you rather than a list.
+
+Below, inline, is a free research brief on that notice: what is being bought, the response deadline, award-history context for the NAICS, and the questions I would want answered before committing proposal hours. Every figure comes from SAM.gov and USAspending.gov and can be looked up by the identifiers shown; research compiled with AI assistance.
+
+That is what subscribers get weekly for their NAICS and state, at $49–79 a month. If it is useful, reply to this email and I will set it up. If it is not, reply and I will stop.
+
+------------------------------------------------------------------
+WORTH THE BID — sample brief: WORKDAY HUMAN CAPITAL MANAGEMENT (HCM) SUBSRCIPTION RENEWAL
+------------------------------------------------------------------
+Solicitation : 475671
+SAM notice ID: 8895b17e32a7488aa2d7545260490c53
+Agency       : ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR
+NAICS        : 541519
+Set-aside    : Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)
+Response due : 2026-09-18T16:00:00-04:00
+
+WHY YOU'RE SEEING THIS
+- Your firm's federal award 63NLRB26F0072 under NAICS 541519 (public record on USAspending.gov; your SAM registration UEI KL7DMG4LKFM5)
+Check first:
+- Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
+THE OPPORTUNITY
+Brookhaven National Laboratory, a Department of Energy contractor-operated site, is renewing a Workday Human Capital Management (HCM) subscription, coded NAICS 541519. It is posted as a Combined Synopsis/Solicitation. The notice is set aside under FAR 19.14 for Service-Disabled Veteran-Owned Small Businesses, so eligibility is decided by certification before capability is considered. Place of performance is listed as NY. Offers are due 2026-09-18T16:00:00-04:00, 9 days from when this brief was generated. Confirm the deadline and any amendments on the notice itself.
+AWARD HISTORY CONTEXT (36 MONTHS, GOVERNMENT-WIDE)
+- Median comparable award: $124,034.80 across 25 sampled awards
+- Candidate related awards (title-overlap heuristic — verify in the linked records):
+  - No closely related prior awards surfaced — this may be a new requirement, or related work may be described differently.
+EFFORT SIGNALS
+- This is a FAR 19.14 SDVOSB set-aside. Is your SDVOSB certification currently verified in SAM and does it cover NAICS 541519? If not, eligibility ends the question here.
+- A subscription renewal usually favours whoever holds the current reseller agreement. The notice record names no incumbent and this brief will not guess — but can you establish whether you can even source Workday licences for this buyer?
+- Brookhaven is a contractor-operated DOE site, so the buying rules can differ from a direct federal award. Does that change your pricing or your terms?
+- 9 days for a renewal is workable, but sourcing a manufacturer quote may not be. How fast can you get one?
+- Median sampled award in this NAICS is $124,034.80 across 25 sampled awards. Does a single-product renewal at that scale justify the proposal time?
+- The one award in this NAICS in the records we sampled, 63NLRB26F0072, is a software maintenance renewal — the same shape as this requirement. Is your SDVOSB certification current in SAM for 541519?
+
+Look any of this up yourself: the solicitation and notice ID on SAM.gov, the award IDs on USAspending.gov. No links in this email on purpose.
+Research brief — verify every detail against the linked federal records before bidding.
+Prepared with AI assistance from public SAM.gov and USAspending.gov data; reviewed before delivery.
+------------------------------------------------------------------
+
+— [FOUNDER_NAME]
+Worth the Bid
+[POSTAL_ADDRESS]
+Reply 'unsubscribe' and you won't hear from me again — removals are honored immediately.

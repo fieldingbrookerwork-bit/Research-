@@ -1,28 +1,29 @@
-# CODIS Phase III (Specialized Forensics IT Equipment) — Worth the Bid brief for CSP ENTERPRISES, LLC
+# Next Generation (NextGen) Passport Personalization Printers Support — Worth the Bid brief for CSP ENTERPRISES, LLC
 
-**Deadline: 2026-09-17T17:00:00-06:00 · STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM · NAICS 541519 · Small Business Set Aside - Total**
-[Solicitation 19AQMM26R0250](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view)
+**Deadline: 2026-09-30T13:00:00-04:00 · STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM · NAICS 541519 · No set-aside stated**
+[Solicitation 19AQMM24R0113](https://sam.gov/workspace/contract/opp/0e2bd08c75544d479d4589d3dfdbf98b/view)
 
 ## Why you're seeing this
-- Your firm's federal award 1331L526F0353 with the Department of Commerce under NAICS 541519 (public record: https://www.usaspending.gov/award/CONT_AWD_1331L526F0353_1301_1331L523A13ES0062_1301)
+- Your firm's federal award 1331L526F0350 under NAICS 541519 (public record on USAspending.gov; your SAM registration UEI GJJRGECWBFK9)
 
 **Check first:**
 - Sample brief prepared for outreach — profile details (certifications, territory) not yet confirmed with the firm
 
 ## The opportunity
-The State Department's AQM Momentum acquisitions office is buying specialized forensics IT equipment under the CODIS Phase III requirement, coded NAICS 541519. It is posted as a Solicitation — the government has issued its requirement and is asking for offers, not gauging interest. The notice carries a total small business set-aside, so competition is restricted to small businesses. The notice record lists no place of performance. Offers are due 2026-09-17T17:00:00-06:00, 14 days from when this brief was generated; confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/030c18a9145d4c1abd91c43cafe8cd93/view). This solicitation number also appears in the same SAM.gov feed as a separate Presolicitation notice for the same requirement.
+The Department of State's AQM Momentum acquisitions office is buying support for its Next Generation (NextGen) passport personalization printers, coded NAICS 541519. It is posted as a Solicitation. The set-aside field on this notice record is blank, which is not the same as a stated "no set-aside" and does not confirm the requirement is full-and-open — the solicitation settles that. Place of performance is listed as DC. Offers are due 2026-09-30T13:00:00-04:00, 21 days from when this brief was generated. Confirm the deadline and any amendments on [the notice itself](https://sam.gov/workspace/contract/opp/0e2bd08c75544d479d4589d3dfdbf98b/view).
 
 ## Award history context (36 months, government-wide)
-- Median comparable award: $66,685.47 across 25 sampled awards
+- Median comparable award: $124,034.80 across 25 sampled awards
 - **Candidate related awards** (title-overlap heuristic — verify in the linked records):
   - No closely related prior awards surfaced — this may be a new requirement, or related work may be described differently.
 
 ## Effort signals
-- The set-aside is “Small Business Set Aside - Total.” Is your size status under NAICS 541519 current in SAM.gov, and does it still hold at the size standard the contracting officer applied?
-- The title names “Specialized Forensics IT Equipment.” Does the solicitation specify makes and models, and can you obtain authorized-distributor pricing and a letter of supply inside the response window?
-- The notice record lists no place of performance. Where does the equipment ship, and does the requirement add installation, training or on-site support you would have to price separately?
-- This is labelled Phase III. Does the solicitation say what the earlier phases bought and who delivered them? This notice record does not name an incumbent, so that has to come from the solicitation text or from the agency's own award history.
-- Your cited award is a laptop refresh. Specialized forensics equipment is a narrower supplier base than commodity endpoints. Can you source it authorized?
+- The set-aside field on this notice is blank rather than stated. Confirm in the solicitation whether a set-aside applies — it decides eligibility before fit does.
+- "Printers Support" reads as sustained maintenance of a specific installed platform, not a one-off supply. Is the scope service, hardware, or both, and does that match how you are set up to deliver?
+- Passport personalization equipment sits inside a controlled environment. Does the solicitation require cleared personnel, facility access, or supply-chain restrictions you would have to satisfy?
+- Place of performance is DC. Does that require on-site technicians or badging you would need to arrange?
+- Median sampled award in this NAICS is $124,034.80 across 25 sampled awards. Where does a printer-support requirement land against that, and is the proposal effort proportionate?
+- In the public records we sampled, all 14 of your awards in this NAICS are with the Department of Commerce (our scan is page-capped, so your true record may be wider). This is a Department of State requirement — does the solicitation weight past performance with State specifically?
 
 ---
 *Research brief — verify every detail against the linked federal records before bidding.*
