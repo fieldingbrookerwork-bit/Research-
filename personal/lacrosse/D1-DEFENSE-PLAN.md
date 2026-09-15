@@ -158,6 +158,9 @@ thing on the list and it is a midfielder's currency, not a pole's.
 
 ## PART 3: THE SESSIONS
 
+> Section order below is historical. Current day assignment: **Monday = max velocity,
+> Wednesday = acceleration, Thursday and Saturday = low.** See Part 2 or `DAILY-SCRIPT.md`.
+
 ### Standard warm-up (12 minutes, every session)
 
 1. Ankle rocks 10/side, 90/90 hip switches x10, world's greatest stretch x5/side
@@ -168,7 +171,10 @@ thing on the list and it is a midfielder's currency, not a pole's.
 
 ---
 
-### SPEED A — Monday after school (acceleration emphasis, ~40 min)
+### SPEED B — Wednesday after school (acceleration emphasis, ~50 min)
+
+> Moved to Wednesday when Tuesday night club was added. Acceleration tolerates residual
+> fatigue; max velocity does not.
 
 This is the session for the first three steps out of a break down. For a 6'5" athlete the coaching point is a **longer, more patient acceleration with a more upright spine** than a shorter athlete uses. He should not try to stay low the way a 5'9" midfielder does. He will trip over his own shins.
 
@@ -187,7 +193,10 @@ This is the session for the first three steps out of a break down. For a 6'5" at
 
 ---
 
-### SPEED B — Wednesday after school (max velocity emphasis, ~40 min)
+### SPEED A — Monday after school (max velocity emphasis, ~55 min)
+
+> Moved to Monday, the freshest day of the week coming off Sunday off. Precede it with the
+> 5-minute monitoring block: bodyweight, CMJ x3, 10 yd x2.
 
 Run first, fresh, before the night lift. Flying sprints go early in a session when the athlete can produce maximal effort and are avoided after fatiguing strength or endurance work.
 
@@ -244,7 +253,10 @@ Protocol: **6 x 40 yd shuttle (20 yd out, 180 degree turn, 20 yd back) with 25 s
 
 ---
 
-### LOW DAYS — Tuesday and Thursday (~35 min, can be done anywhere)
+### LOW DAYS — Thursday and Saturday (~60 min, can be done anywhere)
+
+> Tuesday is now club practice. Its tempo and prehab moved to Saturday. Nordic runs
+> Monday and Thursday; Copenhagen runs Wednesday and Saturday.
 
 Genuinely low. The value of the high/low structure comes entirely from the low days actually being low.
 
@@ -307,6 +319,9 @@ Build stiffness first with isometrics and eccentrics, then learn to use it with 
 ## PART 5: TESTING
 
 Run the full battery **Week 1 (this week)** and **Week 12 (1-5 December)**. Same surface, same shoes, same time of day, same order, same rest. Consistency of protocol matters more than the accuracy of the timing device.
+
+> Checkpoint tests (CMJ, 10 yd, 5-10-5, 3-cone) also run in weeks 4 and 8, in the Friday
+> slot. No 300 yd shuttle at checkpoints.
 
 | Test | Why it is in here | His target by June 2027 |
 |---|---|---|
