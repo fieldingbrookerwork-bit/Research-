@@ -2,8 +2,9 @@
 
 **Athlete:** Junior, class of 2028. 6'5", 226 lb. Close defense (pole).
 **Current lifts:** Bench 225x3 (est. 1RM 240, 1.06x BW). Squat 315x3 (est. 1RM 345, 1.53x BW).
-**Fixed schedule:** Monday night full body lift. Wednesday night full body lift. Friday after school conditioning hour. One club practice per week.
-**Plan written:** 15 September 2026. **Block runs:** 15 Sep to 5 Dec 2026 (12 weeks).
+**Fixed schedule:** Monday night full body lift. Wednesday night full body lift. **Tuesday night club practice (~90 min).** Friday after school conditioning hour.
+**Plan written:** 15 September 2026. **Block 1:** 15 Sep to 5 Dec 2026. **Winter block:** 8 Dec 2026 to 27 Feb 2027.
+**Operational detail:** see `DAILY-SCRIPT.md` in this folder.
 
 > Clear this with a physician or athletic trainer before starting, particularly the heavy sled and Nordic work. He is a minor carrying real load.
 
@@ -55,29 +56,103 @@ Flying sprints must be run fresh, early in a session, and specifically not after
 
 Monday and Wednesday night lifts mean Tuesday and Thursday mornings are the compromised windows, not the fresh ones. The common mistake is to sprint Tuesday morning off a Monday night lift.
 
-**The fix:** run speed work **after school on Monday and Wednesday, before the night lift**, roughly a three hour gap. That stacks the hard CNS work onto the days that are already hard and leaves Tuesday and Thursday genuinely easy. This is Charlie Francis high/low structure and it is the single biggest structural improvement available given his fixed schedule.
+**The fix:** run speed work **after school on Monday and Wednesday, before the night lift**, roughly a three hour gap. That stacks the hard CNS work onto the days that are already hard and leaves Thursday and Saturday genuinely easy. This is Charlie Francis high/low structure and it is the single biggest structural improvement available given his fixed schedule. (With Tuesday night club practice, Tuesday is a loaded day and Saturday takes the low-day slot. See Part 2.)
 
 ---
 
 ## PART 2: THE WEEKLY TEMPLATE
 
+> **REVISED 15 Sep 2026 — Tuesday night club practice.** The week below is the current
+> one. `DAILY-SCRIPT.md` is the operational source of truth and carries the full
+> day-by-day detail, the winter block, and the weekly monitoring protocol.
+
 | Day | After school | Night | Load |
 |---|---|---|---|
-| **Mon** | Speed A: acceleration, 40 min | Full body lift (fixed) | HIGH |
-| **Tue** | Low day: extensive tempo + prehab + stick, 35 min | — | LOW |
-| **Wed** | Speed B: max velocity, 40 min | Full body lift (fixed) | HIGH |
-| **Thu** | Low day: extensive tempo + prehab + stick, 35 min | — | LOW |
-| **Fri** | Conditioning hour (fixed slot, content below) | — | HIGH |
-| **Sat** | Club practice | — | as scheduled |
-| **Sun** | Off, or 20 min walk and mobility | — | OFF |
+| **Mon** | Monitoring 5 min, then Speed A: **max velocity**, 55 min | Full body lift (fixed) | HIGH |
+| **Tue** | Nothing. Rest and eat. | **Club practice** (fixed, ~90 min) | CLUB |
+| **Wed** | Speed B: **acceleration and sled**, 50 min | Full body lift (fixed) | HIGH |
+| **Thu** | Tempo, Nordic, isometrics, stick — 60 min | — | LOW |
+| **Fri** | **Conditioning hour** (fixed) | — | HIGH |
+| **Sat** | Tempo, Copenhagen, isometrics, stick — 60 min | — | LOW |
+| **Sun** | Off. Walk, mobility, nine hours sleep. | — | OFF |
 
-Three high days plus one club practice. Nothing else goes in. He said he will do whatever, and the correct answer to that is no. Research on weekly sprint volume shows a U-shaped injury curve: lowest incidence between 5 and 11 maximal velocity reps per week, with 6 to 10 exposures above 95% of max speed optimal. Eccentric hamstring strength measurably decreased when players completed 7 to 8 weekly efforts above 90% but not below 6. More is not available as a lever here. Extra appetite goes into stickwork, film and sleep.
+### Why max velocity moved to Monday
+
+Originally Monday was acceleration and Wednesday was max velocity. Tuesday night club
+practice makes that dangerous: Wednesday max velocity would put his fastest running of
+the week roughly 18 hours after a practice.
+
+Peak hamstring strain occurs in late swing at top speed, not in the first ten yards.
+About 60% of hamstring injuries happen during high-speed running, hamstring tear is the
+third most reported injury in NCAA men's lacrosse, and sprinting at 95%+ on residual
+fatigue is precisely the mechanism.
+
+So Monday, the freshest day of the week coming off Sunday off, takes max velocity.
+Wednesday takes acceleration and heavy sled, which tolerate residual fatigue because he
+never reaches the hip angles where hamstrings tear.
+
+### The cost, stated plainly
+
+Monday, Tuesday and Wednesday are now three loaded days in a row. That is the price of a
+fixed Tuesday night practice and no arrangement avoids it. It is managed by keeping
+Tuesday afternoon completely empty, Thursday and Saturday genuinely easy, and Sunday
+fully off.
+
+Three high days plus a club practice. Nothing else goes in. Research on weekly sprint
+volume shows a U-shaped injury curve: lowest incidence between 5 and 11 maximal velocity
+reps per week, with 6 to 10 exposures above 95% of max speed optimal. Eccentric hamstring
+strength measurably decreased when players completed 7 to 8 weekly efforts above 90% but
+not below 6. More is not available as a lever here. Extra appetite goes into stickwork,
+film and sleep.
 
 **Max velocity rep budget: 6 to 8 per week. Count them. Do not exceed 8.**
 
+### Monday monitoring block — 5 minutes, before the warm-up
+
+Body weight, countermovement jump (3 jumps, best of), 10 yd from a 3-point start
+(2 reps, best of). Same scale, surface, shoes and order every week.
+
+**Readiness rule:** if the vertical is more than 5% below his four-week rolling average,
+drop the last exercise from that day's speed session and cut one set from the lift. Two
+weeks running means take an unplanned deload. This is the scaled-down version of what
+Ballou and Rhea run at Alabama and it is the cheapest injury insurance available.
+
 ### If the Friday conditioning hour is not his to control
 
-If Friday is a team session he must do as prescribed, treat it as spent and do **not** add the Friday content below. Instead move the deceleration and change of direction block to Wednesday after school, cut Speed B to four flying runs, and keep Tuesday and Thursday low. The plan still works. It loses about 15% of its value.
+If Friday is a team session he must do as prescribed, treat it as spent and do **not**
+add the Friday content below. Instead move the deceleration and change of direction block
+to Wednesday after school, cut Wednesday to three sled sprints, and keep Thursday and
+Saturday low. The plan still works. It loses about 15% of its value.
+
+---
+
+## PART 2B: FAST RESULTS — WHAT MOVES AND WHAT DOES NOT
+
+Estimates, not published norms. The mechanism is given for each.
+
+| Quality | By 5 Dec (11 wks) | By 27 Feb (23 wks) | Mechanism |
+|---|---|---|---|
+| 3-cone | 0.20–0.40 s | 0.35–0.60 s | Technique and braking dominant. Fastest mover, and the best D1 lacrosse separator. |
+| 5-10-5 pro agility | 0.15–0.30 s | 0.25–0.45 s | Same. |
+| Vertical jump | 1–2 in | 2–4 in | Responds quickly to trap bar plus loaded jump work. |
+| Trap bar 3RM | +40–70 lb | +80–120 lb | Intermediate lifter with real headroom. |
+| 10 yd sprint | 0.04–0.08 s | 0.07–0.13 s | Neural and technical, plus heavy sled. |
+| 300 yd shuttle | 2–4 s | 4–7 s | Moves fast, matters least. |
+| Max velocity | +0.3–0.8 mph | +0.8–1.5 mph | The slowest quality here. Indiana averaged +3 mph over a full year with a college staff, force plates and weekly laser timing. |
+
+The qualities that move fastest are the same ones that separate D1 lacrosse starters.
+That is lucky, not clever. Do not spend the fall chasing top-end speed: it is the slowest
+thing on the list and it is a midfielder's currency, not a pole's.
+
+**What front-loading changed:**
+
+1. The Friday deceleration ladder starts at 20 yd from week 1, and the reactive 1v1
+   mirror starts week 3 instead of week 5. Change of direction is the fastest moving
+   quality and carries almost no injury cost, so there is no reason to ramp it slowly.
+2. **Checkpoint tests in weeks 4 and 8**, not just weeks 1 and 12. Twenty-five minutes in
+   the Friday slot: CMJ, 10 yd, 5-10-5, 3-cone. No 300 yd shuttle.
+3. Weekly Monday monitoring, above. He gets a number that moves every week instead of
+   waiting eleven weeks to learn whether it worked.
 
 ---
 
