@@ -134,12 +134,25 @@ Main — **6 to 8 max velocity reps per week, no more**:
 
 | Drill | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
 |---|---|---|---|---|
-| Wickets, 6 ft apart, 20–25 yd run-in | 4 runs | 3 runs | skip | 3 min |
+| Wickets, ~6 ft apart, 20–25 yd run-in | 4 runs | 3 runs | skip | 3 min |
 | Flying sprint | Fly 10 x4 | Fly 15 x4 | Fly 20 x4 | 4–5 min |
 | Downhill overspeed, 2–3% grade | — | — | 3 runs | 4 min |
 | **Exposures** | **8** | **7** | **7** | |
 
 Cooldown 7 min: walk, then hamstrings, calves, hip flexors. Eat within 45 min.
+
+> **Wicket spacing for a 6'5" athlete.** The usable range is 5 to 6.5 ft depending on the
+> athlete's speed characteristics, and 6 ft is the number normally quoted for high school
+> athletes. That number is calibrated to an average-sized high schooler, and his stride is
+> longer. Start at 6 ft, then read what happens:
+> - **Clipping wickets while reaching** (foot lands ahead of the body, braking each step) →
+>   genuine overstriding. Leave the spacing alone, the drill is working.
+> - **Clipping wickets while landing under the hip with tall posture** → the wickets are too
+>   narrow for his leg length. Widen to 6.5 ft.
+>
+> Telling those two apart is the only real coaching judgment in the drill. Ground contact
+> should land dead centre between each pair. Once he is clean at a spacing, widen by 6 in to
+> lengthen the stride; wicket height can rise over time to force better swing-leg recovery.
 
 **6:30pm — Lift: full body, max force (85 min)**
 
