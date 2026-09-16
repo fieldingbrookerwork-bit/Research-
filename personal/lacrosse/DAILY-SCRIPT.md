@@ -127,7 +127,7 @@ Warm-up, 12 min:
 - 3:20 Ankle rocks 10/side → 90/90 hip switches x10 → world's greatest stretch 5/side
 - 3:23 Leg swings, 10/leg front-back and side-side
 - 3:25 Pogo hops 2x10, 30s between
-- 3:27 A-march 2x15 yd, A-skip 2x15 yd
+- 3:27 A-march 2x15 yd, B-skip 2x15 yd
 - 3:30 Build-ups 3x20 yd at 60 / 70 / 80%
 
 Main — **6 to 8 max velocity reps per week, no more**:
@@ -218,7 +218,7 @@ Cooldown 7 min. Eat within 45 min.
 | Trap bar jump | 5x3 @ 45 lb | 5x3 @ 68 lb | 6x3 @ 45 lb | 2 min |
 | Single leg RDL | 3x8/side | 3x6/side | 3x6/side | 90 s |
 | Skater bound | 3x5/side | 3x5/side | 4x5/side | 90 s |
-| Push press or landmine press | 4x5 | 5x3 | 4x3 | 2 min |
+| **Single-arm landmine press** | 4x5/side | 5x3/side | 4x3/side | 2 min |
 | Chest supported row | 4x8 | 4x8 | 4x6 | 90 s |
 | **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side | 45 s |
 | Tibialis raise | 3x15 | 3x15 | 3x20 | 45 s |
@@ -293,6 +293,31 @@ Walk 20 to 30 minutes outside. Mobility 10 minutes. **Nine hours of sleep.**
 
 Sleeping under 8 hours carries 1.7 times the injury risk in adolescent athletes, and
 adolescent athletes average about 6.3. Off is a prescription, not an absence of one.
+
+---
+
+## TWO CORRECTIONS FROM THE 16 SEP EVIDENCE AUDIT
+
+Full audit in `EVIDENCE-AUDIT.md`. Two changes reached this file.
+
+**Push press removed, single-arm landmine press in its place.** The collision-sport evidence
+that justifies upper body work is specifically about *horizontal* strength: 3RM bench press
+is associated with tackling ability, and higher upper-body horizontal strength is associated
+with selection and with reduced injury risk in tackling. None of it concerns pressing
+overhead, and a pole never presses anything overhead. The landmine press is an angled
+horizontal press, it is inherently anti-rotational, and the angled path is far kinder to a
+6'5" athlete's shoulders.
+
+**A-skip replaced with B-skip.** Skip drills are better suited to a dynamic warm-up than to
+sprint-specific training, and B-skip was the strongest predictor of both 5 m and 20 m sprint
+performance in a validated running-drill battery. The warm-up is warm-up. It is not speed work
+and the plan no longer implies otherwise.
+
+**Also corrected, no session change:** the rear foot elevated split squat and single leg RDL
+are **change-of-direction transfer work, not sprint work**. The unilateral-versus-bilateral
+meta-analysis found no significant pooled effect of unilateral training on 10, 20 or 30 m
+sprints. Bilateral work (the trap bar) is the sprint driver; unilateral work transfers it to
+cutting. They stay because cutting is his priority, but the reason changed.
 
 ---
 

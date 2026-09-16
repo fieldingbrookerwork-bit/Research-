@@ -4,7 +4,7 @@
 **Current lifts:** Bench 225x3 (est. 1RM 240, 1.06x BW). Squat 315x3 (est. 1RM 345, 1.53x BW).
 **Fixed schedule:** Monday night full body lift. Wednesday night full body lift. **Tuesday night club practice (~90 min).** Friday after school conditioning hour.
 **Plan written:** 15 September 2026. **Block 1:** 15 Sep to 5 Dec 2026. **Winter block:** 8 Dec 2026 to 27 Feb 2027.
-**Operational detail:** see `DAILY-SCRIPT.md` in this folder.
+**Operational detail:** see `DAILY-SCRIPT.md`. **Evidence basis for every drill:** see `EVIDENCE-AUDIT.md`.
 
 > Clear this with a physician or athletic trainer before starting, particularly the heavy sled and Nordic work. He is a minor carrying real load.
 
@@ -166,7 +166,7 @@ thing on the list and it is a midfielder's currency, not a pole's.
 1. Ankle rocks 10/side, 90/90 hip switches x10, world's greatest stretch x5/side
 2. Leg swings front/back and lateral, 10 each
 3. Pogo hops 2x10 (ankle stiffness, do not bend the knees much)
-4. A-march 2x15 yd, A-skip 2x15 yd
+4. A-march 2x15 yd, **B-skip** 2x15 yd (B-skip, not A-skip: it is the drill with actual predictive validity for the 5 and 20 m sprint. This block is warm-up rehearsal, not speed training.)
 5. Build-ups 3x20 yd at 60%, 70%, 80%
 
 ---
@@ -285,7 +285,13 @@ The Monday and Wednesday night sessions are fixed, so this is what they should c
 
 **Volume rule:** keep work at or above 80% of 1RM to roughly **30% of total volume**. Rhea and Ballou run Alabama and Indiana that way, prioritising power output over weight on the bar. For a long limbed 16 to 17 year old carrying a recruiting year, that is the right bias.
 
-**Why trap bar and not back squat.** At 6'5" the back squat will always under-represent him, because the lever lengths punish him and the limiting factor becomes trunk position rather than leg force. The trap bar deadlift puts the load closer to his centre of mass and is the lift with the strongest reported relationship to sprint performance. Test and build the trap bar. Keep the squat as an accessory if he likes it.
+**Why trap bar and not back squat.** At 6'5" the back squat will always under-represent him, because the lever lengths punish him and the limiting factor becomes trunk position rather than leg force. The trap bar puts the load closer to his centre of mass. Bilateral training is also what provides the force foundation for sprinting and jumping, per the unilateral-versus-bilateral meta-analysis, so this is the lift that drives his speed. Test and build the trap bar. Keep the squat as an accessory if he likes it.
+
+> **Citation removed 16 Sep 2026.** An earlier draft cited Ryan Flaherty's claim that trap bar relative strength predicts the 40 and the vertical "with 99% accuracy," plus his list of four "speed-indicative" exercises. That is a practitioner assertion, not a published finding, and the meta-analytic evidence contradicts the split-squat half of it for sprinting. The trap bar choice stands on the mechanics above. See `EVIDENCE-AUDIT.md`.
+
+> **Unilateral work reframed.** The rear foot elevated split squat and single leg RDL are **change-of-direction transfer work, not sprint work**. Unilateral training showed no significant pooled effect on 10, 20 or 30 m sprints; effects appeared only for the 5 m sprint and one COD direction, small in magnitude. They stay because cutting is his priority.
+
+> **Push press cut 16 Sep 2026**, replaced by the single-arm landmine press. The collision-sport evidence supporting upper body work is about *horizontal* strength: bench 3RM is associated with tackling ability, and higher upper-body horizontal strength with selection and reduced tackling injury risk. None of it is about pressing overhead, and a pole never does.
 
 ### MONDAY — full body, max force emphasis
 
@@ -308,7 +314,7 @@ The Monday and Wednesday night sessions are fixed, so this is what they should c
 | Trap bar jump | 5x3 @ 20% BM | 5x3 @ 30% BM | 6x3 @ 20% BM |
 | Single leg RDL | 3x8/side | 3x6/side | 3x6/side |
 | Skater bound (frontal plane) | 3x5/side | 3x5/side | 4x5/side |
-| Push press or landmine press | 4x5 | 5x3 | 4x3 |
+| **Single-arm landmine press** | 4x5/side | 5x3/side | 4x3/side |
 | Chest supported row | 4x8 | 4x8 | 4x6 |
 | **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side |
 | Tibialis raise | 3x15 | 3x15 | 3x20 |
