@@ -109,7 +109,7 @@ film and sleep.
 
 ### Monday monitoring block — 5 minutes, before the warm-up
 
-Body weight, countermovement jump (3 jumps, best of), 10 yd from a 3-point start
+Body weight, countermovement jump (3 jumps, best of), 10 yd from a 2-point staggered standing start
 (2 reps, best of). Same scale, surface, shoes and order every week.
 
 **Readiness rule:** if the vertical is more than 5% below his four-week rolling average,
@@ -181,9 +181,21 @@ This is the session for the first three steps out of a break down. For a 6'5" at
 | | Weeks 1-3 | Weeks 5-7 | Weeks 9-11 |
 |---|---|---|---|
 | Falling start | 10 yd x4 | 10 yd x3 | — |
-| 3-point start | 15 yd x3 | 20 yd x3 | 20 yd x3 (timed) |
+| **Break-down start** | 15 yd x3 | 20 yd x3 | 20 yd x3, reactive |
 | Heavy sled | 15 yd x4 @ 70% BM | 20 yd x4 @ 85% BM | contrast, see below |
 | Rest between all reps | 2-3 min | 3 min | 3 min |
+
+**Break-down start:** he sets up in an actual defensive breakdown, feet chopping, stick out, and sprints on a partner's signal or a dropped ball. Reactive from week 9. Backpedal-to-sprint rotates in from week 5.
+
+> **Why not a 3-point start.** It was in the first draft and it was wrong. A pole never
+> starts from a three-point stance; his real entries are a break-down, a backpedal or a
+> shuffle. Even in football the 3-point is a lineman and fullback stance, while linebackers
+> and defensive backs use a two-point. The recommended progression runs two-point ->
+> three-point -> four-point -> blocks, with the two-point first because it most closely
+> mimics how acceleration starts in other sports. At 6'5" the deep crouch is also the
+> hardest version of a skill he does not need, and the falling start already teaches
+> forward shin angle better with no stance skill at all. Start position changes the timed
+> number, so this had to change in week 1 or not at all. Corrected 16 Sep 2026.
 
 **Sled loading is deliberately heavy.** Cross et al. found the load maximising power during sled resisted sprinting sits at roughly a 50% decrement of maximum unresisted velocity, which lands at **69 to 96% of body mass**, far above the conventional 7 to 20% guidance. For him that is roughly 155 to 215 lb of sled plus load, adjusted for surface friction. Turf and grass differ a lot, so set it by feel: he should be visibly slow but still running, not marching.
 

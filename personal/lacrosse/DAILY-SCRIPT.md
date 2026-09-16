@@ -106,7 +106,7 @@ Same scale, same surface, same shoes, same order, before any training.
 |---|---|---|
 | Body weight | Morning, after bathroom | Should hold 226–232. Rising fast is a problem, not progress. |
 | Countermovement jump | 3 jumps, record the best | Progress marker AND readiness check |
-| 10 yd from 3-point start | 2 reps, record the best | Acceleration trend |
+| 10 yd from a **2-point staggered standing start** | 2 reps, record the best | Acceleration trend. Never change the start position once baselined. |
 
 **Readiness rule:** if the vertical is more than 5% below his four-week rolling average,
 drop the last exercise from that day's speed session and cut one set from the lift. Two
@@ -186,10 +186,27 @@ Main:
 | Drill | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
 |---|---|---|---|---|
 | Falling start | 10 yd x4 | 10 yd x3 | skip | 2 min |
-| 3-point start | 15 yd x3 | 20 yd x3 | 20 yd x3 timed | 3 min |
+| **Break-down start** | 15 yd x3 | 20 yd x3 | 20 yd x3, reactive | 3 min |
 | Heavy sled | 15 yd x4 @ 158 lb | 20 yd x4 @ 192 lb | 4 contrast pairs | 3 min |
 
 Contrast pair = sled 15 yd, rest 90 s, free sprint 20 yd.
+
+**Break-down start:** he sets up in an actual defensive breakdown, knees bent, weight on
+the balls of the feet, stick out, feet chopping, and sprints on a partner's signal or a
+dropped ball. From week 9 it goes reactive: he goes on the partner's first movement, not a
+call. **Backpedal to sprint** (5 yd backpedal, then sprint the distance) rotates in from
+week 5 for variety.
+
+> **Why not a 3-point start.** It was in the first draft and it was wrong. A pole never
+> starts from a three-point stance; his real entries are a break-down, a backpedal or a
+> shuffle. Even in football the 3-point is a lineman and fullback stance, while linebackers
+> and defensive backs use a two-point. The recommended progression runs two-point ->
+> three-point -> four-point -> blocks, with the two-point first because it most closely
+> mimics how acceleration starts in other sports. At 6'5" the deep crouch is also the
+> hardest version of a skill he does not need, and the falling start already teaches
+> forward shin angle better with no stance skill at all. Start position changes the timed
+> number, so this had to change in week 1 or not at all. Corrected 16 Sep 2026.
+
 
 Cooldown 7 min. Eat within 45 min.
 
@@ -295,7 +312,7 @@ Replaces the Friday hour. 25 minutes. Full warm-up first, full rest between reps
 Order matters: fastest and most neural first.
 
 1. Countermovement jump — 3 jumps, best of
-2. 10 yd from 3-point start — 3 reps, best of
+2. 10 yd from a 2-point staggered standing start — 3 reps, best of
 3. 5-10-5 pro agility — 3 reps, best of
 4. 3-cone — 2 reps, best of
 
