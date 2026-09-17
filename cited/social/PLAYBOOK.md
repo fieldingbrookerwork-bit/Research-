@@ -44,7 +44,8 @@ Replying to a thread with "I do this for a living, DM me" gets removed by
 automod within minutes on Reddit, gets you booted from Facebook groups, and
 builds nothing. Every one of these communities has an explicit self-promo rule.
 
-What works is posting the audit **as a finding**, not as an ad:
+What works is posting the audit **as a finding first, offer second** - never as
+an ad alone:
 
 > "I checked 40 Atlanta HVAC companies to see which ones ChatGPT names when
 > someone asks who to call. 9 got named consistently. Here's what those 9 had in
@@ -59,16 +60,18 @@ audit pipeline that feeds the cold email, so it is nearly free to produce once
 that exists.
 
 When replying to someone else's thread, the rule is: **answer the question
-completely and for free, name nothing.** If the answer is good, people check
-the profile. Put "Cited Labs, GEO for home services, Atlanta" in the profile and
-let the profile do the selling. No link in the comment.
+completely and for free, then make the offer.** The full free answer is what
+earns the right to the closing line. Never lead with the offer, never post one
+without the answer above it, and never put a link in the comment. Exact wording
+in `PITCHES.md` §1 and §2.
 
 ## Hard limits
 
 - **Never automate posting or DMing.** Reddit bans for it sitewide, Facebook
   disables accounts for it, and both are permanent in practice. The listener
   script below reads only and drafts only. The founder posts, from their own
-  account, by hand.
+  account, by hand. This is the one limit the offer does not change: a free
+  demo offered by a bot is worth nothing and costs the account.
 - **No new accounts.** An account with no history posting about a service gets
   filtered regardless of content. Use an aged personal account, or spend 30 days
   commenting normally before posting anything business-related.
@@ -82,9 +85,11 @@ let the profile do the selling. No link in the comment.
 
 1. Run the listener (see `reddit_listener.py`). It outputs a scored queue.
 2. Open the top 5 threads. Reply to the ones where a complete free answer is
-   possible. Skip the rest.
-3. Check the two or three Facebook groups by hand. Same rule.
-4. Once a week, post one metro finding as content.
+   possible, using PITCHES.md §1 or §2. Skip the rest - a thread you cannot
+   answer fully is not worth an offer.
+3. Check the two or three Facebook groups by hand, PITCHES.md §5.
+4. Answer every DM and reply from yesterday, same day, PITCHES.md §4.
+5. Once a week, post one metro finding as content, PITCHES.md §3 / §6 / §8.
 
 ---
 
@@ -94,35 +99,37 @@ Standing instruction from the founder: offer a free demo on everything, and take
 any automation or agency work that produces a client. That is right, with one
 correction about *where* the offer goes.
 
-## The trap
+## Where the offer goes — decided
 
-Putting "happy to give you a free demo, DM me" inside a cold Reddit comment is
-the single most-removed pattern on the site. Automod in r/smallbusiness,
-r/Entrepreneur and every trade sub filters it on sight, and doing it repeatedly
-gets the account shadowbanned. The offer is good. Putting it in a cold comment
-destroys the account that would have delivered it.
+The offer goes in every pitch, on every surface, including cold Reddit comments.
+Ready-to-paste copy for all of them is in `PITCHES.md`.
 
-Second trap, smaller but real: leading with "we do anything - automation,
-websites, whatever you need" reads as unserious to an owner running a $5M shop.
-Generalists get dismissed; specialists get hired and then asked to do everything
-else. The scope opens *after* they're talking to you, not in the first line.
+| Surface | Free demo | Open scope | Template |
+|---|---|---|---|
+| Reddit comment, normal subs | Yes | Yes | PITCHES.md §1 |
+| Reddit comment, strict subs (r/SEO, r/marketing) | Yes, in-thread | Yes | PITCHES.md §2 |
+| Reddit post | Yes | Yes | PITCHES.md §3 |
+| Reddit / FB / LinkedIn DM | Yes, lead with it | Yes | PITCHES.md §4 |
+| Facebook group comment | Yes | Yes | PITCHES.md §5 |
+| Facebook group post | Yes | Yes | PITCHES.md §6 |
+| ServiceTitan / HCP / trade forums | Yes | Yes | PITCHES.md §7 |
+| LinkedIn post | Yes | Yes | PITCHES.md §8 |
+| Profile bio, everywhere | Yes | Yes | PITCHES.md §9 |
+| Cold email reply | Yes, lead with it | Yes | PITCHES.md §4 |
 
-## So: where each thing goes
+### The one thing that costs you, stated once
 
-| Surface | Free demo offer? | Open scope? |
-|---|---|---|
-| Reddit comment (cold) | **No.** Answer free, name nothing | No |
-| Reddit profile bio | Yes, one line | Yes, one line |
-| Reddit DM (they messaged first) | **Yes, lead with it** | Yes |
-| Facebook group comment | Yes, groups tolerate it | Soft |
-| Facebook group post (your content) | Yes, offer it to the group | Soft |
-| Facebook DM (they engaged first) | **Yes, lead with it** | Yes |
-| ServiceTitan / HCP forums | Follow each forum's rule, usually no in-thread | No |
-| Anyone who replies to a cold email | **Yes, lead with it** | Yes |
+Cold Reddit comments carrying an offer get removed more often than ones that
+don't, and repeated removals can shadowban the account. The templates in
+PITCHES.md are written to survive as much of that as possible: they answer the
+question in full first, they disclose that it is your service, and they leave out
+the four things automod actually filters on — links, service URLs, "DM me" and
+"PM me". The strict-sub variant keeps the offer entirely in-thread so there is
+nothing to remove.
 
-The rule underneath: **the free demo is the response, not the approach.** It is
-the most valuable thing on offer and it converts hard, but only after they've
-raised a hand. Spent as an opener it gets filtered; spent as a reply it closes.
+Expect some removals anyway. That is the price of making the offer everywhere,
+and the offer is worth more than the removals cost. Keep a second aged account
+in reserve in case the main one gets filtered.
 
 ## Profile bio (set this on both Reddit and Facebook)
 
