@@ -6,7 +6,7 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 **Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028.
 **Block 1 start:** Tuesday 15 September 2026. **Block 1 end:** Sunday 6 December 2026.
 **Week numbering:** see the week calendar below. Weeks run Monday to Sunday from week 2 on.
-**Winter block:** 8 December 2026 to 27 February 2027.
+**Winter block:** Mon 7 December 2026 to Sat 27 February 2027.
 **Timezone:** US Eastern.
 
 ---
@@ -429,11 +429,19 @@ Deload means less work, never slower work.
 
 ---
 
-## WINTER BLOCK — 8 DECEMBER 2026 TO 27 FEBRUARY 2027
+## WINTER BLOCK — MON 7 DEC 2026 TO SUN 28 FEB 2027
+
+Weeks continue Monday to Sunday. Verified dates:
+
+| Phase | Weeks | Runs |
+|---|---|---|
+| Strength peak | 13–16 | Mon 7 Dec – Sun 3 Jan |
+| Conversion | 17–20 | Mon 4 Jan – Sun 31 Jan |
+| Sharpen | 21–24 | Mon 1 Feb – Sun 28 Feb |
 
 Same weekly shape. Same fixed commitments. The emphasis rotates.
 
-### Weeks 13–16 (8 Dec – 2 Jan): Strength peak
+### Weeks 13–16 (Mon 7 Dec – Sun 3 Jan): Strength peak
 
 The holidays disrupt training anyway, so this is where the heavy lifting goes.
 
@@ -442,7 +450,7 @@ The holidays disrupt training anyway, so this is where the heavy lifting goes.
 - Friday braking block stays at full volume — it is the cheapest quality to hold
 - Expect body weight to drift up 2–4 lb. Acceptable in this block only.
 
-### Weeks 17–20 (5 Jan – 30 Jan): Conversion
+### Weeks 17–20 (Mon 4 Jan – Sun 31 Jan): Conversion
 
 Turning the strength into speed. This is where the winter results show up.
 
@@ -451,12 +459,12 @@ Turning the strength into speed. This is where the winter results show up.
 - Friday braking goes fully reactive: 1v1 mirror with a stick, live approaches
 - Lifting volume drops ~30%, bar speed becomes the target instead of load
 
-### Weeks 21–23 (2 Feb – 27 Feb): Sharpen into the season
+### Weeks 21–24 (Mon 1 Feb – Sun 28 Feb): Sharpen into the season
 
 - Lift twice a week but short: 3 exercises, 45 minutes, nothing to failure
 - Speed days cut to 3 max reps each, full rest, all of it fast
 - Friday becomes small-sided and position-specific, not conditioning
-- **Full test battery in week 23** — this is the number he carries into the season
+- **Full test battery in week 24 (Mon 22 – Sun 28 Feb)** — this is the number he carries into the season, and the one that goes to coaches
 - Body weight back to 226–230
 
 ### March to May 2027: High school season, maintenance only
