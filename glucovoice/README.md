@@ -48,7 +48,7 @@ Any machine with a JDK 17+:
 ```
 ./gradlew :core:test                      # unit tests, no Android SDK needed
 ./gradlew :app:assembleDebug              # needs the Android SDK (Android Studio installs it)
-./gradlew :core:test -PskipAndroid=true   # core only, where dl.google.com is unreachable
+./gradlew -c tools/core-only.settings.gradle.kts :core:test   # core only, no Android SDK or Google Maven needed
 ```
 
 GitHub Actions (`.github/workflows/glucovoice-android.yml`) runs both on every push touching this

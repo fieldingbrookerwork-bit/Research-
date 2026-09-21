@@ -1,9 +1,9 @@
-// Root build file. Kotlin plugins are declared here once (not applied) so both modules share one
-// plugin classloader. The Android Gradle plugin is deliberately NOT declared here: resolving it
-// needs dl.google.com, and keeping it inside :app lets `-PskipAndroid=true` builds of :core work
-// on machines that cannot reach that host.
+// Root build file. Every plugin is declared here once with `apply false`, then applied in the
+// module that needs it. The Android and Kotlin plugins must share a classloader, so this is the
+// only layout that works (it is also what Android Studio generates).
 plugins {
-    alias(libs.plugins.kotlin.jvm) apply false
+    alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.jvm) apply false
     alias(libs.plugins.kotlin.serialization) apply false
 }

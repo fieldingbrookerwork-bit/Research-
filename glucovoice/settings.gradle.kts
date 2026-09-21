@@ -17,9 +17,7 @@ dependencyResolutionManagement {
 rootProject.name = "glucovoice"
 
 include(":core")
+include(":app")
 
-// :app needs Google's Maven repository (dl.google.com). Pass -PskipAndroid=true to build and
-// test :core alone on machines where that host is unreachable.
-if (providers.gradleProperty("skipAndroid").orNull != "true") {
-    include(":app")
-}
+// To build and test :core on a machine that cannot reach dl.google.com (no Android SDK, no AGP):
+//   ./gradlew -c tools/core-only.settings.gradle.kts :core:test
