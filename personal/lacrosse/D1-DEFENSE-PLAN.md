@@ -3,7 +3,8 @@
 **Athlete:** Junior, class of 2028. 6'5", 226 lb. Close defense (pole).
 **Current lifts:** Bench 225x3 (est. 1RM 240, 1.06x BW). Squat 315x3 (est. 1RM 345, 1.53x BW).
 **Fixed schedule:** Monday night full body lift. Wednesday night full body lift. **Tuesday night club practice (~90 min).** Friday after school conditioning hour.
-**Plan written:** 15 September 2026. **Block 1:** 15 Sep to 5 Dec 2026. **Winter block:** 8 Dec 2026 to 27 Feb 2027.
+**Plan written:** 15 September 2026. **Block 1:** Tue 15 Sep to Sun 6 Dec 2026. **Winter block:** from Mon 7 Dec 2026.
+**Week numbering corrected 21 Sep:** 15 Sep was a Tuesday, so week 1 was a 6-day partial week. Weeks run Mon–Sun from week 2. Deloads: weeks 4 (5 Oct) and 8 (2 Nov). Test week 12 starts 30 Nov. Full calendar in `DAILY-SCRIPT.md`.
 **Operational detail:** see `DAILY-SCRIPT.md`. **Evidence basis for every drill:** see `EVIDENCE-AUDIT.md`.
 
 > Clear this with a physician or athletic trainer before starting, particularly the heavy sled and Nordic work. He is a minor carrying real load.

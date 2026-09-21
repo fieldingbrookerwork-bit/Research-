@@ -4,7 +4,8 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 "what does he do today." The automated daily updates read this file.
 
 **Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028.
-**Block 1 start:** Monday 15 September 2026. **Block 1 end:** Friday 5 December 2026.
+**Block 1 start:** Tuesday 15 September 2026. **Block 1 end:** Sunday 6 December 2026.
+**Week numbering:** see the week calendar below. Weeks run Monday to Sunday from week 2 on.
 **Winter block:** 8 December 2026 to 27 February 2027.
 **Timezone:** US Eastern.
 
@@ -18,6 +19,32 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 | Tuesday | **Club practice** | night, ~90 min, done by 8:30pm |
 | Wednesday | Full body lift | night, ~6:30pm |
 | Friday | Conditioning hour | after school |
+
+
+---
+
+## WEEK CALENDAR (corrected 21 Sep 2026)
+
+**15 September 2026 was a Tuesday, not a Monday.** The block opened mid-week, so week 1 was
+a six-day partial week. Every week from week 2 onward runs Monday to Sunday, matching the
+Mon-HIGH / Tue-CLUB / Wed-HIGH / Thu-LOW / Fri-HIGH / Sat-LOW / Sun-OFF structure.
+
+| Week | Runs | Notes |
+|---|---|---|
+| 1 | Tue 15 Sep – Sun 20 Sep | Partial opening week, 6 days |
+| 2 | Mon 21 Sep – Sun 27 Sep | First full week |
+| 3 | Mon 28 Sep – Sun 4 Oct | |
+| **4** | **Mon 5 Oct – Sun 11 Oct** | **Deload. Friday = checkpoint test** |
+| 5 | Mon 12 Oct – Sun 18 Oct | Wk 5–7 loads begin |
+| 6 | Mon 19 Oct – Sun 25 Oct | |
+| 7 | Mon 26 Oct – Sun 1 Nov | DST ends Sun 1 Nov |
+| **8** | **Mon 2 Nov – Sun 8 Nov** | **Deload. Friday = checkpoint test** |
+| 9 | Mon 9 Nov – Sun 15 Nov | Wk 9–11 loads begin |
+| 10 | Mon 16 Nov – Sun 22 Nov | |
+| 11 | Mon 23 Nov – Sun 29 Nov | |
+| **12** | **Mon 30 Nov – Sun 6 Dec** | **Full test battery week** |
+
+Winter block picks up Mon 7 December.
 
 ---
 
