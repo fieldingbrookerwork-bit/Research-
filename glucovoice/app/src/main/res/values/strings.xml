@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GlucoVoice</string>
+    <string name="title_setup">Settings</string>
+
+    <string name="btn_speak">Speak</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_settings">Settings</string>
+    <string name="status_fetching">Asking Dexcom Share…</string>
+    <string name="status_demo">Demo mode: this is fake data. Turn it off in Settings.</string>
+    <string name="status_stale">This reading is old. Check your Dexcom app.</string>
+    <string name="disclaimer">GlucoVoice is not a medical device and is not made or endorsed by Dexcom. Readings come from your Dexcom Share account and can be delayed or missing. Always confirm on your Dexcom app or a blood glucose meter before making a treatment decision.</string>
+
+    <string name="setup_intro">Log in with the Dexcom account you use in the G6 or G7 app (not a follower account). The login is checked with Dexcom, then stored encrypted on this phone only.</string>
+    <string name="hint_username">Dexcom username, email or phone</string>
+    <string name="hint_password">Dexcom password</string>
+    <string name="label_region">Dexcom region</string>
+    <string name="label_unit">Units</string>
+    <string name="unit_mgdl">mg/dL</string>
+    <string name="unit_mmol">mmol/L</string>
+    <string name="sw_speak_units">Say the units aloud</string>
+    <string name="sw_speak_on_open">Speak my glucose whenever the app opens</string>
+    <string name="sw_demo">Demo mode (fake data, no Dexcom account needed)</string>
+    <string name="btn_save">Test login and save</string>
+    <string name="btn_forget">Forget saved login</string>
+    <string name="status_testing">Checking with Dexcom…</string>
+    <string name="status_login_ok">Connected. Latest: %1$s</string>
+    <string name="status_login_ok_no_data">Login worked, but Dexcom Share returned no readings from the last 24 hours. In the Dexcom app, make sure Share is on and that you have at least one follower.</string>
+    <string name="status_need_credentials">Enter your Dexcom username and password, or turn on demo mode.</string>
+    <string name="status_saved">Settings saved.</string>
+    <string name="status_demo_saved">Demo mode on.</string>
+    <string name="status_forgotten">Saved login removed.</string>
+    <string name="setup_help">Dexcom Share must be turned on in the Dexcom app, and it needs at least one follower before Dexcom\'s servers receive your data. A family member, or a second free Dexcom account, works as the follower.</string>
+
+    <string name="tile_label">Glucose</string>
+    <string name="tile_tap_to_speak">Tap to hear</string>
+    <string name="widget_label">GlucoVoice</string>
+    <string name="widget_description">Your latest glucose. Tap to hear it.</string>
+    <string name="widget_tap">Tap to hear</string>
+    <string name="shortcut_speak_short">Speak glucose</string>
+    <string name="shortcut_speak_long">Speak my glucose</string>
+
+    <string name="cd_reading">Glucose %1$s %2$s, %3$s, %4$s</string>
+    <string name="cd_no_reading">No glucose reading yet</string>
+</resources>
