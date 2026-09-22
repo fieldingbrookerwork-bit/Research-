@@ -6,7 +6,7 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 **Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028.
 **Block 1 start:** Tuesday 15 September 2026. **Block 1 end:** Sunday 6 December 2026.
 **Week numbering:** see the week calendar below. Weeks run Monday to Sunday from week 2 on.
-**Winter block:** Mon 7 December 2026 to Sat 27 February 2027.
+**Winter block:** Mon 7 December 2026 to Sun 28 February 2027.
 **Timezone:** US Eastern.
 
 ---
@@ -86,7 +86,8 @@ running, cut Wednesday's sled work to three reps and keep the lift.
 Monday, Tuesday and Wednesday are now three loaded days in a row. That is the price of
 a fixed Tuesday night practice and there is no arrangement that avoids it. It is
 managed by keeping Tuesday afternoon completely empty, Thursday and Saturday genuinely
-easy, and Sunday fully off.
+easy, and Sunday fully off. The technical footwork added to Thursday and Saturday on 22 Sep
+stays under 70% and does not change that: it is pattern rehearsal, not a high day.
 
 **Watch for:** Monday vertical jump down more than 5% off his rolling average two weeks
 in a row, resting heart rate climbing, or sled sprints feeling heavy at the same load.
@@ -268,9 +269,9 @@ Lights out by 9:45pm.
 
 ---
 
-### THURSDAY — LOW. Recovery, prehab, stick
+### THURSDAY — LOW. Recovery, prehab, footwork, stick
 
-**3:15pm, ~60 min, nothing maximal.**
+**3:15pm, ~70 min, nothing maximal, nothing above 70%.**
 
 | Time | What | Dose |
 |---|---|---|
@@ -280,9 +281,25 @@ Lights out by 9:45pm.
 | 3:41 | Split squat isometric (wks 1–8 only) | 4x20 s/side at ~70% effort |
 | 3:48 | Wall calf isometric (wks 1–8 only) | 4x20 s, knee bent ~20° |
 | 3:53 | Mobility | 8 min: ankle dorsiflexion, hip internal rotation, thoracic rotation |
-| 4:01 | Wall ball | 15 min, off hand biased |
+| 4:01 | **Footwork 1:** approach and breakdown | 6/side. Jog 5 yd at a cone, chop the last 2 yd, sit into stance, stick up, hold 2 s |
+| 4:04 | **Footwork 2:** drop step and hip turn | 2x6/side. Square, drop step, open the hip, 3 strides, jog back |
+| 4:07 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side. One linked pattern at 60 to 70% |
+| 4:10 | **Footwork 4:** mirror shuffle | 2x20 s. Partner or cone pattern, stay square, feet never cross |
+| 4:12 | **Footwork 5:** wall ball with moving feet | 5 min. One step per throw, shuffle between reps |
+| 4:17 | Wall ball, stationary | 10 min, off hand biased |
 
-If it feels hard, he is running the tempo too fast.
+If it feels hard, he is running the tempo too fast. If the footwork feels like a workout,
+he is doing it too fast: nothing in that block goes above 70%.
+
+**Technical footwork block (added 22 Sep 2026).** Fifteen minutes, Thursday and Saturday,
+before the stationary wall ball. Until now footwork was one 18 minute block on Friday plus
+whatever club covers, and club is team concepts, not individual reps. Approach, breakdown,
+drop step and recover are what a close defenseman is judged on at a prospect day, and 18
+minutes a week on that was too thin. Submaximal pattern work is technical work, and in a
+high/low structure technical work belongs on the low days. Friday stays the only max effort
+footwork day; this adds repetitions of the patterns, not another high day. Weekly footwork
+goes from 18 to about 48 minutes. Total stick time is unchanged at 15 minutes (5 moving, 10
+stationary).
 
 ---
 
@@ -310,9 +327,9 @@ moving quality in the plan and carries almost no injury cost.
 
 ---
 
-### SATURDAY — LOW. What used to be Tuesday
+### SATURDAY — LOW. What used to be Tuesday, plus footwork
 
-**Any time, ~60 min, all easy.**
+**Any time, ~70 min, all easy.**
 
 | Time | What | Dose |
 |---|---|---|
@@ -323,7 +340,14 @@ moving quality in the plan and carries almost no injury cost.
 | 0:31 | Wall calf isometric (wks 1–8) | 4x20 s |
 | 0:36 | Tibialis raise | 3x15 |
 | 0:39 | Mobility | 8 min |
-| 0:47 | Wall ball | 15 min, off hand biased |
+| 0:47 | **Footwork 1:** approach and breakdown | 6/side |
+| 0:50 | **Footwork 2:** drop step and hip turn | 2x6/side |
+| 0:53 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side, 60 to 70% |
+| 0:56 | **Footwork 4:** mirror shuffle | 2x20 s |
+| 0:58 | **Footwork 5:** wall ball with moving feet | 5 min |
+| 1:03 | Wall ball, stationary | 10 min, off hand biased |
+
+Footwork block is identical to Thursday's. Cues are in the Thursday section.
 
 ---
 
@@ -358,6 +382,31 @@ are **change-of-direction transfer work, not sprint work**. The unilateral-versu
 meta-analysis found no significant pooled effect of unilateral training on 10, 20 or 30 m
 sprints. Bilateral work (the trap bar) is the sprint driver; unilateral work transfers it to
 cutting. They stay because cutting is his priority, but the reason changed.
+
+---
+
+## 22 SEP 2026 ADDITION: TECHNICAL FOOTWORK ON THE LOW DAYS
+
+Founder question: is two lifts a week with little footwork and sprinting optimal? Two of
+three held up, one did not.
+
+- **Two lifts:** correct. He is 35 lb past the average D1 pole. Strength is not what
+  separates starters (Sell 2018: 3 cone, 20 yd shuttle, 40, vertical do). With weekly
+  volume equal, two sessions build strength as well as three or four (Grgic 2018). A third
+  lift would delete the Friday change of direction block or blunt a speed day.
+- **Sprinting:** at the ceiling, not light. Monday is 8 max velocity exposures, the top of
+  the 6 to 8 per week band before hamstring risk climbs. Wednesday is 11 acceleration reps.
+  Friday is 6x40 shuttles. Volume is limited by his hamstrings, not the calendar.
+- **Footwork:** the real gap. One 18 minute block on Friday for a position evaluated on
+  footwork. Thursday and Saturday had been kept as pure low days to protect the high/low
+  structure, which was too rigid: submaximal technical work is exactly what Francis put on
+  low days. **Fix:** 15 min technical footwork block, Thursday and Saturday, nothing above
+  70%, before wall ball. Friday remains the only max effort footwork day.
+
+Evidence tier for the addition: B. The drills are standard close defense coaching
+progressions and the dose is practitioner judgment; the supporting principle is the
+motor learning finding that distributed practice beats massed practice for skill
+acquisition. There is no trial on lacrosse defenders specifically.
 
 ---
 

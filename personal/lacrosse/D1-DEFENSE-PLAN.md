@@ -72,9 +72,9 @@ Monday and Wednesday night lifts mean Tuesday and Thursday mornings are the comp
 | **Mon** | Monitoring 5 min, then Speed A: **max velocity**, 55 min | Full body lift (fixed) | HIGH |
 | **Tue** | Nothing. Rest and eat. | **Club practice** (fixed, ~90 min) | CLUB |
 | **Wed** | Speed B: **acceleration and sled**, 50 min | Full body lift (fixed) | HIGH |
-| **Thu** | Tempo, Nordic, isometrics, stick — 60 min | — | LOW |
+| **Thu** | Tempo, Nordic, isometrics, footwork, stick — 70 min | — | LOW |
 | **Fri** | **Conditioning hour** (fixed) | — | HIGH |
-| **Sat** | Tempo, Copenhagen, isometrics, stick — 60 min | — | LOW |
+| **Sat** | Tempo, Copenhagen, isometrics, footwork, stick — 70 min | — | LOW |
 | **Sun** | Off. Walk, mobility, nine hours sleep. | — | OFF |
 
 ### Why max velocity moved to Monday
@@ -266,7 +266,7 @@ Protocol: **6 x 40 yd shuttle (20 yd out, 180 degree turn, 20 yd back) with 25 s
 
 ---
 
-### LOW DAYS — Thursday and Saturday (~60 min, can be done anywhere)
+### LOW DAYS — Thursday and Saturday (~70 min, can be done anywhere)
 
 > Tuesday is now club practice. Its tempo and prehab moved to Saturday. Nordic runs
 > Monday and Thursday; Copenhagen runs Wednesday and Saturday.
@@ -276,7 +276,8 @@ Genuinely low. The value of the high/low structure comes entirely from the low d
 1. **Extensive tempo:** 2 sets of (4 x 50 yd at 70%), walk back between reps, 2 min between sets. Grass, barefoot on Thursday if the field is clean.
 2. **Prehab block** (see Part 4)
 3. **Mobility:** ankle dorsiflexion, hip internal rotation, thoracic rotation. 8 min.
-4. **Stickwork:** 15 min wall ball, off hand biased. This is free and it is the thing that actually gets poles recruited.
+4. **Technical footwork, 15 min, nothing above 70%** (added 22 Sep 2026): approach and breakdown 6/side; drop step and hip turn 2x6/side; approach, breakdown, drop step, recover as one linked pattern 4/side; mirror shuffle 2x20 s; wall ball with moving feet 5 min. Submaximal pattern rehearsal is technical work and belongs on low days. Friday remains the only max effort footwork day. Before this the plan carried 18 min of footwork a week for a position that is evaluated on footwork. Full cues in `DAILY-SCRIPT.md`.
+5. **Stickwork:** 10 min stationary wall ball, off hand biased, after the moving-feet wall ball, so stick time stays at 15 min. This is free and it is the thing that actually gets poles recruited.
 
 ---
 
