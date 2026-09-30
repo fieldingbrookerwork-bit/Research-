@@ -63,18 +63,20 @@ Monday and Wednesday night lifts mean Tuesday and Thursday mornings are the comp
 
 ## PART 2: THE WEEKLY TEMPLATE
 
-> **REVISED 15 Sep 2026 — Tuesday night club practice.** The week below is the current
-> one. `DAILY-SCRIPT.md` is the operational source of truth and carries the full
-> day-by-day detail, the winter block, and the weekly monitoring protocol.
+> **REVISED 30 Sep 2026 — the team program is fixed.** The varsity fall offseason program
+> (Monday deadlift + bench lift, Wednesday squat + upper lift, Friday 8 week sprint
+> progression) is done exactly as written. Our work fits around it. The reasoning, the
+> team's Friday table and his loads inside the team lifts are in `DAILY-SCRIPT.md`, which is
+> the operational source of truth. Parts 3 and 4 below record the original design.
 
 | Day | After school | Night | Load |
 |---|---|---|---|
-| **Mon** | Monitoring 5 min, then Speed A: **max velocity**, 55 min | Full body lift (fixed) | HIGH |
+| **Mon** | Monitoring 5 min, jumps, close D **change of direction** block, 50 min | **Team lift: deadlift + bench** (fixed) | HIGH |
 | **Tue** | Nothing. Rest and eat. | **Club practice** (fixed, ~90 min) | CLUB |
-| **Wed** | Speed B: **acceleration and sled**, 50 min | Full body lift (fixed) | HIGH |
-| **Thu** | Tempo, Nordic, isometrics, footwork, stick — 70 min | — | LOW |
-| **Fri** | **Conditioning hour** (fixed) | — | HIGH |
-| **Sat** | Tempo, Copenhagen, isometrics, footwork, stick — 70 min | — | LOW |
+| **Wed** | **Acceleration and sled**, then Nordic + Copenhagen, 60 min | **Team lift: squat + upper** (fixed) | HIGH |
+| **Thu** | Isometrics, calves, shins, core, footwork, stick, 65 min. No Nordic, no tempo | — | LOW |
+| **Fri** | **Team conditioning, as written** (8 week sprint progression) | — | HIGH |
+| **Sat** | Tempo (1 set), Nordic, Copenhagen, isometrics, footwork, stick, 70 min | — | LOW |
 | **Sun** | Off. Walk, mobility, nine hours sleep. | — | OFF |
 
 ### Why max velocity moved to Monday
@@ -120,10 +122,13 @@ Ballou and Rhea run at Alabama and it is the cheapest injury insurance available
 
 ### If the Friday conditioning hour is not his to control
 
-If Friday is a team session he must do as prescribed, treat it as spent and do **not**
-add the Friday content below. Instead move the deceleration and change of direction block
-to Wednesday after school, cut Wednesday to three sled sprints, and keep Thursday and
-Saturday low. The plan still works. It loses about 15% of its value.
+**This happened on 30 Sep 2026.** The team's Friday turned out to carry 12 to 20 sprints of
+40 yd or more in six of its eight weeks, which is already past the weekly top speed budget.
+So the contingency was applied differently from the note written here earlier: instead of
+squeezing change of direction into Wednesday, Monday's max velocity session was dropped
+(except in team weeks 6 and 7) and the change of direction block took Monday, his freshest
+day. Nordic and Copenhagen moved to Wednesday and Saturday, the only days 48 hours clear of
+both club and the team's Friday. Full detail in `DAILY-SCRIPT.md`.
 
 ---
 

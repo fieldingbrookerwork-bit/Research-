@@ -15,11 +15,16 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 
 | Day | Fixed thing | Time |
 |---|---|---|
-| Monday | Full body lift | night, ~6:30pm |
+| Monday | **Team lift: deadlift + bench** (varsity fall offseason PDF) | night, ~6:30pm, 50 to 55 min |
 | Tuesday | **Club practice** | night, ~90 min, done by 8:30pm |
-| Wednesday | Full body lift | night, ~6:30pm |
-| Friday | Conditioning hour | after school |
+| Wednesday | **Team lift: squat + upper body** (same PDF) | night, ~6:30pm, 50 to 60 min |
+| Friday | **Team conditioning: 8 week sprint progression** (same PDF) | after school, turf, 45 to 60 min |
 
+**Since 30 Sep 2026 the team sessions are fixed exactly as written.** Source:
+`Varsity_Lacrosse_Fall_Training_Program.pdf`, emailed to the work inbox 30 Sep. We change
+nothing inside them. The only levers inside them are the ones the PDF leaves open: the
+weight on the bar (it gives sets and reps, never loads) and its own rule to stop high speed
+work when mechanics break down. Everything else in this file is built around them.
 
 ---
 
@@ -34,17 +39,68 @@ Mon-HIGH / Tue-CLUB / Wed-HIGH / Thu-LOW / Fri-HIGH / Sat-LOW / Sun-OFF structur
 | 1 | Tue 15 Sep – Sun 20 Sep | Partial opening week, 6 days |
 | 2 | Mon 21 Sep – Sun 27 Sep | First full week |
 | 3 | Mon 28 Sep – Sun 4 Oct | |
-| **4** | **Mon 5 Oct – Sun 11 Oct** | **Deload. Friday = checkpoint test** |
+| **4** | **Mon 5 Oct – Sun 11 Oct** | **Deload (our sessions). Monday = checkpoint test** |
 | 5 | Mon 12 Oct – Sun 18 Oct | Wk 5–7 loads begin |
 | 6 | Mon 19 Oct – Sun 25 Oct | |
 | 7 | Mon 26 Oct – Sun 1 Nov | DST ends Sun 1 Nov |
-| **8** | **Mon 2 Nov – Sun 8 Nov** | **Deload. Friday = checkpoint test** |
+| **8** | **Mon 2 Nov – Sun 8 Nov** | **Deload (our sessions). Monday = checkpoint test** |
 | 9 | Mon 9 Nov – Sun 15 Nov | Wk 9–11 loads begin |
 | 10 | Mon 16 Nov – Sun 22 Nov | |
 | 11 | Mon 23 Nov – Sun 29 Nov | |
 | **12** | **Mon 30 Nov – Sun 6 Dec** | **Full test battery week** |
 
 Winter block picks up Mon 7 December.
+
+**Team Friday week:** not yet confirmed. The team runs its own 8 week Friday progression.
+Which team week falls on which Friday decides the two Mondays that get top speed work
+(see below). Until confirmed, the athlete follows the team's week as the coach announces it.
+
+---
+
+## 30 SEP 2026: THE TEAM PROGRAM IS FIXED. WHAT CHANGED AND WHY
+
+The varsity fall offseason program (3 pages) now owns Monday night, Wednesday night and
+Friday after school. Our Monday and Wednesday lift contents and our Friday conditioning hour
+are gone. What it contains:
+
+- **Monday lift:** barbell deadlift 4x5, bench 4x6, Bulgarian split squat 3x6/leg + 1 arm DB
+  row 3x8/arm, DB Romanian deadlift 3x8 + lateral lunge 3x6/side, standing calf raise
+  3x12 to 15, ab finisher (7 moves x 30 s, 1 round building to 2).
+- **Wednesday lift:** back squat 4x5, incline bench 3x8, walking DB lunge 3x8/leg + bent
+  over row 3x8, DB shoulder press 3x8 + farmer carry 3x30 yd, hamstring curl 3x10 + DB
+  lateral raise 3x10 to 12, same ab finisher.
+- **Friday:** 8 week sprint and conditioning progression, table in the Friday section.
+
+### Four problems it creates for a 6'5" close defenseman
+
+1. **Friday carries the top speed volume now.** Six of its eight weeks contain 12 to 20
+   sprints of 40 yd or longer, mostly on short rest. Our plan capped true top speed work at
+   6 to 8 exposures a week. Friday alone passes that, so our Monday max velocity session
+   cannot just move somewhere else. It has to go, except in the two team weeks (6 and 7)
+   with no long sprints, where it comes back so week 8's timed 40s are not a spike.
+2. **It is written for middies and attackmen.** The PDF says so. Change of direction appears
+   in one week of eight. Braking, approach, drop step and recover, the work a close
+   defenseman is judged on, has to come from us. It moves to Monday after school.
+3. **No jumps, no Nordic, no Copenhagen, no soleus or shin work, no anti rotation core.**
+   Jumps go into Monday; Nordic and Copenhagen go to Wednesday after school and Saturday;
+   calves, shins and core go to Thursday.
+4. **No loads.** In a team weight room the default is grinding reps to keep up with
+   teammates. That is the one lever inside the plan: see LOADS.
+
+### The placement rules
+
+- **Monday after school is the freshest slot of the week** (after Saturday low and Sunday
+  off), so the highest value work goes there: change of direction and jumps. It is mostly
+  quads and adductors; the team's Monday lift is mostly hamstrings and back. They do not
+  compete, and the lift comes 3 hours later.
+- **Eccentric prehab (Nordic, Copenhagen) sits at least 48 hours before both fixed hard days**,
+  club Tuesday and the team's Friday sprints. Only Wednesday and Saturday qualify.
+  Thursday used to carry a Nordic dose; it is now the day before the heaviest sprint session
+  of the week, so it carries none.
+- **Thursday is genuinely low.** No tempo (Friday already has 800 to 1200 yd of team tempo),
+  no eccentric work. Isometrics, calves, shins, core, footwork under 70 percent, wall ball.
+- **Our deloads cannot touch team sessions.** In weeks 4 and 8 our sessions drop 40 percent
+  and he takes the team lifts about 10 to 15 percent lighter with the same sets and reps.
 
 ---
 
@@ -61,6 +117,11 @@ Tuesday's prehab and tempo work moved to Saturday. Tuesday afternoon is now empt
 on purpose. He does nothing before club except a proper warm-up.
 
 ### Change 2: Max velocity and acceleration swap days
+
+> **Partly superseded 30 Sep 2026.** The team's Friday now supplies the top speed volume, so
+> Monday after school became jumps and change of direction. The hamstring reasoning below
+> still decides why top speed work, when it runs in team weeks 6 and 7, is on Monday.
+
 
 **This is the important one.** Originally Monday was acceleration and Wednesday was
 max velocity. With club on Tuesday night, Wednesday max velocity would put his
@@ -104,8 +165,8 @@ Estimates, not published norms. The reasoning is in each row.
 |---|---|---|---|
 | 3-cone | 0.20–0.40 s | 0.35–0.60 s | Technique and braking dominant. Fastest mover, and the best D1 lacrosse separator. |
 | 5-10-5 pro agility | 0.15–0.30 s | 0.25–0.45 s | Same. |
-| Vertical jump | 1–2 in | 2–4 in | Responds quickly to trap bar plus loaded jump work. |
-| Trap bar 3RM | +40–70 lb | +80–120 lb | Intermediate lifter with real headroom. |
+| Vertical jump | 1–2 in | 2–4 in | Heavy team lifts plus the Monday jumps. |
+| Deadlift and squat working sets | +20–40 lb | +40–70 lb | Team lifts, loaded short of failure. Intermediate lifter with real headroom. |
 | 10 yd sprint | 0.04–0.08 s | 0.07–0.13 s | Neural and technical, plus heavy sled. |
 | 300 yd shuttle | 2–4 s | 4–7 s | Moves fast, matters least. |
 | Max velocity | +0.3–0.8 mph | +0.8–1.5 mph | Slowest quality here. Indiana averaged +3 mph over a full year with a college staff, force plates and weekly timing. |
@@ -116,11 +177,11 @@ thing on this list and it is a midfielder's currency, not a pole's.
 
 ### What front-loading looks like
 
-1. **Weeks 1–4 carry extra change-of-direction volume.** The Friday braking block runs
+1. **Weeks 1–4 carry extra change-of-direction volume.** The braking block (Monday since 30 Sep) runs
    at the week 5–8 prescription from day one, because technique work is where the quick
    wins are and it carries almost no injury cost.
 2. **Checkpoint tests in week 4 and week 8**, not just week 1 and week 12. Twenty-five
-   minutes: 5-10-5, 3-cone, 10 yd, vertical. Run it in Friday's slot on those weeks.
+   minutes: 5-10-5, 3-cone, 10 yd, vertical. Run it in Monday's after school slot (since 30 Sep).
 3. **Weekly Monday monitoring, five minutes.** See below. He gets a number that moves
    every single week instead of waiting eleven weeks to find out whether it worked.
 
@@ -136,20 +197,22 @@ Same scale, same surface, same shoes, same order, before any training.
 | Countermovement jump | 3 jumps, record the best | Progress marker AND readiness check |
 | 10 yd from a **2-point staggered standing start** | 2 reps, record the best | Acceleration trend. Never change the start position once baselined. |
 
-**Readiness rule:** if the vertical is more than 5% below his four-week rolling average,
-drop the last exercise from that day's speed session and cut one set from the lift. Two
-weeks in a row means take an unplanned deload week. This is the scaled-down version of
-what Ballou and Rhea run at Alabama, and it is the cheapest injury insurance available.
+**Readiness rule (revised 30 Sep, because the team lift cannot be cut):** if the vertical is
+more than 5% below his four-week rolling average, skip Monday's jumps and do half the change
+of direction block. That night he does the team lift as written, same sets and reps, about
+10% lighter. Two weeks in a row means an unplanned deload of our sessions for a week. This is
+the scaled-down version of what Ballou and Rhea run at Alabama, and it is the cheapest injury
+insurance available.
 
 ---
 
 ## THE WEEK
 
-### MONDAY — HIGH. Max velocity + max force lift
+### MONDAY — HIGH. Jumps + close D change of direction, then team deadlift and bench
 
 **3:15pm — Monitoring, 5 min.** Body weight, CMJ x3, 10 yd x2.
 
-**3:20pm — Speed A: Max velocity (50–60 min)**
+**3:20pm — Close D session (about 50 min)**
 
 Warm-up, 12 min:
 - 3:20 Ankle rocks 10/side → 90/90 hip switches x10 → world's greatest stretch 5/side
@@ -158,44 +221,47 @@ Warm-up, 12 min:
 - 3:27 A-march 2x15 yd, B-skip 2x15 yd
 - 3:30 Build-ups 3x20 yd at 60 / 70 / 80%
 
-Main — **6 to 8 max velocity reps per week, no more**:
+**Team weeks 6 and 7 only** (the Fridays with no sprints of 40 yd or more), before the jumps,
+about 18 min: wickets 2 runs (~6 ft, rest 3 min), then Fly 10 x3 (rest 4 min). Every other
+week, skip it: Friday already gives him 12 to 20 long sprints.
+
+Jumps, 10 min:
 
 | Drill | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
 |---|---|---|---|---|
-| Wickets, ~6 ft apart, 20–25 yd run-in | 4 runs | 3 runs | skip | 3 min |
-| Flying sprint | Fly 10 x4 | Fly 15 x4 | Fly 20 x4 | 4–5 min |
-| Downhill overspeed, 2–3% grade | — | — | 3 runs | 4 min |
-| **Exposures** | **8** | **7** | **7** | |
+| Broad jump, stick the landing | 3x3 | 4x3 | 4x3 | 60 s |
+| Skater bound, stick 1 s | 3x5/side | 3x5/side | 4x5/side | 90 s |
 
-Cooldown 7 min: walk, then hamstrings, calves, hip flexors. Eat within 45 min.
+Change of direction, 24 min (moved from the old Friday hour):
 
-> **Wicket spacing for a 6'5" athlete.** The usable range is 5 to 6.5 ft depending on the
-> athlete's speed characteristics, and 6 ft is the number normally quoted for high school
-> athletes. That number is calibrated to an average-sized high schooler, and his stride is
-> longer. Start at 6 ft, then read what happens:
-> - **Clipping wickets while reaching** (foot lands ahead of the body, braking each step) →
->   genuine overstriding. Leave the spacing alone, the drill is working.
-> - **Clipping wickets while landing under the hip with tall posture** → the wickets are too
->   narrow for his leg length. Widen to 6.5 ft.
->
-> Telling those two apart is the only real coaching judgment in the drill. Ground contact
-> should land dead centre between each pair. Once he is clean at a spacing, widen by 6 in to
-> lengthen the stride; wicket height can rise over time to force better swing-leg recovery.
+| Time | Block | Detail |
+|---|---|---|
+| 3:42 | Deceleration ladder | Sprint, stop in 3 steps, hold 2 s. Wk 1–8: 20 yd x4 · Wk 9–12: 25 yd x4. Rest 60 s |
+| 3:47 | Lateral shuffle to sprint | 5 yd shuffle, open hip, 10 yd sprint. x4/side. Rest 45 s |
+| 3:51 | Zig-zag approach | 5 cones, 5 yd apart. x4. Rest 60 s |
+| 3:55 | Chop step into drop step | x6 total, with a stick check on the approach. Rest 45 s |
+| 3:58 | Drop step and recover | Sprint 10, drop step, 10 recover. x4/side. Rest 45 s |
+| 4:02 | Reactive 1v1 mirror | 6 s reps x6. Rest 45 s |
+| 4:06 | Cooldown | 5 min walk and stretch. Eat within 45 min. Done 4:11 |
 
-**6:30pm — Lift: full body, max force (85 min)**
+This is the highest value hour in his week and it now sits on his freshest day.
 
-| Exercise | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
-|---|---|---|---|---|
-| Warm-up and bar work | 10 min | 10 min | 10 min | |
-| Trap bar deadlift | 4x5 @ 265–280 | 5x3 @ 310–325 | 3x3 @ 320 | 3 min |
-| Rear foot elevated split squat | 3x6/side | 3x5/side loaded | 3x5/side | 90 s |
-| Bench press | 4x5 @ 180 | 5x3 @ 205 | 4x3 @ 210 | 2–3 min |
-| Chin-up | 4 x max | 4x6 weighted | 4x5 weighted | 2 min |
-| **Nordic hamstring curl** | 2x4 | 3x6 | 3x8 | 90 s |
-| Seated calf raise | 3x12 | 3x12 | 3x10 heavier | 60 s |
-| Pallof press | 3x10/side | 3x10/side | 3x10/side | 45 s |
+**Weeks 4 and 8:** the jumps and change of direction block become the checkpoint test.
 
-Lights out by 9:45pm.
+**6:30pm — TEAM LIFT: deadlift + bench, exactly as written (50 to 55 min)**
+
+| # | Exercise | Sets x reps (team) | His load (our only input) |
+|---|---|---|---|
+| | Team warm-up + progressive deadlift sets | 6–8 min | |
+| 1 | Barbell deadlift | 4x5 | Wk 1–3: start 255–265 · Wk 5–7: ~275–290 · Wk 9–11: ~285–305 |
+| 2 | Barbell bench press | 4x6 | Wk 1–3: 175–180 · Wk 5–7: 185–190 · Wk 9–11: 190–200 |
+| 3A/3B | Bulgarian split squat / 1 arm DB row | 3x6/leg · 3x8/arm | 2–3 reps in reserve |
+| 4A/4B | DB Romanian deadlift / lateral lunge | 3x8 · 3x6/side | Moderate. It comes after the deadlifts, so the hamstrings are already worked |
+| 5 | Standing calf raise | 3x12–15 | |
+| | Ab finisher | 7 x 30 s, 1 round → 2 | |
+
+Every set stops with 2 to 3 clean reps left. Stop a set when the bar slows. Add 5–10 lb only
+when every rep of the last set moved fast. Lights out by 9:45pm.
 
 ---
 
@@ -216,19 +282,19 @@ He should hit one near-full-speed run *before* practice starts, not during it. A
 
 ---
 
-### WEDNESDAY — HIGH. Acceleration + power lift
+### WEDNESDAY — HIGH. Acceleration + sled + prehab, then team squat and upper
 
-**3:15pm — Speed B: Acceleration (50 min)**
+**3:15pm — Acceleration and prehab (about 60 min)**
 
 Warm-up, same 12 min as Monday.
-
-Main:
 
 | Drill | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
 |---|---|---|---|---|
 | Falling start | 10 yd x4 | 10 yd x3 | skip | 2 min |
 | **Break-down start** | 15 yd x3 | 20 yd x3 | 20 yd x3, reactive | 3 min |
 | Heavy sled | 15 yd x4 @ 158 lb | 20 yd x4 @ 192 lb | 4 contrast pairs | 3 min |
+| **Nordic hamstring curl** | 2x4 | 3x6 | 3x8 | 90 s |
+| **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side | 45 s |
 
 Contrast pair = sled 15 yd, rest 90 s, free sprint 20 yd.
 
@@ -238,116 +304,128 @@ dropped ball. From week 9 it goes reactive: he goes on the partner's first movem
 call. **Backpedal to sprint** (5 yd backpedal, then sprint the distance) rotates in from
 week 5 for variety.
 
-> **Why not a 3-point start.** It was in the first draft and it was wrong. A pole never
-> starts from a three-point stance; his real entries are a break-down, a backpedal or a
-> shuffle. Even in football the 3-point is a lineman and fullback stance, while linebackers
-> and defensive backs use a two-point. The recommended progression runs two-point ->
-> three-point -> four-point -> blocks, with the two-point first because it most closely
-> mimics how acceleration starts in other sports. At 6'5" the deep crouch is also the
-> hardest version of a skill he does not need, and the falling start already teaches
-> forward shin angle better with no stance skill at all. Start position changes the timed
-> number, so this had to change in week 1 or not at all. Corrected 16 Sep 2026.
+**Nordic and Copenhagen moved here 30 Sep.** Wednesday and Saturday are the only days at
+least 48 hours before both fixed hard days, club Tuesday and the team's Friday sprints.
+The team plan has neither exercise.
 
+Cooldown 5 min. Eat within 45 min.
 
-Cooldown 7 min. Eat within 45 min.
+**6:30pm — TEAM LIFT: squat + upper body, exactly as written (50 to 60 min)**
 
-**6:30pm — Lift: full body, velocity and power (85 min)**
+| # | Exercise | Sets x reps (team) | His load (our only input) |
+|---|---|---|---|
+| | Team warm-up + 2–3 back squat warm-up sets | 6–8 min | |
+| 1 | Barbell back squat | 4x5 | Wk 1–3: 245–260 · Wk 5–7: 255–275 · Wk 9–11: 265–285 |
+| 2 | Barbell incline bench | 3x8 | Wk 1–3: 135–150 · Wk 5–7: 145–155 · Wk 9–11: 150–165 |
+| 3A/3B | Walking DB lunge / bent over row | 3x8/leg · 3x8 | 2–3 reps in reserve |
+| 4A/4B | DB shoulder press / farmer carry | 3x8 · 3x30 yd | Carry heavy, press moderate |
+| 5A/5B | Hamstring curl / DB lateral raise | 3x10 · 3x10–12 | Curl moderate: Nordic was this afternoon |
+| | Ab finisher | 7 x 30 s, 1 round → 2 | |
 
-| Exercise | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
-|---|---|---|---|---|
-| Warm-up and bar work | 10 min | 10 min | 10 min | |
-| Trap bar jump | 5x3 @ 45 lb | 5x3 @ 68 lb | 6x3 @ 45 lb | 2 min |
-| Single leg RDL | 3x8/side | 3x6/side | 3x6/side | 90 s |
-| Skater bound | 3x5/side | 3x5/side | 4x5/side | 90 s |
-| **Single-arm landmine press** | 4x5/side | 5x3/side | 4x3/side | 2 min |
-| Chest supported row | 4x8 | 4x8 | 4x6 | 90 s |
-| **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side | 45 s |
-| Tibialis raise | 3x15 | 3x15 | 3x20 | 45 s |
-| Side plank with hip abduction | 3x30s/side | 3x40s/side | 3x45s/side | |
-
+**Back squat at 6'5":** to parallel with the trunk braced. Deeper costs him position, not
+strength, because the limiter at his height is trunk angle. Same stop rules as Monday.
 Lights out by 9:45pm.
 
 ---
 
-### THURSDAY — LOW. Recovery, prehab, footwork, stick
+### THURSDAY — LOW. The day before the team's sprint day
 
-**3:15pm, ~70 min, nothing maximal, nothing above 70%.**
+**3:15pm, ~65 min, nothing maximal, nothing above 70%, no eccentric work.**
 
 | Time | What | Dose |
 |---|---|---|
 | 3:15 | Easy jog and leg swings | 5 min |
-| 3:20 | Extensive tempo at 70% | 2 sets of 4x50 yd, walk back, 2 min between sets |
-| 3:33 | **Nordic hamstring curl** | Wk 1–3: 2x4 · Wk 5–7: 3x6 · Wk 9–11: 3x8 |
-| 3:41 | Split squat isometric (wks 1–8 only) | 4x20 s/side at ~70% effort |
-| 3:48 | Wall calf isometric (wks 1–8 only) | 4x20 s, knee bent ~20° |
-| 3:53 | Mobility | 8 min: ankle dorsiflexion, hip internal rotation, thoracic rotation |
-| 4:01 | **Footwork 1:** approach and breakdown | 6/side. Jog 5 yd at a cone, chop the last 2 yd, sit into stance, stick up, hold 2 s |
-| 4:04 | **Footwork 2:** drop step and hip turn | 2x6/side. Square, drop step, open the hip, 3 strides, jog back |
-| 4:07 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side. One linked pattern at 60 to 70% |
-| 4:10 | **Footwork 4:** mirror shuffle | 2x20 s. Partner or cone pattern, stay square, feet never cross |
-| 4:12 | **Footwork 5:** wall ball with moving feet | 5 min. One step per throw, shuffle between reps |
-| 4:17 | Wall ball, stationary | 10 min, off hand biased |
+| 3:20 | Split squat isometric (wks 1–8 only) | 4x20 s/side at ~70% effort |
+| 3:27 | Wall calf isometric (wks 1–8 only) | 4x20 s, knee bent ~20° |
+| 3:32 | Bent knee calf raise (soleus) | 3x12. Moved from the old Monday lift; the team only has straight leg calf raises |
+| 3:36 | Tibialis raise | 3x15 |
+| 3:39 | Pallof press (band) | 3x10/side |
+| 3:43 | Side plank with hip abduction | Wk 1–3: 3x30 s/side · Wk 5–7: 3x40 s · Wk 9–11: 3x45 s |
+| 3:47 | Mobility | 8 min: ankle dorsiflexion, hip internal rotation, thoracic rotation |
+| 3:55 | **Footwork 1:** approach and breakdown | 6/side. Jog 5 yd at a cone, chop the last 2 yd, sit into stance, stick up, hold 2 s |
+| 3:58 | **Footwork 2:** drop step and hip turn | 2x6/side. Square, drop step, open the hip, 3 strides, jog back |
+| 4:01 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side. One linked pattern at 60 to 70% |
+| 4:04 | **Footwork 4:** mirror shuffle | 2x20 s. Partner or cone pattern, stay square, feet never cross |
+| 4:06 | **Footwork 5:** wall ball with moving feet | 5 min. One step per throw, shuffle between reps |
+| 4:11 | Wall ball, stationary | 10 min, off hand biased |
 
-If it feels hard, he is running the tempo too fast. If the footwork feels like a workout,
-he is doing it too fast: nothing in that block goes above 70%.
+**Removed 30 Sep:** the Nordic dose (24 hours before the heaviest sprint session of the week
+is the wrong place for eccentric hamstring work) and the tempo (the team's Friday already has
+800 to 1200 yd of it). The team's ab finisher is all flexion; the Pallof and side plank cover
+anti rotation and lateral hip, which is what holds a pole's position.
+
+If the footwork feels like a workout, he is doing it too fast: nothing in that block goes
+above 70%.
 
 **Technical footwork block (added 22 Sep 2026).** Fifteen minutes, Thursday and Saturday,
-before the stationary wall ball. Until now footwork was one 18 minute block on Friday plus
-whatever club covers, and club is team concepts, not individual reps. Approach, breakdown,
-drop step and recover are what a close defenseman is judged on at a prospect day, and 18
-minutes a week on that was too thin. Submaximal pattern work is technical work, and in a
-high/low structure technical work belongs on the low days. Friday stays the only max effort
-footwork day; this adds repetitions of the patterns, not another high day. Weekly footwork
-goes from 18 to about 48 minutes. Total stick time is unchanged at 15 minutes (5 moving, 10
-stationary).
+before the stationary wall ball. Approach, breakdown, drop step and recover are what a close
+defenseman is judged on at a prospect day. Submaximal pattern work is technical work, and in
+a high/low structure technical work belongs on the low days. The max effort version runs in
+Monday's change of direction block.
 
 ---
 
-### FRIDAY — HIGH. The conditioning hour
+### FRIDAY — HIGH. Team conditioning, exactly as written
 
-Sixty minutes exactly. The highest value hour in the week for his position and body type.
+After school, turf, 45 to 60 min including the team's 8 to 10 min dynamic warm-up.
+**We add nothing and change nothing.** The team's 8 week progression:
 
-| Time | Block | Detail |
-|---|---|---|
-| 3:15 | Warm-up | Same 12 min |
-| 3:27 | Deceleration ladder | Sprint, stop in 3 steps, hold 2 s. Wk 1–4: 20 yd x4 · Wk 5–8: 20 yd x4 · Wk 9–12: 25 yd x4. Rest 60 s |
-| 3:32 | Lateral shuffle to sprint | 5 yd shuffle, open hip, 10 yd sprint. x4/side. Rest 45 s |
-| 3:36 | Zig-zag approach | 5 cones, 5 yd apart. x4. Rest 60 s |
-| 3:40 | Chop step into drop step | x6 total. Add a stick check from week 3. Rest 45 s |
-| 3:43 | Drop step and recover | Sprint 10, drop step, 10 recover. x4/side. Rest 45 s |
-| 3:47 | Reactive 1v1 mirror | **From week 3** (moved up from week 5). 6 s reps x6. Rest 45 s |
-| 3:51 | **Repeat sprint** | 40 yd shuttle (20 out, 180° turn, 20 back), 6 reps with 25 s rest = 1 set. Wk 1–3: 2 sets, 4 min between · Wk 5–7: 3 sets, 3.5 min · Wk 9–11: 3 sets, 3 min |
-| 4:08 | Cooldown | 4x60 yd tempo at 70%, seated calf raise 2x15, stretch |
+| Team week | Primary sprint / shuttle work | Secondary | Sprints of 40 yd+ |
+|---|---|---|---|
+| 1 | 10x20 yd + 8x40 yd + 4x60 yd | 8x100 yd tempo @ 65–75% | 12 |
+| 2 | 8x20 yd + 10x40 yd + 6x60 yd | 10x100 yd tempo @ 65–75% | 16 |
+| 3 | 10x40 yd + 6x60 yd + 4x80 yd | 6x150 yd @ 70–75% | 20 |
+| 4 | 3 rounds of 5x40 yd, one every 30 s, 2 min between rounds | 6x200 yd @ ~75%, 60–90 s rest | 15, short rest |
+| 5 | 3 rounds of 6x40 yd, one every 25–30 s, 2 min between rounds | 8x100 yd @ ~75% | 18, short rest |
+| 6 | 4 rounds of 5/10/15/20 yd out and back shuttle, ~2 min between | 6x200 yd @ 70–75% | 0 |
+| 7 | 2 sets of 6 x 30 s shifts (10/20/10 yd), 30 s rest, 3 min between sets | 4x300 yd shuttles, full recovery | 0 |
+| 8 | 3 timed 40s, then 10x40 yd one every 30 s, every rep recorded | 300 yd shuttle after ~5 min; optional 4x200 | 13 |
 
-**Front-loaded:** the deceleration ladder starts at 20 yd and the reactive mirror starts
-week 3, both earlier than originally written, because change of direction is the fastest
-moving quality in the plan and carries almost no injury cost.
+Team recovery guideline: early weeks about 30–45 s after 20s, 45–60 s after 40s, 60–90 s
+after 60s; later weeks deliberately shorter.
 
-**Weeks 4 and 8:** replace this hour with the checkpoint test battery.
+**How he runs it, inside the team's own rules:**
+1. **Use their stop rule.** The PDF says to stop high speed work for anyone whose mechanics
+   break down or who reports pain. For a 226 lb athlete that is usually the last 60s and 80s
+   in team weeks 2 and 3 and the last round of repeated 40s in weeks 4 and 5. Using that rule
+   is following the plan, not changing it.
+2. **Tempo at the bottom of their range, 65 to 70 percent.** The range is theirs.
+3. **Warm-up:** if the team warm-up runs short, he adds two build-ups at 80 and 90 percent
+   before the first rep. That is his own preparation, not a change to their session.
+4. **Every rep of 40 yd or longer is a top speed exposure.** That is why Monday has none in
+   most weeks.
+
+After: walk 5 min, stretch hamstrings, hip flexors, calves. Nothing else.
+
+**Team week 8** gives the best 40, average and slowest repeated 40, and the 300 yd shuttle.
+Those replace our own 40 and 300 tests.
 
 ---
 
-### SATURDAY — LOW. What used to be Tuesday, plus footwork
+### SATURDAY — LOW. Prehab day two, plus footwork
 
 **Any time, ~70 min, all easy.**
 
 | Time | What | Dose |
 |---|---|---|
 | 0:00 | Easy jog and leg swings | 5 min |
-| 0:05 | Extensive tempo at 70% | 2 sets of 4x50 yd |
-| 0:18 | **Copenhagen adduction** | Wk 1–3: 2x6/side · Wk 5–7: 3x10/side · Wk 9–11: 3x15/side |
-| 0:24 | Split squat isometric (wks 1–8) | 4x20 s/side |
-| 0:31 | Wall calf isometric (wks 1–8) | 4x20 s |
-| 0:36 | Tibialis raise | 3x15 |
-| 0:39 | Mobility | 8 min |
-| 0:47 | **Footwork 1:** approach and breakdown | 6/side |
-| 0:50 | **Footwork 2:** drop step and hip turn | 2x6/side |
-| 0:53 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side, 60 to 70% |
-| 0:56 | **Footwork 4:** mirror shuffle | 2x20 s |
-| 0:58 | **Footwork 5:** wall ball with moving feet | 5 min |
-| 1:03 | Wall ball, stationary | 10 min, off hand biased |
+| 0:05 | Extensive tempo at 70% | 1 set of 4x50 yd (was 2 sets; the team's Friday already has tempo) |
+| 0:11 | **Nordic hamstring curl** | Wk 1–3: 2x4 · Wk 5–7: 3x6 · Wk 9–11: 3x8 |
+| 0:17 | **Copenhagen adduction** | Wk 1–3: 2x6/side · Wk 5–7: 3x10/side · Wk 9–11: 3x15/side |
+| 0:23 | Split squat isometric (wks 1–8) | 4x20 s/side |
+| 0:30 | Wall calf isometric (wks 1–8) | 4x20 s |
+| 0:35 | Tibialis raise | 3x15 |
+| 0:38 | Mobility | 8 min |
+| 0:46 | **Footwork 1:** approach and breakdown | 6/side |
+| 0:49 | **Footwork 2:** drop step and hip turn | 2x6/side |
+| 0:52 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side, 60 to 70% |
+| 0:55 | **Footwork 4:** mirror shuffle | 2x20 s |
+| 0:57 | **Footwork 5:** wall ball with moving feet | 5 min |
+| 1:02 | Wall ball, stationary | 10 min, off hand biased |
 
-Footwork block is identical to Thursday's. Cues are in the Thursday section.
+Footwork block is identical to Thursday's. Cues are in the Thursday section. Saturday is
+72 hours before club and six days before the team's Friday, which is why the second Nordic
+and Copenhagen dose lives here.
 
 ---
 
@@ -383,6 +461,9 @@ meta-analysis found no significant pooled effect of unilateral training on 10, 2
 sprints. Bilateral work (the trap bar) is the sprint driver; unilateral work transfers it to
 cutting. They stay because cutting is his priority, but the reason changed.
 
+**30 Sep note:** the lift contents are now the team's. The landmine press, trap bar and split
+squat notes above describe the original design, not what he lifts now.
+
 ---
 
 ## 22 SEP 2026 ADDITION: TECHNICAL FOOTWORK ON THE LOW DAYS
@@ -402,6 +483,7 @@ three held up, one did not.
   structure, which was too rigid: submaximal technical work is exactly what Francis put on
   low days. **Fix:** 15 min technical footwork block, Thursday and Saturday, nothing above
   70%, before wall ball. Friday remains the only max effort footwork day.
+  (30 Sep: the max effort block moved to Monday when the team program took Friday.)
 
 Evidence tier for the addition: B. The drills are standard close defense coaching
 progressions and the dose is practitioner judgment; the supporting principle is the
@@ -412,17 +494,20 @@ acquisition. There is no trial on lacrosse defenders specifically.
 
 ## PREHAB DOSING SUMMARY
 
-| Exercise | Days | Why twice a week |
+| Exercise | Days | Why there |
 |---|---|---|
-| Nordic hamstring curl | Monday lift + Thursday | 3 and 4 day spacing. Matches the trial protocols. ~50% hamstring injury risk reduction. |
-| Copenhagen adduction | Wednesday lift + Saturday | 3 and 4 day spacing. Progresses 2x6 to 3x15 per side over 8 weeks. |
-| Isometrics | Thursday + Saturday | Weeks 1–8 only. Two sessions, not the three originally written, because Tuesday is gone. |
+| Nordic hamstring curl | Wednesday after school + Saturday | Twice a week, as in the trial protocols (~50% hamstring injury risk reduction). Both days sit at least 48 h before club Tuesday and the team's Friday sprints. Moved off Monday night and Thursday on 30 Sep. |
+| Copenhagen adduction | Wednesday after school + Saturday | Same days, same reason. Progresses 2x6 to 3x15 per side. |
+| Isometrics | Thursday + Saturday | Weeks 1–8 only. No soreness, so safe the day before Friday. |
+| Soleus + tibialis | Thursday (both) + Saturday (tibialis) | The team only has straight leg calf raises. |
+| Pallof + side plank with abduction | Thursday | The team's ab finisher is all flexion. |
 
 ---
 
 ## CHECKPOINT TESTS — WEEKS 4 AND 8
 
-Replaces the Friday hour. 25 minutes. Full warm-up first, full rest between reps.
+Replaces Monday's jumps and change of direction block (since 30 Sep; Friday belongs to the
+team). 25 minutes. Full warm-up first, full rest between reps.
 Order matters: fastest and most neural first.
 
 1. Countermovement jump — 3 jumps, best of
@@ -435,34 +520,39 @@ does not matter enough.
 
 ## FULL BATTERY — WEEK 1 AND WEEK 12
 
-Everything above, plus flying 10, broad jump, trap bar 3RM, 300 yd shuttle (2 trials,
-5 min rest, take the average), single leg calf raise to failure. Shuttle goes last.
+Everything above, plus flying 10, broad jump and single leg calf raise to failure, on the
+Monday of week 12. The 40 and the 300 yd shuttle now come from the team's week 8 Friday
+test. Strength is read off the team lifts: the heaviest clean set of 5 on deadlift and
+squat. No separate max testing inside the team's sessions.
 
 ---
 
 ## LOADS
 
-Computed from 226 lb bodyweight, bench 225x3, squat 315x3.
+The team plan gives sets and reps and never gives a weight. The weight is the one lever
+inside it. Computed from 226 lb bodyweight, bench 225x3 (~240 max), squat 315x3 (~335–345
+max). Conventional deadlift is untested: his first session, he works up to a set of 5 that
+leaves 3 reps in reserve and uses that.
 
-| Lift | Basis | Wk 1–3 | Wk 5–7 | Wk 9–11 |
+| Team lift | Sets x reps | Wk 1–3 | Wk 5–7 | Wk 9–11 |
 |---|---|---|---|---|
-| Trap bar deadlift | 375 lb **estimated** max | 265–280 | 310–325 | 320 |
-| Bench press | 240 lb max from 225x3 | 180 | 205 | 210 |
-| Trap bar jump | 20–30% bodyweight | 45 lb | 68 lb | 45 lb |
-| Heavy sled | 70–85% bodyweight, total resistance | 158 lb | 192 lb | 158 lb |
+| Barbell deadlift | 4x5 | 255–265 | ~275–290 | ~285–305 |
+| Bench press | 4x6 | 175–180 | 185–190 | 190–200 |
+| Back squat | 4x5 | 245–260 | 255–275 | 265–285 |
+| Incline bench | 3x8 | 135–150 | 145–155 | 150–165 |
+| Everything else | as written | 2–3 reps in reserve | same | same |
+| Heavy sled (ours) | | 158 lb | 192 lb | 158 lb |
 
-**Trap bar is an estimate.** Test a real 3RM in week 1 and reset the column. If he has
-never trap bar deadlifted, week 1 is technique at 185–225 and the working weights start
-week 2.
+The later columns assume progress. The rule decides, not the table: **every set stops with
+2 to 3 clean reps left, a set ends when the bar slows, and 5–10 lb goes on only when every
+rep of the last set moved fast.** Add nothing in a week his Monday 10 yd got slower.
+Lifting short of failure builds the same strength and keeps the jump and sprint gains that
+grinding costs (Pareja-Blanco 2017, velocity loss 20% vs 40% in the squat).
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
 The usable test: visibly slow, still running, heels never touching down. If he is
 marching, take weight off.
-
-**When to add weight:** add 5–10 lb to the trap bar when he finishes every prescribed
-rep with the bar still moving fast on the last one. Add nothing in a week his Monday
-10 yd got slower. The lift serves the sprint, not the other way round.
 
 ---
 
@@ -470,15 +560,19 @@ rep with the bar still moving fast on the last one. Add nothing in a week his Mo
 
 | Week | What changes |
 |---|---|
-| 4 | Deload. Cut sets and sprint reps 40%, keep the weight and keep the speed. Friday becomes the checkpoint test. |
+| 4 | Deload. Our sessions: cut sets and sprint reps 40%, keep the speed. Monday's jumps and change of direction become the checkpoint test. Team lifts: same sets and reps, 10–15% lighter. Team Friday: as written, use their stop rule early. |
 | 8 | Same as week 4. |
-| 12 | Full test battery week. Monday speed and Friday conditioning both become testing. Trap bar 3RM goes in Monday's lift slot. |
+| 12 | Full test battery on Monday. Team sessions as written. |
 
-Deload means less work, never slower work.
+Deload means less work, never slower work. We cannot deload the team's sessions; we can
+only lighten the bar inside them.
 
 ---
 
 ## WINTER BLOCK — MON 7 DEC 2026 TO SUN 28 FEB 2027
+
+> **30 Sep note:** written before the team program existed. The lift prescriptions below
+> assume our own lifts. Rebuild this block around the team's winter program once it is known.
 
 Weeks continue Monday to Sunday. Verified dates:
 
