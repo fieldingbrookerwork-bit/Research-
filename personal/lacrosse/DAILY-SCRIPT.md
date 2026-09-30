@@ -78,8 +78,8 @@ are gone. What it contains:
    6 to 8 exposures a week. Friday alone passes that, so our Monday max velocity session
    cannot just move somewhere else. It has to go, except in the two team weeks (6 and 7)
    with no long sprints, where it comes back so week 8's timed 40s are not a spike.
-2. **It is written for middies and attackmen.** The PDF says so. Change of direction appears
-   in one week of eight. Braking, approach, drop step and recover, the work a close
+2. **It is written for middies and attackmen.** The PDF says so. Change of direction appears only as
+   straight line shuttles, in two weeks of eight, and none of it is defensive footwork. Braking, approach, drop step and recover, the work a close
    defenseman is judged on, has to come from us. It moves to Monday after school.
 3. **No jumps, no Nordic, no Copenhagen, no soleus or shin work, no anti rotation core.**
    Jumps go into Monday; Nordic and Copenhagen go to Wednesday after school and Saturday;
