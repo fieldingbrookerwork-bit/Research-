@@ -15,9 +15,9 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 
 | Day | Fixed thing | Time |
 |---|---|---|
-| Monday | **Team lift: deadlift + bench** (varsity fall offseason PDF) | night, ~6:30pm, 50 to 55 min |
+| Monday | **Team lift: deadlift + bench** (varsity fall offseason PDF) | 6:30 to 7:30pm (confirmed 4 Oct). The PDF targets 50 to 55 min including its warm-up |
 | Tuesday | **Club practice** | night, ~90 min, done by 8:30pm |
-| Wednesday | **Team lift: squat + upper body** (same PDF) | night, ~6:30pm, 50 to 60 min |
+| Wednesday | **Team lift: squat + upper body** (same PDF) | 6:30 to 7:30pm (confirmed 4 Oct). The PDF targets 50 to 60 min including its warm-up |
 | Friday | **Team conditioning: 8 week sprint progression** (same PDF) | after school, turf, 45 to 60 min |
 
 **Since 30 Sep 2026 the team sessions are fixed exactly as written.** Source:
@@ -248,7 +248,7 @@ This is the highest value hour in his week and it now sits on his freshest day.
 
 **Weeks 4 and 8:** the jumps and change of direction block become the checkpoint test.
 
-**6:30pm — TEAM LIFT: deadlift + bench, exactly as written (50 to 55 min)**
+**6:30 to 7:30pm — TEAM LIFT: deadlift + bench, exactly as written**
 
 | # | Exercise | Sets x reps (team) | His load (our only input) |
 |---|---|---|---|
@@ -261,7 +261,7 @@ This is the highest value hour in his week and it now sits on his freshest day.
 | | Ab finisher | 7 x 30 s, 1 round → 2 | |
 
 Every set stops with 2 to 3 clean reps left. Stop a set when the bar slows. Add 5–10 lb only
-when every rep of the last set moved fast. Lights out by 9:45pm.
+when every rep of the last set moved fast. Dinner by 8:15pm. Lights out by 9:45pm.
 
 ---
 
@@ -310,7 +310,7 @@ The team plan has neither exercise.
 
 Cooldown 5 min. Eat within 45 min.
 
-**6:30pm — TEAM LIFT: squat + upper body, exactly as written (50 to 60 min)**
+**6:30 to 7:30pm — TEAM LIFT: squat + upper body, exactly as written**
 
 | # | Exercise | Sets x reps (team) | His load (our only input) |
 |---|---|---|---|
@@ -324,7 +324,7 @@ Cooldown 5 min. Eat within 45 min.
 
 **Back squat at 6'5":** to parallel with the trunk braced. Deeper costs him position, not
 strength, because the limiter at his height is trunk angle. Same stop rules as Monday.
-Lights out by 9:45pm.
+Dinner by 8:15pm. Lights out by 9:45pm.
 
 ---
 
