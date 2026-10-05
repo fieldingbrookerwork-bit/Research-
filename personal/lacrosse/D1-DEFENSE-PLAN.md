@@ -359,11 +359,13 @@ Run the full battery **Week 1 (this week)** and **Week 12 (1-5 December)**. Same
 | **Bench press 1RM** | Contact durability at close D | **1.25x BW = 285 lb** |
 | **300 yd shuttle** (2 trials, 5 min rest, average) | Repeat sprint capacity | **Under 58 s** |
 | **Single leg calf raise to failure** | Soleus capacity, the main braking muscle | 25+ per side |
-| **Body weight** | Do not chase this | Hold 226-232 |
+| **Body fat** | Recomp since 5 Oct 2026, from 22% | **Under 16% by late Feb 2027 (DXA), then 12-14%** |
 
 **Be clear on what is sourced and what is not.** The vertical jump benchmark (29" for college lacrosse), the strength multiples (college football Level 4 is 1.75-2.0x BW squat and 2.0-2.25x BW deadlift, elite above that) and the 300 yard shuttle population average of 52 to 53 seconds are from published sources. **The 3-cone, 5-10-5 and 10 yard targets are my extrapolation for a 226 lb athlete, not published lacrosse norms**, because position-and-bodyweight specific norms for D1 lacrosse defensemen are not publicly available. Treat them as a stretch standard, not a cutoff. A 6'5" 226 lb kid running 4.45 in the shuttle is a genuinely rare athlete; the sub-4.2 numbers circulating online belong to 5'10" defensive backs and are not the comparison.
 
 **Do not chase body weight.** He is already 35 lb above the D1 defenseman average. Added mass from here is added momentum to brake, on longer levers, into a knee. If body weight rises above 232 while the 5-10-5 does not improve, that is a failing plan regardless of what the bench does.
+
+**Revised 5 Oct 2026:** he measured 22% body fat, so the goal is now recomposition: fat down, muscle up, the scale drifting toward about 214 by late February. Targets, calories and the weekly adjustment rules are in `DAILY-SCRIPT.md` under FUEL AND BODY COMPOSITION.
 
 ---
 

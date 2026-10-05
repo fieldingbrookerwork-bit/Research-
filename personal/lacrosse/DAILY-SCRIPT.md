@@ -3,7 +3,8 @@
 Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 "what does he do today." The automated daily updates read this file.
 
-**Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028.
+**Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028. 22% body fat (doctor,
+early Oct 2026), grew an inch in the last five months, on creatine 5 g a day.
 **Block 1 start:** Tuesday 15 September 2026. **Block 1 end:** Sunday 6 December 2026.
 **Week numbering:** see the week calendar below. Weeks run Monday to Sunday from week 2 on.
 **Winter block:** Mon 7 December 2026 to Sun 28 February 2027.
@@ -193,7 +194,8 @@ Same scale, same surface, same shoes, same order, before any training.
 
 | Measure | Protocol | What it tells you |
 |---|---|---|
-| Body weight | Morning, after bathroom | Should hold 226–232. Rising fast is a problem, not progress. |
+| Body weight | Morning, after bathroom | Recomp since 5 Oct: down 0.5 to 1 lb a week. Faster than 1.5 lb a week for two weeks: eat 300 more. |
+| Waist at the navel | Morning, relaxed, tape level | The best weekly fat signal while he grows and adds muscle. |
 | Countermovement jump | 3 jumps, record the best | Progress marker AND readiness check |
 | 10 yd from a **2-point staggered standing start** | 2 reps, record the best | Acceleration trend. Never change the start position once baselined. |
 
@@ -203,6 +205,82 @@ of direction block. That night he does the team lift as written, same sets and r
 10% lighter. Two weeks in a row means an unplanned deload of our sessions for a week. This is
 the scaled-down version of what Ballou and Rhea run at Alabama, and it is the cheapest injury
 insurance available.
+
+---
+
+## FUEL AND BODY COMPOSITION (since 5 Oct 2026)
+
+**Baseline:** 226 lb at 22% body fat (doctor, early October): about 50 lb of fat and 176 lb
+of lean mass. That is average muscle for 6'5", so he has real room to add it. He grew an inch
+in the last five months and is on creatine 5 g a day.
+
+**Goal: recomposition.** Lose fat and add muscle at the same time. He is close to the ideal
+case for it: 22% fat, average muscle, still growing, on a real lifting program.
+
+| When | Body fat | Weight, roughly |
+|---|---|---|
+| Early Dec 2026, week 12 | 19 to 20% | about 220 |
+| Late Feb 2027, week 24, as the season starts | under 16% | about 214 |
+| Late summer 2027 | 12 to 14% | 210 to 216, carrying 5 to 10 lb more muscle |
+
+Under 16% on a DXA is about the average Division I male athlete (16.4% in one DXA study
+across sports). 12 to 14% is lean, athletic and aesthetic without costing a growing kid his
+hormones. Nothing below 12% while he is still growing.
+
+**Why not faster.** Elite athletes losing 0.7% of body weight a week kept their strength and
+added lean mass; twice that rate added none (Garthe 2011). For him that ceiling is about
+1.5 lb a week, and the target is 0.5 to 1. A bigger deficit in a kid who is still growing
+takes from growth, speed and recovery first.
+
+### Daily targets
+
+| Day | Calories | Protein | Carbs | Fat |
+|---|---|---|---|---|
+| Training days: Mon, Tue, Wed, Fri | 3,700 | 220 g | about 490 g | about 95 g |
+| Low days: Thu, Sat, Sun | 3,250 | 220 g | about 380 g | about 95 g |
+
+Weekly average about 3,500, an estimated 300 to 500 under what holds his weight. **Floor:
+never average under 3,300.** Below that, a growing athlete training this much runs short on
+energy and pays in growth, hormones and injuries before he pays in fat.
+
+- **Protein:** five feedings of about 45 g: breakfast, lunch, the meal after the after school
+  session, dinner, and before bed (Greek yogurt, cottage cheese or a casein shake). A whey
+  isolate shake fills gaps. Collagen does not count toward the 220.
+- **Carbs follow the work.** On low days the cut comes from breakfast and lunch. Thursday and
+  Sunday dinner keep full carbs because they fuel Friday and Monday. Never cut the meal
+  before or after a session.
+- **Fat:** about 95 g every day. Do not go lower; very low fat intake lowers testosterone.
+
+**Lift days, Monday and Wednesday:** 2:15pm collagen at school, 3:15 session, 4:15 to 4:50
+full meal, 6:30 to 7:30 team lift, dinner by 8:15, protein before bed, lights out 9:45.
+
+### Supplements
+
+- **Creatine monohydrate 5 g every day** (already taking).
+- **Collagen peptides 15 g in 8 to 12 oz of orange juice, one hour before the Monday,
+  Wednesday and Friday sessions** (about 2:15pm, at school). The vitamin C is the point of the
+  juice. Peptides are the same raw material as the gelatin in Shaw 2017 and mix cold.
+- **Blood test** at his next physical: vitamin D, ferritin, blood count. Supplement only what
+  is low.
+- Every product NSF Certified for Sport or Informed Sport.
+
+### Measuring
+
+- Monday morning: body weight and waist at the navel. The waist is the better weekly signal
+  while he grows and adds muscle, because the scale counts new bone and muscle too.
+- **DXA scan now, in week 12 and in week 24, same machine.** The doctor's 22% may be a scale or
+  handheld reading, and those read lower than a DXA in college men, so the DXA becomes the
+  number the 16% target is measured against.
+
+### Adjust every Monday
+
+- Jump or 10 yd slower two Mondays in a row while losing weight: add 300 calories, all carbs.
+- Losing more than 1.5 lb a week for two weeks: add 300.
+- Waist flat for three weeks and the Monday numbers fine: cut 200, never below the floor.
+- Tired all the time, getting sick, lifts stalling, moody, sleeping badly: any two, add 300.
+
+**The scoreboard is the Monday numbers and the tape, not the mirror.** Teen athletes chasing
+a look are the ones who slide into under eating.
 
 ---
 
@@ -608,7 +686,7 @@ Turning the strength into speed. This is where the winter results show up.
 - Speed days cut to 3 max reps each, full rest, all of it fast
 - Friday becomes small-sided and position-specific, not conditioning
 - **Full test battery in week 24 (Mon 22 – Sun 28 Feb)** — this is the number he carries into the season, and the one that goes to coaches
-- Body weight back to 226–230
+- DXA retest in week 24: target under 16% body fat (see FUEL AND BODY COMPOSITION)
 
 ### March to May 2027: High school season, maintenance only
 
