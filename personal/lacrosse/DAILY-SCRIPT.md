@@ -257,9 +257,10 @@ full meal, 6:30 to 7:30 team lift, dinner by 8:15, protein before bed, lights ou
 ### Supplements
 
 - **Creatine monohydrate 5 g every day** (already taking).
-- **Collagen peptides 15 g in 8 to 12 oz of orange juice, one hour before the Monday,
-  Wednesday and Friday sessions** (about 2:15pm, at school). The vitamin C is the point of the
-  juice. Peptides are the same raw material as the gelatin in Shaw 2017 and mix cold.
+- **Collagen peptides 15 g in 8 to 12 oz of orange juice, one hour before every training
+  session:** about 2:15pm at school on Monday, Wednesday and Friday, and 6:00pm before Tuesday
+  club practice. The vitamin C is the point of the juice. Peptides are the same raw material
+  as the gelatin in Shaw 2017 and mix cold.
 - **Blood test** at his next physical: vitamin D, ferritin, blood count. Supplement only what
   is low.
 - Every product NSF Certified for Sport or Informed Sport.
@@ -349,6 +350,26 @@ when every rep of the last set moved fast. Dinner by 8:15pm. Lights out by 9:45p
 Tuesday afternoon is empty on purpose and this is the hardest instruction in the plan
 to follow.
 
+**The full day.** A training day for fuel: 3,700 calories, 220 g protein. Practice is assumed
+7:00 to 8:30pm from the fixed commitments table; if it moves, the evening rows move with it.
+
+| Time | What | Protein |
+|---|---|---|
+| 6:45am | Wake. Nine hours from a 9:45 lights out. | |
+| 7:00 | Breakfast: 3 eggs plus 3/4 cup egg whites; oatmeal from 1 cup dry oats with a banana, 1 tbsp honey, 1 tbsp peanut butter. Creatine 5 g. | ~50 g |
+| 12:00 | Lunch, packed: two turkey and cheese sandwiches (4 oz turkey, 2 slices cheese, half an avocado), an apple, 1 oz pretzels. | ~50 g |
+| 3:30 | After school: 1.5 cups nonfat Greek yogurt, 2/3 cup granola, a cup of berries. Then off his feet. | ~40 g |
+| 5:30 | Dinner, 90 min before practice: 5 oz chicken breast, 1.75 cups white rice, vegetables, 1 tsp oil. Low fat and low fiber so it is out of his stomach by the first sprint. | ~50 g |
+| 6:00 | Collagen peptides 15 g in 12 oz orange juice, one hour before practice. | |
+| 6:45 | 10 min warm-up (below). | |
+| 7:00 to 8:30 | Club practice, as the club runs it. Water throughout. | |
+| 8:30 | 10 min walk and stretch. | |
+| 9:00 | In the car: 16 oz chocolate milk shaken with 1 scoop whey. A drink, so he is in bed on time. It doubles as his before bed protein. | ~40 g |
+| 9:45 | Lights out. | |
+
+The sample lands at about 3,700 calories, 240 g protein, 460 g carbs and 90 g fat. Swap
+foods freely; keep the times and the protein.
+
 **10 min before practice** — do this even if nobody else does:
 - 5 min: ankle rocks, 90/90 hip switches, world's greatest stretch, leg swings
 - 5 min: pogo hops 2x10, then build-ups 3x20 yd at 60 / 70 / 80%
@@ -356,7 +377,7 @@ to follow.
 He should hit one near-full-speed run *before* practice starts, not during it. A cold
 6'5" athlete sprinting into a ground ball is exactly how hamstrings tear.
 
-**After practice:** 10 min walk and stretch, eat, bed. Nothing else.
+**After practice:** 10 min walk and stretch, the drink, bed. Nothing else.
 
 ---
 
