@@ -502,6 +502,27 @@ after 60s; later weeks deliberately shorter.
 
 After: walk 5 min, stretch hamstrings, hip flexors, calves. Nothing else.
 
+**If the team Friday is cancelled** (school holiday, weather, coach away), he runs this in its
+place. It replaces what the team's Friday gives him, top speed and repeated efforts, and adds
+the close D footwork their session lacks. First used Fri 9 Oct 2026, a deload week.
+
+| Block | Normal week | Deload week (4, 8) | Rest |
+|---|---|---|---|
+| Collagen 1 h before; real meal 2 to 3 h before | | | |
+| Warm-up, same 12 min as Monday | 12 min | 12 min | |
+| Flying 20: 20 yd build-in, 20 yd at 90 to 95%, 20 yd ease-off | x4 | x3 | 3 min walk-back |
+| Approach and breakdown at game speed, hold stance 2 s | 5/side | 4/side | 30 to 45 s |
+| Drop step and recover: drop step, crossover run 10 yd, breakdown | 4/side | 3/side | 30 to 45 s |
+| Slide and recover: shuffle 5 yd, open the hips, sprint 10 yd, breakdown | 4/side | 3/side | 30 to 45 s |
+| Mirror with a partner, 5 s reps | x6 | x4 | 45 s |
+| Defensive possessions: 20 s of shuffle, drop step, 10 yd sprint, breakdown, shuffle back, 10 yd approach, breakdown | 8 to 10 reps | 6 reps | 60 s walk |
+| Tempo 100 yd at 65 to 70% | x8 | x6 | walk 50 yd |
+| Cooldown: walk, stretch hamstrings, hip flexors, calves, adductors | 5 min | 5 min | |
+
+Every change of direction ends in a breakdown. Stop any rep the moment form breaks or a
+hamstring or groin talks. If the team meets after all, do theirs instead.
+
+
 **Team week 8** gives the best 40, average and slowest repeated 40, and the 300 yd shuttle.
 Those replace our own 40 and 300 tests.
 
