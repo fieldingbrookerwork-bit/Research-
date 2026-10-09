@@ -4,7 +4,9 @@ Companion to `D1-DEFENSE-PLAN.md`. This file is the single source of truth for
 "what does he do today." The automated daily updates read this file.
 
 **Athlete:** 6'5", 226 lb close defense pole. Junior, class of 2028. 22% body fat (doctor,
-early Oct 2026), grew an inch in the last five months, on creatine 5 g a day.
+early Oct 2026), grew an inch in the last five months, on creatine 5 g a day. Best lifts as of
+9 Oct, all to failure: bench 225x3, squat 295x4, conventional deadlift 335x5. Full gym access
+any day.
 **Block 1 start:** Tuesday 15 September 2026. **Block 1 end:** Sunday 6 December 2026.
 **Week numbering:** see the week calendar below. Weeks run Monday to Sunday from week 2 on.
 **Winter block:** Mon 7 December 2026 to Sun 28 February 2027.
@@ -236,10 +238,11 @@ takes from growth, speed and recovery first.
 
 | Day | Calories | Protein | Carbs | Fat |
 |---|---|---|---|---|
-| Training days: Mon, Tue, Wed, Fri | 3,700 | 220 g | about 490 g | about 95 g |
-| Low days: Thu, Sat, Sun | 3,250 | 220 g | about 380 g | about 95 g |
+| Training days: Mon, Tue, Wed, Fri, Sat | 3,700 | 220 g | about 490 g | about 95 g |
+| Low days: Thu, Sun | 3,250 | 220 g | about 380 g | about 95 g |
 
-Weekly average about 3,500, an estimated 300 to 500 under what holds his weight. **Floor:
+Weekly average about 3,570 (Saturday became a training day on 9 Oct with the strength block),
+an estimated 250 to 450 under what holds his weight. **Floor:
 never average under 3,300.** Below that, a growing athlete training this much runs short on
 energy and pays in growth, hormones and injuries before he pays in fat.
 
@@ -258,8 +261,8 @@ full meal, 6:30 to 7:30 team lift, dinner by 8:15, protein before bed, lights ou
 
 - **Creatine monohydrate 5 g every day** (already taking).
 - **Collagen peptides 15 g in 8 to 12 oz of orange juice, one hour before every training
-  session:** about 2:15pm at school on Monday, Wednesday and Friday, and 6:00pm before Tuesday
-  club practice. The vitamin C is the point of the juice. Peptides are the same raw material
+  session:** about 2:15pm at school on Monday, Wednesday and Friday, 6:00pm before Tuesday
+  club practice, and an hour before Saturday's session. The vitamin C is the point of the juice. Peptides are the same raw material
   as the gelatin in Shaw 2017 and mix cold.
 - **Blood test** at his next physical: vitamin D, ferritin, blood count. Supplement only what
   is low.
@@ -334,8 +337,8 @@ This is the highest value hour in his week and it now sits on his freshest day.
 | # | Exercise | Sets x reps (team) | His load (our only input) |
 |---|---|---|---|
 | | Team warm-up + progressive deadlift sets | 6–8 min | |
-| 1 | Barbell deadlift | 4x5 | Wk 1–3: start 255–265 · Wk 5–7: ~275–290 · Wk 9–11: ~285–305 |
-| 2 | Barbell bench press | 4x6 | Wk 1–3: 175–180 · Wk 5–7: 185–190 · Wk 9–11: 190–200 |
+| 1 | Barbell deadlift | 4x5 | Week 5: 295, then the ladder. Best 335x5, ~380 max |
+| 2 | Barbell bench press | 4x6 | Week 5: 185, then the ladder. Best 225x3, ~240 max |
 | 3A/3B | Bulgarian split squat / 1 arm DB row | 3x6/leg · 3x8/arm | 1–2 reps left, never failure |
 | 4A/4B | DB Romanian deadlift / lateral lunge | 3x8 · 3x6/side | Moderate. It comes after the deadlifts, so the hamstrings are already worked |
 | 5 | Standing calf raise | 3x12–15 | |
@@ -417,8 +420,8 @@ Cooldown 5 min. Eat within 45 min.
 | # | Exercise | Sets x reps (team) | His load (our only input) |
 |---|---|---|---|
 | | Team warm-up + 2–3 back squat warm-up sets | 6–8 min | |
-| 1 | Barbell back squat | 4x5 | Wk 1–3: 245–260 · Wk 5–7: 255–275 · Wk 9–11: 265–285 |
-| 2 | Barbell incline bench | 3x8 | Wk 1–3: 135–150 · Wk 5–7: 145–155 · Wk 9–11: 150–165 |
+| 1 | Barbell back squat | 4x5 | Week 5: 255, then the ladder. Best 295x4, ~330 max |
+| 2 | Barbell incline bench | 3x8 | Week 5: 145, then the ladder |
 | 3A/3B | Walking DB lunge / bent over row | 3x8/leg · 3x8 | 1–2 reps left, never failure |
 | 4A/4B | DB shoulder press / farmer carry | 3x8 · 3x30 yd | Carry heavy, press moderate |
 | 5A/5B | Hamstring curl / DB lateral raise | 3x10 · 3x10–12 | Curl moderate: Nordic was this afternoon |
@@ -504,9 +507,27 @@ Those replace our own 40 and 300 tests.
 
 ---
 
-### SATURDAY — LOW. Prehab day two, plus footwork
+### SATURDAY — STRENGTH + LOW. Upper body strength, then prehab and footwork
 
-**Any time, ~70 min, all easy.**
+**Any time. Upper body strength first (about 25 min, added 9 Oct), then the low day (about
+70 min, all easy). Split them morning and afternoon if he wants. Collagen an hour before.**
+
+| What | Dose | Rest |
+|---|---|---|
+| Warm-up: band pull-aparts, push-ups, scap pull-ups | 2x15, 2x10, 1x8 | |
+| **Chin-up.** Bodyweight until he owns 4x6, then add 5 lb with a belt or a dumbbell between the feet | 4 sets, each 1 to 2 reps short of failure | 2 min |
+| **Paused bench press**, 1 s still on the chest | 3x4. Week 5 at 180, then the ladder | 3 min |
+| Face pull, superset with the bench | 3x15, light | |
+| Neck isometrics, 4 directions against his own hand | 2x10 s each way | |
+
+The team program has no vertical pulling and only touch and go pressing. Chin-ups build the
+back that wins a check. The pause builds strength off the chest, where his bench stalls. In
+high school athletes each pound of neck strength was linked to about 5% lower odds of
+concussion (Collins 2014): an association, not proof, for 3 minutes a week. No lower body
+lifting here, because Monday's jumps and deadlift need fresh legs. If the squat stalls by
+week 8, the next lever is a light second squat day here.
+
+**Then the low day:**
 
 | Time | What | Dose |
 |---|---|---|
@@ -632,21 +653,22 @@ squat. No separate max testing inside the team's sessions.
 ## LOADS
 
 The team plan gives sets and reps and never gives a weight. The weight is the one lever
-inside it. Computed from 226 lb bodyweight, bench 225x3 (~240 max), squat 315x3 (~335–345
-max). Conventional deadlift is untested: his first session, he works up to a set of 5 that
-leaves 3 reps in reserve and uses that.
+inside it. **Reset 9 Oct from his real numbers**, all taken to failure: bench 225x3, squat
+295x4, conventional deadlift 335x5.
 
-| Team lift | Sets x reps | Wk 1–3 | Wk 5–7 | Wk 9–11 |
-|---|---|---|---|---|
-| Barbell deadlift | 4x5 | 255–265 | ~275–290 | ~285–305 |
-| Bench press | 4x6 | 175–180 | 185–190 | 190–200 |
-| Back squat | 4x5 | 245–260 | 255–275 | 265–285 |
-| Incline bench | 3x8 | 135–150 | 145–155 | 150–165 |
-| Everything else | as written | 1–2 reps left, never failure | ladder | ladder |
-| Heavy sled (ours) | | 158 lb | 192 lb | 158 lb |
+| Lift | Sets x reps | His best | Est. max | Week 5 start | Week 11 target |
+|---|---|---|---|---|---|
+| Barbell deadlift (team) | 4x5 | 335x5 | ~380 | 295 | 315–335 |
+| Bench press (team) | 4x6 | 225x3 | ~240 | 185 | 195–205 |
+| Back squat (team) | 4x5 | 295x4 | ~330 | 255 | 280–295 |
+| Incline bench (team) | 3x8 | from bench | ~200 | 145 | 155–165 |
+| Paused bench (ours, Saturday) | 3x4 | | | 180 | 190–200 |
+| Everything else | as written | | | 1–2 reps left | ladder |
 
-The columns are starting points. Since 9 Oct the ladder below decides the weight, not the
-table.
+Week 5 starts at about 78% of each estimated max, below where he has been grinding, so the
+first weeks move fast. After that the ladder below decides every weight; the targets are
+estimates, not promises. Heavy sled (ours): 158 lb weeks 1 to 3, 192 lb weeks 5 to 7, 158 lb
+for contrast pairs weeks 9 to 11.
 
 ### STRENGTH PRIORITY (since 9 Oct 2026)
 
@@ -685,12 +707,14 @@ from the side.
 weight means eat at maintenance on lift days (+300 calories) until they move. Strength wins
 that trade.
 
-**Lift log.** Send the numbers after each team lift; the next morning email sets the weight
-from them.
+**Lift log.** Send the numbers after each lift; the next morning email sets the weight from
+them. Write each lift as weight, reps per set, and reps left on the last set, for example
+295: 5,5,5,5 (2 left).
 
-| Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Notes |
-|---|---|---|---|---|---|
-| 4 (deload) | | | | | Not reported yet |
+| Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Sat paused bench 3x4 | Notes |
+|---|---|---|---|---|---|---|
+| Baseline | 295x4 to failure | 335x5 to failure | 225x3 to failure | | | Reported 9 Oct |
+| 5 (planned) | 255 | 295 | 185 | 145 | 180 | Starting weights. Replace with actual sets and reps left |
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
