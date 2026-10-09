@@ -279,6 +279,8 @@ full meal, 6:30 to 7:30 team lift, dinner by 8:15, protein before bed, lights ou
 - Losing more than 1.5 lb a week for two weeks: add 300.
 - Waist flat for three weeks and the Monday numbers fine: cut 200, never below the floor.
 - Tired all the time, getting sick, lifts stalling, moody, sleeping badly: any two, add 300.
+- Squat, deadlift and bench all flat for three weeks while losing weight: eat at maintenance on
+  lift days (+300) until they move.
 
 **The scoreboard is the Monday numbers and the tape, not the mirror.** Teen athletes chasing
 a look are the ones who slide into under eating.
@@ -334,13 +336,14 @@ This is the highest value hour in his week and it now sits on his freshest day.
 | | Team warm-up + progressive deadlift sets | 6–8 min | |
 | 1 | Barbell deadlift | 4x5 | Wk 1–3: start 255–265 · Wk 5–7: ~275–290 · Wk 9–11: ~285–305 |
 | 2 | Barbell bench press | 4x6 | Wk 1–3: 175–180 · Wk 5–7: 185–190 · Wk 9–11: 190–200 |
-| 3A/3B | Bulgarian split squat / 1 arm DB row | 3x6/leg · 3x8/arm | 2–3 reps in reserve |
+| 3A/3B | Bulgarian split squat / 1 arm DB row | 3x6/leg · 3x8/arm | 1–2 reps left, never failure |
 | 4A/4B | DB Romanian deadlift / lateral lunge | 3x8 · 3x6/side | Moderate. It comes after the deadlifts, so the hamstrings are already worked |
 | 5 | Standing calf raise | 3x12–15 | |
 | | Ab finisher | 7 x 30 s, 1 round → 2 | |
 
-Every set stops with 2 to 3 clean reps left. Stop a set when the bar slows. Add 5–10 lb only
-when every rep of the last set moved fast. Dinner by 8:15pm. Lights out by 9:45pm.
+Every set stops with 1 to 3 reps left, never to failure. Rest 2 to 3 min on the deadlift and
+bench. Log every set; next week's weight comes from the ladder in STRENGTH PRIORITY.
+Dinner by 8:15pm. Lights out by 9:45pm.
 
 ---
 
@@ -416,7 +419,7 @@ Cooldown 5 min. Eat within 45 min.
 | | Team warm-up + 2–3 back squat warm-up sets | 6–8 min | |
 | 1 | Barbell back squat | 4x5 | Wk 1–3: 245–260 · Wk 5–7: 255–275 · Wk 9–11: 265–285 |
 | 2 | Barbell incline bench | 3x8 | Wk 1–3: 135–150 · Wk 5–7: 145–155 · Wk 9–11: 150–165 |
-| 3A/3B | Walking DB lunge / bent over row | 3x8/leg · 3x8 | 2–3 reps in reserve |
+| 3A/3B | Walking DB lunge / bent over row | 3x8/leg · 3x8 | 1–2 reps left, never failure |
 | 4A/4B | DB shoulder press / farmer carry | 3x8 · 3x30 yd | Carry heavy, press moderate |
 | 5A/5B | Hamstring curl / DB lateral raise | 3x10 · 3x10–12 | Curl moderate: Nordic was this afternoon |
 | | Ab finisher | 7 x 30 s, 1 round → 2 | |
@@ -639,14 +642,55 @@ leaves 3 reps in reserve and uses that.
 | Bench press | 4x6 | 175–180 | 185–190 | 190–200 |
 | Back squat | 4x5 | 245–260 | 255–275 | 265–285 |
 | Incline bench | 3x8 | 135–150 | 145–155 | 150–165 |
-| Everything else | as written | 2–3 reps in reserve | same | same |
+| Everything else | as written | 1–2 reps left, never failure | ladder | ladder |
 | Heavy sled (ours) | | 158 lb | 192 lb | 158 lb |
 
-The later columns assume progress. The rule decides, not the table: **every set stops with
-2 to 3 clean reps left, a set ends when the bar slows, and 5–10 lb goes on only when every
-rep of the last set moved fast.** Add nothing in a week his Monday 10 yd got slower.
-Lifting short of failure builds the same strength and keeps the jump and sprint gains that
-grinding costs (Pareja-Blanco 2017, velocity loss 20% vs 40% in the squat).
+The columns are starting points. Since 9 Oct the ladder below decides the weight, not the
+table.
+
+### STRENGTH PRIORITY (since 9 Oct 2026)
+
+He has been at the same weights for a year while lifting to failure. In teenage boys strength
+usually climbs fastest in the year or two after the growth spurt, so a flat year points at
+the training and recovery, not at him. Three things change. The team's exercises, sets and
+reps do not.
+
+1. **No more failure.** Every working set stops with 1 to 3 reps left: 2 to 3 on the early
+   sets, 1 to 2 on the last. Training to failure builds no more strength than stopping short
+   (Grgic 2022 meta-analysis) and costs far more recovery. In the squat, stopping at 20%
+   velocity loss gained the same strength as 40% and the jump improved more
+   (Pareja-Blanco 2017).
+2. **A weekly ladder, written down.** Log every working set: weight, reps, and reps left on
+   the last set. Then:
+
+| Last set of the lift | Next week |
+|---|---|
+| Squat or deadlift: 3+ reps left, bar fast | +10 lb |
+| Squat or deadlift: 1 to 2 left, bar fast | +5 lb |
+| Bench or incline: 1 to 3 left, bar fast | +5 lb (+2.5 with small plates) |
+| Bar slowed, or 0 left | Same weight |
+| Missed a rep or ground one out | Drop 10% and climb again |
+| Dumbbell and accessory lifts | Next dumbbell up once every set hits the top of the rep range with 1 to 2 left |
+
+   Nothing is added in deload weeks 4 and 8, or in a week his Monday 10 yd got slower.
+3. **Rest 2 to 3 minutes between sets of the main lifts**, even if the rack rotates faster.
+   Three minutes builds more strength than one (Schoenfeld 2016). Let a teammate go twice.
+
+**Where it should land by week 12:** squat and deadlift working sets up 20 to 40 lb, bench up
+10 to 20 lb. Not guaranteed in a calorie deficit, but a flat line after six weeks of this
+would mean something else is wrong: sleep, food, or technique. Film one top set a month
+from the side.
+
+**If it stalls:** squat, deadlift and bench all flat for three weeks while he is losing
+weight means eat at maintenance on lift days (+300 calories) until they move. Strength wins
+that trade.
+
+**Lift log.** Send the numbers after each team lift; the next morning email sets the weight
+from them.
+
+| Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Notes |
+|---|---|---|---|---|---|
+| 4 (deload) | | | | | Not reported yet |
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
