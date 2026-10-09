@@ -666,7 +666,7 @@ inside it. **Reset 9 Oct from his real numbers**, all taken to failure: bench 22
 | Everything else | as written | | | 1–2 reps left | ladder |
 
 Week 5 starts at about 78% of each estimated max, below where he has been grinding, so the
-first weeks move fast. After that the ladder below decides every weight; the targets are
+first weeks move fast, and the first set check below can raise it the same day. After that the ladder below decides every weight; the targets are
 estimates, not promises. Heavy sled (ours): 158 lb weeks 1 to 3, 192 lb weeks 5 to 7, 158 lb
 for contrast pairs weeks 9 to 11.
 
@@ -697,6 +697,13 @@ reps do not.
    Nothing is added in deload weeks 4 and 8, or in a week his Monday 10 yd got slower.
 3. **Rest 2 to 3 minutes between sets of the main lifts**, even if the rack rotates faster.
    Three minutes builds more strength than one (Schoenfeld 2016). Let a teammate go twice.
+4. **First set check.** On the squat, deadlift and bench, if the last rep of the first set
+   moves as fast as the first rep, add 10 lb (squat, deadlift) or 5 lb (bench) for the
+   remaining sets and log the heavier weight. Week 5 starts at about 78% on purpose, because a
+   year of failure training leaves his feel for reps left uncalibrated. But for maximal
+   strength the load matters more than how close a set goes to failure (Robinson 2024
+   meta-regression), so he should not sit there: the check gets him to the right weight on
+   day one without a grinder.
 
 **Where it should land by week 12:** squat and deadlift working sets up 20 to 40 lb, bench up
 10 to 20 lb. Not guaranteed in a calorie deficit, but a flat line after six weeks of this
