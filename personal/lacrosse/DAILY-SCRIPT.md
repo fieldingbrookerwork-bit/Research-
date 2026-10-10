@@ -762,6 +762,21 @@ marching, take weight off.
 Deload means less work, never slower work. We cannot deload the team's sessions; we can
 only lighten the bar inside them.
 
+## MISSED SESSIONS (added 10 Oct 2026)
+
+Never double up. Two sessions crammed into one day, or a hard make-up 48 hours before Monday,
+costs more than the missed session was worth.
+
+| Missed | Make-up |
+|---|---|
+| Anything in a deload week (4, 8) | None. Move on |
+| Monday team lift | None. Next Monday repeats the same weights; the ladder does not move |
+| Wednesday team lift | Saturday, before the upper body block: squat 3x5 and incline 3x8 at the planned weights, no accessories. Monday's readiness rule then decides how hard Monday goes |
+| Wednesday after school (sled, Nordic, Copenhagen) | Nordic and Copenhagen move to Saturday as written; drop the sprints and sled |
+| Monday after school (jumps, change of direction) | None; it is replaced by next Monday |
+| Friday conditioning, team or ours | Add only Flying 20 x3 to Saturday, after the warm-up. Skip the rest |
+| Thursday or Saturday low day | Do the isometrics and tibialis at home that night; skip the rest |
+
 ---
 
 ## WINTER BLOCK — MON 7 DEC 2026 TO SUN 28 FEB 2027
