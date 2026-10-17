@@ -85,8 +85,9 @@ are gone. What it contains:
    straight line shuttles, in two weeks of eight, and none of it is defensive footwork. Braking, approach, drop step and recover, the work a close
    defenseman is judged on, has to come from us. It moves to Monday after school.
 3. **No jumps, no Nordic, no Copenhagen, no soleus or shin work, no anti rotation core.**
-   Jumps go into Monday; Nordic and Copenhagen go to Wednesday after school and Saturday;
-   calves, shins and core go to Thursday.
+   Jumps go into Monday; Nordic and Copenhagen go to Wednesday and Saturday (Wednesday's dose
+   moved from after school to right after the team lift on 17 Oct); calves, shins and core go
+   to Thursday.
 4. **No loads.** In a team weight room the default is grinding reps to keep up with
    teammates. That is the one lever inside the plan: see LOADS.
 
@@ -96,8 +97,10 @@ are gone. What it contains:
   off), so the highest value work goes there: change of direction and jumps. It is mostly
   quads and adductors; the team's Monday lift is mostly hamstrings and back. They do not
   compete, and the lift comes 3 hours later.
-- **Eccentric prehab (Nordic, Copenhagen) sits at least 48 hours before both fixed hard days**,
-  club Tuesday and the team's Friday sprints. Only Wednesday and Saturday qualify.
+- **Eccentric prehab (Nordic, Copenhagen) sits about 48 hours before both fixed hard days**,
+  club Tuesday and the team's Friday sprints. Only Wednesday and Saturday qualify. Since 17 Oct
+  Wednesday's dose comes right after the team lift, about 44 hours before Friday, so the squat
+  gets fresh legs. After five weeks of Nordics the soreness is small, so the trade is worth it.
   Thursday used to carry a Nordic dose; it is now the day before the heaviest sprint session
   of the week, so it carries none.
 - **Thursday is genuinely low.** No tempo (Friday already has 800 to 1200 yd of team tempo),
@@ -279,7 +282,7 @@ full meal, 6:30 to 7:30 team lift, dinner by 8:15, protein before bed, lights ou
 ### Adjust every Monday
 
 - Jump or 10 yd slower two Mondays in a row while losing weight: add 300 calories, all carbs.
-- Losing more than 1.5 lb a week for two weeks: add 300.
+- Losing more than 1 lb a week for two weeks: add 300. (Tightened 17 Oct: strength comes first.)
 - Waist flat for three weeks and the Monday numbers fine: cut 200, never below the floor.
 - Tired all the time, getting sick, lifts stalling, moody, sleeping badly: any two, add 300.
 - Squat, deadlift and bench all flat for three weeks while losing weight: eat at maintenance on
@@ -389,7 +392,7 @@ He should hit one near-full-speed run *before* practice starts, not during it. A
 
 ### WEDNESDAY — HIGH. Acceleration + sled + prehab, then team squat and upper
 
-**3:15pm — Acceleration and prehab (about 60 min)**
+**3:15pm — Acceleration and sled (about 45 min)**
 
 Warm-up, same 12 min as Monday.
 
@@ -398,8 +401,6 @@ Warm-up, same 12 min as Monday.
 | Falling start | 10 yd x4 | 10 yd x3 | skip | 2 min |
 | **Break-down start** | 15 yd x3 | 20 yd x3 | 20 yd x3, reactive | 3 min |
 | Heavy sled | 15 yd x4 @ 158 lb | 20 yd x4 @ 192 lb | 4 contrast pairs | 3 min |
-| **Nordic hamstring curl** | 2x4 | 3x6 | 3x8 | 90 s |
-| **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side | 45 s |
 
 Contrast pair = sled 15 yd, rest 90 s, free sprint 20 yd.
 
@@ -409,9 +410,10 @@ dropped ball. From week 9 it goes reactive: he goes on the partner's first movem
 call. **Backpedal to sprint** (5 yd backpedal, then sprint the distance) rotates in from
 week 5 for variety.
 
-**Nordic and Copenhagen moved here 30 Sep.** Wednesday and Saturday are the only days at
-least 48 hours before both fixed hard days, club Tuesday and the team's Friday sprints.
-The team plan has neither exercise.
+**Nordic and Copenhagen moved to Wednesday 30 Sep, and to right after the team lift 17 Oct.**
+Wednesday and Saturday are the only days far enough from both fixed hard days, club Tuesday
+and the team's Friday sprints. Doing them before the lift pre-tired the hamstrings and
+adductors 2 hours before his heaviest squat of the week. The team plan has neither exercise.
 
 Cooldown 5 min. Eat within 45 min.
 
@@ -424,11 +426,19 @@ Cooldown 5 min. Eat within 45 min.
 | 2 | Barbell incline bench | 3x8 | Week 5: 145, then the ladder |
 | 3A/3B | Walking DB lunge / bent over row | 3x8/leg · 3x8 | 1–2 reps left, never failure |
 | 4A/4B | DB shoulder press / farmer carry | 3x8 · 3x30 yd | Carry heavy, press moderate |
-| 5A/5B | Hamstring curl / DB lateral raise | 3x10 · 3x10–12 | Curl moderate: Nordic was this afternoon |
+| 5A/5B | Hamstring curl / DB lateral raise | 3x10 · 3x10–12 | Curl light to moderate: Nordic comes right after |
 | | Ab finisher | 7 x 30 s, 1 round → 2 | |
 
 **Back squat at 6'5":** to parallel with the trunk braced. Deeper costs him position, not
 strength, because the limiter at his height is trunk angle. Same stop rules as Monday.
+
+**7:30pm, right after the team lift (10 min, since 17 Oct).** A teammate holds his ankles.
+
+| Drill | Wk 1–3 | Wk 5–7 | Wk 9–11 | Rest |
+|---|---|---|---|---|
+| **Nordic hamstring curl** | 2x4 | 3x6 | 3x8 | 90 s |
+| **Copenhagen adduction** | 2x6/side | 3x10/side | 3x15/side | 45 s |
+
 Dinner by 8:15pm. Lights out by 9:45pm.
 
 ---
@@ -530,8 +540,9 @@ Those replace our own 40 and 300 tests.
 
 ### SATURDAY — STRENGTH + LOW. Upper body strength, then prehab and footwork
 
-**Any time. Upper body strength first (about 25 min, added 9 Oct), then the low day (about
-70 min, all easy). Split them morning and afternoon if he wants. Collagen an hour before.**
+**Any time. Strength first (about 35 min: upper body block added 9 Oct, pause squat added
+17 Oct), then the low day (about 60 min, all easy). Split them morning and afternoon if he
+wants. Collagen an hour before.**
 
 | What | Dose | Rest |
 |---|---|---|
@@ -540,13 +551,17 @@ Those replace our own 40 and 300 tests.
 | **Paused bench press**, 1 s still on the chest | 3x4. Week 5 at 180, then the ladder | 3 min |
 | Face pull, superset with the bench | 3x15, light | |
 | Neck isometrics, 4 directions against his own hand | 2x10 s each way | |
+| **Pause squat**, 2 s still at parallel (added 17 Oct) | 3x3. Week 6 at 225, then the ladder. Every set 3+ reps left | 2–3 min |
 
 The team program has no vertical pulling and only touch and go pressing. Chin-ups build the
 back that wins a check. The pause builds strength off the chest, where his bench stalls. In
 high school athletes each pound of neck strength was linked to about 5% lower odds of
-concussion (Collins 2014): an association, not proof, for 3 minutes a week. No lower body
-lifting here, because Monday's jumps and deadlift need fresh legs. If the squat stalls by
-week 8, the next lever is a light second squat day here.
+concussion (Collins 2014): an association, not proof, for 3 minutes a week.
+
+The pause squat is the light second squat day, pulled forward from week 8 on 17 Oct: a
+year with no squat progress and one heavy squat a week made the case. It stays light (about
+68% of his estimated max, 3+ reps left), so Monday's jumps and deadlift 48 hours later are
+not affected. No other lower body lifting here.
 
 **Then the low day:**
 
@@ -556,16 +571,15 @@ week 8, the next lever is a light second squat day here.
 | 0:05 | Extensive tempo at 70% | 1 set of 4x50 yd (was 2 sets; the team's Friday already has tempo) |
 | 0:11 | **Nordic hamstring curl** | Wk 1–3: 2x4 · Wk 5–7: 3x6 · Wk 9–11: 3x8 |
 | 0:17 | **Copenhagen adduction** | Wk 1–3: 2x6/side · Wk 5–7: 3x10/side · Wk 9–11: 3x15/side |
-| 0:23 | Split squat isometric (wks 1–8) | 4x20 s/side |
-| 0:30 | Wall calf isometric (wks 1–8) | 4x20 s |
-| 0:35 | Tibialis raise | 3x15 |
-| 0:38 | Mobility | 8 min |
-| 0:46 | **Footwork 1:** approach and breakdown | 6/side |
-| 0:49 | **Footwork 2:** drop step and hip turn | 2x6/side |
-| 0:52 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side, 60 to 70% |
-| 0:55 | **Footwork 4:** mirror shuffle | 2x20 s |
-| 0:57 | **Footwork 5:** wall ball with moving feet | 5 min |
-| 1:02 | Wall ball, stationary | 10 min, off hand biased |
+| 0:23 | Wall calf isometric (wks 1–8) | 4x20 s. The split squat isometric left Saturday on 17 Oct; the pause squat replaces it |
+| 0:28 | Tibialis raise | 3x15 |
+| 0:31 | Mobility | 8 min |
+| 0:39 | **Footwork 1:** approach and breakdown | 6/side |
+| 0:42 | **Footwork 2:** drop step and hip turn | 2x6/side |
+| 0:45 | **Footwork 3:** approach, breakdown, drop step, recover | 4/side, 60 to 70% |
+| 0:48 | **Footwork 4:** mirror shuffle | 2x20 s |
+| 0:50 | **Footwork 5:** wall ball with moving feet | 5 min |
+| 0:55 | Wall ball, stationary | 10 min, off hand biased |
 
 Footwork block is identical to Thursday's. Cues are in the Thursday section. Saturday is
 72 hours before club and six days before the team's Friday, which is why the second Nordic
@@ -640,9 +654,9 @@ acquisition. There is no trial on lacrosse defenders specifically.
 
 | Exercise | Days | Why there |
 |---|---|---|
-| Nordic hamstring curl | Wednesday after school + Saturday | Twice a week, as in the trial protocols (~50% hamstring injury risk reduction). Both days sit at least 48 h before club Tuesday and the team's Friday sprints. Moved off Monday night and Thursday on 30 Sep. |
-| Copenhagen adduction | Wednesday after school + Saturday | Same days, same reason. Progresses 2x6 to 3x15 per side. |
-| Isometrics | Thursday + Saturday | Weeks 1–8 only. No soreness, so safe the day before Friday. |
+| Nordic hamstring curl | Wednesday right after the team lift + Saturday | Twice a week, as in the trial protocols (~50% hamstring injury risk reduction). Saturday sits 72 h before club; Wednesday night sits about 44 h before the team's Friday sprints. Moved off Monday night and Thursday on 30 Sep; Wednesday's dose moved behind the lift on 17 Oct so the squat gets fresh legs. |
+| Copenhagen adduction | Wednesday right after the team lift + Saturday | Same days, same reason. Progresses 2x6 to 3x15 per side. |
+| Isometrics | Thursday (split squat and calf) + Saturday (calf only) | Weeks 1–8 only. No soreness, so safe the day before Friday. The Saturday split squat hold became the pause squat on 17 Oct. |
 | Soleus + tibialis | Thursday (both) + Saturday (tibialis) | The team only has straight leg calf raises. |
 | Pallof + side plank with abduction | Thursday | The team's ab finisher is all flexion. |
 
@@ -735,16 +749,44 @@ from the side.
 weight means eat at maintenance on lift days (+300 calories) until they move. Strength wins
 that trade.
 
+**17 Oct revision: why a year without progress, and the fix.** Ranked by how much each
+likely explains:
+
+1. **He tested instead of trained.** The same heavy sets to failure every week give the bar no
+   reason to go up and leave every session a grind. Week 5 shows the habit is still there: he
+   lifted heavier than written on all three lifts, and 225x4 and 275x6 read as all out sets.
+   Fix: no top sets and no maxing until test week 12 (30 Nov). Every set ends 1 to 3 reps
+   short, the ladder raises the weight each week he earns it, and every set is logged.
+2. **He is growing.** An inch in 5 months lengthens the levers; strength per pound often
+   stalls during a growth spurt. Not a training fault, and it passes.
+3. **One heavy squat a week, on legs already worked.** Fix: a light pause squat on Saturday
+   (3x3, 3+ reps left) as a second squat exposure, and Wednesday's Nordic and Copenhagen moved
+   behind the team lift so the squat gets fresh legs.
+4. **The cut is the smallest factor.** In a meta-analysis of resistance training studies, an
+   energy deficit reduced lean mass gains but not strength gains (Murphy and Koehler 2022,
+   Scand J Med Sci Sports). The study population was adults, and a growing teen needs more
+   margin, so the loss rate is capped: more than 1 lb a week for two weeks means add 300.
+
+**Upper/lower split.** He reported good gains from 2 weeks of it. Two weeks is the window in
+which any new program produces quick gains, and when weekly sets are matched, split and full
+body routines build the same strength (Ramos-Campo 2024, J Strength Cond Res). His week already
+trains legs twice and upper body three times, the frequency an upper/lower split gives. The
+team lifts are fixed, so what we take from it is the likely mechanism: fresher legs on leg
+days and more practice on the squat.
+
+**Decision point:** if he runs this as written and the squat and deadlift working weights have
+not moved 20 lb by week 9, go to maintenance calories on lift days.
+
 **Lift log.** Send the numbers after each lift; the next morning email sets the weight from
 them. Write each lift as weight, reps per set, and reps left on the last set, for example
 295: 5,5,5,5 (2 left).
 
-| Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Sat paused bench 3x4 | Notes |
-|---|---|---|---|---|---|---|
-| Baseline | 295x4 to failure | 335x5 to failure | 225x3 to failure | | | Reported 9 Oct |
-| 5 (planned) | 255 | 295 | 185 | 145 | 180 | Starting weights |
-| 5 (reported) | 275x6 | 315x5 | 225x4 | not reported | not reported | Reported 17 Oct as one number per lift. Number of sets and reps left not given yet. Heavier than planned, so likely top sets |
-| 6 (planned) | 265 | 305 | 190 | 150 | 190 | Provisional, assuming the 17 Oct sets were close to failure (est. max: squat ~330, deadlift ~365 to 390, bench ~255). Revise when sets and reps left come in |
+| Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Sat paused bench 3x4 | Sat pause squat 3x3 | Notes |
+|---|---|---|---|---|---|---|---|
+| Baseline | 295x4 to failure | 335x5 to failure | 225x3 to failure | | | | Reported 9 Oct |
+| 5 (planned) | 255 | 295 | 185 | 145 | 180 | | Starting weights |
+| 5 (reported) | 275x6 | 315x5 | 225x4 | not reported | not reported | | Reported 17 Oct as one number per lift; sets and reps left not given. Heavier than planned. Founder: he can still do 335 on the deadlift, so 315x5 was submaximal |
+| 6 (planned) | 265 | 315 | 190 | 150 | 190 | 225 | Set 17 Oct from estimated maxes: squat ~330, deadlift ~390, bench ~255. Revise when sets and reps left come in |
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
@@ -773,8 +815,9 @@ costs more than the missed session was worth.
 |---|---|
 | Anything in a deload week (4, 8) | None. Move on |
 | Monday team lift | None. Next Monday repeats the same weights; the ladder does not move |
-| Wednesday team lift | Saturday, before the upper body block: squat 3x5 and incline 3x8 at the planned weights, no accessories. Monday's readiness rule then decides how hard Monday goes |
-| Wednesday after school (sled, Nordic, Copenhagen) | Nordic and Copenhagen move to Saturday as written; drop the sprints and sled |
+| Wednesday team lift | Saturday, before the upper body block: squat 3x5 (in place of the pause squat) and incline 3x8 at the planned weights, no accessories. Monday's readiness rule then decides how hard Monday goes. Nordic and Copenhagen still happen Saturday as written |
+| Wednesday after school (sprints, sled) | None; drop them |
+| Wednesday post-lift Nordic and Copenhagen | None; Saturday's dose covers the week |
 | Monday after school (jumps, change of direction) | None; it is replaced by next Monday |
 | Friday conditioning, team or ours | Add only Flying 20 x3 to Saturday, after the warm-up. Skip the rest |
 | Thursday or Saturday low day | Do the isometrics and tibialis at home that night; skip the rest |
