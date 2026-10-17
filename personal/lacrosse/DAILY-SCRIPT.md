@@ -742,7 +742,9 @@ them. Write each lift as weight, reps per set, and reps left on the last set, fo
 | Week | Squat 4x5 | Deadlift 4x5 | Bench 4x6 | Incline 3x8 | Sat paused bench 3x4 | Notes |
 |---|---|---|---|---|---|---|
 | Baseline | 295x4 to failure | 335x5 to failure | 225x3 to failure | | | Reported 9 Oct |
-| 5 (planned) | 255 | 295 | 185 | 145 | 180 | Starting weights. Replace with actual sets and reps left |
+| 5 (planned) | 255 | 295 | 185 | 145 | 180 | Starting weights |
+| 5 (reported) | 275x6 | 315x5 | 225x4 | not reported | not reported | Reported 17 Oct as one number per lift. Number of sets and reps left not given yet. Heavier than planned, so likely top sets |
+| 6 (planned) | 265 | 305 | 190 | 150 | 190 | Provisional, assuming the 17 Oct sets were close to failure (est. max: squat ~330, deadlift ~365 to 390, bench ~255). Revise when sets and reps left come in |
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
