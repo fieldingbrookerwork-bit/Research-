@@ -34,6 +34,28 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## UPDATE 21 OCT 2026 (latest): THE GOAL IS FOUNDING A COMPANY
+
+His goal is to start a high growth company and reach at least a $10M valuation in his early
+20s. Miami means the University of Miami (Florida). This replaces the network list below.
+
+- **Founder output by school** (PitchBook 2025, undergraduate alumni who founded VC backed
+  companies): 1 Berkeley, 2 Stanford, 3 Harvard, 4 Penn, 5 MIT, 6 Cornell, 7 Tel Aviv,
+  8 UT Austin, 9 Michigan; Yale 12, Princeton 15. UNC and the University of Miami are not in
+  the top 9. Berkeley, his first non lacrosse choice, is number 1.
+- **Lacrosse list for this goal:** Harvard, Penn, MIT (D3), Cornell, Michigan, Yale, Princeton.
+  Stanford and UT Austin have no varsity men's lacrosse.
+- **The $10M goal:** in 2025 the median post-money cap on pre-seed SAFEs was about $10M and the
+  median seed pre-money valuation about $16M (Carta). Reaching $10M means raising a normal
+  early round; it is not money, and most companies at that stage fail. A revenue goal is the
+  better scoreboard.
+- **Time cost:** Division I athletes reported about 34 hours a week on athletics in season,
+  Division III about 28.5 (NCAA GOALS, 2015). Ivies and D3 give no athletic scholarships, so
+  stepping away from the team to run a company costs no aid there. A D1 athletic scholarship
+  would tie aid to staying on the team.
+
+---
+
 ## UPDATE 21 OCT 2026 (later): HIS PRIORITY IS THE NETWORK, NOT THE LACROSSE
 
 - **Schedule:** he plays an IMLCA event in the winter and has strong summer events. The gap is
@@ -281,3 +303,8 @@ and that is the only thing this document is about.
 - [Fall boys tournaments (My Lacrosse Tournaments)](https://mylacrossetournaments.com/events/)
 - [Apex Lacrosse boys tournaments](https://apexlacrosseevents.com/boys-tournaments/)
 - [Legacy and Athlete Preferences at Harvard (NBER)](https://www.nber.org/papers/w26316)
+- [PitchBook 2025 undergraduate founder rankings (Poets&Quants)](https://poetsandquantsforundergrads.com/news/pitchbooks-2025-top-universities-ranked-by-number-of-undergrad-startup-founders/4/)
+- [Berkeley number 1 again for startup founders (Berkeley News)](https://news.berkeley.edu/2025/09/15/no-1-again-uc-berkeley-generates-more-startups-and-founders-than-any-other-university/)
+- [Tel Aviv University PitchBook 2025 release, with Yale and Princeton ranks](https://english.tau.ac.il/node/3840)
+- [Carta: State of Pre-Seed 2025 in review](https://carta.com/data/state-of-pre-seed-2025/)
+- [NCAA GOALS survey findings, 2016](https://www.ncaa.org/news/2016/1/14/third-goals-survey-findings-unveiled)
