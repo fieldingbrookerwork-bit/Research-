@@ -34,6 +34,32 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## UPDATE 21 OCT 2026 (later): HIS PRIORITY IS THE NETWORK, NOT THE LACROSSE
+
+- **Schedule:** he plays an IMLCA event in the winter and has strong summer events. The gap is
+  this fall.
+- **Fall window:** per the recruiting calendars found 21 Oct (confirm on the NCAA calendar), D1
+  men's coaches can evaluate in person 1 to 22 Nov 2026, with a dead period 9 to 12 Nov.
+  Options found: Harvard Mid Atlantic Clinic (3 Nov, aggregator listing, confirm), Washington
+  and Lee ID Day (1 Nov), Tufts Fall Clinic (1 Nov), and team events with 2028 brackets he
+  could guest play in: Project South Fall Championship (Bermuda Run NC, 7 Nov), Apex Fall
+  Championships (NJ, 14 to 15 Nov), NLF Fall Invitational (Farmingdale NY, 22 Nov). None of
+  the team events publish which college coaches attend.
+- **His priority:** he values college connections over a strong lacrosse team. Without
+  lacrosse he would go to Haas (Berkeley), Miami or UNC. Of those, only UNC has varsity men's
+  lacrosse, and it is one of the hardest programs in the country to be recruited by.
+- **The filter that follows:** a school belongs on the lacrosse list only if he would choose
+  it over Haas, Miami and UNC. Below that line lacrosse buys him nothing, and his safety is
+  the non lacrosse path. Lacrosse is worth most as an admissions lever at reach schools: in
+  the Harvard admissions lawsuit data, a typical applicant with a 10% chance of admission
+  would be admitted with near certainty as a recruited athlete (Arcidiacono, Kinsler and
+  Ransom).
+- **Network first list (judgment, to refine once his career goal is known):** Penn, Harvard,
+  Yale, Princeton, Cornell, Dartmouth, Brown, Georgetown, Notre Dame, Duke, Michigan,
+  Virginia, Johns Hopkins; D3: Washington and Lee, Williams, Amherst, Middlebury.
+
+---
+
 ## THE ONE SENTENCE VERSION
 
 Email alone is nearly worthless, camps alone are decent, and **an email sent ten days
@@ -251,3 +277,7 @@ and that is the only thing this document is about.
 - [Likely letters and the Ivy League rules (Oriel Admissions)](https://orieladmissions.com/likely-letters-which-schools-send-them/)
 - [An Introduction to the Academic Index (Harvard Crimson)](https://www.thecrimson.com/admissions/article/2013/10/5/introduction-to-academic-index/)
 - [Lacrosse Masters boys camp schedule](https://www.lacrossemasters.com/boys-camps)
+- [Men's lacrosse prospect days and clinics 2026-27 (Recruit Plan)](https://www.recruitplan.com/camps/men)
+- [Fall boys tournaments (My Lacrosse Tournaments)](https://mylacrossetournaments.com/events/)
+- [Apex Lacrosse boys tournaments](https://apexlacrosseevents.com/boys-tournaments/)
+- [Legacy and Athlete Preferences at Harvard (NBER)](https://www.nber.org/papers/w26316)
