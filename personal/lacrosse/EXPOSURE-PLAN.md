@@ -34,6 +34,26 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## UPDATE 21 OCT 2026 (final): THE GOAL IS PERSONAL INCOME, NOT VC
+
+Clarified: the company does not need to be VC backed. The goal is a business that pays him
+millions a year by his late twenties.
+
+- **What the data says:** in US tax data, most top earners are working-age owners who actively
+  run mid-market private firms in skill-intensive industries, and that profit falls about three
+  quarters when the owner stops running the firm (Smith, Yagan, Zidar and Zwick, QJE 2019).
+  VC-backed founders usually draw modest salaries and are paid at an exit, if one comes.
+- **What it changes:** the PitchBook founder ranking matters less. UNC and the University of
+  Miami are fine for this goal, and their Southeast business networks are useful for a company
+  he runs in the region. The school that helps most is the one where he can keep building.
+- **Lacrosse:** still an admissions lever, but Division I takes about 34 hours a week in season.
+  If he plays, prefer programs with no athletic scholarships (Ivy, D3) so he can step away if
+  the business needs him, and build every summer.
+- **Biggest lever:** start a real business now and learn to sell. Open question for the founder:
+  does he want to keep playing in college, or is lacrosse only a way in?
+
+---
+
 ## UPDATE 21 OCT 2026 (latest): THE GOAL IS FOUNDING A COMPANY
 
 His goal is to start a high growth company and reach at least a $10M valuation in his early
@@ -308,3 +328,4 @@ and that is the only thing this document is about.
 - [Tel Aviv University PitchBook 2025 release, with Yale and Princeton ranks](https://english.tau.ac.il/node/3840)
 - [Carta: State of Pre-Seed 2025 in review](https://carta.com/data/state-of-pre-seed-2025/)
 - [NCAA GOALS survey findings, 2016](https://www.ncaa.org/news/2016/1/14/third-goals-survey-findings-unveiled)
+- [Capitalists in the Twenty-First Century (Smith, Yagan, Zidar, Zwick, NBER)](https://www.nber.org/papers/w25442.pdf)
