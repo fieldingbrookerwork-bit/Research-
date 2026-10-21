@@ -9,6 +9,31 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## STATUS 21 OCT 2026
+
+- **Film:** he has game film; showcase film is on the way. Cut both into the 3 to 5 minute
+  reel described in step 1 as soon as the showcase film arrives.
+- **College interest:** none yet.
+- **Club:** he asked his club coach to move him to the A team. The coach said no and gave no
+  reason. Treat that as the answer for this season. Step 2, the summer 2027 club decision,
+  is now the priority, and the deadline is this winter.
+- **Ivy facts checked 21 Oct:** the seven Ivy men's programs are Brown, Cornell, Dartmouth,
+  Harvard, Penn, Princeton and Yale (Columbia has no varsity men's lacrosse). Ivy admissions
+  may give a coach an academic pre-read no earlier than 1 July 2027, and likely letters go out
+  no earlier than 1 Oct 2027. Ivies finish their classes later than most D1 programs for that
+  reason, so he is behind, not out. Each team's recruits must average close to the school's
+  student body on the Academic Index, so have the transcript and test scores ready.
+- **Next 14 days:**
+  1. One more ask of the club coach, by him: "What would you need to see from me to move up,
+     and by when? And would you vouch for me with college coaches?" No answer means stop asking.
+  2. Find out which summer 2027 events his current team plays. If they are not national
+     events with Ivy staff present, line up tryouts with other clubs' top 2028 teams this winter.
+  3. Register for the winter camps where Ivy staff evaluate (Princeton's January clinic, Penn's
+     camp with a deadline around 1 Feb, Lacrosse Masters high academic camps, whose 2027 listings
+     name Yale staff), then email each staff 10 to 14 days before he attends.
+
+---
+
 ## THE ONE SENTENCE VERSION
 
 Email alone is nearly worthless, camps alone are decent, and **an email sent ten days
@@ -222,3 +247,7 @@ and that is the only thing this document is about.
 - [Lacrosse Video Guidance (FieldLevel)](https://recruiting.fieldlevel.com/2021/05/lacrosse-video-guidance/)
 - [College Recruiting (USA Lacrosse)](https://www.usalacrosse.com/college-recruiting)
 - [Ivy League Academic Index guide](https://premiercollegeguide.com/ivy-league-academic-index-calculator-guide.html)
+- [Lacrosse recruiting contact dates, pre-reads and the Ivy path (Oriel Admissions)](https://orieladmissions.com/lacrosse-college-recruiting/)
+- [Likely letters and the Ivy League rules (Oriel Admissions)](https://orieladmissions.com/likely-letters-which-schools-send-them/)
+- [An Introduction to the Academic Index (Harvard Crimson)](https://www.thecrimson.com/admissions/article/2013/10/5/introduction-to-academic-index/)
+- [Lacrosse Masters boys camp schedule](https://www.lacrossemasters.com/boys-camps)
