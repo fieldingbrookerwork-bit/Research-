@@ -34,6 +34,23 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## MID-FALL CLASSIC 2025: WHO PLAYED IN THE 2028 DIVISION (checked 22 Oct 2026)
+
+The 2025 edition ran Sunday 2 Nov 2025 at UMass Amherst. Eight of its 2028 teams were found
+through US Club Lax game logs (the full field is on usclublax.com and primetimelacrosse.com,
+both blocked from this session's network): Heat Lacrosse (Finger Lakes NY), Raiders Lacrosse,
+Laxachusetts Yellow, Team 91 Upstate, Express North Grey, Sweetlax Albany Stags 2028, Maine
+Mussels Blue, Clams Orange.
+
+None of the eight appear in the National Lacrosse Federation's 2028 top 5 (Annapolis Hawks,
+Team 91 Long Island Venom, Resolute Black, Leading Edge, 3d New England; list undated), and
+several are a club's second or third team (Express North's top 2028 team is Black). The
+founder's read holds: the field is regional and second tier, so it is not the optimal November
+event. Next step: find which November 2026 events (Nov 1 to 8, 13 to 22) the top ranked 2028
+teams enter.
+
+---
+
 ## TEAM TOURNAMENTS THAT DRIVE RECRUITING (22 Oct 2026, from the official NCAA calendar)
 
 **Official 2026-27 NCAA D1 men's lacrosse recruiting calendar (updated 30 Jul 2026):**
@@ -410,3 +427,6 @@ and that is the only thing this document is about.
 - [Apex Fall Championships](https://apexlacrosseevents.com/tournament/boys-apex-fall-championships/)
 - [IMLCA partnership for the Summer Players Summit (Three Step)](https://threestep.com/news/imlca-partnership-nxtsports-hoganlax)
 - [Trilogy on the Summer Players Summit and the July dead period](https://trilogylacrosse.com/events/trilogy-national-development-program/)
+- [Heat Lacrosse (2028) game log, US Club Lax](https://usclublax.com/team_info/?y=2025&t=112561)
+- [Express North Grey (2028) game log, US Club Lax](https://usclublax.com/team_info/?y=2025&t=119119)
+- [NLF 2028 Team Rankings](https://nationallacrossefederation.com/2028-team-rankings/)
