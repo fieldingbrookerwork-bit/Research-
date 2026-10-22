@@ -34,6 +34,41 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## TEAM TOURNAMENTS THAT DRIVE RECRUITING (22 Oct 2026, from the official NCAA calendar)
+
+**Official 2026-27 NCAA D1 men's lacrosse recruiting calendar (updated 30 Jul 2026):**
+Sep 1 to Oct 31 contact with no lacrosse evaluations. Nov 1 to 22 evaluations allowed, except
+a dead period Nov 9 to 12. Nov 23 to 29 dead. Nov 30 to Dec 23 quiet, with Dec 9 to 13 dead
+except events held with the IMLCA Convention. Dec 24 to Jan 3 dead. Jan 4 to 18 contact with
+no lacrosse evaluations. Jan 19 to Feb 28 quiet (on campus only). Mar 1 to May 27 contact
+(high school season is evaluated). Jun 1 noon to Jul 31 contact, with Jul 1 to 10 dead except
+events held with the IMLCA July summer meeting.
+
+**What that means:** D1 coaches, Ivies included, can only evaluate off campus at fall events
+on Nov 1 to 8 and Nov 13 to 22, at the IMLCA Winter Players Summit in December, during the
+high school season, in June and late July, and at the IMLCA Summer Players Summit in early July.
+No source publishes which events produce offers; offers come after coaches see a player live,
+often more than once. The best proxy is where D1 coaches are allowed to be and how many go.
+
+**Correction:** the January Florida camps listed as "Must" below fall in the Jan 4 to 18 "no
+lacrosse evaluations" window, so they are not D1 evaluation events. Same for the Penn (16 Jan)
+and Princeton (18 Jan) clinics. Dartmouth (5 Dec) and Princeton (15 Feb) are on campus in quiet
+periods, where only off-campus evaluation is barred.
+
+| Date | Team tournament | Evidence of recruiting value |
+|---|---|---|
+| 12 to 13 Dec | IMLCA Winter Players Summit, Orlando (he is entered) | The only event any D1 coach may evaluate during the Dec 9 to 13 dead period; the convention draws 800+ coaches |
+| Early July 2027 | IMLCA Summer Players Summit, Philadelphia area | The only recruiting tournament allowed in the Jul 1 to 10 dead period; 350+ coaches at the first one |
+| 8 Nov | Prime Time Mid-Fall Classic, UMass Amherst (2027 to 2030) | 70 college coaches in 2025, 60+ expected (organizer figures) |
+| 31 Oct to 1 Nov | Prime Time Fall Classic, Northborough MA and Smithfield RI | 160 teams in 2025, 40+ coaches expected; only Nov 1 is a D1 evaluation day |
+| 14 to 15 Nov | Apex Fall Championships, Tinton Falls NJ (2027 to 2030) | 2025 coach list included D1 programs such as Bucknell, Drexel, Marist, Mercer |
+| 7 Nov | Project South Fall Championship, Bermuda Run NC (2028 bracket) | Closest to Georgia; no coach list published |
+
+No November event in Georgia or Florida was found. A player on a second team gets in through
+his club's entry or by guest playing for another club's team.
+
+---
+
 ## FALL AND WINTER EVENT CALENDAR (built 22 Oct 2026)
 
 Ivy and high academic targets. Dates come from organizer pages and aggregators found 22 Oct;
@@ -53,10 +88,10 @@ January camps that list Ivy staff; quiet from 19 Jan through February.
 | 5 Dec | Dartmouth Winter Prospect Clinic, Hanover NH (2027 to 2031) | Dartmouth (own clinic) | If Dartmouth is a top target |
 | 12 to 13 Dec | IMLCA Winter Players Summit, ChampionsGate, Orlando FL | 800+ college coaches | Already entered. The most important event of the winter |
 | 12 Dec | Penn December Clinic, Philadelphia | Penn (own clinic) | Clashes with IMLCA; use the January date |
-| 9 to 10 Jan | XPO Florida 2027 Prospect Camp, Naples FL | Harvard, Princeton, Brown, Cornell, Penn | Must (pick this or LM session 1) |
-| 9 to 10 Jan | Lacrosse Masters Winter Recruiting Camp session 1, Vero Beach FL | Harvard, Cornell, Dartmouth, Penn | Alternative to XPO |
+| 9 to 10 Jan | XPO Florida 2027 Prospect Camp, Naples FL | Harvard, Princeton, Brown, Cornell, Penn | Not a D1 evaluation window (Jan 4 to 18). Skip for Ivy recruiting |
+| 9 to 10 Jan | Lacrosse Masters Winter Recruiting Camp session 1, Vero Beach FL | Harvard, Cornell, Dartmouth, Penn | Not a D1 evaluation window. Skip for Ivy recruiting |
 | 16 Jan | Penn January Clinic, Philadelphia (2028 to 2030) | Penn (own clinic) | If Penn is number 1 |
-| 16 to 17 Jan | Lacrosse Masters Winter Recruiting Camp session 2, Naples FL | Harvard, Princeton, Cornell, Dartmouth, Penn | Must unless he goes to Penn's clinic |
+| 16 to 17 Jan | Lacrosse Masters Winter Recruiting Camp session 2, Naples FL | Harvard, Princeton, Cornell, Dartmouth, Penn | Not a D1 evaluation window. Skip for Ivy recruiting |
 | 17 Jan | Apex Prep Showcase, Providence RI | Harvard | Optional |
 | 18 Jan | Princeton Preseason Prep Clinic, Princeton NJ | Princeton (own clinic) | Optional |
 | 15 Feb | Princeton Winter Warmup Clinic, Princeton NJ | Princeton (own clinic) | If Princeton is a top target |
@@ -369,3 +404,9 @@ and that is the only thing this document is about.
 - [Mass Elite camps and clinics list (Ivy winter 2027 events)](https://www.masselite.com/team/camps-and-clinics/)
 - [NCSA 2026-27 recruiting calendar](https://www.ncsasports.org/ncaa-eligibility-center/recruiting-rules/recruiting-calendar)
 - [Recruit Plan D1 men's lacrosse timeline](https://www.recruitplan.com/timeline/men/d1)
+- [Official 2026-27 NCAA D1 Men's Lacrosse Recruiting Calendar (PDF)](https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_MLARecruitingCalendar.pdf)
+- [Prime Time Mid-Fall Classic](https://primetimelacrosse.com/event/mid-fall-classic/)
+- [Prime Time Fall Classic](https://primetimelacrosse.com/event/primetime-fall-classic/)
+- [Apex Fall Championships](https://apexlacrosseevents.com/tournament/boys-apex-fall-championships/)
+- [IMLCA partnership for the Summer Players Summit (Three Step)](https://threestep.com/news/imlca-partnership-nxtsports-hoganlax)
+- [Trilogy on the Summer Players Summit and the July dead period](https://trilogylacrosse.com/events/trilogy-national-development-program/)
