@@ -34,6 +34,27 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## LATE NOVEMBER 2026: WHERE THE TOP 2028 TEAMS PLAY (checked 22 Oct 2026)
+
+D1 evaluation window: Nov 13 to 22 (Nov 23 to 29 is dead).
+
+| Date | Event | Evidence of top teams and coaches |
+|---|---|---|
+| Sat 21 Nov | NLF 2028 Uncommitted Showcase, Farmingdale State, NY | Individual event for uncommitted 2028s; the kickoff to the Fall Invitational |
+| Sun 22 Nov | NLF Fall Invitational, Farmingdale State, NY (2028 to 2030) | Billed as the nation's best teams, 3 filmed games each vs elite teams; NLF runs the 2028 rankings; a past edition drew 200+ college coaches; West Coast Starz and Team 91 South entries listed; Leading Edge (NLF #4) appears on the page, unconfirmed |
+| 14 to 15 Nov | NAL Fall High School Invitational, Frederica DE (2028 to 2030) | West Coast Starz, MADLAX and Orange Crush listings; NAL's summer event draws 175+ coaches; no fall coach count |
+| 14 to 15 Nov | Colonial Clash, UMass Amherst (Prime Time) | 3d New England (NLF #5) lists it for 15 Nov; no coach count |
+| 14 to 15 Nov | Apex Fall Championships, Tinton Falls NJ | 2025 coaches included mid-major D1 programs |
+
+Not found: late November 2026 schedules for Annapolis Hawks (NLF #1), Team 91 Long Island
+Venom (#2, won the 2028 AA NLF national title in July 2026) or Resolute Black (#3).
+
+Recommendation: the Farmingdale weekend. He enters the Uncommitted Showcase on 21 Nov as an
+individual and, if his club team is not entered, guest plays for a team in the Fall
+Invitational on 22 Nov.
+
+---
+
 ## MID-FALL CLASSIC 2025: WHO PLAYED IN THE 2028 DIVISION (checked 22 Oct 2026)
 
 The 2025 edition ran Sunday 2 Nov 2025 at UMass Amherst. Eight of its 2028 teams were found
@@ -430,3 +451,9 @@ and that is the only thing this document is about.
 - [Heat Lacrosse (2028) game log, US Club Lax](https://usclublax.com/team_info/?y=2025&t=112561)
 - [Express North Grey (2028) game log, US Club Lax](https://usclublax.com/team_info/?y=2025&t=119119)
 - [NLF 2028 Team Rankings](https://nationallacrossefederation.com/2028-team-rankings/)
+- [NLF Fall Invitational](https://nationallacrossefederation.com/events/fall-events/nlf-fall-invitational/)
+- [NLF Fall Uncommitted Showcase](https://nationallacrossefederation.com/events/fall-events/nlf-fall-uncommitted-showcase/)
+- [West Coast Starz 2026-27 schedule (Adrenaline)](https://www.adrln.com/clubs/west-coast-starz/schedule/)
+- [Team 91 South 2026-27 boys events](https://south.team91lacrosse.com/2627-91-south-boys-events/)
+- [NAL Fall High School Invitational](https://nalacrosse.com/event/fall-high-school-invitational/)
+- [3d New England boys on IMLCARecruits](https://imlca.sportsrecruits.com/organization/3dlacrosse_newengland_boys)
