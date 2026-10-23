@@ -14,6 +14,61 @@ any day.
 
 ---
 
+## SHOWCASE AND TOURNAMENT DAYS (added 23 Oct 2026)
+
+**Next: showcase Sunday 25 Oct 2026 (week 6).** Saturday 24 Oct is the primer below instead of
+the normal Saturday. Sunday 25 Oct is a training day for food, not the low day. Monday 26 Oct
+runs the readiness rule, with the change of direction block halved.
+
+**Recruiting truth for this one:** the NCAA D1 men's lacrosse calendar (2026-27, updated 30 Jul
+2026) allows no lacrosse evaluations from 1 Sep to 31 Oct. No D1 coach, Ivies included, can
+evaluate him in person on 25 Oct. D2 and D3 are not bound by the D1 calendar. Treat it as a film
+day. D1 evaluations open 1 to 22 Nov, with a dead period 9 to 12 Nov.
+
+**Day before an event: primer, about 30 min, any time of day.** Collagen an hour before.
+
+| What | Dose | Rest |
+|---|---|---|
+| Warm-up, same 12 min as Monday | 12 min | |
+| Build-ups | 2x20 yd at 85 and 90% | walk back |
+| Acceleration from the break-down start | 3x10 yd | 90 s |
+| Fly 10: 20 yd build-in, 10 yd at 90 to 95% | x2 | 3 min |
+| Countermovement jump, stick the landing | 2x3 | 60 s |
+| Approach and breakdown at game speed | 3/side | 45 s |
+| Wall ball, stationary | 10 min | |
+| Mobility | 8 min | |
+
+Dropped that day and not made up: chin-ups, paused bench, pause squat, Nordic, Copenhagen,
+tempo, isometrics. Nordic and Copenhagen are eccentric, and any soreness they cause peaks one to
+three days later, on game day. A few fast reps keep him sharp; the volume is too low to tire
+him. If his legs are sore or heavy from the day before, skip the sprints and jumps too: walk 20
+min, mobility, wall ball. If the day before an event is the team's Friday, he does it as written
+with their stop rule used early, and adds nothing.
+
+**Event day.** Food is a training day: 3,700 cal, 220 g protein, about 490 g carbs, about 95 g
+fat. Creatine 5 g.
+
+| When | What |
+|---|---|
+| 3 to 4 h before the start | Carb meal, some protein, low fat and fiber, 16 to 24 oz water. Example: 2 bagels with jam, 3 eggs, a banana, orange juice |
+| 1 h before | Collagen 15 g in 8 to 12 oz orange juice |
+| 25 to 30 min before the first game | The 12 min warm-up, build-ups at 80 and 90%, 3 approach and breakdown reps at game speed. His first fast rep never comes in a game |
+| Between games | A carb snack and about 16 oz of fluid each hour (banana, pretzels, PB&J, sports drink). Gap over 45 min: 5 min re-warm (pogos 2x10, 2 build-ups, 2 approaches) |
+| Timed 40 or shuttle | Run it after the full warm-up, full rest between attempts |
+| Within 1 h after | 16 oz chocolate milk + 1 scoop whey, then a full dinner, 9 h sleep |
+
+**Film.** Confirm before the event how it delivers film. A parent also films from high at
+midfield, keeping him in frame off the ball, and notes the clock time of every good rep. On the
+field: body first, stick second (a takeaway is a highlight, a slash is a penalty on film); scoop
+every ground ball and run the clear, because at his size coaches want to see that he moves.
+
+**Day after.** Monday monitoring first, then the readiness rule as written. The event counts as
+change of direction work, so Monday's change of direction block is halved even if he passes.
+Team lift as written. If the event is on a Saturday, Sunday stays off and Saturday's session is
+not made up.
+
+---
+
 ## FIXED COMMITMENTS (cannot move)
 
 | Day | Fixed thing | Time |
