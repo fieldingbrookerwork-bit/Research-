@@ -16,14 +16,34 @@ any day.
 
 ## SHOWCASE AND TOURNAMENT DAYS (added 23 Oct 2026)
 
-**Next: showcase Sunday 25 Oct 2026 (week 6).** Saturday 24 Oct is the primer below instead of
-the normal Saturday. Sunday 25 Oct is a training day for food, not the low day. Monday 26 Oct
-runs the readiness rule, with the change of direction block halved.
+**Next: showcase Sunday 25 Oct 2026 (week 6).** Friday 23 Oct had no team session, so he ran
+the two days out session below. Saturday 24 Oct is the primer instead of the normal Saturday.
+Saturday and Sunday are high carb days (below), not the low day. Monday 26 Oct runs the
+readiness rule, with the change of direction block halved.
 
 **Recruiting truth for this one:** the NCAA D1 men's lacrosse calendar (2026-27, updated 30 Jul
 2026) allows no lacrosse evaluations from 1 Sep to 31 Oct. No D1 coach, Ivies included, can
 evaluate him in person on 25 Oct. D2 and D3 are not bound by the D1 calendar. Treat it as a film
 day. D1 evaluations open 1 to 22 Nov, with a dead period 9 to 12 Nov.
+
+**Two days before an event, when there is no team session that day (about 45 min).** Collagen
+an hour before.
+
+| What | Dose | Rest |
+|---|---|---|
+| Warm-up, same 12 min as Monday | 12 min | |
+| Flying 20: 20 yd build-in, 20 yd at 90 to 95%, 20 yd ease-off | x3 | 3 min walk-back |
+| Approach and breakdown at game speed | 4/side | 45 s |
+| Drop step and recover at game speed | 3/side | 45 s |
+| Mirror with a partner, 5 s reps | x4 | 45 s |
+| Wall ball, stationary | 10 min | |
+| Gym: paused bench 2x4 at the planned weight, chin-ups 2 sets, face pulls 2x15 | Every set 3 reps short of failure | 2 to 3 min |
+
+The flying 20s are his top speed dose for the week, so game day is not his first fast running
+in seven days. The gym part moves Saturday's upper body here at lower volume, 72 hours before
+Monday's team bench. No tempo, no conditioning, no Nordic, no Copenhagen, no leg lifting. If the
+team session is on that day, he does it instead, with their stop rule used early, plus only the
+gym part.
 
 **Day before an event: primer, about 30 min, any time of day.** Collagen an hour before.
 
@@ -45,8 +65,13 @@ him. If his legs are sore or heavy from the day before, skip the sprints and jum
 min, mobility, wall ball. If the day before an event is the team's Friday, he does it as written
 with their stop rule used early, and adds nothing.
 
-**Event day.** Food is a training day: 3,700 cal, 220 g protein, about 490 g carbs, about 95 g
-fat. Creatine 5 g.
+**Food, the day before and the event day:** 220 g protein, about 600 g carbs, about 95 g fat,
+about 4,150 cal. Creatine 5 g. The UEFA expert group statement on nutrition in elite football
+(Collins 2021) sets 6 to 8 g of carbs per kg the day before and the day of a match; the normal
+490 g is under 5 g/kg for him. Easiest add: a bagel with jam and an extra cup of rice at dinner.
+Two days above target do not dent the recomp.
+
+**Event day.**
 
 | When | What |
 |---|---|
