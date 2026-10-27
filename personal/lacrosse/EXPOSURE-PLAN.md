@@ -9,6 +9,16 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## STATUS 27 OCT 2026
+
+- **Showcase, Sun 25 Oct:** played well, missed MVP by one vote. An Inside Lacrosse staffer
+  was there. Web search on 27 Oct found no write-up yet. Name clash: a 2028 goalie, Mac Brooker
+  (Episcopal School of Dallas, Mad Dog), shows up first for "Brooker 2028" searches.
+- **College interest:** first coaches are viewing his profile, from programs the family rates
+  below his targets. Rule: he answers every coach within 48 hours (film, November and IMLCA
+  schedule, GPA and scores, one question), commits to nothing, and pushes his target list
+  harder now that D1 evaluations open 1 Nov.
+
 ## STATUS 21 OCT 2026
 
 - **Film:** he has game film; showcase film is on the way. Cut both into the 3 to 5 minute
