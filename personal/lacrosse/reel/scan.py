@@ -12,13 +12,13 @@ at 0:12:32 and, at the default 2 s spacing, covers the next 32 seconds.
 Times accept seconds (751.5), M:SS(.s) or H:MM:SS(.s).
 
 Methods:
-  seek    one ffmpeg per sheet, each of the 16 frames opened with its own
-          input seek, so only the stretch from the keyframe before each sample
-          is decoded. Sheets run in parallel (--jobs).
+  seek    every frame is opened with its own accurate input seek, so only the
+          stretch from the keyframe before each sample is decoded; one ffmpeg
+          per row of 4 tiles, sheets built in parallel (--jobs).
   linear  one ffmpeg that decodes the whole range and keeps a frame every N s.
-  auto    (default) probe the keyframe spacing: seek when keyframes are at
-          most --every apart (each sample then decodes under one GOP),
-          otherwise linear.
+  auto    (default) probe the keyframe spacing and use seek when keyframes
+          are at most 2.5x --every apart (typical camera, phone and web
+          files), otherwise linear.
 
 Python 3 standard library only; needs ffmpeg and ffprobe on PATH.
 """
@@ -98,7 +98,7 @@ def font_option():
 
 def run(cmd):
     proc = subprocess.run(cmd, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE,
-                          stderr=subprocess.PIPE, text=True)
+                          stderr=subprocess.PIPE, text=True, errors="replace")
     if proc.returncode != 0:
         tail = "\n".join(proc.stderr.strip().splitlines()[-12:])
         raise ScanError(f"{os.path.basename(cmd[0])} failed:\n{tail}")
@@ -106,24 +106,28 @@ def run(cmd):
 
 
 def probe(video):
-    out = run(["ffprobe", "-v", "error", "-select_streams", "v:0",
-               "-show_entries", "stream=width,height:format=duration",
+    """Length of the video track (s); falls back to the container's duration."""
+    out = run(["ffprobe", "-v", "error", "-select_streams", "V:0",
+               "-show_entries", "stream=width,duration:format=duration",
                "-of", "default=noprint_wrappers=1", video])
-    info = dict(line.split("=", 1) for line in out.splitlines() if "=" in line)
-    if "width" not in info:
+    if "width=" not in out:
         raise ScanError(f"no video stream in {video}")
-    try:
-        duration = float(info.get("duration", "nan"))
-    except ValueError:
-        duration = float("nan")
-    if not duration > 0:
+    durations = []
+    for line in out.splitlines():
+        if line.startswith("duration="):
+            try:
+                durations.append(float(line.split("=", 1)[1]))
+            except ValueError:
+                pass
+    durations = [d for d in durations if d > 0]
+    if not durations:
         raise ScanError(f"cannot read the duration of {video}")
-    return duration
+    return durations[0]          # stream section comes before format
 
 
 def keyframe_spacing(video, start):
     """Median keyframe spacing (s) over ~30 s of packets; reads, does not decode."""
-    out = run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+    out = run(["ffprobe", "-v", "error", "-select_streams", "V:0",
                "-read_intervals", f"{start:.3f}%+30",
                "-show_entries", "packet=pts_time,flags", "-of", "csv=p=0", video])
     keys = []
@@ -152,23 +156,44 @@ def label_filter(textfile, expand):
 
 # ---------------------------------------------------------------- methods
 
-def sheet_seek(video, times, out_path, work, tenths):
-    """One sheet: 16 inputs, each opened with an accurate input seek."""
+def row_seek(video, times, out_path, tag, work, tenths):
+    """One row of tiles: one input per tile, each opened with an accurate seek.
+
+    A row per process (not a whole sheet) keeps memory to 4 open decoders,
+    which matters for 4K film; process start-up is only ~50 ms.
+    """
     cmd = ["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y"]
     graph = []
     for i, t in enumerate(times):
         cmd += ["-threads", SEEK_THREADS, "-ss", f"{t:.3f}", "-i", video]
-        label = os.path.join(work, f"{os.path.basename(out_path)}.{i}.txt")
+        label = os.path.join(work, f"{tag}.{i}.txt")
         with open(label, "w", encoding="utf-8") as fh:
             fh.write(hms(t, tenths))
-        graph.append(f"[{i}:v]trim=end_frame=1,{TILE_CHAIN},{label_filter(label, False)}[t{i}]")
-    for i in range(len(times), PER_SHEET):
+        graph.append(f"[{i}:V:0]trim=end_frame=1,{TILE_CHAIN},{label_filter(label, False)}[t{i}]")
+    for i in range(len(times), COLS):
         graph.append(f"color=c=black:s={TILE_W}x{TILE_H}:r=1:d=1,format=yuv420p,setsar=1[t{i}]")
-    graph.append("".join(f"[t{i}]" for i in range(PER_SHEET))
-                 + f"xstack=inputs={PER_SHEET}:grid={COLS}x{ROWS}[out]")
-    cmd += ["-filter_complex", ";".join(graph), "-map", "[out]",
-            "-frames:v", "1", "-q:v", "3", out_path]
-    run(cmd)
+    graph.append("".join(f"[t{i}]" for i in range(COLS))
+                 + f"xstack=inputs={COLS}:grid={COLS}x1[out]")
+    run(cmd + ["-filter_complex", ";".join(graph), "-map", "[out]", "-frames:v", "1", out_path])
+
+
+def sheet_seek(video, times, out_path, work, tenths):
+    """One sheet: build its rows (seek per sample), then stack them."""
+    tag = os.path.splitext(os.path.basename(out_path))[0]
+    rows = []
+    for r in range(0, len(times), COLS):
+        row = os.path.join(work, f"{tag}.row{r // COLS}.png")
+        row_seek(video, times[r:r + COLS], row, f"{tag}.{r // COLS}", work, tenths)
+        rows.append(row)
+    cmd = ["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y"]
+    for row in rows:
+        cmd += ["-i", row]
+    stack = "".join(f"[{i}:v]" for i in range(len(rows)))
+    stack += f"vstack=inputs={len(rows)}," if len(rows) > 1 else "null,"
+    run(cmd + ["-filter_complex", stack + f"pad={COLS * TILE_W}:{ROWS * TILE_H}:0:0:black[out]",
+               "-map", "[out]", "-frames:v", "1", "-q:v", "3", out_path])
+    for row in rows:
+        os.remove(row)
 
 
 def sheet_name(t, tenths):
@@ -185,12 +210,15 @@ def scan_linear(video, start, span, every, outdir, work, tenths):
     label = os.path.join(work, "label.txt")
     with open(label, "w", encoding="utf-8") as fh:
         fh.write(text)
-    vf = (f"fps=1/{every:g},{TILE_CHAIN},{label_filter(label, True)},"
-          f"tile={COLS}x{ROWS}")
+    # First frame at/after each multiple of `every` (the fps filter would keep
+    # the last frame of each interval instead); labels show that frame's time.
+    step = (f"floor((t+0.0005)/{every:g})", f"floor((prev_selected_t+0.0005)/{every:g})")
+    vf = (f"select='isnan(prev_selected_t)+gt({step[0]},{step[1]})',"
+          f"{TILE_CHAIN},{label_filter(label, True)},tile={COLS}x{ROWS}")
     pattern = os.path.join(work, "lin_%05d.jpg")
     run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y",
-         "-ss", f"{start:.3f}", "-t", f"{span:.3f}", "-i", video,
-         "-vf", vf, "-q:v", "3", pattern])
+         "-ss", f"{start:.3f}", "-t", f"{span:.3f}", "-i", video, "-map", "0:V:0",
+         "-vf", vf, "-fps_mode", "passthrough", "-q:v", "3", pattern])
     written = []
     for k, src in enumerate(sorted(f for f in os.listdir(work) if f.startswith("lin_"))):
         dst = os.path.join(outdir, sheet_name(start + k * PER_SHEET * every, tenths))
@@ -210,8 +238,8 @@ def main(argv=None):
     ap.add_argument("--start", default="0", help="start time (default 0)")
     ap.add_argument("--end", default=None, help="end time (default: end of video)")
     ap.add_argument("--method", choices=["auto", "seek", "linear"], default="auto")
-    ap.add_argument("--jobs", type=int, default=min(4, os.cpu_count() or 1),
-                    help="sheets built in parallel by the seek method")
+    ap.add_argument("--jobs", type=int, default=min(8, os.cpu_count() or 1),
+                    help="sheets built in parallel by the seek method (default: CPU count, max 8)")
     args = ap.parse_args(argv)
 
     try:
@@ -244,10 +272,12 @@ def main(argv=None):
         gop = None
         if method == "auto":
             gop = keyframe_spacing(args.video, start)
-            method = "seek" if gop <= args.every + 1e-6 else "linear"
+            # Measured on 1080p H.264 at 2 s spacing: seek is 3.5x faster with
+            # 2 s keyframes, 1.25x with 4 s, and 1.7x slower with 10 s.
+            method = "seek" if gop <= 2.5 * args.every else "linear"
 
         os.makedirs(args.outdir, exist_ok=True)
-        work = tempfile.mkdtemp(prefix="scan_")
+        work = tempfile.mkdtemp(prefix=".scan_tmp_", dir=args.outdir)
         t0 = time.time()
         try:
             if method == "seek":
@@ -276,7 +306,8 @@ def main(argv=None):
         return 2
 
     gop_note = f", keyframes every {gop:.2f} s" if gop not in (None, float("inf")) else ""
-    print(f"{len(written)} sheets, {len(times)} frames ({hms(times[0])} to {hms(times[-1])}, "
+    print(f"{len(written)} sheets, {len(times)} frames "
+          f"({hms(times[0], tenths)} to {hms(times[-1], tenths)}, "
           f"every {args.every:g} s) -> {args.outdir}")
     print(f"method {method}{gop_note}; {elapsed:.1f} s "
           f"({elapsed / max(1e-9, end - start) * 3600:.0f} s per hour of film)")

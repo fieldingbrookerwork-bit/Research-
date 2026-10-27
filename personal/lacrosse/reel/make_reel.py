@@ -22,7 +22,7 @@ Optional: "spot": {"x", "y", "r"} where r is the ring radius in output pixels
 Every segment is rendered at 1920x1080, 30 fps CFR, yuv420p, x264 CRF 20
 (preset medium) with 48 kHz stereo audio, then the segments are joined with a
 stream copy and AAC 128k audio into an MP4 with +faststart. Built segments are
-cached in <output name>_work/ next to the output; unchanged ones are reused.
+cached in reel_work/ next to the output; unchanged ones are reused.
 
 Python 3 standard library only; needs ffmpeg and ffprobe (6.x) on PATH.
 """
@@ -50,6 +50,7 @@ ACCENT = "0xFFDD00"
 ACCENT_RGB = (255, 221, 0)
 SUBTEXT = "0xC9D1D9"
 PHOTO_BOX = (540, 860)       # max photo size inside the left third (640 px)
+WORK_DIR = "reel_work"       # segment cache + grids, next to the output
 
 FONT_DIRS = {
     "bold": [
@@ -183,20 +184,19 @@ def probe(path):
     if abs(rotation) % 180 == 90:      # ffmpeg auto-rotates: frames arrive swapped
         w, h, sar = h, w, 1.0 / sar
     duration = None
-    for src in (data.get("format", {}), video):
+    for src in (video, data.get("format", {})):     # the video's own length first
         try:
             duration = float(src["duration"])
             break
         except (KeyError, TypeError, ValueError):
             pass
     info = {
-        "w": w, "h": h, "sar": sar, "rotation": rotation,
+        "w": w, "h": h, "sar": sar,
         "vindex": int(video["index"]),
         "aindex": int(audio["index"]) if audio else None,
         "duration": duration,
         "interlaced": video.get("field_order") in ("tt", "bb", "tb", "bt"),
         "hdr": video.get("color_transfer") in ("arib-std-b67", "smpte2084"),
-        "fps": video.get("avg_frame_rate", "0/0"),
     }
     _probe_cache[path] = info
     return info
@@ -252,6 +252,9 @@ def load_plan(spec_path):
 
     fonts = {}
     custom = spec.get("fonts") or {}
+    if not isinstance(custom, dict):
+        errors.append('"fonts" must look like {"bold": "file.ttf", "regular": "file.ttf"}')
+        custom = {}
     for kind in ("bold", "regular"):
         if custom.get(kind):
             path = resolve(base, custom[kind])
@@ -267,6 +270,9 @@ def load_plan(spec_path):
         obj = spec.get(key)
         if obj is None:
             warnings.append(f'no "{key}" card in the spec')
+            return
+        if not isinstance(obj, dict):
+            errors.append(f'"{key}" must be an object with "lines"')
             return
         unknown(obj, CARD_KEYS, key)
         lines = obj.get("lines")
@@ -372,9 +378,11 @@ def load_plan(spec_path):
     for kind in ("bold", "regular"):
         if fonts[kind] is None and not custom.get(kind):
             warnings.append(f"no {kind} font file found; falling back to fontconfig 'Sans'")
+    for w in warnings:
+        print(f"warning: {w}")
     if errors:
         raise ReelError("problems in the spec:\n  - " + "\n  - ".join(errors))
-    return output, segments, fonts, warnings
+    return output, segments, fonts
 
 
 # ------------------------------------------------------------------ filters
@@ -401,42 +409,55 @@ def measure_widths(items):
 
 
 def card_graph(seg, fonts, txtdir, key, has_photo):
-    lines = seg["lines"]
     n = seg["frames"]
     cx, maxw = (1280, 1120) if has_photo else (960, 1640)
-    items, slots = [], []
-    for i, text in enumerate(lines):
+    name_style = (fonts["bold"], True, 100, "white")
+    rows = []                                   # [kind, text, style]
+    for i, text in enumerate(seg["lines"]):
         if i == 0:
-            style = (fonts["bold"], True, 100, "white")
+            rows.append(["name", text.strip(), name_style])
         elif i == 1:
-            style = (fonts["bold"], True, 54, ACCENT)
+            rows.append(["sub", text, (fonts["bold"], True, 54, ACCENT)])
         else:
-            style = (fonts["regular"], False, 46, SUBTEXT)
-        if not text.strip():
-            slots.append((None, style))
-            continue
-        tf = write_text(os.path.join(txtdir, f"{key}_{i}.txt"), text)
-        items.append((style[0], style[1], style[2], tf))
-        slots.append((tf, style))
-    widths = dict(zip([it[3] for it in items], measure_widths(items)))
+            rows.append(["detail", text, (fonts["regular"], False, 46, SUBTEXT)])
+
+    def measure():
+        items = [(j, write_text(os.path.join(txtdir, f"{key}_{j}.txt"), text), st)
+                 for j, (_, text, st) in enumerate(rows) if text.strip()]
+        widths = measure_widths([(st[0], st[1], st[2], tf) for _, tf, st in items])
+        return {j: (tf, w) for (j, tf, _), w in zip(items, widths)}
+
+    measured = measure()
+    # A name too wide at full size goes onto two lines (split at the space
+    # nearest the middle) instead of shrinking below the line under it.
+    name = rows[0][1]
+    if 0 in measured and measured[0][1] > maxw and " " in name:
+        k = min((i for i, ch in enumerate(name) if ch == " "), key=lambda i: abs(i - len(name) / 2))
+        rows[0:1] = [["name", name[:k].strip(), name_style], ["name", name[k + 1:].strip(), name_style]]
+        measured = measure()
+
+    sizes = []
+    for j, (kind, text, st) in enumerate(rows):
+        tf, w = measured.get(j, (None, 0))
+        sizes.append(max(18, int(st[2] * maxw / w * 0.98)) if tf and w > maxw else st[2])
+    name_size = min(s for (kind, _, _), s in zip(rows, sizes) if kind == "name")
+    sizes = [name_size if kind == "name" else s for (kind, _, _), s in zip(rows, sizes)]
 
     # Vertical layout (baselines), then centre the block on the frame.
     y, draws, rule_y = 0.0, [], None
-    for i, (tf, (font, bold, size, color)) in enumerate(slots):
-        if tf and widths.get(tf, 0) > maxw:
-            size = max(18, int(size * maxw / widths[tf] * 0.98))
-        if i == 0:
+    for j, ((kind, text, (font, bold, _, color)), size) in enumerate(zip(rows, sizes)):
+        if kind == "name":
             base = y + 0.76 * size
             y = base + 0.30 * size
-            if len(slots) > 1:
+            if j + 1 < len(rows) and rows[j + 1][0] != "name":   # accent rule under the name
                 rule_y = y + 10
                 y = rule_y + 6 + 30
         else:
             base = y + 0.86 * size
             y = base + 0.50 * size
-        if tf:
-            draws.append((tf, font, bold, size, color, base))
-    top = (H - (y - 0.15 * slots[-1][1][2])) / 2.0
+        if j in measured:
+            draws.append((measured[j][0], font, bold, size, color, base))
+    top = (H - (y - 0.15 * sizes[-1])) / 2.0
     vf = []
     if rule_y is not None:
         vf.append(f"drawbox=x={cx - 60}:y={int(round(top + rule_y))}:w=120:h=6:"
@@ -473,10 +494,14 @@ def source_chain(info, start):
     if preroll > 0:
         vf.append(f"trim=start={max(0.0, preroll - 0.001):.6f},setpts=PTS-{preroll:.6f}/TB")
     if info["interlaced"]:
-        vf.append("bwdif=mode=send_frame")
+        vf.append("bwdif=mode=send_frame:deint=interlaced")
     if info["hdr"]:
-        vf.append("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,"
-                  "tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
+        # Phone HDR (HLG/PQ) -> SDR: reference white (203 nit) maps to SDR white,
+        # brighter highlights roll off. A round trip SDR->HLG->SDR came back within
+        # 1% mean brightness; the common npl=100 + hable recipe came back 20% dark.
+        vf.append("zscale=t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,"
+                  "tonemap=tonemap=mobius:param=0.8:desat=0,"
+                  "zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
     af = []
     if preroll > 0:
         af.append(f"atrim=start={preroll:.6f},asetpts=PTS-{preroll:.6f}/TB")
@@ -508,7 +533,9 @@ def clip_graph(seg, fonts, txtdir, key):
     args, pre_v, pre_a = source_chain(info, seg["start"])
     sw, sh, px, py = geometry(info)
     freeze = FREEZE_FRAMES if seg["spot"] else 0
-    v = pre_v + [f"fps={FPS}:start_time=0", f"trim=end_frame={n}",
+    # tpad: if the source ends a hair early, hold its last frame so every
+    # segment has exactly the planned frame count (keeps the joins CFR).
+    v = pre_v + [f"fps={FPS}:start_time=0", "tpad=stop=-1:stop_mode=clone", f"trim=end_frame={n}",
                  f"scale={sw}:{sh}:out_color_matrix=bt709:out_range=tv", "setsar=1",
                  f"pad={W}:{H}:{px}:{py}:color=black", "format=yuv420p"]
     if freeze:
@@ -563,11 +590,15 @@ def build_segment(seg, out, fonts, txtdir, key):
     else:
         inputs, graph = clip_graph(seg, fonts, txtdir, key)
     tmp = out + ".part.mov"
-    run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y", *inputs,
-         "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-         "-frames:v", str(seg["frames"]), *VIDEO_ENC, *AUDIO_PCM, "-f", "mov", tmp],
-        seg["name"])
-    os.replace(tmp, out)
+    try:
+        run(["ffmpeg", "-nostdin", "-hide_banner", "-loglevel", "error", "-y", *inputs,
+             "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
+             "-frames:v", str(seg["frames"]), *VIDEO_ENC, *AUDIO_PCM, "-f", "mov", tmp],
+            seg["name"])
+        os.replace(tmp, out)
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
 
 
 def describe(seg):
@@ -579,7 +610,7 @@ def describe(seg):
         s = seg["spot"]
         bits.append(f"spot ({s['x']:g},{s['y']:g})->({s['ox']:.0f},{s['oy']:.0f})")
     if seg["note"]:
-        bits.append(f"note {seg['note']!r}")
+        bits.append(f"note: {seg['note']}")
     return f"{seg['name']}: " + ", ".join(bits)
 
 
@@ -614,11 +645,8 @@ def final_stats(path):
 
 
 def build(spec_path, fresh):
-    output, segments, fonts, warnings = load_plan(spec_path)
-    for w in warnings:
-        print(f"warning: {w}")
-    stem = os.path.splitext(os.path.basename(output))[0]
-    work = os.path.join(os.path.dirname(output), stem + "_work")
+    output, segments, fonts = load_plan(spec_path)
+    work = os.path.join(os.path.dirname(output), WORK_DIR)
     txtdir = os.path.join(work, "text")
     os.makedirs(txtdir, exist_ok=True)
     with open(os.path.abspath(__file__), "rb") as fh:
@@ -654,7 +682,7 @@ def build(spec_path, fresh):
     if abs(duration - expected) > 0.2 or frames != total:
         print(f"warning: output differs from the plan ({frames} frames vs {total} planned)")
         return 1
-    if not 100 <= expected <= 200:
+    if not 120 <= expected <= 180:
         print("note: recruiting reels work best at 2 to 3 minutes")
     print(f"Segment cache: {work} (safe to delete)")
     return 0
@@ -664,9 +692,8 @@ def build(spec_path, fresh):
 
 def grids(spec_path):
     """Write each clip's first frame at source resolution with a labelled grid."""
-    output, segments, fonts, warnings = load_plan(spec_path)
-    stem = os.path.splitext(os.path.basename(output))[0]
-    outdir = os.path.join(os.path.dirname(output), stem + "_work", "grids")
+    output, segments, fonts = load_plan(spec_path)
+    outdir = os.path.join(os.path.dirname(output), WORK_DIR, "grids")
     os.makedirs(outdir, exist_ok=True)
     for seg in segments:
         if seg["kind"] != "clip":
