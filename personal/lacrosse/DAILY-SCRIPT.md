@@ -14,6 +14,43 @@ any day.
 
 ---
 
+## ILLNESS (added 28 Oct 2026)
+
+**This week:** sick Mon 26 Oct (school only, no training) and Tue 27 Oct (nothing); back at
+school Wed 28 Oct, not feeling right, 4 lb down. Monday's team lift and Wednesday's after
+school sprints and sled are dropped, not made up. Thursday runs only if he passes the checks
+below. Friday's team session only after one session back with no symptoms, with their stop rule
+used early. Week 8 (Mon 2 Nov) is the deload and doubles as his ramp back.
+
+**Can he train today? Check in this order:**
+1. Fever of 100.4°F or more now or in the last 24 hours, or fever medicine to keep it down: no
+   training at all. Hard exercise with a fever raises the risk of viral heart inflammation.
+2. Symptoms below the neck (aches, chest congestion, chest cough, vomiting or diarrhea, wiped
+   out): no training.
+3. Only above the neck (runny or stuffy nose, mild sore throat) and no fever: light training.
+   Warm up 10 minutes; if he feels worse, stop and go home.
+
+**First session back:** same sets and reps, about 20% lighter (week 7: squat 210, incline 120,
+deadlift 250, bench 150), every set 3+ reps left, no first set increases, no sprints above 80%,
+no Nordic or Copenhagen. Second session back: normal loads if the first felt fine. Max effort
+sprints return after one normal session with no symptoms.
+
+**Food while sick and for two days after:** no deficit. At least the training day target (3,700
+cal, 220 g protein) whether or not he trains. Fluids to pale urine with electrolytes (sports
+drink, broth, salty food), more after fever, vomiting or diarrhea. Low appetite: drink it
+(chocolate milk with whey, smoothies, soup with rice). Creatine 5 g continues; pause it only
+while vomiting. Nine hours of sleep or more.
+
+**The weight drop:** 4 lb in three sick days is water, glycogen and gut contents, not fat or
+muscle, and it returns within a few days of normal eating. It does not count toward the recomp
+target, and the Monday adjust rule ignores it until he has been well for a full week.
+
+**Doctor if:** fever past 3 days, chest pain, shortness of breath, a racing heart at rest,
+fainting, or he cannot keep fluids down. After flu or COVID with chest symptoms, get cleared
+before hard training.
+
+---
+
 ## SHOWCASE AND TOURNAMENT DAYS (added 23 Oct 2026)
 
 **Next: showcase Sunday 25 Oct 2026 (week 6).** Friday 23 Oct had no team session, so he ran
