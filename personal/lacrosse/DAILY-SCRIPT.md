@@ -53,7 +53,24 @@ before hard training.
 
 ## SHOWCASE AND TOURNAMENT DAYS (added 23 Oct 2026)
 
-**Next: showcase Sunday 25 Oct 2026 (week 6).** Friday 23 Oct had no team session, so he ran
+**Next: flying Sat 7 Nov 2026 (told 6 Nov; event and game times not yet confirmed; the plan
+lists the Prime Time Mid-Fall Classic, Sun 8 Nov, UMass Amherst).** Saturday is a travel day:
+the day-before primer below after landing, no Saturday strength or low day, high carb food.
+Sunday follows the event day rules if he plays. Monday 9 Nov follows the day-after rules. D1
+evaluations are allowed through 8 Nov; 9 to 12 Nov is a dead period.
+
+**Flying to an event (added 6 Nov 2026).**
+- Carry on: helmet, gloves, pads, mouthguard, cleats, turf shoes, the pole's head (unscrewed),
+  creatine, collagen, snacks. Check the shaft in a stick bag: a 6 ft pole will not fit in an
+  overhead bin. A lost shaft can be borrowed or bought; his helmet, gloves and broken-in head
+  cannot.
+- On the plane: aisle seat if possible, about 8 oz of water per hour in the air, stand or do
+  calf raises and ankle pumps every 45 min. Eat packed food (sandwiches, bagels, bananas,
+  jerky, whey in a shaker), not fried airport food.
+- After landing: 10 min walk, then the day-before primer if he plays the next day.
+- Same bedtime in local time, nine hours of sleep.
+
+**Earlier: showcase Sunday 25 Oct 2026 (week 6).** Friday 23 Oct had no team session, so he ran
 the two days out session below. Saturday 24 Oct is the primer instead of the normal Saturday.
 Saturday and Sunday are high carb days (below), not the low day. Monday 26 Oct runs the
 readiness rule, with the change of direction block halved.
