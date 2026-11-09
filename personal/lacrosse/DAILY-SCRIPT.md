@@ -52,6 +52,15 @@ slides, plus bad decisions. Not fading, so fuel and fitness were not the problem
 - **Club practice:** ask the coach for 1v1 reps against the best attackmen, and ask what he
   needs to fix to play up. The answer may be the first step.
 
+**Mon 9 Nov:** CMJ "down a lot" the day after the tournament, and he was hopping in his
+footwork. Readiness rule applied: no jumps, team lift about 10% lighter (deadlift 285, bench
+170), and the halved change of direction block run as technique at 70 to 80%. Footwork cue
+from now on: head height stays level and the feet stay in the floor; push off the trail foot
+sideways, never up. Hopping is part of the first step problem: he cannot push off while both
+feet are in the air. **Wednesday:** a CMJ x3 check before the session. Still more than 5% down
+= half the sprint and sled session and the team lift about 10% lighter (squat 240, incline
+135). Down again next Monday = an unplanned deload of our sessions and the blood test.
+
 ## ILLNESS (added 28 Oct 2026)
 
 **This week:** sick Mon 26 Oct (school only, no training) and Tue 27 Oct (nothing); back at
