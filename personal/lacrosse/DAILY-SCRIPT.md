@@ -14,6 +14,24 @@ any day.
 
 ---
 
+## PERFORMANCE DIP (added 8 Nov 2026)
+
+He played poorly and felt slow on Sun 8 Nov: 11 days after being sick (4 lb lost), after a
+deload week with 40% less sprinting, a flight the day before and a 9:50am first game. One bad
+day after that run is not a trend. Through Sun 22 Nov (the rest of the D1 evaluation window):
+- **No deficit.** Training day food every day, Thursday and Sunday included: 3,700 cal, 220 g
+  protein, about 490 g carbs, about 95 g fat. Day before and day of an event: about 600 g carbs.
+  The recomp resumes on 23 Nov.
+- **Monday monitoring decides.** CMJ and 10 yd against his four week average. More than 5%
+  down = the readiness rule, and he is still not recovered; normal or better = it was the day,
+  not his speed.
+- **No extra running or conditioning** to "fix" speed. Normal week 9: Monday change of
+  direction, Wednesday acceleration, the team's Friday sprints.
+- **Blood test** (ferritin, vitamin D, full blood count) if he still feels flat on 16 Nov.
+- **Film:** sort the bad plays into beaten on the first step (stance and approach), beaten in
+  a footrace (speed), late to slides (reading the play) and fading late in the day (fuel and
+  fitness). Each has a different fix.
+
 ## ILLNESS (added 28 Oct 2026)
 
 **This week:** sick Mon 26 Oct (school only, no training) and Tue 27 Oct (nothing); back at
