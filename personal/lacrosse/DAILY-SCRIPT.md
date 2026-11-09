@@ -32,6 +32,26 @@ day after that run is not a trend. Through Sun 22 Nov (the rest of the D1 evalua
   a footrace (speed), late to slides (reading the play) and fading late in the day (fuel and
   fitness). Each has a different fix.
 
+**His answer (8 Nov), worst first:** 1 beaten on the first step, 2 lost footraces, 3 late to
+slides, plus bad decisions. Not fading, so fuel and fitness were not the problem.
+
+**The fix, from Mon 9 Nov:**
+- **Approach and stance cues, in every drill and practice:** sprint the first half, then chop
+  the last 3 to 5 yards and arrive balanced, never on the run. Arrive on his strong hand side
+  so he has to go weak hand. Feet wider than shoulders, knees bent, hips low, weight on the
+  balls of the feet; standing tall is the usual fault at 6'5". Keep a stick length of cushion
+  and play his hands with the pole, not the gap with his body. Body first, stick second: poke
+  only when balanced, no lunging or slap checks on the approach.
+- **Footraces:** once the attacker goes, drop step, open the hips and crossover sprint to a
+  spot in front of him. Shuffling loses races.
+- **Reactive approach** replaces Footwork 1 (approach and breakdown) on Thursday and Saturday:
+  a partner starts 8 yd away, jogs in and breaks left or right at random; he chops at 3 yd and
+  mirrors 3 steps. 2x4/side at 70%. With no partner, keep Footwork 1 as written.
+- **Slides and decisions:** hips open so he sees ball and man, talk every possession, and no
+  gambles. Takeaways come from position, not from chasing them. 20 min of his own film a week.
+- **Club practice:** ask the coach for 1v1 reps against the best attackmen, and ask what he
+  needs to fix to play up. The answer may be the first step.
+
 ## ILLNESS (added 28 Oct 2026)
 
 **This week:** sick Mon 26 Oct (school only, no training) and Tue 27 Oct (nothing); back at
