@@ -71,8 +71,14 @@ recovered. Week 9 (10 to 15 Nov) becomes a recovery week now:
   reps left, no first set increases. Wednesday's Nordic and Copenhagen 2 sets each.
 - **Creatine:** back to 5 g a day. He missed only 2 days on the trip, and muscle stores take
   weeks to drop, so no loading, and it does not explain the strength drop.
-- **Fluids:** pale urine all day; 16 oz of water with every meal and a sports drink or
-  electrolytes around training.
+- **Fluids (he looked visibly dehydrated on 9 Nov):** about 130 oz a day plus 16 to 24 oz per
+  hour of training. 16 oz on waking, 16 oz with every meal, sips between, and one electrolyte
+  drink or packet a day plus one around training, because plain water alone mostly passes
+  through. Salt food normally. Urine pale yellow by midday; dark = drink more. Limit caffeine
+  and energy drinks.
+- **Looking smaller and softer:** flat muscles and puffiness are water and glycogen shifting,
+  not two weeks of real muscle loss and fat gain. No calorie cut to chase it. Waist at the navel
+  and photos in the same light every Monday; judge on 23 Nov, not before.
 - **Weekend 14 to 15 Nov:** plays only if he is cleared and Wednesday's jump check is within 5%
   of normal.
 
