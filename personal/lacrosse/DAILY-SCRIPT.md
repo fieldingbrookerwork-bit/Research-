@@ -69,8 +69,8 @@ recovered. Week 9 (10 to 15 Nov) becomes a recovery week now:
 - **Our sessions halved. Team lifts at the first-session-back loads:** squat 210, incline 120,
   deadlift 250, bench 150; Saturday paused bench 150, pause squat 180. Same sets and reps, 3+
   reps left, no first set increases. Wednesday's Nordic and Copenhagen 2 sets each.
-- **Creatine back from 10 Nov:** 5 g four times a day for 5 days, then 5 g a day. If his
-  stomach is touchy, 5 g a day only (full effect in 3 to 4 weeks instead of about 1).
+- **Creatine:** back to 5 g a day. He missed only 2 days on the trip, and muscle stores take
+  weeks to drop, so no loading, and it does not explain the strength drop.
 - **Fluids:** pale urine all day; 16 oz of water with every meal and a sports drink or
   electrolytes around training.
 - **Weekend 14 to 15 Nov:** plays only if he is cleared and Wednesday's jump check is within 5%
