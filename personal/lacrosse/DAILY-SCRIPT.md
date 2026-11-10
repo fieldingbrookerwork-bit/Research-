@@ -61,6 +61,21 @@ feet are in the air. **Wednesday:** a CMJ x3 check before the session. Still mor
 = half the sprint and sled session and the team lift about 10% lighter (squat 240, incline
 135). Down again next Monday = an unplanned deload of our sessions and the blood test.
 
+**Mon 9 Nov night, superseding the Wednesday rule above:** every lift about 20% down, slower,
+dehydrated, weight reported as 4 lb heavier (to confirm), and he had been off creatine. Twenty
+percent is not lost strength, which does not leave in two weeks; it is a body that has not
+recovered. Week 9 (10 to 15 Nov) becomes a recovery week now:
+- **Medical check this week, before more contact.** Details are kept out of this repo.
+- **Our sessions halved. Team lifts at the first-session-back loads:** squat 210, incline 120,
+  deadlift 250, bench 150; Saturday paused bench 150, pause squat 180. Same sets and reps, 3+
+  reps left, no first set increases. Wednesday's Nordic and Copenhagen 2 sets each.
+- **Creatine back from 10 Nov:** 5 g four times a day for 5 days, then 5 g a day. If his
+  stomach is touchy, 5 g a day only (full effect in 3 to 4 weeks instead of about 1).
+- **Fluids:** pale urine all day; 16 oz of water with every meal and a sports drink or
+  electrolytes around training.
+- **Weekend 14 to 15 Nov:** plays only if he is cleared and Wednesday's jump check is within 5%
+  of normal.
+
 ## ILLNESS (added 28 Oct 2026)
 
 **This week:** sick Mon 26 Oct (school only, no training) and Tue 27 Oct (nothing); back at
