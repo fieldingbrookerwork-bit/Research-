@@ -9,6 +9,17 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## STATUS 10 NOV 2026
+
+- **Sun 8 Nov tournament:** played poorly and felt slow (see the performance dip section of
+  DAILY-SCRIPT.md). Week 9 is a recovery week.
+- **Next weekend, 14 to 15 Nov:** the 3d Georgia club page on IMLCA Recruits lists the Inside
+  Lacrosse Fall Cup, Upper Marlboro MD (found by web search on 10 Nov; the page itself is
+  blocked from this session, so the family confirms it). He is asking his club coach by email
+  to play up with Red there, and to allow guest play if Red is full. The 3STEP director gets
+  the pickup team ask after the coach answers, Thursday at the latest.
+- D1 evaluations resume Fri 13 Nov and run through 22 Nov.
+
 ## STATUS 27 OCT 2026
 
 - **Showcase, Sun 25 Oct:** played well, missed MVP by one vote. An Inside Lacrosse staffer
