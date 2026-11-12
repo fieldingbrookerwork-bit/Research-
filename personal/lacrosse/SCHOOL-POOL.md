@@ -8,6 +8,48 @@ page before quoting it to anyone.
 Lacrosse column: **D1** or **D3** = NCAA varsity men's lacrosse; **No varsity** = no NCAA men's
 team (club at most), so lacrosse cannot help admission there.
 
+## Combined top ten (11 Nov 2026)
+
+Schools with NCAA varsity men's lacrosse, scored across all three categories.
+
+**Scoring:** in each category 25 points for 1st down to 1 point for 25th, zero outside the top
+25; 75 maximum. Business = U.S. News 2027 undergraduate business. Entrepreneurship = the better
+of Princeton Review 2027 and PitchBook 2026 undergraduate founders. Alumni network = the better
+of the Princeton Review alumni network lists and LinkedIn Top Colleges 2026.
+
+| # | School | Lacrosse | Business | Entrepreneurship | Alumni network | Points |
+|---|---|---|---|---|---|---|
+| 1 tie | Michigan | D1 | 4 | 6 (Princeton Review) | 1 (Princeton Review public) | 67 |
+| 1 tie | MIT | D3 | 2 | 5 (PitchBook) | 4 (LinkedIn) | 67 |
+| 3 | Penn | D1, Ivy | 1 | about 6 (PitchBook) | 6 (LinkedIn) | 65 |
+| 4 | Cornell | D1, Ivy | 6 | 4 (PitchBook) | 8 (LinkedIn) | 60 |
+| 5 | Harvard | D1, Ivy | no undergraduate business school | 3 (PitchBook) | 3 (LinkedIn) | 46 |
+| 6 | Babson | D3 | 39 | 5 (Princeton Review) | 9 (Princeton Review private) | 38 |
+| 7 | Princeton | D1, Ivy | no undergraduate business school | about 15 (PitchBook, 2025 rank) | 1 (LinkedIn) | about 36 |
+| 8 tie | Virginia | D1 | 12 | not confirmed in a top 25 | about 9 (Princeton Review public) | 31 |
+| 8 tie | Yale | D1, Ivy | no undergraduate business school | about 12 (PitchBook, top 20 confirmed) | 9 (LinkedIn) | about 31 |
+| 10 | Notre Dame | D1 | 15 | not confirmed in a top 25 | 7 (LinkedIn) | 30 |
+
+**Next out:** Duke 29 (no business school, founders 21, LinkedIn 2), UNC 27 (business 6, public
+alumni about 19), Maryland 24 (entrepreneurship 4, business 24), Dartmouth 21 (LinkedIn 5),
+Georgetown 20 (business 15, private alumni 17).
+
+**D1 only:** drop MIT and Babson; Duke and UNC take 9 and 10.
+
+**How firm it is:**
+- The same six lead under a second scoring (rank bands) and when business is dropped, though
+  their order shifts. Princeton stays 7th unless its 2026 PitchBook rank is 20 or lower.
+- Spots 8 to 11 (Virginia, Yale, Notre Dame, Duke) sit within 2 points. Treat them as tied.
+  PitchBook ranks outside its top 10 and Princeton Review entrepreneurship ranks 18 to 25 were
+  not retrieved; either could move those four, or lift UNC, by a few points.
+- Harvard, Princeton, Yale, Duke, Dartmouth and Brown score zero on business only because they
+  have no undergraduate business school. Scored on entrepreneurship and alumni alone, the same
+  seven lead (Harvard first), then Yale, Duke and Maryland.
+- The alumni measures are a student survey (Princeton Review) and a career outcomes index
+  (LinkedIn). Neither measures alumni wealth or reach directly.
+- Every D1 school here recruits nationally and takes many commitments soon after 1 Sept of
+  junior year. This is a reach list, not a full list; it needs a target tier under it.
+
 ## Schools already on his list
 
 - **His own picks:** an Ivy if lacrosse can get him in (Brown, Cornell, Dartmouth, Harvard,
@@ -78,9 +120,16 @@ Other entrepreneurship measures:
 - **U.S. News 2027 entrepreneurship specialty:** 1 Babson, 2 MIT, 7 Indiana, 8 Rice, 9 Utah,
   10 Santa Clara. Ranks 3 to 6 not confirmed (Michigan and Penn appear in that band).
 - **PitchBook 2026, undergraduate alumni who founded VC backed companies:** 1 Berkeley,
-  2 Stanford, 3 Harvard, 4 Cornell, 5 MIT. Penn about 6 (one aggregator), Waterloo and Tel Aviv
-  in the top 10, UCLA 15, Wisconsin 18, Duke 21. From the 2025 list, for schools not confirmed in
-  2026: UT Austin 8, Michigan 9, Yale 12, Princeton 15.
+  2 Stanford, 3 Harvard, 4 Cornell, 5 MIT. Penn about 6 (one aggregator), Waterloo 7, Michigan 8
+  (1,085 founders), Tel Aviv in the top 10, UT Austin 10 (one report; it may refer to the
+  combined list), UCLA 15, Toronto 17, Wisconsin 18, Duke 21, McGill 23. Yale is in the top 20
+  with 887 founders; exact rank not confirmed (12 in 2025, 11 in 2024). Princeton not confirmed
+  for 2026 (15 in 2025, 14 in 2024). No 2026 rank found for Brown, Dartmouth, Virginia, Notre
+  Dame, UNC, Georgetown or Maryland.
+- **Princeton Review 2027 beyond 15:** a snippet of the publisher page continues with Seattle
+  University and Purdue (16 and 17 if the press release numbering holds; the snippet's own
+  numbers ran one higher). Neither has varsity men's lacrosse. UNC, Virginia, Notre Dame,
+  Georgetown, Penn State and Lehigh were not found in the retrieved part of the list.
 
 ## Alumni networks: Princeton Review, Best Value Colleges 2027
 
@@ -98,12 +147,28 @@ varsity), 13 Colgate (D1), 14 Notre Dame (D1), 15 Dartmouth (D1), 16 Davidson (n
 confirmed except Baruch at 15): Texas, Virginia Tech, Clemson, Georgia Tech, Florida, Purdue,
 Georgia, Virginia (D1), Washington State, NC State, Florida State, James Madison, Wisconsin,
 Baruch, Arizona, UCLA, Illinois, UNC (D1). One name not retrieved. Only Michigan, Virginia and
-UNC have varsity men's lacrosse.
+UNC have varsity men's lacrosse. Baruch sits 15th in that order and its rank of 15 is confirmed,
+so the order is probably the rank order: Virginia about 9, UNC about 19.
+
+## Career outcomes and network: LinkedIn Top Colleges 2026 (4 Aug 2026)
+
+An index of long term career success built on five pillars: job placement, internships and
+recruiter demand, career success, network strength and knowledge breadth. It is not a pure
+alumni network ranking, but it covers the schools the Princeton Review survey leaves out.
+
+**Top 10:** 1 Princeton (D1), 2 Duke (D1), 3 Harvard (D1), 4 MIT (D3), 5 Dartmouth (D1),
+6 Penn (D1), 7 Notre Dame (D1), 8 Cornell (D1), 9 Yale (D1), 10 Stanford (no varsity).
+
+**Lower ranks, where sources disagree by a place or more:** Vanderbilt 12 or 13 (no varsity),
+Brown 13 or 14 (D1), Babson about 13 (D3), Northwestern 11 or 15 (no varsity), Virginia 12 or 16
+(D1), Bucknell 16 or 17 (D1), Tufts about 18 (D3), Lehigh 23 or 24 (D1), Villanova about 25 (D1),
+Georgetown 32 or 33 (D1), Michigan 38 or 39 (D1), UNC possibly 45 (D1). Johns Hopkins and
+Maryland were not found on the list.
 
 ## Where the lists overlap with varsity lacrosse
 
 - **On two or more lists:** Penn (business 1, founders about 6), Michigan (business 4,
-  entrepreneurship 6, public alumni 1, founders 9 in 2025), Cornell (business 6, founders 4), MIT
+  entrepreneurship 6, public alumni 1, founders 8), Cornell (business 6, founders 4), MIT
   (business 2, founders 5, alumni 18; D3), UNC (business 6, public alumni list), Virginia
   (business 12, public alumni list), Notre Dame (business 15, alumni 14), Georgetown (business 15,
   alumni 17), Maryland (business 24, entrepreneurship 4), Babson (entrepreneurship 5, alumni 9,
@@ -122,9 +187,11 @@ by. Miami is business 39 (tie) and entrepreneurship 13.
 
 ## Not confirmed
 
-Business ranks 20 to 23 (three schools), entrepreneurship 16 to 25, PitchBook 6 to 25, private
-alumni 20 and one public alumni name. A session on the "Research lacrosse" environment (created
-11 Nov 2026) can read the publisher pages directly.
+Business ranks 20 to 23 (three schools), entrepreneurship 18 to 25, PitchBook ranks outside its
+top 10 (apart from the few listed above), private alumni 20, one public alumni name and LinkedIn
+ranks 11 to 50. The "Research lacrosse" environment (created 11 Nov 2026) allows the publisher
+sites, but a running session cannot move onto it; a new session started on that environment can
+read the pages directly.
 
 ## Sources
 
@@ -156,3 +223,11 @@ alumni 20 and one public alumni name. A session on the "Research lacrosse" envir
 - [Princeton Review Top 20 Best Alumni Networks, private](https://www.princetonreview.com/college-rankings?rankings=top-20-best-alumni-networks-private-schools)
 - [Princeton Review Top 20 Best Alumni Networks, public](https://www.princetonreview.com/college-rankings?rankings=top-20-best-alumni-networks-public-schools)
 - [Princeton Review Best Value Colleges 2027 release](https://www.princetonreview.com/press/best-value-colleges-2027)
+- [Princeton Review Top Schools for Entrepreneurship 2027](https://www.princetonreview.com/college-rankings/top-entrepreneur)
+- [Academica on PitchBook 2026 (Waterloo 7, Toronto 17, McGill 23)](https://academica.ca/top-ten/pitchbook-announces-top-100-universities-for-entrepreneurs/)
+- [InnovationMap on PitchBook 2026 (UT Austin 10)](https://houston.innovationmap.com/ut-tamu-pitchbook-entrepreneurs-2026-2677831483.html)
+- [LinkedIn Top Colleges 2026, CollegeTracker](https://collegetracker.app/rankings/linkedin-top-colleges-2026)
+- [LinkedIn Top Colleges 2026, Mental Floss](https://www.mentalfloss.com/culture/education/best-u-s-colleges-long-term-career-success-according-linkedin)
+- [LinkedIn Top Colleges 2026, Becker's](https://www.beckershospitalreview.com/workforce/10-best-colleges-for-long-term-career-success-linkedin/)
+- [LinkedIn Top Colleges 2026, Fox Business](https://www.foxbusiness.com/economy/colleges-give-graduates-strongest-career-edge-linkedin)
+- [LinkedIn Top Colleges List, Wikipedia](https://en.wikipedia.org/wiki/LinkedIn_Top_Colleges_List)
