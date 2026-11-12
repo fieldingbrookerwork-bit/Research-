@@ -69,12 +69,12 @@ Georgetown 20 (business 15, private alumni 17).
 | 19 tie | Georgetown | D1 | business 15, private alumni 17 | 20 |
 | 19 tie | Denison | D3 | private alumni 6 | 20 |
 
-**Just outside:** Hobart 19 (D1), Sewanee 18 (D3), Syracuse 15 (D1), Lehigh 15 (D1), Colgate 13
-(D1), Brown 12 or 13 (D1), Ohio State 11 (D1, business rank inferred), Utah 11 (D1), Bucknell
-9 or 10 (D1).
+**Just outside:** Hobart 19 (D1), Sewanee 18 (D3), Syracuse 15 (D1), Lehigh 15 (D1), Brown 14
+(D1), Colgate 13 (D1), Ohio State 11 (D1, business rank inferred), Utah 11 (D1), Bucknell 10
+(D1), Tufts 8 (D3).
 
-**D1 only, ranks 11 to 20:** Maryland, Dartmouth, Georgetown, Hobart, Syracuse, Lehigh, Colgate,
-Brown, Ohio State, Utah.
+**D1 only, ranks 11 to 20:** Maryland, Dartmouth, Georgetown, Hobart, Syracuse, Lehigh, Brown,
+Colgate, Ohio State, Utah.
 
 **Read this tier with care:** on the ranks confirmed so far, only 14 schools with a varsity team
 score in two or more categories: the first ten plus Duke, UNC, Maryland and Georgetown.
@@ -82,6 +82,34 @@ Everything else in this tier scores in one category, and for five of them that c
 Princeton Review student survey of alumni activity. Wabash and Hampden-Sydney are small all
 male colleges. Dartmouth and Brown have no undergraduate business school and no PitchBook rank
 retrieved, so their scores are floors.
+
+### Target tier: D1 programs a step down in lacrosse (11 Nov 2026)
+
+Same scoring. None of the five is in the U.S. News business top 25 or on either entrepreneurship
+list, so every point comes from the alumni column.
+
+| School | Lacrosse | Business | Entrepreneurship | Alumni network | Points |
+|---|---|---|---|---|---|
+| Hobart | D1, Atlantic 10 | no business school | none found | Princeton Review private 7 | 19 |
+| Lehigh | D1, Patriot League (6 seed in 2026, 7 wins 7 losses) | Poets&Quants 26 in 2025; 2026 not confirmed | none found | Princeton Review private 11, LinkedIn 23 | 15 |
+| Colgate | D1, Patriot League (5 seed in 2026) | no business school | none found | Princeton Review private 13, LinkedIn 30 | 13 |
+| Bucknell | D1, Patriot League (4 seed in 2026) | Poets&Quants 20 in 2025; 2026 not confirmed | none found | LinkedIn 16 | 10 |
+| Villanova | D1, Big East | Poets&Quants 14 in 2026 | none found | LinkedIn about 25, not confirmed | 0 or 1 |
+
+- The points undersell the business schools. U.S. News is a survey of deans; Poets&Quants scores
+  admissions, the student experience and career outcomes, and there Villanova is 14 and Bucknell
+  was 20.
+- None of the five appears on a founder list. They are job and network schools, not founder
+  schools. For the founder goal the more reachable schools on those lists are Babson (D3,
+  entrepreneurship 5) and Utah (D1, entrepreneurship 15).
+- Order for a business degree plus connections (a judgment, not a score): Bucknell, Lehigh,
+  Villanova, Colgate, Hobart.
+- Others seen in the same searches: Richmond (Poets&Quants 2026 career rank 15, academic
+  experience 17), Boston University (career rank 17; shared the 2026 Patriot League regular
+  season title), Fairfield (LinkedIn 27).
+- Not confirmed: U.S. News ranks for all five, 2026 Poets&Quants ranks for Lehigh and Bucknell,
+  Villanova's LinkedIn rank, Hobart's 2026 season. "Target" describes the program level; no
+  film has been reviewed.
 
 ## Schools already on his list
 
@@ -192,11 +220,16 @@ alumni network ranking, but it covers the schools the Princeton Review survey le
 **Top 10:** 1 Princeton (D1), 2 Duke (D1), 3 Harvard (D1), 4 MIT (D3), 5 Dartmouth (D1),
 6 Penn (D1), 7 Notre Dame (D1), 8 Cornell (D1), 9 Yale (D1), 10 Stanford (no varsity).
 
-**Lower ranks, where sources disagree by a place or more:** Vanderbilt 12 or 13 (no varsity),
-Brown 13 or 14 (D1), Babson about 13 (D3), Northwestern 11 or 15 (no varsity), Virginia 12 or 16
-(D1), Bucknell 16 or 17 (D1), Tufts about 18 (D3), Lehigh 23 or 24 (D1), Villanova about 25 (D1),
-Georgetown 32 or 33 (D1), Michigan 38 or 39 (D1), UNC possibly 45 (D1). Johns Hopkins and
-Maryland were not found on the list.
+**Ranks 11 to 21 (Korea Daily list; Fox Business and school announcements agree where they
+overlap):** 11 Vanderbilt (no varsity), 12 Brown (D1), 13 Babson (D3), 14 Northwestern (no
+varsity), 15 Virginia (D1), 16 Bucknell (D1), 17 Wake Forest (no varsity), 18 Tufts (D3),
+19 Washington and Lee (D3), 20 Carnegie Mellon (no varsity), 21 Boston College (no varsity).
+
+**Lower:** Lehigh 23 (D1; 17 on the 2025 list), Columbia 24 (no varsity), Villanova about 25
+(D1; not confirmed), Fairfield 27 (D1), Bentley 28 (D2), UC Berkeley 29 (no varsity), Colgate 30
+(D1), Caltech 31, Georgetown 32 (D1), Michigan 38 (D1), UNC possibly 45 (D1), Lafayette 46 (D1).
+One forum copy of the list runs one place higher from 12 down. Johns Hopkins and Maryland were
+not found on the list.
 
 ## Where the lists overlap with varsity lacrosse
 
@@ -222,7 +255,7 @@ by. Miami is business 39 (tie) and entrepreneurship 13.
 
 Business ranks 20 to 23 (three schools), entrepreneurship 18 to 25, PitchBook ranks outside its
 top 10 (apart from the few listed above), private alumni 20, one public alumni name and LinkedIn
-ranks 11 to 50. The "Research lacrosse" environment (created 11 Nov 2026) allows the publisher
+ranks 22 to 50 apart from those listed. The "Research lacrosse" environment (created 11 Nov 2026) allows the publisher
 sites, but a running session cannot move onto it; a new session started on that environment can
 read the pages directly.
 
@@ -264,3 +297,13 @@ read the pages directly.
 - [LinkedIn Top Colleges 2026, Becker's](https://www.beckershospitalreview.com/workforce/10-best-colleges-for-long-term-career-success-linkedin/)
 - [LinkedIn Top Colleges 2026, Fox Business](https://www.foxbusiness.com/economy/colleges-give-graduates-strongest-career-edge-linkedin)
 - [LinkedIn Top Colleges List, Wikipedia](https://en.wikipedia.org/wiki/LinkedIn_Top_Colleges_List)
+- [LinkedIn Top Colleges 2026, Korea Daily (ranks 1 to 21)](https://en.koreadaily.com/linkedin-top-colleges-ranking-2026/)
+- [LinkedIn Top Colleges 2026, LinkedIn News](https://news.linkedin.com/2026/linkedin-top-colleges-2026-the-50-best-colleges-for-long-term-career-success-in-the-us)
+- [Wake Forest No. 17 on LinkedIn 2026](https://inside.wfu.edu/2026/08/wake-forest-climbs-to-no-17-in-linkedins-top-colleges-ranking/)
+- [Bentley No. 28 on LinkedIn 2026](https://www.bentley.edu/news/bentley-named-2026-linkedin-top-college-career-success)
+- [Fairfield No. 27 on LinkedIn 2026](https://www.fairfield.edu/news/press-releases/2026/august/linkedin-top-colleges-list-nationally-for-job-placement.html)
+- [Poets&Quants Best Undergraduate Business Schools of 2026](https://poetsandquantsforundergrads.com/news/best-undergraduate-business-schools-of-2026/6/)
+- [Villanova School of Business rankings page (Poets&Quants 14)](https://www.villanova.edu/university/business/about-vsb/rankings/additional-rankings.html)
+- [Poets&Quants profile: Lehigh College of Business](https://poetsandquantsforundergrads.com/school-profile/lehigh-university-college-business-economics/)
+- [Bucknell Freeman College remains in the Poets&Quants top 20](https://www.bucknell.edu/news/freeman-college-named-principles-responsible-management-education-champion-remains-poetsquants-top-20)
+- [2026 Patriot League men's lacrosse championship field](https://patriotleague.org/news/2026/4/25/six-team-field-set-for-2026-patriot-league-mens-lacrosse-championship-4-24-26.aspx)
