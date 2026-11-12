@@ -39,6 +39,10 @@ Georgetown 20 (business 15, private alumni 17).
 **How firm it is:**
 - The same six lead under a second scoring (rank bands) and when business is dropped, though
   their order shifts. Princeton stays 7th unless its 2026 PitchBook rank is 20 or lower.
+- Michigan's first place rests on the Princeton Review student survey (1st among publics for
+  alumni network). LinkedIn has Michigan 38th or 39th. Scored on LinkedIn alone for alumni,
+  Michigan falls to 5th with 42 and Babson slips to about 34, behind Princeton. The same seven
+  schools still lead.
 - Spots 8 to 11 (Virginia, Yale, Notre Dame, Duke) sit within 2 points. Treat them as tied.
   PitchBook ranks outside its top 10 and Princeton Review entrepreneurship ranks 18 to 25 were
   not retrieved; either could move those four, or lift UNC, by a few points.
