@@ -54,6 +54,35 @@ Georgetown 20 (business 15, private alumni 17).
 - Every D1 school here recruits nationally and takes many commitments soon after 1 Sept of
   junior year. This is a reach list, not a full list; it needs a target tier under it.
 
+### Ranks 11 to 20 (same scoring)
+
+| # | School | Lacrosse | Scores from | Points |
+|---|---|---|---|---|
+| 11 | Duke | D1 | founders 21, LinkedIn 2 | 29 |
+| 12 | UNC | D1 | business 6, public alumni about 19 | 27 |
+| 13 tie | Maryland | D1 | entrepreneurship 4, business 24 | 24 |
+| 13 tie | Wabash | D3 | private alumni 2 | 24 |
+| 15 | Hampden-Sydney | D3 | private alumni 3 | 23 |
+| 16 | St. Lawrence | D3 | private alumni 4 | 22 |
+| 17 tie | Dartmouth | D1, Ivy | LinkedIn 5 | 21 |
+| 17 tie | Washington and Lee | D3 | private alumni 5 | 21 |
+| 19 tie | Georgetown | D1 | business 15, private alumni 17 | 20 |
+| 19 tie | Denison | D3 | private alumni 6 | 20 |
+
+**Just outside:** Hobart 19 (D1), Sewanee 18 (D3), Syracuse 15 (D1), Lehigh 15 (D1), Colgate 13
+(D1), Brown 12 or 13 (D1), Ohio State 11 (D1, business rank inferred), Utah 11 (D1), Bucknell
+9 or 10 (D1).
+
+**D1 only, ranks 11 to 20:** Maryland, Dartmouth, Georgetown, Hobart, Syracuse, Lehigh, Colgate,
+Brown, Ohio State, Utah.
+
+**Read this tier with care:** on the ranks confirmed so far, only 14 schools with a varsity team
+score in two or more categories: the first ten plus Duke, UNC, Maryland and Georgetown.
+Everything else in this tier scores in one category, and for five of them that category is the
+Princeton Review student survey of alumni activity. Wabash and Hampden-Sydney are small all
+male colleges. Dartmouth and Brown have no undergraduate business school and no PitchBook rank
+retrieved, so their scores are floors.
+
 ## Schools already on his list
 
 - **His own picks:** an Ivy if lacrosse can get him in (Brown, Cornell, Dartmouth, Harvard,
