@@ -77,6 +77,12 @@ set by week 12 (30 Nov). Then about +10 lb a week on squat and deadlift and +5 o
 incline while earned. Squat 4x5 at 295 and bench 4x6 at 205 would be his first bests in over a
 year, in late December at the earliest.
 
+**Bench drop (reported 13 Nov).** He benched 225x4 in mid October and cannot now. In that month
+he was sick, deloaded, travelled, crashed on 9 Nov, and the plan had nothing heavier than 190 on
+the bar. Everything fell together (bench, squat, jump, speed), which points at recovery, not at
+the bench. He does not retest 225. Marker without a max test: 4x6 at 200 with a rep left is
+about equal to 225x4; on the ladder's pace that is mid December.
+
 **Medical.** A doctor visit and blood work are part of this block. Details are kept out of this
 repo. The weekend rule from 9 Nov still stands: no games until he is cleared.
 
