@@ -14,6 +14,75 @@ any day.
 
 ---
 
+## BUILD BLOCK: STRENGTH FIRST (added 13 Nov 2026)
+
+**This section overrides the fuel, loads, Saturday and test week rules below.**
+
+**Why.** Reported 13 Nov: bench flat for 12 months, squat below where it was a year ago, no
+visible muscle gain. The 9 Oct strength plan has had one clean week in five: he tested instead
+of training in week 5, was sick in week 7, deloaded in week 8 and crashed in week 9. No set has
+been logged since 17 Oct. The plan's own tripwires have fired (sick plus lifts stalling; squat
+and deadlift not up 20 lb by week 9). Asking a growing 16 year old to lose 0.5 to 1 lb a week
+and add strength at the same time was two goals pulling against each other. Strength wins.
+
+**Food, from Sat 14 Nov.** The recomp is suspended and its weight targets (220 lb in December,
+214 in February) are withdrawn.
+- Every day, Thursday and Sunday included: **4,200 cal, 220 g protein, about 580 g carbs, about
+  110 g fat.** Creatine 5 g. Fluids as in the 9 Nov rule. Event days use the same numbers.
+- Easiest add: one shake a day on top of normal meals: 16 oz whole milk, 1 scoop whey, a
+  banana, 2 tbsp peanut butter, 1/2 cup oats (about 850 cal, 50 g protein).
+- Target: the weekly average weight rises 0.25 to 0.5 lb a week. Flat or down after two weeks:
+  add 300 cal. Up more than 1 lb a week for two weeks: take 200 off. Waist at the navel is still
+  measured on Mondays. The week 12 DXA becomes the baseline for this block.
+- The recomp comes back only after the working weights have risen for 8 straight weeks.
+- FOOD line for the emails, every day: "FOOD: 4,200 cal, 220 g protein, ~580 g carbs, ~110 g
+  fat, including the daily shake. Creatine 5 g."
+
+**Training, from Mon 16 Nov (week 10) through Sun 7 Feb 2027.**
+- **Team lifts as written.** Week 10 finds the start. On deadlift, bench, squat and incline the
+  weight goes up each set while the bar stays fast: set 1 at the recovery week weight (deadlift
+  250, bench 150, squat 210, incline 120), then +20 lb a set on squat and deadlift and +10 lb a
+  set on bench and incline. The last set is the heaviest that still moves fast with 2 to 3 reps
+  left. The bar slows: stay at that weight for the remaining sets. Never a grind. The last set
+  is the start weight.
+- **Week 11 on:** every set at the start weight, then the ladder as written, with one change:
+  **no log, no increase.** A lift with no logged sets repeats its weight the next week.
+- **Saturday is the second heavy day.** Warm-up as written, then squat 3x5 at 90% of that week's
+  Wednesday squat (2+ reps left, rest 3 min), bench 3x5 with a 1 s pause at that week's Monday
+  bench weight (2+ reps left, rest 3 min) with face pulls 3x15, chin-ups 4 sets each 1 to 2
+  short of failure, neck isometrics 2x10 s each way. This replaces the paused bench 3x4 and the
+  pause squat 3x3. A Saturday with an event is skipped, not made up.
+- **Our other work at half volume for the whole block.** Monday: jumps and the change of
+  direction block at half the sets. Wednesday after school: warm-up, break-down start 20 yd x3
+  (rest 3 min), cooldown; no falling start, no sled, no contrast pairs, so the squat gets fresh
+  legs. Wednesday after the lift and Saturday: Nordic 2x6, Copenhagen 2x10/side. Thursday: 2
+  sets of each prehab drill. Saturday: no tempo. The footwork block and wall ball stay in full
+  on Thursday and Saturday; they are skill work at or under 70%.
+- **Friday team conditioning as written**, their stop rule.
+- **No maxing in this block.** Week 12's lifting test is cancelled; the log is the test. Week
+  12's Monday checkpoint (CMJ, 10 yd, 5-10-5, 3-cone) and the DXA stay.
+- **Sleep:** nine hours in bed, lights out 9:45pm, phone out of the room.
+- LADDER line for week 10, exactly: "LADDER: this week finds the start. Raise the weight each
+  set while the bar stays fast. Last set fast with 2-3 reps left. Never a grind. Log every set
+  and send it. No log, no increase." From week 11 use the standard LADDER line with "no maxing
+  in this block" in place of "no maxing until test week (30 Nov)" and add "No log, no
+  increase."
+
+**Clean week:** all three lift days done and logged, food on target, sleep on target, no
+illness. **Checkpoint: four clean weeks.** Working weights up: keep going. Flat after four clean
+weeks: training is not the cause, and he goes back to the doctor with the log.
+
+**Estimates, not promises.** Back to squat 265, deadlift 315, bench 190, incline 150 for every
+set by week 12 (30 Nov). Then about +10 lb a week on squat and deadlift and +5 on bench and
+incline while earned. Squat 4x5 at 295 and bench 4x6 at 205 would be his first bests in over a
+year, in late December at the earliest.
+
+**Medical.** A doctor visit and blood work are part of this block. Details are kept out of this
+repo. The weekend rule from 9 Nov still stands: no games until he is cleared.
+
+**Recommended to the family 13 Nov:** from 23 Nov to 31 Jan, club practice and wall ball only
+beyond the one winter event. It is the only real off season he gets.
+
 ## PERFORMANCE DIP (added 8 Nov 2026)
 
 He played poorly and felt slow on Sun 8 Nov: 11 days after being sick (4 lb lost), after a
@@ -21,7 +90,8 @@ deload week with 40% less sprinting, a flight the day before and a 9:50am first 
 day after that run is not a trend. Through Sun 22 Nov (the rest of the D1 evaluation window):
 - **No deficit.** Training day food every day, Thursday and Sunday included: 3,700 cal, 220 g
   protein, about 490 g carbs, about 95 g fat. Day before and day of an event: about 600 g carbs.
-  The recomp resumes on 23 Nov.
+  The recomp resumes on 23 Nov. **Superseded 13 Nov by the BUILD BLOCK above: 4,200 cal every
+  day, and the recomp does not resume on 23 Nov.**
 - **Monday monitoring decides.** CMJ and 10 yd against his four week average. More than 5%
   down = the readiness rule, and he is still not recovered; normal or better = it was the day,
   not his speed.
@@ -417,6 +487,9 @@ insurance available.
 
 ## FUEL AND BODY COMPOSITION (since 5 Oct 2026)
 
+> **Suspended 13 Nov 2026.** See the BUILD BLOCK at the top: 4,200 cal every day and weight up
+> 0.25 to 0.5 lb a week. The targets and tables below are kept for when the recomp returns.
+
 **Baseline:** 226 lb at 22% body fat (doctor, early October): about 50 lb of fat and 176 lb
 of lean mass. That is average muscle for 6'5", so he has real room to add it. He grew an inch
 in the last five months and is on creatine 5 g a day.
@@ -742,6 +815,10 @@ Those replace our own 40 and 300 tests.
 
 ### SATURDAY — STRENGTH + LOW. Upper body strength, then prehab and footwork
 
+> **From Sat 21 Nov 2026 (build block):** Saturday is the second heavy day: squat 3x5 at 90% of
+> Wednesday's weight and paused bench 3x5 at Monday's weight replace the pause squat 3x3 and the
+> paused bench 3x4. No tempo; Nordic 2x6 and Copenhagen 2x10/side. See the BUILD BLOCK at the top.
+
 **Any time. Strength first (about 35 min: upper body block added 9 Oct, pause squat added
 17 Oct), then the low day (about 60 min, all easy). Split them morning and afternoon if he
 wants. Collagen an hour before.**
@@ -909,6 +986,9 @@ for contrast pairs weeks 9 to 11.
 
 ### STRENGTH PRIORITY (since 9 Oct 2026)
 
+> **13 Nov 2026:** see the BUILD BLOCK at the top for the week 10 restart, the Saturday second
+> heavy day, the no log, no increase rule and the cancelled week 12 lifting test.
+
 He has been at the same weights for a year while lifting to failure. In teenage boys strength
 usually climbs fastest in the year or two after the growth spurt, so a flat year points at
 the training and recovery, not at him. Three things change. The team's exercises, sets and
@@ -989,6 +1069,9 @@ them. Write each lift as weight, reps per set, and reps left on the last set, fo
 | 5 (planned) | 255 | 295 | 185 | 145 | 180 | | Starting weights |
 | 5 (reported) | 275x6 | 315x5 | 225x4 | not reported | not reported | | Reported 17 Oct as one number per lift; sets and reps left not given. Heavier than planned. Founder: he can still do 335 on the deadlift, so 315x5 was submaximal |
 | 6 (planned) | 265 | 315 | 190 | 150 | 190 | 225 | Set 17 Oct from estimated maxes: squat ~330, deadlift ~390, bench ~255. Revise when sets and reps left come in |
+| 6 to 8 | not reported | not reported | not reported | not reported | not reported | not reported | Week 7: sick Mon and Tue. Week 8: deload |
+| 9 (recovery) | 210 planned | 285 planned | 170 planned | 120 planned | 150 planned | 180 planned | Reported 9 Nov: every lift about 20% down. No sets logged |
+| 10 (planned) | ramp from 210 | ramp from 250 | ramp from 150 | ramp from 120 | Monday's bench weight, 3x5 paused | 90% of Wednesday's squat, 3x5 | Build block, week 10 finds the start. Saturday columns now hold the second heavy day |
 
 **Sled load must be set by feel.** 158 lb on turf and 158 lb on thick grass are different
 exercises because friction dominates. Target is roughly half his free sprint speed.
@@ -1003,7 +1086,7 @@ marching, take weight off.
 |---|---|
 | 4 | Deload. Our sessions: cut sets and sprint reps 40%, keep the speed. Monday's jumps and change of direction become the checkpoint test. Team lifts: same sets and reps, 10–15% lighter. Team Friday: as written, use their stop rule early. |
 | 8 | Same as week 4. |
-| 12 | Full test battery on Monday. Team sessions as written. |
+| 12 | Full test battery on Monday. Team sessions as written. **13 Nov: the lifting max test is cancelled (see the BUILD BLOCK); the field tests and the DXA stay.** |
 
 Deload means less work, never slower work. We cannot deload the team's sessions; we can
 only lighten the bar inside them.
