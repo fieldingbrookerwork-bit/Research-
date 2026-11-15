@@ -14,6 +14,37 @@ any day.
 
 ---
 
+## LOWER BODY ON HOLD (added 15 Nov 2026)
+
+**This section overrides everything below, including the BUILD BLOCK.** Reported 15 Nov: a lower
+body problem on one side that stops him loading that leg. Details are kept out of this repo.
+Until a medical doctor has examined it and cleared him:
+
+- **No running, sprinting, jumping, change of direction, footwork, games, club practice or team
+  conditioning.**
+- **No lower body lifting:** no deadlift, squat, split squat, lunge, RDL, hamstring curl, calf
+  raise, carries, Nordic or Copenhagen. No stretching or mobility work on the affected side.
+- **Team lifts, upper body only, seated or lying where possible.** Monday: bench 4x6, 1-arm DB
+  row 3x8/arm with the chest supported or seated. Wednesday: incline 3x8, a chest supported or
+  seated row 3x8, seated DB shoulder press 3x8, DB lateral raise 3x10-12. Bench with feet flat
+  and no leg drive. Skip the ab finisher if any of it is felt in the affected side. The week 10
+  "find the start" ramp still applies to bench and incline. Deadlift and squat start their ramp
+  in the first week after he is cleared.
+- **Saturday:** warm-up, chin-ups 4 sets each 1 to 2 short of failure, paused bench 3x5 at
+  Monday's weight with face pulls 3x15, neck isometrics 2x10 s each way. No squat.
+- **Stick work:** stationary wall ball only, and only if standing is pain free.
+- **Rule for everything:** pain on the affected side during a movement ends that movement.
+- **Food while he is not running:** 3,800 cal, 220 g protein, about 480 g carbs, about 110 g
+  fat, shake included. No cut. Back to 4,200 when he is cleared to run. FOOD line: "FOOD: 3,800
+  cal, 220 g protein, ~480 g carbs, ~110 g fat while he is not running. Creatine 5 g."
+- **Emails:** Monday, Wednesday and Saturday carry only the upper body lifts above. Tuesday,
+  Thursday, Friday and Sunday say rest, the food line, and that the doctor visit comes first.
+  The afternoon email lists only what is allowed. No collagen timing lines while he is not
+  running.
+- **Coming back:** the doctor sets the return. Then, in order: walking pain free, a bodyweight
+  single leg bridge and split squat pain free, jogging, build-ups, then the BUILD BLOCK lower
+  body work starting from the week 10 ramp.
+
 ## BUILD BLOCK: STRENGTH FIRST (added 13 Nov 2026)
 
 **This section overrides the fuel, loads, Saturday and test week rules below.**
