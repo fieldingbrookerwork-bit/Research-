@@ -45,6 +45,21 @@ Until a medical doctor has examined it and cleared him:
   single leg bridge and split squat pain free, jogging, build-ups, then the BUILD BLOCK lower
   body work starting from the week 10 ramp.
 
+## GROWTH SPURT (added 16 Nov 2026)
+
+Reported 16 Nov: he has grown 1 to 1.5 inches in the last three months and sleeps 8 to 9 hours
+a night. That pace is the fastest part of a growth spurt. During it, strength per pound usually
+stalls or dips, coordination dips, muscles run tight against longer bones and growth plates are
+the weak link. Strength usually climbs fastest in the year or two after height slows.
+
+- Through the spurt the lifting goal is clean technique and steady working weights, with small
+  increases when earned. No grinding, no maxing, no high volume jumping.
+- Do not compare him with teammates who finished growing a year or two ago.
+- Height is measured on the first Monday of each month, same wall, no shoes, and logged.
+- Any lower body pain or loss of function gets a doctor's exam before training continues.
+- All food, fluid and supplement changes go past his medical team first. Details are kept out
+  of this repo.
+
 ## BENCH SETUP (added 16 Nov 2026)
 
 Reported: he feels the bench in his shoulders and never in his chest. Long arms with flared
