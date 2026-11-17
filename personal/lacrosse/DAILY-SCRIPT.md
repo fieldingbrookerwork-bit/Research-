@@ -45,6 +45,23 @@ Until a medical doctor has examined it and cleared him:
   single leg bridge and split squat pain free, jogging, build-ups, then the BUILD BLOCK lower
   body work starting from the week 10 ramp.
 
+## BENCH SETUP (added 16 Nov 2026)
+
+Reported: he feels the bench in his shoulders and never in his chest. Long arms with flared
+elbows and loose shoulder blades put the load on the front of the shoulder, which stalls a
+bench and wears the joint. On every bench, incline and paused bench set:
+
+1. Shoulder blades squeezed together and down, held for the whole set. Chest up.
+2. Grip wide enough that the forearms are vertical at the bottom, seen from the front.
+3. Elbows about 45 to 60 degrees from the ribs, never straight out to the side.
+4. Lower for 2 to 3 seconds to the lower chest, just below the nipple line. No bounce.
+5. Press up and slightly back toward the rack.
+
+Saturday adds dumbbell bench 2x8-10 after the paused bench: slow lowering, full stretch, 2 reps
+left. A strength coach watches one set, or he films one from the side. Emails on bench days
+carry one line: "BENCH: blades back and down, forearms vertical, elbows 45 degrees, touch the
+lower chest, 2-3 s down."
+
 ## BUILD BLOCK: STRENGTH FIRST (added 13 Nov 2026)
 
 **This section overrides the fuel, loads, Saturday and test week rules below.**
