@@ -9,6 +9,16 @@ and the only problem is that nobody has seen him.
 
 ---
 
+## STATUS 22 NOV 2026
+
+- **20 to 22 Nov, Kirkwood Soccer Complex, New Castle DE:** played up with Red, six games on
+  Sunday alone, about 6 to 7 out of 10 by the family's account.
+- **Next event: IMLCA Winter Players Summit, Sat 12 to Sun 13 Dec 2026,** Northeast Regional
+  Park, Davenport FL, near Orlando, right after the IMLCA Coaches Summit (9 to 11 Dec, Orlando).
+  Dates from one third party listing found 22 Nov; confirm with the team. He is registered with
+  a separate team, not Red.
+- 23 to 29 Nov is a D1 dead period.
+
 ## STATUS 10 NOV 2026
 
 - **Sun 8 Nov tournament:** played poorly and felt slow (see the performance dip section of
